@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "bundle-diku",
+  "version": "1.0.0",
+  "description": "The Diku Bundle is an attempt to pull the stock Vampire Wars code directly into Ranvier.",
+  "dependencies": {
+    "humanize-duration": "^3.15.3"
+  }
+}

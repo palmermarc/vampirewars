@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/behaviors/npc/combat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/commands/consider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/commands/flee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/commands/kill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/commands/pvp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/help/flee.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/help/kill.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/help/pvp.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/lib/Combat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/lib/CombatErrors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-combat/player-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-areas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-channels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-classes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-commands" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-debug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-effects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-player-events" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/bundle-example-quests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/lootable-npcs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/player-groups" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/progressive-respawn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/simple-crafting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/telnet-networking" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/vendor-npcs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundles/websocket-networking" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/mage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/paladin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/warrior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/drop.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/drop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/emote.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/emote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/equipment.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/equipment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/give.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/give.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/inventory.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/inventory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/look.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/look.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/open.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/open.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/remove.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/remove.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/score.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/tnl.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/tnl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/use.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/use.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/wear.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/wear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-debug/commands/setadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-debug/commands/setadmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranvier.json" beforeDir="false" afterPath="$PROJECT_DIR$/ranvier.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-example-classes/classes" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-example-classes/classes" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-combat/commands" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-mages/classes" />
+      <recent name="$PROJECT_DIR$/bundles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/node_modules" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/lib" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="" />
+      <created>1587142087822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587142087822</updated>
+      <workItem from="1587142089179" duration="5980000" />
+      <workItem from="1587393364410" duration="1309000" />
+      <workItem from="1587742334861" duration="1515000" />
+      <workItem from="1588179432863" duration="2960000" />
+      <workItem from="1588867910980" duration="596000" />
+      <workItem from="1589212697491" duration="363000" />
+      <workItem from="1589223967538" duration="498000" />
+      <workItem from="1589308611851" duration="516000" />
+      <workItem from="1589806018558" duration="556000" />
+      <workItem from="1590497134125" duration="1542000" />
+      <workItem from="1592856540895" duration="12914000" />
+      <workItem from="1593193767920" duration="6896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="945" y="326" width="670" height="677" key="search.everywhere.popup" timestamp="1593186045337">
+      <screen x="0" y="23" width="2560" height="1348" />
+    </state>
+    <state x="945" y="326" width="670" height="676" key="search.everywhere.popup/0.23.2560.1347/2560.23.1920.1057@0.23.2560.1347" timestamp="1593181009102" />
+    <state x="945" y="326" width="670" height="677" key="search.everywhere.popup/0.23.2560.1348/2560.23.1920.1057@0.23.2560.1348" timestamp="1593186045337" />
+  </component>
+</project>

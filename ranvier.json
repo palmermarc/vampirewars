@@ -1,6 +1,24 @@
 {
   "port": 4000,
   "bundles": [
+    "bundle-diku",
+    "bundle-example-areas",
+    "bundle-example-channels",
+    "bundle-combat",
+    "bundle-example-commands",
+    "bundle-example-debug",
+    "bundle-example-effects",
+    "bundle-example-input-events",
+    "bundle-example-npc-behaviors",
+    "bundle-example-player-events",
+    "bundle-example-quests",
+    "simple-crafting",
+    "vendor-npcs",
+    "lootable-npcs",
+    "player-groups",
+    "progressive-respawn",
+    "telnet-networking",
+    "websocket-networking"
   ],
   "dataSources": {
     "YamlArea": {
@@ -72,9 +90,9 @@
   "minPlayerNameLength": 3,
   "maxCharacters": 3,
   "reportToAdmins": false,
-  "startingRoom": "limbo:white",
+  "startingRoom": "midgaard:r3001",
   "moveCommand": "move",
-  "skillLag": 2000,
-  "defaultMaxPlayerInventory": 16,
+  "skillLag": 2500,
+  "defaultMaxPlayerInventory": 32,
   "maxIdleTime": 20
 }
