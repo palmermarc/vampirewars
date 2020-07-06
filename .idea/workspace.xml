@@ -50,7 +50,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-example-input-events" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-combat" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -112,7 +112,7 @@
       <workItem from="1589806018558" duration="556000" />
       <workItem from="1590497134125" duration="1542000" />
       <workItem from="1592856540895" duration="12914000" />
-      <workItem from="1593193767920" duration="24932000" />
+      <workItem from="1593193767920" duration="28417000" />
     </task>
     <servers />
   </component>

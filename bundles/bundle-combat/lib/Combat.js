@@ -106,6 +106,12 @@ class Combat {
       }
     }
 
+    Combat.improveStance(attacker);
+    Combat.improveWeapon(attacker);
+
+    let stanceDamage = Combat.calculateStanceDamage(attacker, attacker, amount)
+    amount = Math.ceil(amount + stanceDamage);
+
     const weapon = attacker.equipment.get('wield');
     const damage = new Damage('health', amount, attacker, weapon || attacker, { critical });
     damage.commit(target);
@@ -253,6 +259,122 @@ class Combat {
     let speed = this.getWeaponSpeed(attacker);
     amount += attacker.hasAttribute('strength') ? attacker.getAttribute('strength') : attacker.level;
     return Math.round(amount / 3.5 * speed);
+  }
+
+  static calculateStanceDamage(attacker, victim, amount) {
+    const attackerStance = attacker.getMeta('currentStance');
+    const victimStance = victim.getMeta('currentStance');
+
+    if(attackerStance !== 'none') {
+      // Apply bonus amplification of Bull stance
+      if( attackerStance === 'bull' ) {
+        const stanceLevel = attacker.getMeta('stances.bull.level');
+        amount += (100 +(stanceLevel/100))/100;
+      }
+
+      // Apply bonus amplification of Bull stance
+      if( attackerStance === 'lion' ) {
+        const stanceLevel = attacker.getMeta('stances.lion.level');
+        amount *= (100 +(stanceLevel/50))/100;
+      }
+
+      if( attackerStance === 'grizzlie' ) {
+        const stanceLevel = attacker.getMeta('stances.grizzlie.level');
+        amount *= (100 +(stanceLevel/80))/100;
+      }
+
+      if( attackerStance === 'mongoose' ) {
+        const stanceLevel = attacker.getMeta('stances.mongoose.level');
+        amount *= (100 +(stanceLevel/166.66))/100;
+      }
+
+      if( attackerStance === 'falcon' ) {
+        const stanceLevel = attacker.getMeta('stances.falcon.level');
+        amount *= (100 +(stanceLevel/66.66))/100;
+      }
+
+      if( attackerStance === 'cobra' ) {
+        const stanceLevel = attacker.getMeta('stances.cobra.level');
+        amount *= (100 +(stanceLevel/133.33))/100;
+      }
+    }
+
+    if(victimStance !== 'none') {
+      if(victimStance === 'mongoose') {
+        amount *= (100 - (victim.getMeta('stances.mongoose.level') / 66.66)) / 100;
+      }
+
+      if(victimStance === 'falcon') {
+        amount *= (100 - (victim.getMeta('stances.falcon.level') / 40)) / 100;
+      }
+
+      if(victimStance === 'swallow') {
+        amount *= (100 - (victim.getMeta('stances.swallow.level') / 20)) / 100;
+      }
+
+      if(victimStance === 'panther') {
+        amount *= (100 - (victim.getMeta('stances.panther.level')/ 40)) / 100;
+      }
+
+      // A victim in Lion stance takes more damage... Light 'em up!
+      if(victimStance === 'lion') {
+        amount *= 1.1;
+      }
+    }
+
+    return amount;
+  }
+
+  static improveStance(attacker) {
+    let stance = attacker.getMeta('currentStance');
+    let stanceLevels = attacker.getMeta('stances');
+
+    // Max is 200 + 5 points per tier
+    let stanceMax = 200 + (stanceLevels[stance].tier * 5);
+    let diceRoll = Math.random() * (stanceMax - 0) + 0;
+    let success = true;
+
+    if (stanceLevels[stance].level >= diceRoll) {
+      success = true;
+      switch(stance) {
+        case 'bull':
+          attacker.setMeta('stances.bull.level', stanceLevels.bull.level + 1);
+          break;
+        case 'crane':
+          attacker.setMeta('stances.crane.level', stanceLevels.crane.level + 1);
+          break;
+        case 'mongoose':
+          attacker.setMeta('stances.mongoose.level', stanceLevels.mongoose.level + 1);
+          break;
+        case 'viper':
+          attacker.setMeta('stances.viper.level', stanceLevels.viper.level + 1);
+          break;
+        case 'cobra':
+          attacker.setMeta('stances.cobra.level', stanceLevels.cobra.level + 1);
+          break;
+        case 'falcon':
+          attacker.setMeta('stances.falcon.level', stanceLevels.falcon.level + 1);
+          break;
+        case 'grizzlie':
+          attacker.setMeta('stances.grizzlie.level', stanceLevels.grizzlie.level + 1);
+          break;
+        case 'lion':
+          attacker.setMeta('stances.lion.level', stanceLevels.lion.level + 1);
+          break;
+        case 'panther':
+          attacker.setMeta('stances.panther.level', stanceLevels.panther.level + 1);
+          break;
+        case 'swallow':
+          attacker.setMeta('stances.swallow.level', stanceLevels.swallow.level + 1);
+          break;
+      }
+    }
+
+    return;
+  }
+
+  static improveWeapon(attacker) {
+    return;
   }
 }
 
