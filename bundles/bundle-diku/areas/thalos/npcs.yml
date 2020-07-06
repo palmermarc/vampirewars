@@ -5,7 +5,7 @@
     You meet a beholder's deadly gaze!
   level: 5
   attributes:
-    health: 300
+    health: 175
     armor: 5
     hitroll: 5
     damroll: 5
@@ -36,7 +36,7 @@
     A strange lamia stands here waiting for her next meal.
   level: 5
   attributes:
-    health: 300
+    health: 175
     armor: 5
     hitroll: 5
     damroll: 5
@@ -69,7 +69,7 @@
     A strong chest lies in one corner of the room.
   level: 5
   attributes:
-    health: 300
+    health: 175
     armor: 5
     hitroll: 5
     damroll: 5
@@ -102,7 +102,7 @@
     Two skeletons lie crushed under a large boulder.
   level: 5
   attributes:
-    health: 300
+    health: 175
     armor: 5
     hitroll: 5
     damroll: 5
@@ -135,7 +135,7 @@
     The stone floor of this house has been ripped apart.
   level: 5
   attributes:
-    health: 300
+    health: 175
     armor: 5
     hitroll: 5
     damroll: 5
@@ -168,7 +168,7 @@
     Some broken shards of pottery lie strewn about the floor.
   level: 5
   attributes:
-    health: 300
+    health: 175
     armor: 5
     hitroll: 5
     damroll: 5
@@ -201,7 +201,7 @@
     A few wooden planks lie stacked on a low shelf.
   level: 5
   attributes:
-    health: 300
+    health: 175
     armor: 5
     hitroll: 5
     damroll: 5
@@ -234,7 +234,7 @@
     A small horned lizard flicks his tongue and slithers away.
   level: 5
   attributes:
-    health: 300
+    health: 175
     armor: 5
     hitroll: 5
     damroll: 5
@@ -258,9 +258,9 @@
   name: "The stone golem"
   description: >-
     In the corner you see a large, stone golem faithfully standing watch.
-  level: 5
+  level: 3
   attributes:
-    health: 300
+    health: 175
     armor: 5
     hitroll: 5
     damroll: 5

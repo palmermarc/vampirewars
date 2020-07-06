@@ -1,0 +1,163 @@
+{
+  "offensive": {
+
+  },
+  buff : {
+    armor : {
+      name: 'Fireball',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "bless": {
+      name: 'Bless',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "enchant_weapon": {
+      name: 'Enchant Weapon',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "infravision": {
+      name: 'Infravision',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "invis": {
+      name: 'Invis',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "fly": {
+      name: 'Fly',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "giant_strength": {
+      name: 'Giant Strength',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "heal": {
+      name: 'Heal',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "frenzy": {
+      name: 'Frenzy',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "darkblessing": {
+      name: 'Dark Blessing',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "protection": {
+      name: 'Protection',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "sanctuary": {
+      name: 'Sanctuary',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "shield": {
+      name: 'Shield',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "stone_skin": {
+      name: 'Stone Skin',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    },
+    "mass_invis": {
+      name: 'Mass Invis',
+      requiresTarget: true,
+      initiatesCombat: true,
+      resource: {
+        attribute: 'mana',
+        cost: manaCost,
+      },
+      cooldown: 10
+    }
+  },
+  "debuff": {
+
+  },
+  "other" : {
+
+  }
+}

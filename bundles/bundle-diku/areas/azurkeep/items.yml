@@ -42,9 +42,9 @@
     speed: 2.8
 - id: o9705
   name: "sword sentinel"
-  roomDesc: "A massive sword emnating blue energy lies here."
+  roomDesc: "A massive sword emanating blue energy lies here."
   keywords: ["sword","sentinel"]
-  description: "A massive sword emnating blue energy lies here."
+  description: "A massive sword emanating blue energy lies here."
   type: WEAPON15HAND
   metadata:
     minDamage: 7

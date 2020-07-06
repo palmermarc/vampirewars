@@ -12,13 +12,12 @@ module.exports = {
   description: 'Vampires are an abomination on this land. A curse, dating back to Caine\'s murder of Abel. They have supernatural strength, speed, and more. While they are incredibly strong, they also have many weaknesses.',
 
   abilityTable: {
+    1: { spells: ['fireball', 'blessing', 'acid blast', 'energy drain'] },
     3: { skills: ['bite'] },
     4: { skills: ['claw'] },
   },
 
   setupPlayer: (state, player) => {
-    const energy = state.AttributeFactory.create('energy', 100);
-    player.addAttribute(energy);
-    player.prompt = '[ %health.current%/%health.max% <b>hp</b> %energy.current%/%energy.max% <b>energy</b> ]';
+    player.prompt = '[ %health.current%/%health.max% <b>hp</b> %mana.current%/%mana.max% <b>mana</b> %move.current%/%move.max% <b>mana</b> %blood.current%/%blood.max% <b>blood</b> ]';
   }
 };

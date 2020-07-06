@@ -12,9 +12,10 @@ module.exports = {
   description: 'Humans are ordinary men and women in the world.',
 
   abilityTable: {
+    1: { spells: ['fireball', 'blessing', 'acid blast', 'energy drain'] },
   },
 
   setupPlayer: (state, player) => {
-    player.prompt = '[ %health.current%/%health.max% <b>hp</b> %mana.current%/%mana.max% <b>mana</b> %move.current%/%move.max% <b>mv</b> ]';
+    player.prompt = '[ %health.current%/%health.max% <b>hp</b> %mana.current%/%mana.max% <b>mana</b> %move.current%/%move.max% <b>mana</b> ]';
   }
 };
