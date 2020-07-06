@@ -1,7 +1,7 @@
 'use strict';
 
 const { Random } = require('rando-js');
-const { Damage, Logger } = require('ranvier');
+const { Broadcast: B, Damage, Logger } = require('ranvier');
 const Parser = require('../../bundle-diku/lib/ArgParser');
 const CombatErrors = require('./CombatErrors');
 
@@ -330,11 +330,12 @@ class Combat {
     let stanceLevels = attacker.getMeta('stances');
 
     // Max is 200 + 5 points per tier
-    let stanceMax = 200 + (stanceLevels[stance].tier * 5);
-    let diceRoll = Math.random() * (stanceMax - 0) + 0;
-    let currentStanceLevel = stanceLevels[stance].level;
+    const stanceMax = 200 ;
+    const diceroll1 = Math.random() * (stanceMax - 0) + 0;
+    const diceroll2 = Math.random() * (stanceMax - 0) + 0;
+    let currentStanceLevel = 0;
     
-    if (currentStanceLevel >= diceRoll) {
+    if (currentStanceLevel >= diceroll1 && currentStanceLevel >= diceroll2) {
       let newLevel = currentStanceLevel + 1;
       switch(stance) {
         case 'bull':
@@ -369,32 +370,45 @@ class Combat {
           break;
       }
 
-      if (newLevel == 1)
+      if (newLevel == 1){
         B.sayAt(attacker, `You are now an apprentice of the ${stance} stance.`);
-      else if (newLevel == 26)
+      }
+      else if (newLevel == 26) {
         B.sayAt(attacker, `You are now a trainee of of the ${stance} stance.`);
-      else if (newLevel == 51)
+      }
+      else if (newLevel == 51) {
         B.sayAt(attacker, `You are now a student of the ${stance} stance.`);
-      else if (newLevel == 76)
+      }
+      else if (newLevel == 76) {
         B.sayAt(attacker, `You are now fairly experienced in the ${stance} stance.`);
-      else if (newLevel == 101)
+      }
+      else if (newLevel == 101) {
         B.sayAt(attacker, `You are now "well trained in the ${stance} stance.`);
-      else if (newLevel == 126)
+      }
+      else if (newLevel == 126) {
         B.sayAt(attacker, `You are now highly skilled in the ${stance} stance.`);
-      else if (newLevel == 151)
+      }
+      else if (newLevel == 151) {
         B.sayAt(attacker, `You are now an expert of the ${stance} stance.`);
-      else if (newLevel == 176)
+      }
+      else if (newLevel == 176) {
         B.sayAt(attacker, `You are now a master of the ${stance} stance.`);
-      else if (newLevel == 186)
+      }
+      else if (newLevel == 186) {
         B.sayAt(attacker, `You are now more masterful of the ${stance} stance.`);
-      else if (newLevel == 196)
+      }
+      else if (newLevel == 196) {
         B.sayAt(attacker, `You are now even more masterful of the ${stance} stance.`);
-      else if (newLevel == 199)
+      }
+      else if (newLevel == 199) {
         B.sayAt(attacker, `You are now on the verge of grand mastery of the ${stance} stance.`);
-      else if (newLevel == 200)
+      }
+      else if (newLevel == 200) {
         B.sayAt(attacker, `You are now a grand master of the ${stance} stance.`);
-      else if (newLevel > 200)
+      }
+      else if (newLevel > 200) {
         B.sayAt(attacker, `You are now even better with the ${stance} stance.`);
+      }
     }
 
     return;
