@@ -332,42 +332,69 @@ class Combat {
     // Max is 200 + 5 points per tier
     let stanceMax = 200 + (stanceLevels[stance].tier * 5);
     let diceRoll = Math.random() * (stanceMax - 0) + 0;
-    let success = true;
-
-    if (stanceLevels[stance].level >= diceRoll) {
-      success = true;
+    let currentStanceLevel = stanceLevels[stance].level;
+    
+    if (currentStanceLevel >= diceRoll) {
+      let newLevel = currentStanceLevel + 1;
       switch(stance) {
         case 'bull':
-          attacker.setMeta('stances.bull.level', stanceLevels.bull.level + 1);
+          attacker.setMeta('stances.bull.level', newLevel);
           break;
         case 'crane':
-          attacker.setMeta('stances.crane.level', stanceLevels.crane.level + 1);
+          attacker.setMeta('stances.crane.level', newLevel);
           break;
         case 'mongoose':
-          attacker.setMeta('stances.mongoose.level', stanceLevels.mongoose.level + 1);
+          attacker.setMeta('stances.mongoose.level', newLevel);
           break;
         case 'viper':
-          attacker.setMeta('stances.viper.level', stanceLevels.viper.level + 1);
+          attacker.setMeta('stances.viper.level', newLevel);
           break;
         case 'cobra':
-          attacker.setMeta('stances.cobra.level', stanceLevels.cobra.level + 1);
+          attacker.setMeta('stances.cobra.level', newLevel);
           break;
         case 'falcon':
-          attacker.setMeta('stances.falcon.level', stanceLevels.falcon.level + 1);
+          attacker.setMeta('stances.falcon.level', newLevel);
           break;
         case 'grizzlie':
-          attacker.setMeta('stances.grizzlie.level', stanceLevels.grizzlie.level + 1);
+          attacker.setMeta('stances.grizzlie.level', newLevel);
           break;
         case 'lion':
-          attacker.setMeta('stances.lion.level', stanceLevels.lion.level + 1);
+          attacker.setMeta('stances.lion.level', newLevel);
           break;
         case 'panther':
-          attacker.setMeta('stances.panther.level', stanceLevels.panther.level + 1);
+          attacker.setMeta('stances.panther.level', newLevel);
           break;
         case 'swallow':
-          attacker.setMeta('stances.swallow.level', stanceLevels.swallow.level + 1);
+          attacker.setMeta('stances.swallow.level', newLevel);
           break;
       }
+
+      if (newLevel == 1)
+        B.sayAt(attacker, `You are now an apprentice of the ${stance} stance.`);
+      else if (newLevel == 26)
+        B.sayAt(attacker, `You are now a trainee of of the ${stance} stance.`);
+      else if (newLevel == 51)
+        B.sayAt(attacker, `You are now a student of the ${stance} stance.`);
+      else if (newLevel == 76)
+        B.sayAt(attacker, `You are now fairly experienced in the ${stance} stance.`);
+      else if (newLevel == 101)
+        B.sayAt(attacker, `You are now "well trained in the ${stance} stance.`);
+      else if (newLevel == 126)
+        B.sayAt(attacker, `You are now highly skilled in the ${stance} stance.`);
+      else if (newLevel == 151)
+        B.sayAt(attacker, `You are now an expert of the ${stance} stance.`);
+      else if (newLevel == 176)
+        B.sayAt(attacker, `You are now a master of the ${stance} stance.`);
+      else if (newLevel == 186)
+        B.sayAt(attacker, `You are now more masterful of the ${stance} stance.`);
+      else if (newLevel == 196)
+        B.sayAt(attacker, `You are now even more masterful of the ${stance} stance.`);
+      else if (newLevel == 199)
+        B.sayAt(attacker, `You are now on the verge of grand mastery of the ${stance} stance.`);
+      else if (newLevel == 200)
+        B.sayAt(attacker, `You are now a grand master of the ${stance} stance.`);
+      else if (newLevel > 200)
+        B.sayAt(attacker, `You are now even better with the ${stance} stance.`);
     }
 
     return;
