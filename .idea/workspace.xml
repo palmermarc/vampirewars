@@ -112,7 +112,7 @@
       <workItem from="1589806018558" duration="556000" />
       <workItem from="1590497134125" duration="1542000" />
       <workItem from="1592856540895" duration="12914000" />
-      <workItem from="1593193767920" duration="29494000" />
+      <workItem from="1593193767920" duration="31550000" />
     </task>
     <servers />
   </component>
@@ -134,5 +134,17 @@
     <state x="945" y="324" width="670" height="724" key="search.everywhere.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1593521333094" />
     <state x="945" y="326" width="670" height="676" key="search.everywhere.popup/0.23.2560.1347/2560.23.1920.1057@0.23.2560.1347" timestamp="1593181009102" />
     <state x="945" y="326" width="670" height="677" key="search.everywhere.popup/0.23.2560.1348/2560.23.1920.1057@0.23.2560.1348" timestamp="1593186045337" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bundles/bundle-diku/commands/stance.js</url>
+          <line>101</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

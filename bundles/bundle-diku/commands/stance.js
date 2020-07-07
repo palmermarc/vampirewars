@@ -118,7 +118,7 @@ module.exports = {
       B.sayAtExcept(player.room, `${player.name} relaxes into a <bold>fighting stance</bold>!`, [player]);
     }
 
-    const possibleStances = ['bull', 'crane', 'mongoose', 'viper', 'cobra', 'falcon', 'grizzlie', 'lion', 'panther', 'swallow', 'none'];
+    let possibleStances = ['bull', 'crane', 'mongoose', 'viper', 'cobra', 'falcon', 'grizzlie', 'lion', 'panther', 'swallow', 'none'];
 
     const [stanceName] = args.split(' ');
 

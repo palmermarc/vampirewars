@@ -106,11 +106,13 @@ class Combat {
       }
     }
 
-    Combat.improveStance(attacker);
-    Combat.improveWeapon(attacker);
+    if(!attacker.isNpc) {
+      Combat.improveStance(attacker);
+      Combat.improveWeapon(attacker);
 
-    let stanceDamage = Combat.calculateStanceDamage(attacker, attacker, amount)
-    amount = Math.ceil(amount + stanceDamage);
+      let stanceDamage = Combat.calculateStanceDamage(attacker, attacker, amount)
+      amount = Math.ceil(amount + stanceDamage);
+    }
 
     const weapon = attacker.equipment.get('wield');
     const damage = new Damage('health', amount, attacker, weapon || attacker, { critical });
@@ -335,7 +337,7 @@ class Combat {
     const diceroll2 = Math.random() * (stanceMax - 0) + 0;
     let currentStanceLevel = 0;
     
-    if (currentStanceLevel >= diceroll1 && currentStanceLevel >= diceroll2) {
+    if (diceroll1 >=  currentStanceLevel && diceroll2 >= currentStanceLevel) {
       let newLevel = currentStanceLevel + 1;
       switch(stance) {
         case 'bull':
