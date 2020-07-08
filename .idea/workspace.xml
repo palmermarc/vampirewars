@@ -50,7 +50,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-example-input-events" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,19 +76,19 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/old.areas" />
+      <recent name="$PROJECT_DIR$/../" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/node_modules" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-example-classes/skills" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/effects" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/skills" />
       <recent name="$PROJECT_DIR$/bundles/bundle-example-commands/commands" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/node_modules" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/lib" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -113,7 +113,7 @@
       <workItem from="1590497134125" duration="1542000" />
       <workItem from="1592856540895" duration="12914000" />
       <workItem from="1593193767920" duration="31550000" />
-      <workItem from="1594210264884" duration="3767000" />
+      <workItem from="1594210264884" duration="4911000" />
     </task>
     <servers />
   </component>

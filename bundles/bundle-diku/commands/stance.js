@@ -107,33 +107,29 @@ module.exports = {
   usage: 'stance [setting]',
   command: (state) => (args, player) => {
     if (!args.length) {
-      if( player.getMeta('currentStance') === 'none' ) {
-        return B.sayAt(player, 'You are already unstanced, weirdo.');
-      }
-
-      // They provided nothing, so force them into no stance
-      setPlayerStance(player, 'none');
-
-      B.sayAt(player, 'You relax from your fighting stance');
-      B.sayAtExcept(player.room, `${player.name} relaxes into a <bold>fighting stance</bold>!`, [player]);
+      B.sayAt(player, 'Syntax is: stance stancename');
+      B.sayAt(player, `<bold>Basic stances:</bold> Viper, Crane, Mongoose, Bull`);
+      return B.sayAt(player, `<bold>Advanced stances:</bold> Falcon, Swallow, Cobra, Lion, Grizzlie, Panther`);
     }
 
     let possibleStances = ['bull', 'crane', 'mongoose', 'viper', 'cobra', 'falcon', 'grizzlie', 'lion', 'panther', 'swallow', 'none'];
 
     const [stanceName] = args.split(' ');
 
+    if( stanceName === 'none' ) {
+      if( player.getMeta('currentStance') === 'none') {
+        return B.sayAt(player, 'You are already unstanced, weirdo.');
+      }
+
+      player.setMeta('currentStance', 'none' );
+      B.sayAt(player, 'You relax from your fighting stance');
+      return B.sayAtExcept(player.room, `${player.name} relaxes into a <bold>fighting stance</bold>!`, [player]);
+    }
+
     if (!possibleStances.includes(stanceName)) {
       B.sayAt(player, 'Syntax is: stance stancename');
       B.sayAt(player, `<bold>Basic stances:</bold> Viper, Crane, Mongoose, Bull`);
       return B.sayAt(player, `<bold>Advanced stances:</bold> Falcon, Swallow, Cobra, Lion, Grizzlie, Panther`);
-    }
-
-    if( stanceName === 'none' ) {
-      // They provided nothing, so force them into no stance
-      setPlayerStance(player, 'none');
-
-      B.sayAt(player, 'You relax from your fighting stance');
-      return B.sayAtExcept(player.room, `${player.name} relaxes into a <bold>fighting stance</bold>!`, [player]);
     }
 
     // If they haven't unlocked the stance yet, bounce them out.

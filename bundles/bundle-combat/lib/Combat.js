@@ -275,52 +275,52 @@ class Combat {
     if(attackerStance !== 'none') {
       // Apply bonus amplification of Bull stance
       if( attackerStance === 'bull' ) {
-        const stanceLevel = attacker.getMeta('stanceLevels.bull');
+        const stanceLevel = attacker.getMeta('stances.bull');
         amount += (100 +(stanceLevel/100))/100;
       }
 
       // Apply bonus amplification of Bull stance
       if( attackerStance === 'lion' ) {
-        const stanceLevel = attacker.getMeta('stanceLevels.lion');
+        const stanceLevel = attacker.getMeta('stances.lion');
         amount *= (100 +(stanceLevel/50))/100;
       }
 
       if( attackerStance === 'grizzlie' ) {
-        const stanceLevel = attacker.getMeta('stanceLevels.grizzlie');
+        const stanceLevel = attacker.getMeta('stances.grizzlie');
         amount *= (100 +(stanceLevel/80))/100;
       }
 
       if( attackerStance === 'mongoose' ) {
-        const stanceLevel = attacker.getMeta('stanceLevels.mongoose');
+        const stanceLevel = attacker.getMeta('stances.mongoose');
         amount *= (100 +(stanceLevel/166.66))/100;
       }
 
       if( attackerStance === 'falcon' ) {
-        const stanceLevel = attacker.getMeta('stanceLevels.falcon');
+        const stanceLevel = attacker.getMeta('stances.falcon');
         amount *= (100 +(stanceLevel/66.66))/100;
       }
 
       if( attackerStance === 'cobra' ) {
-        const stanceLevel = attacker.getMeta('stanceLevels.cobra');
+        const stanceLevel = attacker.getMeta('stances.cobra');
         amount *= (100 +(stanceLevel/133.33))/100;
       }
     }
 
     if(victimStance !== 'none') {
       if(victimStance === 'mongoose') {
-        amount *= (100 - (victim.getMeta('stanceLevels.mongoose') / 66.66)) / 100;
+        amount *= (100 - (victim.getMeta('stances.mongoose') / 66.66)) / 100;
       }
 
       if(victimStance === 'falcon') {
-        amount *= (100 - (victim.getMeta('stanceLevels.falcon') / 40)) / 100;
+        amount *= (100 - (victim.getMeta('stances.falcon') / 40)) / 100;
       }
 
       if(victimStance === 'swallow') {
-        amount *= (100 - (victim.getMeta('stanceLevels.swallow') / 20)) / 100;
+        amount *= (100 - (victim.getMeta('stances.swallow') / 20)) / 100;
       }
 
       if(victimStance === 'panther') {
-        amount *= (100 - (victim.getMeta('stanceLevels.panther')/ 40)) / 100;
+        amount *= (100 - (victim.getMeta('stances.panther')/ 40)) / 100;
       }
 
       // A victim in Lion stance takes more damage... Light 'em up!
@@ -347,34 +347,34 @@ class Combat {
       let newLevel = currentStanceLevel + 1;
       switch(stance) {
         case 'bull':
-          attacker.setMeta('stanceLevels.bull', newLevel);
+          attacker.setMeta('stances.bull', newLevel);
           break;
         case 'crane':
-          attacker.setMeta('stanceLevels.crane', newLevel);
+          attacker.setMeta('stances.crane', newLevel);
           break;
         case 'mongoose':
-          attacker.setMeta('stanceLevels.mongoose', newLevel);
+          attacker.setMeta('stances.mongoose', newLevel);
           break;
         case 'viper':
-          attacker.setMeta('stanceLevels.viper', newLevel);
+          attacker.setMeta('stances.viper', newLevel);
           break;
         case 'cobra':
-          attacker.setMeta('stanceLevels.cobra', newLevel);
+          attacker.setMeta('stances.cobra', newLevel);
           break;
         case 'falcon':
-          attacker.setMeta('stanceLevels.falcon', newLevel);
+          attacker.setMeta('stances.falcon', newLevel);
           break;
         case 'grizzlie':
-          attacker.setMeta('stanceLevels.grizzlie', newLevel);
+          attacker.setMeta('stances.grizzlie', newLevel);
           break;
         case 'lion':
-          attacker.setMeta('stanceLevels.lion', newLevel);
+          attacker.setMeta('stances.lion', newLevel);
           break;
         case 'panther':
-          attacker.setMeta('stanceLevels.panther', newLevel);
+          attacker.setMeta('stances.panther', newLevel);
           break;
         case 'swallow':
-          attacker.setMeta('stanceLevels.swallow', newLevel);
+          attacker.setMeta('stances.swallow', newLevel);
           break;
       }
 

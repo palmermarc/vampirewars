@@ -15,6 +15,8 @@ module.exports = {
     move: state => function (movementCommand) {
       const { roomExit } = movementCommand;
 
+      if(this.getMeta('currentStance'))
+
       if (!roomExit) {
         return B.sayAt(this, "You can't go that way!");
       }
