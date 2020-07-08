@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B } = require('ranvier');
+const { Broadcast: B, Logger } = require('ranvier');
 
 const stances = {
   bull: {
@@ -100,6 +100,7 @@ function playerCanUseStance(player, stanceName) {
 }
 
 function setPlayerStance(player, stance) {
+  Logger.log(`${player.name} has used the ${stanceName} stance.`);
   player.setMeta('currentStance', stance);
 }
 

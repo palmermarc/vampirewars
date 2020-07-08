@@ -65,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/commands" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,11 +84,11 @@
       <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-example-classes/skills" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/effects" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/skills" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-example-commands/commands" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -113,7 +113,7 @@
       <workItem from="1590497134125" duration="1542000" />
       <workItem from="1592856540895" duration="12914000" />
       <workItem from="1593193767920" duration="31550000" />
-      <workItem from="1594210264884" duration="4911000" />
+      <workItem from="1594210264884" duration="8107000" />
     </task>
     <servers />
   </component>

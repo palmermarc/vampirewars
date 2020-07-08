@@ -63,6 +63,16 @@ class Combat {
       return false;
     }
 
+    let attackerAS = attacker.getMeta('autostance');
+    if( !attackerAS && attackerAS !== 'none' ) {
+      state.CommandManager.get('stance').execute(attackerAS, attacker);
+    }
+
+    let targetAS = target.getMeta('autostance');
+    if( !targetAS && targetAS !== 'none' ) {
+      state.CommandManager.get('stance').execute(targetAS, target);
+    }
+
     Combat.makeAttack(attacker, target);
     return true;
   }
