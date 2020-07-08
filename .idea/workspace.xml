@@ -50,7 +50,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-combat" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-example-input-events" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -84,7 +84,7 @@
       <recent name="$PROJECT_DIR$/bundles/bundle-example-commands/commands" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../" />
+      <recent name="$USER_HOME$/" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/node_modules" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
@@ -113,6 +113,7 @@
       <workItem from="1590497134125" duration="1542000" />
       <workItem from="1592856540895" duration="12914000" />
       <workItem from="1593193767920" duration="31550000" />
+      <workItem from="1594210264884" duration="3767000" />
     </task>
     <servers />
   </component>
@@ -141,7 +142,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/bundles/bundle-diku/commands/stance.js</url>
           <line>101</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

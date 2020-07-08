@@ -71,26 +71,26 @@ function playerCanUseStance(player, stanceName) {
 
   // Check if they are 200 in the required stances to actually be able to use them
   if(advancedStances.includes(stanceName)) {
-    if( stanceName === 'falcon' && (player.getMeta('stances.mongoose') < 200 || player.getMeta('stances.bull') < 200)) {
+    if( stanceName === 'falcon' && (player.getMeta('stanceLevels.mongoose') < 200 || player.getMeta('stanceLevels.bull') < 200)) {
       return false;
     }
 
-    if( stanceName === 'swallow' && (player.getMeta('stances.mongoose') < 200 || player.getMeta('stances.crane') < 200)) {
+    if( stanceName === 'swallow' && (player.getMeta('stanceLevels.mongoose') < 200 || player.getMeta('stanceLevels.crane') < 200)) {
       return false;
     }
 
-    if( stanceName === 'lion' && (player.getMeta('stances.viper') < 200 || player.getMeta('stances.bull') < 200)) {
+    if( stanceName === 'lion' && (player.getMeta('stanceLevels.viper') < 200 || player.getMeta('stanceLevels.bull') < 200)) {
       return false;
     }
-    if( stanceName === 'cobra' && (player.getMeta('stances.crane') < 200 || player.getMeta('stances.viper') < 200)) {
-      return false;
-    }
-
-    if( stanceName === 'grizzlie' && (player.getMeta('stances.crane') < 200 || player.getMeta('stances.bull') < 200)) {
+    if( stanceName === 'cobra' && (player.getMeta('stanceLevels.crane') < 200 || player.getMeta('stanceLevels.viper') < 200)) {
       return false;
     }
 
-    if( stanceName === 'panther' && (player.getMeta('stances.mongoose') < 200 || player.getMeta('stances.viper') < 200)) {
+    if( stanceName === 'grizzlie' && (player.getMeta('stanceLevels.crane') < 200 || player.getMeta('stanceLevels.bull') < 200)) {
+      return false;
+    }
+
+    if( stanceName === 'panther' && (player.getMeta('stanceLevels.mongoose') < 200 || player.getMeta('stanceLevels.viper') < 200)) {
       return false;
     }
   }
