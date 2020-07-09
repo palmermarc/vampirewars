@@ -50,7 +50,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-combat" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-combat/commands" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/commands" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,9 +84,9 @@
       <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-combat/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-example-classes/skills" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/effects" />
     </key>
@@ -113,7 +113,7 @@
       <workItem from="1590497134125" duration="1542000" />
       <workItem from="1592856540895" duration="12914000" />
       <workItem from="1593193767920" duration="31550000" />
-      <workItem from="1594210264884" duration="17043000" />
+      <workItem from="1594210264884" duration="18200000" />
     </task>
     <servers />
   </component>
