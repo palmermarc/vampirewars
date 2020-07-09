@@ -46,8 +46,7 @@ module.exports = {
     let currentautostance = player.getMeta('autostance');
 
     if (!args.length) {
-
-      B.sayAt(player, `Your current autostance is set to: ${currentautostance}`);
+      B.sayAt(player, `<bold>Your current autostance is set to: ${currentautostance}</bold>`);
       B.sayAt(player, ``);
       B.sayAt(player, 'Syntax is: autostance [stance name]');
       B.sayAt(player, `<bold>Basic stances:</bold> Viper, Crane, Mongoose, Bull`);

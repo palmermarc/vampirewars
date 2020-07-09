@@ -5,7 +5,7 @@
     A monstrous wyvern slowly circles just above your head.
   level: 5
   attributes:
-    health: 300
+    health: 150
     armor: 5
     hitroll: 5
     damroll: 5
@@ -24,6 +24,7 @@
     areaId: 46
     exp_level: 1000
     sex: 0
+    autostance: viper
 - id: m3501
   keywords: ["goblin","mountain"]
   name: "the goblin"
@@ -31,7 +32,7 @@
     A mountain goblin is wandering about, mumbling to himself.
   level: 5
   attributes:
-    health: 300
+    health: 150
     armor: 5
     hitroll: 5
     damroll: 5
@@ -55,6 +56,7 @@
     areaId: 46
     exp_level: 1000
     sex: 1
+    autostance: bull
 - id: m3502
   keywords: ["boy","small"]
   name: "the small boy"
@@ -62,7 +64,7 @@
     A small boy sits here, licking his wounds.
   level: 5
   attributes:
-    health: 300
+    health: 150
     armor: 5
     hitroll: 5
     damroll: 5
@@ -78,6 +80,7 @@
     areaId: 46
     exp_level: 1000
     sex: 1
+    autostance: viper
 - id: m3503
   keywords: ["innkeeper"]
   name: "the Innkeeper"
@@ -85,7 +88,7 @@
     The Innkeeper stands here, cleaning glasses.
   level: 5
   attributes:
-    health: 300
+    health: 150
     armor: 5
     hitroll: 5
     damroll: 5
@@ -101,6 +104,7 @@
     areaId: 46
     exp_level: 1000
     sex: 1
+    autostance: mongoose
 - id: m3504
   keywords: ["bard"]
   name: "the bard"
@@ -108,7 +112,7 @@
     A sullen bard is here, drinking away his problems.
   level: 5
   attributes:
-    health: 300
+    health: 150
     armor: 5
     hitroll: 5
     damroll: 5
@@ -124,6 +128,7 @@
     areaId: 46
     exp_level: 1000
     sex: 1
+    autostance: crane
 - id: m3505
   keywords: ["horseman","dark"]
   name: "the dark horseman"
@@ -131,7 +136,7 @@
     A dark horseman is here, mounted on his black steed.
   level: 5
   attributes:
-    health: 300
+    health: 150
     armor: 5
     hitroll: 5
     damroll: 5
@@ -150,6 +155,7 @@
     areaId: 46
     exp_level: 1000
     sex: 1
+    autostance: bull
 - id: m3506
   keywords: ["goblin","lieutenant"]
   name: "the goblin lieutenant"
@@ -157,7 +163,7 @@
     A goblin lieutenant stands here, attempting to get his men in order.
   level: 5
   attributes:
-    health: 300
+    health: 150
     armor: 5
     hitroll: 5
     damroll: 5
@@ -181,6 +187,7 @@
     areaId: 46
     exp_level: 1000
     sex: 1
+    autostance: bull
 - id: m3507
   keywords: ["goblin","leader"]
   name: "the goblin leader"
@@ -188,7 +195,7 @@
     The goblin leader surveys the room.
   level: 5
   attributes:
-    health: 300
+    health: 150
     armor: 5
     hitroll: 5
     damroll: 5
@@ -209,3 +216,4 @@
     areaId: 46
     exp_level: 1000
     sex: 1
+    autostance: bull

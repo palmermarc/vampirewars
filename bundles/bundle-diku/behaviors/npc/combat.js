@@ -12,6 +12,8 @@ module.exports = () => {
        * @param {*} config Behavior config
        */
       spawn: state => function (config) {
+        this.setMeta('currentStance', 'none');
+
         if( !this.getMeta('autostance') ) {
           this.setMeta('autostance', 'crane');
         }

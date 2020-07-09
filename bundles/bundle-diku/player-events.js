@@ -5,6 +5,7 @@ const { Broadcast: B, Config, Logger, SkillErrors } = require('ranvier');
 const Combat = require('../bundle-combat/lib/Combat');
 const LevelUtil = require('./lib/LevelUtil');
 const CombatErrors = require('../bundle-combat/lib/CombatErrors');
+const sprintf = require('sprintf-js').sprintf;
 
 module.exports = {
   listeners: {
@@ -15,7 +16,9 @@ module.exports = {
     move: state => function (movementCommand) {
       const { roomExit } = movementCommand;
 
-      if(this.getMeta('currentStance'))
+      if(this.getMeta('currentStance') !== 'none') {
+        state.CommandManager.get('stance').execute('none', this);
+      }
 
       if (!roomExit) {
         return B.sayAt(this, "You can't go that way!");

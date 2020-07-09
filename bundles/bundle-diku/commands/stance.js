@@ -100,7 +100,7 @@ function playerCanUseStance(player, stanceName) {
 }
 
 function setPlayerStance(player, stance) {
-  Logger.log(`${player.name} has used the ${stanceName} stance.`);
+  Logger.log(`${player.name} has used the ${stance} stance.`);
   player.setMeta('currentStance', stance);
 }
 
@@ -108,7 +108,7 @@ module.exports = {
   usage: 'stance [setting]',
   command: (state) => (args, player) => {
     if (!args.length) {
-      B.sayAt(player, 'Syntax is: stance stancename');
+      B.sayAt(player, 'Syntax is: stance [stance name]');
       B.sayAt(player, `<bold>Basic stances:</bold> Viper, Crane, Mongoose, Bull`);
       return B.sayAt(player, `<bold>Advanced stances:</bold> Falcon, Swallow, Cobra, Lion, Grizzlie, Panther`);
     }
@@ -128,7 +128,7 @@ module.exports = {
     }
 
     if (!possibleStances.includes(stanceName)) {
-      B.sayAt(player, 'Syntax is: stance stancename');
+      B.sayAt(player, `Syntax is: stance [stance name]`);
       B.sayAt(player, `<bold>Basic stances:</bold> Viper, Crane, Mongoose, Bull`);
       return B.sayAt(player, `<bold>Advanced stances:</bold> Falcon, Swallow, Cobra, Lion, Grizzlie, Panther`);
     }

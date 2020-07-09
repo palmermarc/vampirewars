@@ -63,14 +63,14 @@ class Combat {
       return false;
     }
 
-    let attackerAS = attacker.getMeta('autostance');
-    if( !attackerAS && attackerAS !== 'none' ) {
-      state.CommandManager.get('stance').execute(attackerAS, attacker);
+    let attackerAutoStance = attacker.getMeta('autostance');
+    if( attacker.getMeta('currentStance') === 'none' && attacker.getMeta('autostance') !== 'none' ) {
+      state.CommandManager.get('stance').execute(attackerAutoStance, attacker);
     }
 
-    let targetAS = target.getMeta('autostance');
-    if( !targetAS && targetAS !== 'none' ) {
-      state.CommandManager.get('stance').execute(targetAS, target);
+    let targetAutoStance = target.getMeta('autostance');
+    if( target.getMeta('currentStance') === 'none' && target.getMeta('autostance') !== 'none' ) {
+      state.CommandManager.get('stance').execute(targetAutoStance, target);
     }
 
     Combat.makeAttack(attacker, target);
@@ -344,15 +344,32 @@ class Combat {
 
   static improveStance(attacker) {
     let stance = attacker.getMeta('currentStance');
-    let stances = attacker.getMeta('stances');
+
+    // Don't worry about anything if they are unstanced
+    if(stance == 'none'){
+      return;
+    }
 
     // Max is 200 + 5 points per tier
-    const stanceMax = 200 ;
-    const diceroll1 = Math.random() * (stanceMax - 0) + 0;
-    const diceroll2 = Math.random() * (stanceMax - 0) + 0;
-    let currentStanceLevel = 0;
-    
-    if (diceroll1 >=  currentStanceLevel && diceroll2 >= currentStanceLevel) {
+    let stanceMax = 200;
+    let tiers = attacker.getMeta('tiers.stances');
+
+    if(!tiers) {
+      stanceMax += (tiers*5);
+    }
+
+    let stanceKey = 'stances.'+stance;
+    let currentStanceLevel = attacker.getMeta(stanceKey);
+
+    // If they are capped at a stance level, then return and don't worry about the math
+    if(currentStanceLevel == stanceMax) {
+      return;
+    }
+
+    const diceroll1 = Random.roll(1, stanceMax);
+    const diceroll2 = Random.roll(1, stanceMax);
+
+    if (diceroll1 >= currentStanceLevel && diceroll2 >= currentStanceLevel) {
       Logger.log(`${attacker.name} gained a point in the ${stance} stance.`);
       let newLevel = currentStanceLevel + 1;
       switch(stance) {
