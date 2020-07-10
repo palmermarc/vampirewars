@@ -29,11 +29,10 @@ module.exports = {
     // Get the damage done, then give it a 10% variance
     const spellDamage = getDamage(player) * (Math.random() * (110 - 90) + 90)/100;
 
-
-    Broadcast.sayAt(player, '<bold>Your Energy Drain strikes ${target.name} for ${damage} damage.</bold>');
-    Broadcast.sayAtExcept(player.room, `<bold>${player.name}'s Energy Drain strikes ${target.name}!</bold>`, [player, target]);
+    B.sayAt(player, '<bold>Your Energy Drain strikes ${target.name} for ${damage} damage.</bold>');
+    B.sayAtExcept(player.room, `<bold>${player.name}'s Energy Drain strikes ${target.name}!</bold>`, [player, target]);
     if (!target.isNpc) {
-      Broadcast.sayAt(target, `<bold>${player.name}'s Energy Drain strikes you for ${damage} damage.</bold>`);
+      B.sayAt(target, `<bold>${player.name}'s Energy Drain strikes you for ${damage} damage.</bold>`);
     }
 
     const damage = new Damage('health', spellDamage, player, this, {

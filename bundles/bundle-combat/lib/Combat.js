@@ -63,17 +63,57 @@ class Combat {
       return false;
     }
 
+    /**
+     * Trigger the autostance for the attacker first
+     */
     let attackerAutoStance = attacker.getMeta('autostance');
     if( attacker.getMeta('currentStance') === 'none' && attacker.getMeta('autostance') !== 'none' ) {
       state.CommandManager.get('stance').execute(attackerAutoStance, attacker);
     }
 
+    /**
+     * Trigger the autostance for the defender second
+     */
     let targetAutoStance = target.getMeta('autostance');
     if( target.getMeta('currentStance') === 'none' && target.getMeta('autostance') !== 'none' ) {
       state.CommandManager.get('stance').execute(targetAutoStance, target);
     }
 
-    Combat.makeAttack(attacker, target);
+    let attacksPerRound = 1;
+
+    /**
+     * Allow some mobs to swing more than once per round in order to
+     * be able to easily make "bosses" hit significantly harder without
+     * outright one-shotting the player.
+     */
+    if(attacker.isNPC && attacker.getMetadata('attacksPerRound')){
+      attacksPerRound = attacker.getMetadata('attacksPerRound');
+    }
+
+    /**
+     * For players, we have a lot that we have to check... So let's
+     * check it.
+     */
+    if( !attacker.isNpc) {
+      attacksPerRound = ( attacker.class === 'vampire' ? (Math.floor(attacker.level/100)+3) : 3);
+
+      // Add any addtional clandisc related attacks that the player gets
+      attacksPerRound += this.getClandiscExtraAttacks(attacker);
+    }
+
+    Logger.log(`${attacker.name} is swinging for ${attacksPerRound} attacks before stance additions.`);
+
+    // Add any additional bonuses that the attacker gets from the stance
+    attacksPerRound += this.getStanceExtraAttacks(attacker);
+
+    Logger.log(`${attacker.name} is swinging for ${attacksPerRound} attacks after stance additions.`);
+
+    for ( let i = 0; i < attacksPerRound; i++) {
+      Combat.makeAttack(attacker, target);
+    }
+
+    Logger.log(`${attacker.name} has finished their attacks.`);
+
     return true;
   }
 
@@ -120,13 +160,13 @@ class Combat {
       Combat.improveStance(attacker);
       Combat.improveWeapon(attacker);
 
-      Logger.log(`${attacker.name} is swinging for ${amount} damage before stances.`);
+      //Logger.log(`${attacker.name} is swinging for ${amount} damage before stances.`);
 
       let stanceDamage = Combat.calculateStanceDamage(attacker, attacker, amount)
-      Logger.log(`${attacker.name} gained ${amount} damage because of stances.`);
+      //Logger.log(`${attacker.name} gained ${amount} damage because of stances.`);
 
       //amount = Math.ceil(amount + stanceDamage);
-      Logger.log(`${attacker.name} is swinging for ${amount} damage.`);
+      //Logger.log(`${attacker.name} is swinging for ${amount} damage.`);
     }
 
     const dodgeChance = (target.hasAttribute('dodge') ? target.getAttribute('dodge') : 5);
@@ -142,21 +182,19 @@ class Combat {
       B.sayAt(attacker, `Your attack misses ${target.name}`);
       B.sayAt(target, `${attacker.name} misses their attack.`);
       return B.sayAtExcept(attacker.room, `${attacker.name} misses their attack on ${target.name}.`, [attacker, target]);
+    } else if( dodge ) {
+      B.sayAt(attacker, `Your attack was dodged by ${target.name}`);
+      B.sayAt(target, `${attacker.name}'s attack was successfully dodged.`);
+      return B.sayAtExcept(attacker.room, `${target.name} skillfully dodges ${attacker.name}'s attack.`, [attacker, target]);
+    } else if (parry) {
+      B.sayAt(attacker, `Your attack was parried by ${target.name}`);
+      B.sayAt(target, `${attacker.name}'s attack was successfully parried.`);
+      return B.sayAtExcept(attacker.room, `${target.name} skillfully parried ${attacker.name}'s attack.`, [attacker, target]);
     } else {
-      if( dodge ) {
-        B.sayAt(attacker, `Your attack was dodged by ${target.name}`);
-        B.sayAt(target, `${attacker.name}'s attack was successfully dodged.`);
-        return B.sayAtExcept(attacker.room, `${target.name} skillfully dodges ${attacker.name}'s attack.`, [attacker, target]);
-      } else if (parry) {
-        B.sayAt(attacker, `Your attack was parried by ${target.name}`);
-        B.sayAt(target, `${attacker.name}'s attack was successfully parried.`);
-        return B.sayAtExcept(attacker.room, `${target.name} skillfully parried ${attacker.name}'s attack.`, [attacker, target]);
-      }
+      const weapon = attacker.equipment.get('wield');
+      const damage = new Damage('health', amount, attacker, weapon || attacker, { critical });
+      damage.commit(target);
     }
-
-    const weapon = attacker.equipment.get('wield');
-    const damage = new Damage('health', amount, attacker, weapon || attacker, { critical });
-    damage.commit(target);
 
     // currently lag is really simple, the character's weapon speed = lag
     attacker.combatData.lag = this.getWeaponSpeed(attacker) * 1000;
@@ -476,6 +514,43 @@ class Combat {
 
   static improveWeapon(attacker) {
     return;
+  }
+
+  /**
+   * Use the attackers current stance to figure out how many additional
+   * attacks they should get based on their level
+   *
+   * @param attacker
+   * @returns {number}
+   */
+  static getStanceExtraAttacks(attacker) {
+    let currentStance = attacker.getMeta('currentStance');
+    const stancesWithoutBonusAttacks = ['bull', 'mongoose', 'crane', 'falcon', 'swallow', 'grizzlie'];
+
+    /**
+     * They aren't in a stance that gives bonus attacks, so return 0
+     */
+    if(currentStance === 'none' || !stancesWithoutBonusAttacks.includes(currentStance)) {
+      return 0;
+    }
+
+    let stanceKey = "stances."+currentStance;
+    let stanceLevel = attacker.getMeta(stanceKey);
+
+
+    let maxRange = (currentStance === 'viper' ? Math.floor(stanceLevel/50) : Math.floor(stanceLevel/66));
+
+    if( maxRange === 0 ) {
+      maxRange = 1;
+    }
+
+    Logger.log(`${maxRange} is the most extra attacks you can get`);
+
+    return Random.roll(1, maxRange);
+  }
+
+  static getClandiscExtraAttacks(player) {
+    return 0;
   }
 }
 

@@ -13,9 +13,7 @@
     "bundle-example-quests",
     "simple-crafting",
     "vendor-npcs",
-    "lootable-npcs",
     "player-groups",
-    "progressive-respawn",
     "telnet-networking",
     "websocket-networking"
   ],

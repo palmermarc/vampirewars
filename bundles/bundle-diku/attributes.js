@@ -3,7 +3,7 @@
 module.exports = [
   {
     name: 'health',
-    base: 250,
+    base: 500,
     metadata: {
       label: 'Health',
     },
@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     name: 'mana',
-    base: 250,
+    base: 500,
     metadata: {
       label: 'Mana',
     },
@@ -31,7 +31,7 @@ module.exports = [
   },
   {
     name: 'move',
-    base: 250,
+    base: 500,
     metadata: {
       label: 'Move',
     },
@@ -45,7 +45,7 @@ module.exports = [
   },
   {
     name: 'strength',
-    base: 18,
+    base: 25,
     metadata: {
       label: 'Strength',
     },
@@ -59,7 +59,7 @@ module.exports = [
   },
   {
     name: 'intellect',
-    base: 18,
+    base: 25,
     metadata: {
       label: 'Intellect',
     },
@@ -73,7 +73,7 @@ module.exports = [
   },
   {
     name: 'wisdom',
-    base: 18,
+    base: 25,
     metadata: {
       label: 'Wisdom',
     },
@@ -87,7 +87,7 @@ module.exports = [
   },
   {
     name: 'dexterity',
-    base: 18,
+    base: 25,
     metadata: {
       label: 'Dexterity',
     },
@@ -101,7 +101,7 @@ module.exports = [
   },
   {
     name: 'constitution',
-    base: 18,
+    base: 25,
     metadata: {
       label: 'Constitution'
     },
