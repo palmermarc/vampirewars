@@ -98,7 +98,7 @@ class Combat {
       attacksPerRound = ( attacker.class === 'vampire' ? (Math.floor(attacker.level/100)+3) : 3);
 
       // Add any addtional clandisc related attacks that the player gets
-      attacksPerRound += this.getClandiscExtraAttacks(attacker);
+      attacksPerRound += this.getClanDiscExtraAttacks(attacker);
     }
 
     Logger.log(`${attacker.name} is swinging for ${attacksPerRound} attacks before stance additions.`);
@@ -537,7 +537,6 @@ class Combat {
     let stanceKey = "stances."+currentStance;
     let stanceLevel = attacker.getMeta(stanceKey);
 
-
     let maxRange = (currentStance === 'viper' ? Math.floor(stanceLevel/50) : Math.floor(stanceLevel/66));
 
     if( maxRange === 0 ) {
@@ -549,7 +548,7 @@ class Combat {
     return Random.roll(1, maxRange);
   }
 
-  static getClandiscExtraAttacks(player) {
+  static getClanDiscExtraAttacks(player) {
     return 0;
   }
 }
