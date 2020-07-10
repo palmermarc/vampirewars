@@ -129,6 +129,31 @@ class Combat {
       Logger.log(`${attacker.name} is swinging for ${amount} damage.`);
     }
 
+    const dodgeChance = (target.hasAttribute('dodge') ? target.getAttribute('dodge') : 5);
+    const parryChance = (target.hasAttribute('parry') ? target.getAttribute('parry') : 5);
+    const missChance = (attacker.hasAttribute('hitroll') ? 10 - Math.floor(attacker.getAttribute('hitroll')) : 10);
+
+    let dodge = Random.probability(dodgeChance);
+    let parry = Random.probability(parryChance);
+    let miss = Random.probability(missChance);
+
+    // You can only dodge or parry an attack that was going to hit
+    if(miss) {
+      B.sayAt(attacker, `Your attack misses ${target.name}`);
+      B.sayAt(target, `${attacker.name} misses their attack.`);
+      return B.sayAtExcept(attacker.room, `${attacker.name} misses their attack on ${target.name}.`, [attacker, target]);
+    } else {
+      if( dodge ) {
+        B.sayAt(attacker, `Your attack was dodged by ${target.name}`);
+        B.sayAt(target, `${attacker.name}'s attack was successfully dodged.`);
+        return B.sayAtExcept(attacker.room, `${target.name} skillfully dodges ${attacker.name}'s attack.`, [attacker, target]);
+      } else if (parry) {
+        B.sayAt(attacker, `Your attack was parried by ${target.name}`);
+        B.sayAt(target, `${attacker.name}'s attack was successfully parried.`);
+        return B.sayAtExcept(attacker.room, `${target.name} skillfully parried ${attacker.name}'s attack.`, [attacker, target]);
+      }
+    }
+
     const weapon = attacker.equipment.get('wield');
     const damage = new Damage('health', amount, attacker, weapon || attacker, { critical });
     damage.commit(target);

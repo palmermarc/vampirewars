@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B } = require('ranvier');
+const { Broadcast: B, Logger } = require('ranvier');
 
 module.exports = {
   command : state => (args, player) => {
@@ -11,6 +11,7 @@ module.exports = {
     }
 
     const [ , , spellName, targetArgs] = match;
+    Logger.log(`${player.name} is attempting to cast ${spellName}.`);
     const spell = state.SpellManager.find(spellName);
 
     if (!spell) {

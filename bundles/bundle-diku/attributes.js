@@ -10,7 +10,8 @@ module.exports = [
     formula: {
       requires: [],
       fn: function (character, health) {
-        return health + (character.level * 2);
+        let levelBonus = ( Math.ceil( character.level/100 ) ) * 25;
+        return health + levelBonus;
       },
     },
   },
@@ -23,7 +24,8 @@ module.exports = [
     formula: {
       requires: [],
       fn: function (character, mana) {
-        return mana + (character.level * 2);
+        let levelBonus = ( Math.ceil( character.level/100 ) ) * 25;
+        return mana + levelBonus;
       },
     },
   },
@@ -36,7 +38,8 @@ module.exports = [
     formula: {
       requires: [],
       fn: function (character, move) {
-        return move + (character.level * 2);
+        let levelBonus = ( Math.ceil( character.level/100 ) ) * 25;
+        return move + levelBonus;
       },
     },
   },
@@ -46,12 +49,26 @@ module.exports = [
     metadata: {
       label: 'Strength',
     },
+    formula: {
+      requires: [],
+      fn: function (character, strength) {
+        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
+        return strength + levelBonus;
+      },
+    },
   },
   {
     name: 'intellect',
     base: 18,
     metadata: {
       label: 'Intellect',
+    },
+    formula: {
+      requires: [],
+      fn: function (character, intellect) {
+        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
+        return intellect + levelBonus;
+      },
     },
   },
   {
@@ -60,6 +77,13 @@ module.exports = [
     metadata: {
       label: 'Wisdom',
     },
+    formula: {
+      requires: [],
+      fn: function (character, wisdom) {
+        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
+        return wisdom + levelBonus;
+      },
+    },
   },
   {
     name: 'dexterity',
@@ -67,13 +91,27 @@ module.exports = [
     metadata: {
       label: 'Dexterity',
     },
+    formula: {
+      requires: [],
+      fn: function (character, dexterity) {
+        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
+        return dexterity + levelBonus;
+      },
+    },
   },
   {
     name: 'constitution',
     base: 18,
     metadata: {
       label: 'Constitution'
-    }
+    },
+    formula: {
+      requires: [],
+      fn: function (character, constitution) {
+        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
+        return constitution + levelBonus;
+      },
+    },
   },
   {
     // Need to figure out armor scaling...
@@ -169,7 +207,7 @@ module.exports = [
     }
   },
   {
-    name: 'hitroll',
+    name: 'hitroll', // 100 hitroll is 1% chance to hit
     base: 5,
   },
   {

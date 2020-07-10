@@ -4,7 +4,7 @@ const { Broadcast, Damage, SkillType, Logger } = require('ranvier');
 const { Random } = require('rando-js');
 
 const damagePercent = 100;
-const manaCost = 80;
+const manaCost = 10;
 
 function getDamage(player) {
   let variance = Random.inRange(75, 125)/100;
@@ -16,7 +16,7 @@ function getDamage(player) {
  * Basic mage spell
  */
 module.exports = {
-  name: 'Fireball',
+  name: 'Magic Missle',
   type: SkillType.SPELL,
   requiresTarget: true,
   initiatesCombat: true,
@@ -24,7 +24,7 @@ module.exports = {
     attribute: 'mana',
     cost: manaCost,
   },
-  cooldown: 10,
+  cooldown: 1,
 
   run: state => function (args, player, target) {
     console.log(this);
@@ -32,7 +32,7 @@ module.exports = {
     this.resource.cost = 1;
 
     const damage = new Damage('health', getDamage(player), player, this, {
-      type: 'fire',
+      type: 'arcane',
     });
 
     Broadcast.sayAt(player, '<bold>With a wave of your hand, you unleash a <red>fire</red></bold><yellow>b<bold>all</bold></yellow> <bold>at your target!</bold>');

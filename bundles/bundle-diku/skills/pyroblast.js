@@ -15,7 +15,7 @@ function getDamage(player) {
  * Basic mage spell
  */
 module.exports = {
-  name: 'Fireball',
+  name: 'Pyroblast',
   type: SkillType.SPELL,
   requiresTarget: true,
   initiatesCombat: true,
