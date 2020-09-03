@@ -25,10 +25,15 @@ module.exports = {
     let maxDiscs = 3;
 
     if (!args.length) {
-      B.sayAt(player, `Your current selected clandiscs are: ` + selectedDiscs.join(', '));
+      B.sayAt(player, `Your have mastered the following disciplines: ` + selectedDiscs.join(', '));
     }
 
     const [discName] = args.split(' ');
+
+    if(playerdiscs.includes(discName)) {
+      // TODO: Return the discipline powers and actually be useful
+      return B.sayAt(player, `You have already mastered the ${discName} discipline.`);
+    }
 
     if (!possibleDiscs.includes(discName)) {
       B.sayAt(player, `That is not an available option. The possible disciplines are:`);
