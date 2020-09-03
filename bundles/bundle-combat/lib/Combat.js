@@ -101,18 +101,12 @@ class Combat {
       attacksPerRound += this.getClanDiscExtraAttacks(attacker);
     }
 
-    Logger.log(`${attacker.name} is swinging for ${attacksPerRound} attacks before stance additions.`);
-
     // Add any additional bonuses that the attacker gets from the stance
     attacksPerRound += this.getStanceExtraAttacks(attacker);
-
-    Logger.log(`${attacker.name} is swinging for ${attacksPerRound} attacks after stance additions.`);
 
     for ( let i = 0; i < attacksPerRound; i++) {
       Combat.makeAttack(attacker, target);
     }
-
-    Logger.log(`${attacker.name} has finished their attacks.`);
 
     return true;
   }
