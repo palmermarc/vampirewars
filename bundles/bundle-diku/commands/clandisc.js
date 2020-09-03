@@ -26,6 +26,8 @@ module.exports = {
 
     if (!args.length) {
       B.sayAt(player, `Your have mastered the following disciplines: ` + selectedDiscs.join(', '));
+      B.sayAt(player, `\nYou can learn the following disciplines:`);
+      return B.sayAt(player, possibleDiscs.join(', '));
     }
 
     const [discName] = args.split(' ');
@@ -48,7 +50,7 @@ module.exports = {
     }
 
     // We passed every check we through at the system, give them the disc
-    player.setMeta('clandiscs.'+discName, 1);
+    player.setMeta(`clandiscs.${discName}`, 1);
     return B.sayAt(player, `You have mastered the discipline of ${discName}`);
   }
 };
