@@ -50,7 +50,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-combat" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-vampires" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/commands" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,6 +76,13 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-vampires" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-combat" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-combat/lib" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-vampires/classes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc" />
@@ -83,14 +90,8 @@
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/old.areas" />
       <recent name="$PROJECT_DIR$/../" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bundles/bundle-vampires" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-combat" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-combat/lib" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-vampires/classes" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/skills" />
-    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -113,12 +114,16 @@
       <workItem from="1590497134125" duration="1542000" />
       <workItem from="1592856540895" duration="12914000" />
       <workItem from="1593193767920" duration="31550000" />
-      <workItem from="1594210264884" duration="31533000" />
+      <workItem from="1594210264884" duration="31610000" />
+      <workItem from="1594656946969" duration="2228000" />
+      <workItem from="1595258897084" duration="2507000" />
+      <workItem from="1595343482047" duration="3125000" />
+      <workItem from="1599156892996" duration="2314000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1280" height="405" key="GridCell.Tab.0.bottom" timestamp="1594409123334">
@@ -154,10 +159,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="945" y="345" key="run.anything.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1594410283000" />
-    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup" timestamp="1594395165277">
+    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup" timestamp="1599159424600">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1594395165277" />
+    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599159424600" />
     <state x="945" y="326" width="670" height="676" key="search.everywhere.popup/0.23.2560.1347/2560.23.1920.1057@0.23.2560.1347" timestamp="1593181009102" />
     <state x="945" y="326" width="670" height="677" key="search.everywhere.popup/0.23.2560.1348/2560.23.1920.1057@0.23.2560.1348" timestamp="1593186045337" />
   </component>
