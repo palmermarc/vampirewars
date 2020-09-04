@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc/lootable.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc/lootable.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes" afterDir="false" />
@@ -137,7 +136,7 @@
       <workItem from="1594656946969" duration="2228000" />
       <workItem from="1595258897084" duration="2507000" />
       <workItem from="1595343482047" duration="3125000" />
-      <workItem from="1599156892996" duration="15596000" />
+      <workItem from="1599156892996" duration="17810000" />
     </task>
     <servers />
   </component>

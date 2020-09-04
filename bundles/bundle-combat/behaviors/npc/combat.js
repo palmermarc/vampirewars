@@ -23,6 +23,18 @@ module.exports = () => {
        * @param {Character} killer
        */
       killed: state => function (config, killer) {
+
+        // If a player just killed a mob, give them +1 to their mobKills data
+        if (this.isNpc && !killer.isNpc) {
+          let mobKills = killer.getMeta('mobKills');
+          killer.setMeta('mobKills', mobKills+1);
+        }
+
+        // If a player just died to a mob, give them +1 to their mobDeath data
+        if( !this.isNpc && killer.isNpc ) {
+          let mobDeaths = killer.getMeta('mobDeaths');
+          this.setMeta('mobDeaths', mobDeaths+1);
+        }
       },
 
       /**
