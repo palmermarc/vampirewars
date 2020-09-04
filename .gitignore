@@ -1,9 +1,6 @@
 node_modules
 plugins/**/*.*
-data/player/*.json
-data/account/*.json
-!data/account/Admin.json
-!data/player/Admin.json
+data/
 *.swp
 coverage/
 *.logs
