@@ -24,6 +24,7 @@ module.exports = {
         type: 'CONTAINER',
         metadata: {
           noPickup: true,
+          owner: ''
         },
         maxItems: items.length,
         behaviors: {

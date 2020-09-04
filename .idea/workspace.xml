@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc/lootable.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc/lootable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes" afterDir="false" />
@@ -58,7 +61,6 @@
       <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/vendor-npcs" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/vendor-npcs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/vendor-npcs/commands/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/vendor-npcs/commands/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typos.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-example-debug" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-example-commands" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -103,11 +105,11 @@
       <recent name="$PROJECT_DIR$/bundles/bundle-combat/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/lib" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/old.areas" />
-      <recent name="$PROJECT_DIR$/../" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -137,7 +139,7 @@
       <workItem from="1594656946969" duration="2228000" />
       <workItem from="1595258897084" duration="2507000" />
       <workItem from="1595343482047" duration="3125000" />
-      <workItem from="1599156892996" duration="11456000" />
+      <workItem from="1599156892996" duration="12670000" />
     </task>
     <servers />
   </component>
