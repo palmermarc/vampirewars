@@ -4,8 +4,6 @@
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc/lootable.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc/lootable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes" afterDir="false" />
@@ -71,7 +69,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-example-commands" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -86,7 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-example-debug/commands" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/commands" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -98,8 +96,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bundles/bundle-example-debug/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-example-debug/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-vampires" />
       <recent name="$PROJECT_DIR$/bundles/bundle-combat" />
       <recent name="$PROJECT_DIR$/bundles/bundle-combat/lib" />
@@ -139,7 +137,7 @@
       <workItem from="1594656946969" duration="2228000" />
       <workItem from="1595258897084" duration="2507000" />
       <workItem from="1595343482047" duration="3125000" />
-      <workItem from="1599156892996" duration="12670000" />
+      <workItem from="1599156892996" duration="15596000" />
     </task>
     <servers />
   </component>

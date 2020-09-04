@@ -33,6 +33,7 @@ module.exports = {
           }
         },
       });
+
       corpse.hydrate(state);
 
       Logger.log(`Generated corpse: ${corpse.uuid}`);
@@ -41,6 +42,7 @@ module.exports = {
         item.hydrate(state);
         corpse.addItem(item);
       });
+
       room.addItem(corpse);
       state.ItemManager.add(corpse);
 
