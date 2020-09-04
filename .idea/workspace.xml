@@ -50,7 +50,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-combat" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -118,7 +118,7 @@
       <workItem from="1594656946969" duration="2228000" />
       <workItem from="1595258897084" duration="2507000" />
       <workItem from="1595343482047" duration="3125000" />
-      <workItem from="1599156892996" duration="10621000" />
+      <workItem from="1599156892996" duration="10904000" />
     </task>
     <servers />
   </component>
