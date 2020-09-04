@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/azurkeep/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/azurkeep/items.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/thalos/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/thalos/npcs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/classes/human.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/classes/human.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/classes/vampire.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/classes/vampire.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes" afterDir="false" />
@@ -14,8 +10,12 @@
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/paladin.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/warrior.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/fireball.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/fireball.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/lunge.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/lunge.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/drop.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/drop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/emote.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/emote.js" afterDir="false" />
@@ -31,15 +31,34 @@
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/tnl.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/tnl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/use.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/use.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/wear.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/wear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/who.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/who.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-debug" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-debug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-debug/commands/setadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-debug/commands/setadmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-effects" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-effects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-effects/effects/regen.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-effects/effects/regen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/choose-class.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/choose-class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/done.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/done.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/finish-player.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/finish-player.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors/behaviors/npc/ranvier-wander.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors/behaviors/npc/ranvier-wander.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-player-events" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-player-events" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-quests" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-quests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-quests/commands/quest.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-quests/commands/quest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-quests/quest-rewards/ExperienceReward.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-quests/quest-rewards/ExperienceReward.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/player-groups" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/player-groups" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/player-groups/commands/ditch.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/player-groups/commands/ditch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/player-groups/commands/follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/player-groups/commands/follow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/player-groups/commands/group.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/player-groups/commands/group.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/simple-crafting" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/vendor-npcs" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/vendor-npcs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/vendor-npcs/commands/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/vendor-npcs/commands/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typos.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +69,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-combat" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-example-debug" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -118,7 +137,7 @@
       <workItem from="1594656946969" duration="2228000" />
       <workItem from="1595258897084" duration="2507000" />
       <workItem from="1595343482047" duration="3125000" />
-      <workItem from="1599156892996" duration="10904000" />
+      <workItem from="1599156892996" duration="11456000" />
     </task>
     <servers />
   </component>
@@ -126,6 +145,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599237348075">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599237348075" />
     <state width="2518" height="439" key="GridCell.Tab.0.bottom" timestamp="1599235236985">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
