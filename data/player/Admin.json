@@ -1,52 +1,158 @@
 {
   "attributes": {
-    "strength": {
-      "delta": 0,
-      "base": 17
-    },
-    "agility": {
-      "delta": 0,
-      "base": 10
-    },
-    "intellect": {
-      "delta": 0,
-      "base": 8
-    },
-    "stamina": {
-      "delta": 0,
-      "base": 11
-    },
     "health": {
-      "delta": 0,
-      "base": 154
-    },
-    "armor": {
-      "delta": 0,
-      "base": 0
-    },
-    "energy": {
       "delta": 0,
       "base": 100
     },
-    "critical": {
+    "mana": {
       "delta": 0,
-      "base": 0
+      "base": 100
+    },
+    "move": {
+      "delta": 0,
+      "base": 100
+    },
+    "strength": {
+      "delta": 0,
+      "base": 20
+    },
+    "intellect": {
+      "delta": 0,
+      "base": 18
+    },
+    "constitution": {
+      "delta": 0,
+      "base": 18
+    },
+    "dexterity": {
+      "delta": 0,
+      "base": 18
+    },
+    "wisdom": {
+      "delta": 0,
+      "base": 18
+    },
+    "hitroll": {
+      "delta": 0,
+      "base": 5
+    },
+    "damroll": {
+      "delta": 0,
+      "base": 5
+    },
+    "critical_strike": {
+      "delta": 0,
+      "base": 5
+    },
+    "dodge": {
+      "delta": 0,
+      "base": 5
+    },
+    "parry": {
+      "delta": 0,
+      "base": 5
+    },
+    "svs": {
+      "delta": 0,
+      "base": 5
     }
   },
-  "level": 1,
+  "level": 25000,
   "name": "Admin",
-  "room": "limbo:white",
-  "effects": [],
-  "experience": 0,
+  "room": "midennir:r3551",
+  "effects": [
+    {
+      "config": {
+        "autoActivate": true,
+        "description": "You are regenerating over time.",
+        "duration": "inf",
+        "hidden": true,
+        "maxStacks": 0,
+        "name": "Regenerate",
+        "persists": true,
+        "refreshes": false,
+        "tickInterval": 3,
+        "type": "regen",
+        "unique": true
+      },
+      "elapsed": 9294521,
+      "id": "regen",
+      "remaining": null,
+      "state": {
+        "magnitude": 15,
+        "lastTick": 671,
+        "ticks": 3042
+      }
+    }
+  ],
+  "experience": 2131,
   "inventory": {
     "items": [],
-    "max": 16
+    "max": 32
   },
   "metadata": {
-    "class": "warrior"
+    "class": "human",
+    "stances": {
+      "bull": 1,
+      "crane": 0,
+      "mongoose": 0,
+      "viper": 162,
+      "cobra": 0,
+      "falcon": 0,
+      "grizzlie": 0,
+      "lion": 0,
+      "panther": 0,
+      "swallow": 0
+    },
+    "spells": {
+      "blue": 0,
+      "green": 0,
+      "purple": 0,
+      "red": 0,
+      "yellow": 0
+    },
+    "weapons": {
+      "hit": 0,
+      "slice": 0,
+      "stab": 0,
+      "slash": 0,
+      "whip": 0,
+      "claw": 0,
+      "blast": 0,
+      "pound": 0,
+      "crush": 0,
+      "bite": 0,
+      "grep": 0,
+      "pierce": 0,
+      "suck": 0
+    },
+    "tiers": {
+      "spells": 0,
+      "stances": 0,
+      "weapons": 0
+    },
+    "clandiscs": {
+      "animalism": 0,
+      "auspex": 0,
+      "celerity": 0,
+      "dominate": 0,
+      "fortitude": 0,
+      "obfuscate": 0,
+      "obtenebration": 0,
+      "potence": 0,
+      "presence": 0,
+      "quietus": 0,
+      "thaumaturgy": 0,
+      "viccisitude": 0
+    },
+    "currentStance": "viper",
+    "currencies": {
+      "gold": 14222
+    },
+    "autostance": "viper",
+    "title": "asdas asdsad asdsadsad asdsadasdas das"
   },
-  "playerClass": "warrior",
-  "prompt": "[ %health.current%/%health.max% <b>hp</b> %energy.current%/%energy.max% <b>energy</b> ]",
+  "prompt": "[ %health.current%/%health.max% <b>hp</b> %mana.current%/%mana.max% <b>mana</b> %move.current%/%move.max% <b>mana</b> ]",
   "quests": {
     "completed": [],
     "active": []

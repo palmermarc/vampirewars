@@ -207,7 +207,7 @@ class Combat {
     deadEntity.combatData.killed = true;
     deadEntity.removeFromCombat();
 
-    Logger.log(`${killer ? killer.name : 'Something'} killed ${deadEntity.name}.`);
+    //Logger.log(`${killer ? killer.name : 'Something'} killed ${deadEntity.name}.`);
 
     if (killer) {
       deadEntity.combatData.killedBy = killer;
@@ -427,7 +427,7 @@ class Combat {
     const diceroll2 = Random.roll(1, stanceMax);
 
     if (diceroll1 >= currentStanceLevel && diceroll2 >= currentStanceLevel) {
-      Logger.log(`${attacker.name} gained a point in the ${stance} stance.`);
+      //Logger.log(`${attacker.name} gained a point in the ${stance} stance.`);
       let newLevel = currentStanceLevel + 1;
       switch(stance) {
         case 'bull':
@@ -537,7 +537,7 @@ class Combat {
       maxRange = 1;
     }
 
-    Logger.log(`${maxRange} is the most extra attacks you can get`);
+    // Logger.log(`${maxRange} is the most extra attacks you can get`);
 
     return Random.roll(1, maxRange);
   }

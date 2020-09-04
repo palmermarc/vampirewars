@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "commander": "^2.19.0",
+    "fs-extra": "^9.0.1",
     "optimist": "",
     "ranvier": "^3.0.5",
     "ranvier-datasource-file": "^1.0.3",

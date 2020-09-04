@@ -50,7 +50,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bundles/bundle-example-debug" />
   </component>
   <component name="ProjectId" id="1ag0mS5SyUUVw2MITiABQmA4N9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/commands" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-example-debug/commands" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-example-debug/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-vampires" />
       <recent name="$PROJECT_DIR$/bundles/bundle-combat" />
       <recent name="$PROJECT_DIR$/bundles/bundle-combat/lib" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-vampires/classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors" />
@@ -118,7 +118,7 @@
       <workItem from="1594656946969" duration="2228000" />
       <workItem from="1595258897084" duration="2507000" />
       <workItem from="1595343482047" duration="3125000" />
-      <workItem from="1599156892996" duration="4637000" />
+      <workItem from="1599156892996" duration="9786000" />
     </task>
     <servers />
   </component>
@@ -126,25 +126,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1280" height="405" key="GridCell.Tab.0.bottom" timestamp="1594409123334">
+    <state width="2518" height="439" key="GridCell.Tab.0.bottom" timestamp="1599235236985">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1280" height="405" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1594409123334" />
+    <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599235236985" />
     <state width="2560" height="405" key="GridCell.Tab.0.bottom/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964075" />
-    <state width="1280" height="405" key="GridCell.Tab.0.center" timestamp="1594409123333">
+    <state width="2518" height="439" key="GridCell.Tab.0.center" timestamp="1599235236983">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1280" height="405" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1594409123333" />
+    <state width="2518" height="439" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599235236983" />
     <state width="2560" height="405" key="GridCell.Tab.0.center/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964073" />
-    <state width="1280" height="405" key="GridCell.Tab.0.left" timestamp="1594409123333">
+    <state width="2518" height="439" key="GridCell.Tab.0.left" timestamp="1599235236983">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1280" height="405" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1594409123333" />
+    <state width="2518" height="439" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599235236983" />
     <state width="2560" height="405" key="GridCell.Tab.0.left/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964073" />
-    <state width="1280" height="405" key="GridCell.Tab.0.right" timestamp="1594409123334">
+    <state width="2518" height="439" key="GridCell.Tab.0.right" timestamp="1599235236984">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1280" height="405" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1594409123334" />
+    <state width="2518" height="439" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599235236984" />
     <state width="2560" height="405" key="GridCell.Tab.0.right/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964074" />
     <state x="781" y="359" key="SettingsEditor" timestamp="1593463786677">
       <screen x="0" y="0" width="2560" height="1440" />
