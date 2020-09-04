@@ -7,9 +7,6 @@
 [submodule "bundles/bundle-example-classes"]
 	path = bundles/bundle-example-classes
 	url = https://github.com/RanvierMUD/bundle-example-classes
-[submodule "bundles/bundle-example-combat"]
-	path = bundles/bundle-example-combat
-	url = https://github.com/RanvierMUD/bundle-example-combat
 [submodule "bundles/bundle-example-commands"]
 	path = bundles/bundle-example-commands
 	url = https://github.com/RanvierMUD/bundle-example-commands

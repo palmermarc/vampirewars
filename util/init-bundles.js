@@ -38,7 +38,6 @@ async function main() {
     'https://github.com/RanvierMUD/bundle-example-areas',
     'https://github.com/RanvierMUD/bundle-example-channels',
     'https://github.com/RanvierMUD/bundle-example-classes',
-    'https://github.com/RanvierMUD/bundle-example-combat',
     'https://github.com/RanvierMUD/bundle-example-commands',
     'https://github.com/RanvierMUD/bundle-example-debug',
     'https://github.com/RanvierMUD/bundle-example-effects',
