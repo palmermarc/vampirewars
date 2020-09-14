@@ -3,8 +3,8 @@
 const { Broadcast: B, Damage, SkillType, Logger } = require('ranvier');
 const { Random } = require('rando-js');
 
-const Combat = require('../../bundle-combat/lib/Combat');
-const CombatErrors = require('../../bundle-combat/lib/CombatErrors');
+const Combat = require('../../bundle-diku-combat/lib/Combat');
+const CombatErrors = require('../../bundle-diku-combat/lib/CombatErrors');
 
 const damagePercent = 100;
 const manaCost = 80;

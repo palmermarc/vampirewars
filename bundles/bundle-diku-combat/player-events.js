@@ -4,7 +4,7 @@ const { Config, Broadcast: B } = require('ranvier');
 const Combat = require('./lib/Combat');
 const CombatErrors = require('./lib/CombatErrors');
 const LevelUtil = require('../bundle-diku/lib/LevelUtil');
-const WebsocketStream = require('../websocket-networking/lib/WebsocketStream');
+const WebsocketStream = require('../bundle-diku-core/lib/WebsocketStream');
 
 /**
  * Auto combat module

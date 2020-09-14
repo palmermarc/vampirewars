@@ -2,13 +2,14 @@
 
 const humanize = (sec) => { return require('humanize-duration')(sec, { round: true }); };
 const { Broadcast: B, Config, Logger, SkillErrors } = require('ranvier');
-const Combat = require('../bundle-combat/lib/Combat');
+const Combat = require('../bundle-diku-combat/lib/Combat');
 const LevelUtil = require('./lib/LevelUtil');
-const CombatErrors = require('../bundle-combat/lib/CombatErrors');
+const CombatErrors = require('../bundle-diku-combat/lib/CombatErrors');
 const sprintf = require('sprintf-js').sprintf;
 
 module.exports = {
   listeners: {
+
     /**
      * Handle a player movement command. From: 'commands' input event.
      * movementCommand is a result of CommandParser.parse

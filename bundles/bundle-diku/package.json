@@ -6,6 +6,7 @@
   "dependencies": {
     "humanize-duration": "^3.15.3",
     "rando-js": "^0.2.0",
+    "ranvier-telnet": "^1.0.1",
     "sprintf-js": "^1.1.2"
   }
 }

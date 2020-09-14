@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "bundle-diku-core",
+  "version": "1.0.0",
+  "description": "The Diku Code Bundle that allows for players to actually connect to the server and all of the information about the server itself.",
+  "dependencies": {
+    "ws": "^3.3.3",
+    "ranvier-telnet": "^1.0.1"
+  }
+}
