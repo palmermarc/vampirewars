@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/clans/npcs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/midennir/items.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/mobfact/items.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/ofcol/items.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/ofcol/npcs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/senial/npcs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/senial/rooms.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/tower1/items.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/tower1/npcs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/vlord/items.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes" afterDir="false" />
@@ -16,48 +26,13 @@
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/drop.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/drop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/emote.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/emote.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/equipment.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/equipment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/get.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/get.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/give.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/give.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/inventory.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/inventory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/look.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/look.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/open.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/open.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/put.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/put.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/remove.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/remove.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/score.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/tnl.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/tnl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/use.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/use.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/wear.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/wear.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/who.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-commands/commands/who.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-debug" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-debug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-debug/commands/setadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-debug/commands/setadmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-effects" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-effects" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-effects/effects/regen.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-effects/effects/regen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/choose-class.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/choose-class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/commands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/done.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/done.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/finish-player.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-input-events/input-events/finish-player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors/behaviors/npc/ranvier-wander.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors/behaviors/npc/ranvier-wander.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-player-events" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-player-events" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-quests" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-quests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-quests/commands/quest.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-quests/commands/quest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-quests/quest-rewards/ExperienceReward.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-quests/quest-rewards/ExperienceReward.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/player-groups" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/player-groups" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/player-groups/commands/ditch.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/player-groups/commands/ditch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/player-groups/commands/follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/player-groups/commands/follow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/player-groups/commands/group.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/player-groups/commands/group.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/simple-crafting" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/vendor-npcs" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/vendor-npcs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/vendor-npcs/commands/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/vendor-npcs/commands/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ranvier.json" beforeDir="false" afterPath="$PROJECT_DIR$/ranvier.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/commands" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,18 +70,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku-combat" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-combat/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-example-debug/commands" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-vampires" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-combat" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-combat/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/lib" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/help" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/effects" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku-core" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -136,7 +111,9 @@
       <workItem from="1594656946969" duration="2228000" />
       <workItem from="1595258897084" duration="2507000" />
       <workItem from="1595343482047" duration="3125000" />
-      <workItem from="1599156892996" duration="19286000" />
+      <workItem from="1599156892996" duration="20020000" />
+      <workItem from="1599667636514" duration="4502000" />
+      <workItem from="1600093439567" duration="8972000" />
     </task>
     <servers />
   </component>
@@ -148,25 +125,29 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599237348075" />
-    <state width="2518" height="439" key="GridCell.Tab.0.bottom" timestamp="1599235236985">
+    <state width="2518" height="439" key="GridCell.Tab.0.bottom" timestamp="1600113236516">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599235236985" />
+    <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236516" />
+    <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281478" />
     <state width="2560" height="405" key="GridCell.Tab.0.bottom/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964075" />
-    <state width="2518" height="439" key="GridCell.Tab.0.center" timestamp="1599235236983">
+    <state width="2518" height="439" key="GridCell.Tab.0.center" timestamp="1600113236515">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="439" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599235236983" />
+    <state width="2518" height="439" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236515" />
+    <state width="2518" height="439" key="GridCell.Tab.0.center/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281477" />
     <state width="2560" height="405" key="GridCell.Tab.0.center/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964073" />
-    <state width="2518" height="439" key="GridCell.Tab.0.left" timestamp="1599235236983">
+    <state width="2518" height="439" key="GridCell.Tab.0.left" timestamp="1600113236514">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="439" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599235236983" />
+    <state width="2518" height="439" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236514" />
+    <state width="2518" height="439" key="GridCell.Tab.0.left/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281476" />
     <state width="2560" height="405" key="GridCell.Tab.0.left/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964073" />
-    <state width="2518" height="439" key="GridCell.Tab.0.right" timestamp="1599235236984">
+    <state width="2518" height="439" key="GridCell.Tab.0.right" timestamp="1600113236516">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="439" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599235236984" />
+    <state width="2518" height="439" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236516" />
+    <state width="2518" height="439" key="GridCell.Tab.0.right/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281478" />
     <state width="2560" height="405" key="GridCell.Tab.0.right/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964074" />
     <state x="781" y="359" key="SettingsEditor" timestamp="1593463786677">
       <screen x="0" y="0" width="2560" height="1440" />

@@ -2,20 +2,10 @@
   "port": 4000,
   "bundles": [
     "bundle-diku",
-    "bundle-example-areas",
-    "bundle-example-channels",
-    "bundle-combat",
-    "bundle-example-commands",
-    "bundle-example-debug",
-    "bundle-example-effects",
-    "bundle-example-input-events",
-    "bundle-example-npc-behaviors",
-    "bundle-example-quests",
-    "simple-crafting",
-    "vendor-npcs",
-    "player-groups",
-    "telnet-networking",
-    "websocket-networking"
+    "bundle-diku-admin",
+    "bundle-diku-combat",
+    "bundle-diku-coçre",
+    "simple-crafting"
   ],
   "dataSources": {
     "YamlArea": {
