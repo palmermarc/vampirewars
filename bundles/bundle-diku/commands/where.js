@@ -12,19 +12,13 @@ module.exports = {
 
     B.sayAt(player, `Players near you:`);
 
-    Logger.log(area);
-
     area.players.forEach(otherPlayer => {
-      if (otherPlayer === player) {
-        //return;
-      }
-
-
       B.sayAt(player, `${otherPlayer.name} - ${otherPlayer.room.name}`);
+      playerCount++;
     });
 
     if(playerCount == 0 ) {
-      return B.sayAt(player, `There is no one near you.`)
+      return B.sayAt(player, `There is no one near you.`);
     }
 
   }

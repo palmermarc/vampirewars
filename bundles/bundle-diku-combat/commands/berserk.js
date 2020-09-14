@@ -1,8 +1,6 @@
 'use strict';
 
-const { Broadcast: B, Logger } = require('ranvier');
-const Combat = require('../lib/Combat');
-const CombatErrors = require('../lib/CombatErrors');
+const { Broadcast: B } = require('ranvier');
 
 module.exports = {
   command : (state) => (args, player) => {

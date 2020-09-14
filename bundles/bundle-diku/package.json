@@ -5,6 +5,7 @@
   "description": "The Diku Bundle is an attempt to pull the stock Vampire Wars code directly into Ranvier.",
   "dependencies": {
     "humanize-duration": "^3.15.3",
-    "rando-js": "^0.2.0"
+    "rando-js": "^0.2.0",
+    "sprintf-js": "^1.1.2"
   }
 }

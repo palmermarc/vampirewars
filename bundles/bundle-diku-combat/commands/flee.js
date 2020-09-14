@@ -12,7 +12,6 @@ module.exports = {
       return say(player, "You jump at the sight of your own shadow.");
     }
 
-
     let roomExit = null;
     if (direction) {
       roomExit = CommandParser.canGo(player, direction);
