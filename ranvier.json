@@ -77,7 +77,7 @@
   "minPlayerNameLength": 3,
   "maxCharacters": 3,
   "reportToAdmins": false,
-  "startingRoom": "midgaard:r3001",
+  "startingRoom": "newbie:startingroom",
   "moveCommand": "move",
   "skillLag": 2500,
   "defaultMaxPlayerInventory": 32,

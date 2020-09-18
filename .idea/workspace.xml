@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/clans/npcs.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/midennir/items.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/mobfact/items.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/ofcol/items.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/ofcol/npcs.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/senial/npcs.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/senial/rooms.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/tower1/items.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/tower1/npcs.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/vlord/items.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/mage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/paladin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/warrior.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/fireball.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/fireball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/lunge.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/lunge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-player-events" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-player-events" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranvier.json" beforeDir="false" afterPath="$PROJECT_DIR$/ranvier.json" afterDir="false" />
-    </list>
+    <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku-hunt" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,19 +37,19 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bundles" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku-combat" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-combat/commands" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-example-debug/commands" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/help" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/effects" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku-core" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku-hunt" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-hunt" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
+      <recent name="$PROJECT_DIR$/bundles" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku-combat" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -113,7 +81,8 @@
       <workItem from="1595343482047" duration="3125000" />
       <workItem from="1599156892996" duration="20020000" />
       <workItem from="1599667636514" duration="4502000" />
-      <workItem from="1600093439567" duration="8972000" />
+      <workItem from="1600093439567" duration="10295000" />
+      <workItem from="1600431845563" duration="5021000" />
     </task>
     <servers />
   </component>
@@ -125,30 +94,34 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599237348075" />
-    <state width="2518" height="439" key="GridCell.Tab.0.bottom" timestamp="1600113236516">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2518" height="439" key="GridCell.Tab.0.bottom" timestamp="1600375867691">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236516" />
     <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281478" />
     <state width="2560" height="405" key="GridCell.Tab.0.bottom/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964075" />
-    <state width="2518" height="439" key="GridCell.Tab.0.center" timestamp="1600113236515">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.23.1920.973@0.23.2560.1417" timestamp="1600375867691" />
+    <state width="2518" height="439" key="GridCell.Tab.0.center" timestamp="1600375867690">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2518" height="439" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236515" />
     <state width="2518" height="439" key="GridCell.Tab.0.center/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281477" />
     <state width="2560" height="405" key="GridCell.Tab.0.center/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964073" />
-    <state width="2518" height="439" key="GridCell.Tab.0.left" timestamp="1600113236514">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2518" height="439" key="GridCell.Tab.0.center/0.23.2560.1417/2560.23.1920.973@0.23.2560.1417" timestamp="1600375867690" />
+    <state width="2518" height="439" key="GridCell.Tab.0.left" timestamp="1600375867688">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2518" height="439" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236514" />
     <state width="2518" height="439" key="GridCell.Tab.0.left/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281476" />
     <state width="2560" height="405" key="GridCell.Tab.0.left/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964073" />
-    <state width="2518" height="439" key="GridCell.Tab.0.right" timestamp="1600113236516">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2518" height="439" key="GridCell.Tab.0.left/0.23.2560.1417/2560.23.1920.973@0.23.2560.1417" timestamp="1600375867688" />
+    <state width="2518" height="439" key="GridCell.Tab.0.right" timestamp="1600375867690">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="2518" height="439" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236516" />
     <state width="2518" height="439" key="GridCell.Tab.0.right/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281478" />
     <state width="2560" height="405" key="GridCell.Tab.0.right/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964074" />
+    <state width="2518" height="439" key="GridCell.Tab.0.right/0.23.2560.1417/2560.23.1920.973@0.23.2560.1417" timestamp="1600375867690" />
     <state x="781" y="359" key="SettingsEditor" timestamp="1593463786677">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

@@ -200,6 +200,8 @@ class Combat {
    * @param {?Character} killer Optionally the character that killed the dead entity
    */
   static handleDeath(state, deadEntity, killer) {
+    // TODO: Add in the concept of morting
+
     if (deadEntity.combatData.killed) {
       return;
     }

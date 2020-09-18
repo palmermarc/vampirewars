@@ -1,4 +1,4 @@
-- id: r700
+- id: startingroom
   title: "Welcome to Vampire Wars MUD"
   description: >-
     There are several things that you need to know when playing
@@ -9,11 +9,11 @@
     to the next room, where you will learn something about your
     armour class. To bring up this description again, type "look"
   exits:
-    - roomId: "newbie:r701"
+    - roomId: "newbie:armourclass"
       direction: north
     - roomId: "midgaard:r3054"
       direction: south
-- id: r701
+- id: armourclass
   title: "Your Armour Class"
   description: >-
     Now type "score". This brings up a screen of information
@@ -26,11 +26,11 @@
     wear armour and other equipment. To see what you are 
     currently wearing, type "equipment".
   exits:
-    - roomId: "newbie:r702"
+    - roomId: "newbie:killing"
       direction: north
-    - roomId: "newbie:r700"
+    - roomId: "newbie:startingroom"
       direction: south
-- id: r702
+- id: killing
   title: "Killing"
   description: >-
     In this room there is a monster called a munchkin. 
@@ -44,15 +44,15 @@
     your ac has gone down, and you have more exp. We will learn 
     about this later. Now go north to the next room.
   exits:
-    - roomId: "newbie:r703"
+    - roomId: "newbie:weapons"
       direction: north
-    - roomId: "newbie:r701"
+    - roomId: "newbie:armourclass"
       direction: south
   npcs:
     - id: "newbie:m700"
       respawnChance: 100
       maxLoad: "2"
-- id: r703
+- id: weapons
   title: "Weapons"
   description: >-
     In this room is another monster. This monster, however, 
@@ -68,15 +68,15 @@
     satisfaction that your opponent - type "sacrifice 
     corpse". Proceed north to the next room.
   exits:
-    - roomId: "newbie:r704"
+    - roomId: "newbie:spells"
       direction: north
-    - roomId: "newbie:r702"
+    - roomId: "newbie:killing"
       direction: south
   npcs:
     - id: "newbie:m700"
       respawnChance: 100
       maxLoad: "2"
-- id: r704
+- id: spells
   title: "Spells"
   description: >-
     After you have read this, type "prac1" and then "prac2" 
@@ -89,44 +89,43 @@
     in the previous rooms. When you have done this, go north
     to the next room.
   exits:
-    - roomId: "newbie:r705"
+    - roomId: "newbie:training"
       direction: north
-    - roomId: "newbie:r703"
+    - roomId: "newbie:weapons"
       direction: south
-- id: r705
+- id: training
   title: "Training"
   description: >-
-    Now we will find out some of the other things that you
-    use experience points for. Type "train". This shows 
-    you the things you can train, and for how many experience
-    points. Type "train hp" - this increases your hit points,
-    which means you will last longer in fights. To save you
-    time, you can type "train hp all", meaning that all your
-    experience points will be used to train your hit points.
-    If you now type "score" the you will see that your total 
-    hit points have gone up. Go north to the next room now.
+    In previous iterations of Vampire Wars, training was used
+    to gain attributes, stats, immunities, and other sources
+    of power. Now, all of your stats is increased by two things:
+    gear and level. Because of this, the train command has been
+    removed. Sorry for the convenience.
+
+    Go north to the next room now.
   exits:
-    - roomId: "newbie:r706"
+    - roomId: "newbie:doors"
       direction: north
-    - roomId: "newbie:r704"
+    - roomId: "newbie:spells"
       direction: south
-- id: r706
+- id: doors
   title: "Doors"
   description: >-
     Now try to go east. You will see that there is a door
     blocking your way - this means that it doesn't show up
     when you type "exits". To open the door, all you have 
     to do is type "open door", and then the exit east will 
-    show up when you type "exits". Go east, and then you can 
-    return to proceed north.
+    show up when you type "exits".
+
+    Go east, and then you can return to proceed north.
   exits:
-    - roomId: "newbie:r707"
+    - roomId: "newbie:recallpoint"
       direction: north
-    - roomId: "newbie:r705"
+    - roomId: "newbie:training"
       direction: south
-    - roomId: "newbie:r708"
+    - roomId: "newbie:blankroom"
       direction: east
-- id: r707
+- id: recallpoint
   title: "Time to enter the game..."
   description: >-
     Now you are ready to enter Vampire Wars. You now know how
@@ -142,21 +141,15 @@
     valuable in it, as you have a limit to the amount you can 
     carry). Also, all commands can be shortened - for instance, 
     "look" can be just "l" and "east" can be just "e". 
+
     Now, type "recall" to enter the game!
   exits:
-    - roomId: "newbie:r706"
+    - roomId: "newbie:doors"
       direction: south
-- id: r708
+- id: blankroom
   title: "Just a room."
   description: >-
     Now you can return West to go on North.
   exits:
-    - roomId: "newbie:r706"
+    - roomId: "newbie:doors"
       direction: west
-- id: r709
-  title: "A room"
-  description: >-
-    You are standing in room #12.
-  exits:
-    - roomId: "newbie:r700"
-      direction: north

@@ -63,6 +63,10 @@ module.exports = {
           follower.emit('move', movementCommand);
         }
       }
+
+      if( this.getMeta('isHunting' ) ) {
+        // TODO: Add in the call to find the target and bark it's direction back to the player
+      }
     },
 
     save: state => async function (callback) {
