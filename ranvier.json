@@ -4,7 +4,7 @@
     "bundle-diku",
     "bundle-diku-admin",
     "bundle-diku-combat",
-    "bundle-diku-coçre",
+    "bundle-diku-core",
     "simple-crafting"
   ],
   "dataSources": {
@@ -79,7 +79,7 @@
   "reportToAdmins": false,
   "startingRoom": "newbie:startingroom",
   "moveCommand": "move",
-  "skillLag": 2500,
+  "skillLag": 1500,
   "defaultMaxPlayerInventory": 32,
   "maxIdleTime": 20
 }
