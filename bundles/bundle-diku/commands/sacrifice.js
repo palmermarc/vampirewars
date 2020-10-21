@@ -24,11 +24,6 @@ module.exports = {
     // get 3.foo from bar -> get 3.foo bar
     let parts = args.split(' ').filter(arg => !arg.match(/from/));
 
-    // pick up <item>
-    if (parts.length > 1 && parts[0] === 'up') {
-      parts = parts.slice(1);
-    }
-
     let source = null, search = null, container = null;
     if (parts.length === 1) {
       search = parts[0];
@@ -47,17 +42,13 @@ module.exports = {
 
     if (search === 'all') {
       if (!source || ![...source].length) {
-        return B.sayAt(player, "There isn't anything to take.");
+        return B.sayAt(player, "There is nothing here to sacrifice.");
       }
 
       for (let item of source) {
         // account for Set vs Map source
         if (Array.isArray(item)) {
           item = item[1];
-        }
-
-        if (player.isInventoryFull()) {
-          return B.sayAt(player, "You can't carry any more.");
         }
 
         destroy(item, container, player);

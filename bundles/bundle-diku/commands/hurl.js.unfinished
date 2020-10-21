@@ -1,0 +1,211 @@
+'use strict';
+
+const { Broadcast: B, Logger } = require('ranvier');
+const ArgParser = require('../lib/ArgParser');
+
+module.exports = {
+  usage: 'hurl [target]',
+  command: (state) => (args, player) => {
+    if (!args.length) {
+      return B.sayAt(player, `Who do you wish to hurl?`);
+    }
+
+    /**
+     * Lets check to see if their target is even in the room
+     * @type {?Room|Room|Room.entityReference|Room|null}
+     */
+    let room = player.room;
+
+    let target = ArgParser.parseDot(search, room.players);
+    target = target || ArgParser.parseDot(search, room.npcs);
+
+    if (!target) {
+      return B.sayAt(player, "They are not here.");
+    }
+
+    /**
+     * Are they trying to hurl themself?
+     */
+    if( target == player ) {
+      return B.sayAt(player, 'How can you hurl yourself?' );
+    }
+
+    if( room.getMeta('safe') === 1 ) {
+      return B.sayAt(player, 'You cannot fight in a safe room.');
+    }
+
+    /**
+     * Check to see if they are mounted
+     */
+    if ( victim->mount != NULL && victim->mounted == IS_MOUNT)
+    {
+      send_to_char("But they have someone on their back!\n\r",ch);
+      return;
+    } else if ( victim->mount != NULL && victim->mounted == IS_RIDING) {
+      send_to_char("But they are riding!\n\r",ch);
+      return;
+    }
+
+
+    if (player.isInCombat()) {
+      return B.sayAt(player, `You can't run away from combat!`);
+    }
+
+    // If they character is hurt, don't allow them to be hurled
+    if ( (victim->hit < victim->max_hit) || ( victim->position == POS_FIGHTING && victim->fighting != ch) )
+    {
+      return B.sayAt(player, `${target.name} is hurt and suspicious, and you are unable to approach them.`);
+    }
+
+    /**
+     * Made it through all of the checks, now let's actually hurl them
+     */
+
+    WAIT_STATE( ch, skill_table[gsn_hurl].beats );
+    if ( !IS_NPC(ch) && number_percent( ) > ch->pcdata->learned[gsn_hurl] )
+    {
+      send_to_char("You are unable to get their feet of the ground.\n\r",ch);
+      multi_hit( victim, ch, TYPE_UNDEFINED );
+      return;
+    }
+
+    rev_dir = 0;
+
+    if ( arg2[0] == '\0' )
+      door = number_range(0,3);
+    else
+    {
+      if      ( !str_cmp( arg2, "n" ) || !str_cmp( arg2, "north" ) )
+        door = 0;
+      else if ( !str_cmp( arg2, "e" ) || !str_cmp( arg2, "east" ) )
+        door = 1;
+      else if ( !str_cmp( arg2, "s" ) || !str_cmp( arg2, "south" ) )
+        door = 2;
+      else if ( !str_cmp( arg2, "w" ) || !str_cmp( arg2, "west" ) )
+        door = 3;
+      else
+      {
+        send_to_char("You can only hurl people north, south, east or west.\n\r", ch);
+        return;
+      }
+    }
+
+    if (door == 0) {snprintf(direction, MAX_INPUT_LENGTH, "north");rev_dir = 2;}
+    if (door == 1) {snprintf(direction, MAX_INPUT_LENGTH, "east");rev_dir = 3;}
+    if (door == 2) {snprintf(direction, MAX_INPUT_LENGTH, "south");rev_dir = 0;}
+    if (door == 3) {snprintf(direction, MAX_INPUT_LENGTH, "west");rev_dir = 1;}
+
+    if (( pexit = ch->in_room->exit[door]) == NULL || (to_room = pexit->to_room) == NULL)
+    {
+      snprintf(buf, MAX_INPUT_LENGTH, "$n hurls $N into the %s wall.", direction);
+      act(buf,ch,NULL,victim,TO_NOTVICT);
+      snprintf(buf, MAX_INPUT_LENGTH, "You hurl $N into the %s wall.", direction);
+      act(buf,ch,NULL,victim,TO_CHAR);
+      snprintf(buf, MAX_INPUT_LENGTH, "$n hurls you into the %s wall.", direction);
+      act(buf,ch,NULL,victim,TO_VICT);
+      dam = number_range(ch->level, (ch->level * 4));
+      if (dam < 0)
+        dam = -dam;
+      victim->hit = victim->hit - dam;
+      update_pos(victim);
+      if (victim->position == POS_DEAD)
+      {
+
+        if (IS_NPC(victim) && !IS_NPC(ch)) ch->mkill = ch->mkill + 1;
+        if (!IS_NPC(victim) && IS_NPC(ch)) victim->mdeath = victim->mdeath + 1;
+        raw_kill(victim);
+        return;
+      }
+      return;
+    }
+
+    if(IS_SET(pexit->exit_info, EX_BASHPROOF))
+    {
+      act("That $d is hurlproof!", ch, NULL, pexit->keyword, TO_CHAR);
+      return;
+    }
+
+    pexit = victim->in_room->exit[door];
+    if (IS_SET(pexit->exit_info, EX_CLOSED) &&
+      !IS_SET(pexit->exit_info, EX_BASHPROOF) &&
+      !IS_AFFECTED(victim,AFF_PASS_DOOR ) &&
+      !IS_AFFECTED(victim,AFF_ETHEREAL  ) )
+    {
+      if (IS_SET(pexit->exit_info, EX_LOCKED))
+        REMOVE_BIT(pexit->exit_info, EX_LOCKED);
+      if (IS_SET(pexit->exit_info, EX_CLOSED))
+        REMOVE_BIT(pexit->exit_info, EX_CLOSED);
+      snprintf(buf, MAX_INPUT_LENGTH, "$n hoists $N in the air and hurls $M %s.", direction);
+      act(buf,ch,NULL,victim,TO_NOTVICT);
+      snprintf(buf, MAX_INPUT_LENGTH, "You hoist $N in the air and hurl $M %s.", direction);
+      act(buf,ch,NULL,victim,TO_CHAR);
+      snprintf(buf, MAX_INPUT_LENGTH, "$n hurls you %s, smashing you through the $d.", direction);
+      act(buf,ch,NULL,victim,TO_VICT);
+      snprintf(buf, MAX_INPUT_LENGTH, "There is a loud crash as $n smashes through the $d.");
+      act(buf,victim,NULL,pexit->keyword,TO_ROOM);
+
+      if ( ( to_room   = pexit->to_room               ) != NULL
+        &&   ( pexit_rev = to_room->exit[rev_dir] ) != NULL
+        &&   pexit_rev->to_room == ch->in_room
+    &&   pexit_rev->keyword != NULL )
+      {
+        if (IS_SET(pexit_rev->exit_info, EX_LOCKED))
+          REMOVE_BIT( pexit_rev->exit_info, EX_LOCKED );
+        if (IS_SET(pexit_rev->exit_info, EX_CLOSED))
+          REMOVE_BIT( pexit_rev->exit_info, EX_CLOSED );
+        if (door == 0) snprintf(direction, MAX_INPUT_LENGTH, "south");
+        if (door == 1) snprintf(direction, MAX_INPUT_LENGTH, "west");
+        if (door == 2) snprintf(direction, MAX_INPUT_LENGTH, "north");
+        if (door == 3) snprintf(direction, MAX_INPUT_LENGTH, "east");
+        char_from_room(victim);
+        char_to_room(victim,to_room);
+        snprintf(buf, MAX_INPUT_LENGTH, "$n comes smashing in through the %s $d.", direction);
+        act(buf,victim,NULL,pexit->keyword,TO_ROOM);
+        dam = number_range(ch->level, (ch->level * 6));
+        if ( dam < 0)
+          dam = -dam;
+        victim->hit = victim->hit - dam;
+        update_pos(victim);
+        if (victim->position == POS_DEAD)
+        {
+
+          if (IS_NPC(victim) && !IS_NPC(ch)) ch->mkill = ch->mkill + 1;
+          if (!IS_NPC(victim) && IS_NPC(ch)) victim->mdeath = victim->mdeath + 1;
+          raw_kill(victim);
+          return;
+        }
+      }
+    }
+    else
+    {
+      snprintf(buf, MAX_INPUT_LENGTH, "$n hurls $N %s.", direction);
+      act(buf,ch,NULL,victim,TO_NOTVICT);
+      snprintf(buf, MAX_INPUT_LENGTH, "You hurl $N %s.", direction);
+      act(buf,ch,NULL,victim,TO_CHAR);
+      snprintf(buf, MAX_INPUT_LENGTH, "$n hurls you %s.", direction);
+      act(buf,ch,NULL,victim,TO_VICT);
+      if (door == 0) snprintf(direction, MAX_INPUT_LENGTH, "south");
+      if (door == 1) snprintf(direction, MAX_INPUT_LENGTH, "west");
+      if (door == 2) snprintf(direction, MAX_INPUT_LENGTH, "north");
+      if (door == 3) snprintf(direction, MAX_INPUT_LENGTH, "east");
+      char_from_room(victim);
+      char_to_room(victim,to_room);
+      snprintf(buf, MAX_INPUT_LENGTH, "$n comes flying in from the %s.", direction);
+      act(buf,victim,NULL,NULL,TO_ROOM);
+      dam = number_range(ch->level, (ch->level * 2));
+      if ( dam < 0)
+        dam = -dam;
+      victim->hit = victim->hit - dam;
+      update_pos(victim);
+      if (victim->position == POS_DEAD)
+      {
+        if (IS_NPC(victim) && !IS_NPC(ch)) ch->mkill = ch->mkill + 1;
+        if (!IS_NPC(victim) && IS_NPC(ch)) victim->mdeath = victim->mdeath + 1;
+        raw_kill(victim);
+        return;
+      }
+    }
+    return;
+
+  }
+};

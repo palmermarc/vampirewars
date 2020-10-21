@@ -48,7 +48,6 @@ module.exports = {
       return B.sayAt(player, 'They are hurt and suspicious.' );
     }
 
-
     B.sayAt(player, `You draw your fist back and aim a punch at ${target.name}`);
     B.sayAt(target, `${player.name} draws their fist back and aims a punch at you.`);
     B.sayAtExcept(room, `"{player.name} draws $s fist back and aims a punch at ${target.name}.`, [player,target]);

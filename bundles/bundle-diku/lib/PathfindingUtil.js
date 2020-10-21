@@ -1,6 +1,5 @@
 'use strict';
 
-const srcPath = __dirname + '/../../../src/';
 const { Logger } = require('ranvier');
 
 exports.findPathInContinent = (state, ch, targetRoom) => {
@@ -26,7 +25,6 @@ function findPath(state, ch, targetRoom, searchRooms) {
   const backtrace = {};
   const pq = new PriorityQueue();
 
-  Logger.log('Made it this far...');
 
   // Add the first room to queue, then add its exits, etc.
   pq.enqueue(startRoom);
@@ -50,10 +48,6 @@ function findPath(state, ch, targetRoom, searchRooms) {
     }
   }
 
-  Logger.log('Made it past the pq stuff');
-
-  Logger.log('We found a path, sweet!');
-
   // Use backtrace to construct the optimal path
   let path = [{ tarER: targetRoom.entityReference, direction: null }];
   let lastStep = { tarER: targetRoom.entityReference };
@@ -62,9 +56,6 @@ function findPath(state, ch, targetRoom, searchRooms) {
     lastStep = backtrace[lastStep.tarER];
   }
 
-  Logger.log('We should be getting close...');
-
-  Logger.log('path Length:', path.length, 'roomsbacktrace', Object.keys(backtrace).length, 'moves', mvCosts[targetRoom.entityReference], 'mvCosts', Object.keys(mvCosts).length, 'count', pq.count)
   return path;
 };
 

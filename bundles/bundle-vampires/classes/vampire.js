@@ -12,9 +12,7 @@ module.exports = {
   description: 'Vampires are an abomination on this land. A curse, dating back to Caine\'s murder of Abel. They have supernatural strength, speed, and more. While they are incredibly strong, they also have many weaknesses.',
 
   abilityTable: {
-    1: { spells: ['fireball', 'blessing', 'acid blast', 'energy drain'] },
-    3: { skills: ['bite'] },
-    4: { skills: ['claw'] },
+    10: { skills: ['bite', 'clanbalance', 'clandeposit', 'claninfo', 'clanwithdraw', 'discipline', 'favour', 'introduce', 'outcast', 'regenerate', 'tier', 'tradition', 'upkeep', 'vampire', 'vclan'] },
   },
 
   setupPlayer: (state, player) => {

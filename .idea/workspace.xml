@@ -20,18 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-combat/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-combat/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-hunt/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-hunt/player-events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/PathfindingUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/PathfindingUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-combat/punch.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-combat/punch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/PathfindingUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/lib/PathfindingUtil.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/hunt.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/commands/hunt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-player-events" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranvier.json" beforeDir="false" afterPath="$PROJECT_DIR$/ranvier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/sacrifice.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/commands/sacrifice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/mage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/paladin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/warrior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/lib/PlayerClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/lib/PlayerClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/fireball.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/fireball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/lunge.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/lunge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/classes/vampire.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-vampires/classes/vampire.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/areas/craft/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/areas/craft/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku-hunt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/audiences" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,18 +80,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/lib" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/help" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/effects" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku-core" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/audiences" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku-hunt" />
       <recent name="$PROJECT_DIR$/bundles/bundle-hunt" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku-combat" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -114,6 +125,8 @@
       <workItem from="1599667636514" duration="4502000" />
       <workItem from="1600093439567" duration="10295000" />
       <workItem from="1600431845563" duration="5021000" />
+      <workItem from="1601988287264" duration="829000" />
+      <workItem from="1602507599899" duration="5077000" />
     </task>
     <servers />
   </component>
