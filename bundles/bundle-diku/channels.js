@@ -6,8 +6,15 @@ const {
   PrivateAudience,
   RoomAudience,
   WorldAudience,
-  VampireAudience,
 } = require('ranvier');
+const AssamiteAudience = require('./audiences/AssamiteAudience');
+const ImmortalAudience = require('./audiences/ImmortalAudience');
+const LasambraAudience = require('./audiences/LasambraAudience');
+const ToreadorAudience = require('./audiences/ToreadorAudience');
+const TremereAudience = require('./audiences/TremereAudience');
+const TzimisceAudience = require('./audiences/TzimisceAudience');
+const VampAudience = require('./audiences/VampAudience');
+const VentrueAudience = require('./audiences/VentrueAudience');
 
 const { Channel } = require('ranvier').Channel;
 
@@ -84,102 +91,115 @@ module.exports = [
     }
   }),
 
-  /**
-
   new Channel({
-    name: 'asstalk',
-    color: ['bold', 'blue'],
-    description: 'Send a message to every vampire anywhere in the game',
-    audience: new VampireAudience(),
+    name: 'vtalk',
+    color: ['bold', 'green'],
+    description: 'Send a message to all vampires anywhere in the game',
+    audience: new VampAudience(),
     formatter: {
       sender: function (sender, target, message, colorify) {
-        return colorify(`You tell the group, '${message}'`);
+        return colorify(`[Kindred]:<${sender.name}>: ${message}`);
       },
 
       target: function (sender, target, message, colorify) {
-        return colorify(`${sender.name} tells the group, '${message}'`);
+        return colorify(`[Kindred]:<${sender.name}>: ${message}`);
+      }
+    }
+  }),
+
+  new Channel({
+    name: 'assatalk',
+    color: ['bold', 'green'],
+    description: 'Send a message to all Assamite vampires',
+    audience: new AssamiteAudience(),
+    formatter: {
+      sender: function (sender, target, message, colorify) {
+        return colorify(`<${sender.name}> ${message}`);
+      },
+
+      target: function (sender, target, message, colorify) {
+        return colorify(`<${sender.name}> ${message}`);
+      }
+    }
+  }),
+
+  new Channel({
+    name: 'lastalk',
+    color: ['bold', 'green'],
+    description: 'Send a message to all Lasambra vampires',
+    audience: new LasambraAudience(),
+    formatter: {
+      sender: function (sender, target, message, colorify) {
+        return colorify(`<${sender.name}> ${message}`);
+      },
+
+      target: function (sender, target, message, colorify) {
+        return colorify(`<${sender.name}> ${message}`);
       }
     }
   }),
 
   new Channel({
     name: 'tortalk',
-    color: ['bold', 'blue'],
-    description: 'Send a message to every vampire anywhere in the game',
-    audience: new VampireAudience(),
+    color: ['bold', 'green'],
+    description: 'Send a message to all Toreador vampires',
+    audience: new ToreadorAudience(),
     formatter: {
       sender: function (sender, target, message, colorify) {
-        return colorify(`You tell the group, '${message}'`);
+        return colorify(`<${sender.name}> ${message}`);
       },
 
       target: function (sender, target, message, colorify) {
-        return colorify(`${sender.name} tells the group, '${message}'`);
+        return colorify(`<${sender.name}> ${message}`);
       }
     }
   }),
 
   new Channel({
     name: 'tremtalk',
-    color: ['bold', 'blue'],
-    description: 'Send a message to every vampire anywhere in the game',
-    audience: new VampireAudience(),
+    color: ['bold', 'green'],
+    description: 'Send a message to all Tremere vampires',
+    audience: new TremereAudience(),
     formatter: {
       sender: function (sender, target, message, colorify) {
-        return colorify(`You tell the group, '${message}'`);
+        return colorify(`<${sender.name}> ${message}`);
       },
 
       target: function (sender, target, message, colorify) {
-        return colorify(`${sender.name} tells the group, '${message}'`);
+        return colorify(`<${sender.name}> ${message}`);
       }
     }
   }),
 
   new Channel({
     name: 'tzitalk',
-    color: ['bold', 'blue'],
-    description: 'Send a message to every vampire anywhere in the game',
-    audience: new VampireAudience(),
+    color: ['bold', 'green'],
+    description: 'Send a message to all Tzimisce vampires',
+    audience: new TzimisceAudience(),
     formatter: {
       sender: function (sender, target, message, colorify) {
-        return colorify(`You tell the group, '${message}'`);
+        return colorify(`<${sender.name}> ${message}`);
       },
 
       target: function (sender, target, message, colorify) {
-        return colorify(`${sender.name} tells the group, '${message}'`);
-      }
-    }
-  }),
-
-  new Channel({
-    name: 'vamptalk',
-    color: ['bold', 'blue'],
-    description: 'Send a message to every vampire anywhere in the game',
-    audience: new VampireAudience(),
-    formatter: {
-      sender: function (sender, target, message, colorify) {
-        return colorify(`You tell the group, '${message}'`);
-      },
-
-      target: function (sender, target, message, colorify) {
-        return colorify(`${sender.name} tells the group, '${message}'`);
+        return colorify(`<${sender.name}> ${message}`);
       }
     }
   }),
 
   new Channel({
     name: 'ventalk',
-    color: ['bold', 'blue'],
-    description: 'Send a message to every vampire anywhere in the game',
-    audience: new VampireAudience(),
+    color: ['bold', 'green'],
+    description: 'Send a message to all Ventrue vampires',
+    audience: new VentrueAudience(),
     formatter: {
       sender: function (sender, target, message, colorify) {
-        return colorify(`You tell the group, '${message}'`);
+        return colorify(`<${sender.name}> ${message}`);
       },
 
       target: function (sender, target, message, colorify) {
-        return colorify(`${sender.name} tells the group, '${message}'`);
+        return colorify(`<${sender.name}> ${message}`);
       }
     }
   }),
-  */
 ];

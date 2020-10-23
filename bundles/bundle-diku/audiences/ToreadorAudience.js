@@ -7,10 +7,10 @@ const ChannelAudience = require('ranvier');
  * @memberof ChannelAudience
  * @extends ChannelAudience
  */
-class VampAudience extends ChannelAudience {
+class ToreadorAudience extends ChannelAudience {
   getBroadcastTargets() {
     return this.state.PlayerManager.filter(player => player.getMeta('clan') === 'Toreador');
   }
 }
 
-module.exports = VampAudience;
+module.exports = ToreadorAudience;

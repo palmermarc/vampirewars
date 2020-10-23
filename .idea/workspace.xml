@@ -19,31 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-combat/punch.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-combat/punch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/PathfindingUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/lib/PathfindingUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/hunt.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/commands/hunt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/sacrifice.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/commands/sacrifice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-areas/areas/limbo/npcs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/mage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/paladin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/classes/warrior.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/lib/PlayerClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/lib/PlayerClass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/player-events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/fireball.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/fireball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/judge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/lunge.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/lunge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/potion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/rend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-classes/skills/smite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-example-player-events/player-events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/classes/vampire.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-vampires/classes/vampire.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/areas/craft/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/areas/craft/items.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/craft.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/gather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/simple-crafting/commands/resources.js" afterDir="false" />
-    </list>
+    <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +52,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -126,7 +102,9 @@
       <workItem from="1600093439567" duration="10295000" />
       <workItem from="1600431845563" duration="5021000" />
       <workItem from="1601988287264" duration="829000" />
-      <workItem from="1602507599899" duration="5077000" />
+      <workItem from="1602507599899" duration="6417000" />
+      <workItem from="1603399353804" duration="704000" />
+      <workItem from="1603456064950" duration="1403000" />
     </task>
     <servers />
   </component>
@@ -145,6 +123,29 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/bundles/bundle-combat" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-areas" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-channels" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-classes" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-combat" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-commands" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-debug" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-effects" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-input-events" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-player-events" />
+      <path value="$PROJECT_DIR$/bundles/bundle-example-quests" />
+      <path value="$PROJECT_DIR$/bundles/lootable-npcs" />
+      <path value="$PROJECT_DIR$/bundles/player-groups" />
+      <path value="$PROJECT_DIR$/bundles/progressive-respawn" />
+      <path value="$PROJECT_DIR$/bundles/simple-crafting" />
+      <path value="$PROJECT_DIR$/bundles/telnet-networking" />
+      <path value="$PROJECT_DIR$/bundles/vendor-npcs" />
+      <path value="$PROJECT_DIR$/bundles/websocket-networking" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599237348075">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -156,7 +157,6 @@
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1601600439668" />
     <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236516" />
     <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281478" />
-    <state width="2560" height="405" key="GridCell.Tab.0.bottom/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964075" />
     <state width="2518" height="439" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.23.1920.973@0.23.2560.1417" timestamp="1600375867691" />
     <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601600439668">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -164,7 +164,6 @@
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1601600439668" />
     <state width="2518" height="439" key="GridCell.Tab.0.center/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236515" />
     <state width="2518" height="439" key="GridCell.Tab.0.center/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281477" />
-    <state width="2560" height="405" key="GridCell.Tab.0.center/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964073" />
     <state width="2518" height="439" key="GridCell.Tab.0.center/0.23.2560.1417/2560.23.1920.973@0.23.2560.1417" timestamp="1600375867690" />
     <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601600439668">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -172,7 +171,6 @@
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1601600439668" />
     <state width="2518" height="439" key="GridCell.Tab.0.left/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236514" />
     <state width="2518" height="439" key="GridCell.Tab.0.left/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281476" />
-    <state width="2560" height="405" key="GridCell.Tab.0.left/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964073" />
     <state width="2518" height="439" key="GridCell.Tab.0.left/0.23.2560.1417/2560.23.1920.973@0.23.2560.1417" timestamp="1600375867688" />
     <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601600439668">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -180,27 +178,15 @@
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1601600439668" />
     <state width="2518" height="439" key="GridCell.Tab.0.right/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1600113236516" />
     <state width="2518" height="439" key="GridCell.Tab.0.right/0.23.2560.1329/2560.23.1920.1057@0.23.2560.1329" timestamp="1599667281478" />
-    <state width="2560" height="405" key="GridCell.Tab.0.right/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594407964074" />
     <state width="2518" height="439" key="GridCell.Tab.0.right/0.23.2560.1417/2560.23.1920.973@0.23.2560.1417" timestamp="1600375867690" />
-    <state x="781" y="359" key="SettingsEditor" timestamp="1593463786677">
+    <state x="781" y="359" key="SettingsEditor" timestamp="1603298582319">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="781" y="359" key="SettingsEditor/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1593463786677" />
-    <state x="1068" y="577" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594305832825">
-      <screen x="0" y="23" width="2560" height="1342" />
-    </state>
-    <state x="1068" y="577" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1342/2560.23.1920.1057@0.23.2560.1342" timestamp="1594305832825" />
-    <state x="1068" y="608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1417/2560.23.1920.1004@0.23.2560.1417" timestamp="1593203062001" />
-    <state x="945" y="345" key="run.anything.popup" timestamp="1594410283000">
-      <screen x="0" y="0" width="2560" height="1440" />
-    </state>
-    <state x="945" y="345" key="run.anything.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1594410283000" />
+    <state x="781" y="359" key="SettingsEditor/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1603298582319" />
     <state x="945" y="324" width="670" height="724" key="search.everywhere.popup" timestamp="1599159424600">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="945" y="324" width="670" height="724" key="search.everywhere.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599159424600" />
-    <state x="945" y="326" width="670" height="676" key="search.everywhere.popup/0.23.2560.1347/2560.23.1920.1057@0.23.2560.1347" timestamp="1593181009102" />
-    <state x="945" y="326" width="670" height="677" key="search.everywhere.popup/0.23.2560.1348/2560.23.1920.1057@0.23.2560.1348" timestamp="1593186045337" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
