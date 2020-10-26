@@ -19,6 +19,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o6505
   name: "dwarven plate"
@@ -47,16 +48,18 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o6509
   name: "two-handed dwarven axe"
   roomDesc: "A two-handed Dwarven axe is here."
   keywords: ["two-handed","dwarven","axe"]
   description: "A two-handed Dwarven axe is here."
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o6510
   name: "helmet"
@@ -105,10 +108,11 @@
   roomDesc: "There is a mining pick here."
   keywords: ["pick"]
   description: "There is a mining pick here."
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o6519
   name: "pills"

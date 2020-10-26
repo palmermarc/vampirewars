@@ -9,4 +9,4 @@ metadata:
   filename: "wyvern.json"
 behaviors:
   progressive-respawn:
-    interval: 20
+    interval: 60

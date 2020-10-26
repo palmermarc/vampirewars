@@ -15,10 +15,11 @@
   roomDesc: "A shiny blade is on the floor."
   keywords: ["longsword","sword","long"]
   description: "A shiny blade is on the floor."
-  type: WEAPON15HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o7803
   name: "cloak brown"
@@ -44,15 +45,18 @@
   keywords: ["ring"]
   description: "A shiny ring is on the floor."
   type: ACCESSORY
+  metadata:
+      slot: 'finger'
 - id: o7807
   name: "quarterstaff staff"
   roomDesc: "A quarterstaff is on the floor."
   keywords: ["quarterstaff","staff"]
   description: "A quarterstaff is on the floor."
-  type: WEAPON15HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o7808
   name: "potion"

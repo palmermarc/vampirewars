@@ -129,40 +129,44 @@
   roomDesc: "A strange polearm lies here"
   keywords: ["gythka"]
   description: "A strange polearm lies here"
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o25522
   name: "gythka"
   roomDesc: "A strange polearm lies here"
   keywords: ["gythka"]
   description: "A strange polearm lies here"
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o25523
   name: "gythka"
   roomDesc: "A strange polearm lies here"
   keywords: ["gythka"]
   description: "A strange polearm lies here"
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o25524
   name: "gythka"
   roomDesc: "A strange polearm lies here"
   keywords: ["gythka"]
   description: "A strange polearm lies here"
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o25525
   name: "chaktcha"
@@ -173,6 +177,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o25526
   name: "chaktcha"
@@ -183,6 +188,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o25527
   name: "shield leather"

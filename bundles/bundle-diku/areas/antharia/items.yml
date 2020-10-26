@@ -103,31 +103,34 @@
   roomDesc: "A sparkling trident, of Antharian make, is here."
   keywords: ["Trident"]
   description: "A sparkling trident, of Antharian make, is here."
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1817
   name: "trident"
   roomDesc: "A sparkling trident, of Antharian make, is here."
   keywords: ["trident"]
   description: "A sparkling trident, of Antharian make, is here."
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1818
   name: "trident"
   roomDesc: "A sparkling trident, of Antharian make, is here."
   keywords: ["trident"]
   description: "A sparkling trident, of Antharian make, is here."
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1819
   name: "Seafood platter"
   roomDesc: "A big plate of Seafood is here."
@@ -222,3 +225,4 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'

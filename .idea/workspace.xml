@@ -19,7 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="" />
+    <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vampirewars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vampirewars.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/air/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/air/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/air/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/air/manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/daycare/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/daycare/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/dwarven/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/dwarven/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/valley/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/valley/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/vishnaak/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/vishnaak/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/vishnaak/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/vishnaak/manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/vlord/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/vlord/manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/wolfden/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/wolfden/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/wolfden/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/wolfden/manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/wyvern/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/wyvern/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/wyvern/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/wyvern/manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/zoo/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/zoo/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/zoo/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/zoo/manifest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/audiences/AssamiteAudience.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/audiences/AssamiteAudience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/channels.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/channels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/wear.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/commands/wear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/config.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/audiences" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-diku/commands" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,21 +76,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/lib" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/help" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/effects" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/audiences" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku-hunt" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-hunt" />
-      <recent name="$PROJECT_DIR$/bundles" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/classes" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc" />
+      <recent name="$USER_HOME$/Downloads/vw-liliths-revenge-master/area" />
+      <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -104,7 +128,9 @@
       <workItem from="1601988287264" duration="829000" />
       <workItem from="1602507599899" duration="6417000" />
       <workItem from="1603399353804" duration="704000" />
-      <workItem from="1603456064950" duration="1403000" />
+      <workItem from="1603456064950" duration="15171000" />
+      <workItem from="1603716342018" duration="3573000" />
+      <workItem from="1603734806981" duration="3841000" />
     </task>
     <servers />
   </component>
@@ -147,10 +173,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599237348075">
+    <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603476362323">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599237348075" />
+    <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1603476362323" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601600439668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -183,10 +209,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="359" key="SettingsEditor/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1603298582319" />
-    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup" timestamp="1599159424600">
+    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup" timestamp="1603739069249">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1599159424600" />
+    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1603739069249" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

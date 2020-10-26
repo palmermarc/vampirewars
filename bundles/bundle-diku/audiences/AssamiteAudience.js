@@ -1,6 +1,6 @@
 'use strict';
 
-const ChannelAudience = require('ranvier');
+const {ChannelAudience} = require('ranvier');
 
 /**
  * Audience class representing everyone in the game, except sender.
@@ -9,7 +9,7 @@ const ChannelAudience = require('ranvier');
  */
 class AssamiteAudience extends ChannelAudience {
   getBroadcastTargets() {
-    return this.state.PlayerManager.filter(player => player.getMeta('clan') === 'assamite');
+    return this.state.PlayerManager.filter(player => player.getMeta('clan') === 'Assamite');
   }
 }
 

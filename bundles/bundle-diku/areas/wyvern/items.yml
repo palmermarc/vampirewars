@@ -8,6 +8,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1602
   name: "fine mace"
   roomDesc: "There is a large mace of fine quality here."
@@ -18,6 +19,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1603
   name: "elven dagger"
   roomDesc: "A long elven dagger made of adamantite is here."
@@ -28,16 +30,18 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1604
   name: "steel broad sword"
   roomDesc: "A fine steel broad sword is lying on the ground."
   keywords: ["steel","broad","sword"]
   description: "A fine steel broad sword is lying on the ground."
-  type: WEAPON15HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1606
   name: "rod might"
   roomDesc: "A Rod of Might is lying here."
@@ -48,6 +52,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1612
   name: "black kite shield"
   roomDesc: "There is a large black kite shield lying here."
@@ -111,41 +116,45 @@
   roomDesc: "A short bow has been carelessly left here."
   keywords: ["short","bow"]
   description: "A short bow has been carelessly left here."
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1702
   name: "long bow"
   roomDesc: "A long bow has been foolishly abandoned here."
   keywords: ["long","bow"]
   description: "A long bow has been foolishly abandoned here."
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1703
   name: "gnarled staff"
   roomDesc: "A gnarled looking staff lies on the ground."
   keywords: ["gnarled","staff"]
   description: "A gnarled looking staff lies on the ground."
-  type: WEAPON15HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1704
   name: "ancient sword"
   roomDesc: "An ancient long sword has been left here."
   keywords: ["ancient","sword"]
   description: "An ancient long sword has been left here."
-  type: WEAPON15HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o1711
   name: "fur cap"
   roomDesc: "A fur cap lies here on the ground."

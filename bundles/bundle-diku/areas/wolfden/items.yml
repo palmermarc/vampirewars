@@ -8,6 +8,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
+    slot: 'one_hand'
 - id: o25901
   name: "flea"
   roomDesc: "This flea is looking for another host."

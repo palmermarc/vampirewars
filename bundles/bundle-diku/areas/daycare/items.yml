@@ -3,10 +3,11 @@
   roomDesc: "An axe made of plastic lies here."
   keywords: ["axe","toy"]
   description: "An axe made of plastic lies here."
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
 - id: o6601
   name: "ring pink ice"
@@ -43,8 +44,9 @@
   roomDesc: "A toy gun with a sharp bayonet lies here."
   keywords: ["gun","toy"]
   description: "A toy gun with a sharp bayonet lies here."
-  type: WEAPON2HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'one_hand'
     speed: 2.8
