@@ -12,19 +12,19 @@ module.exports = {
     }
 
     let gold = player.getMeta('currencies.gold');
-    let guildBalance = player.getMeta('guildBalance');
+    let balance = player.getMeta('balance');
 
-    if( !guildBalance ) {
-      player.setMeta( 'guildBalance', 0);
-      guildBalance = 0;
+    if( !balance ) {
+      player.setMeta( 'balance', 0);
+      balance = 0;
     }
 
-    if( guildBalance < args ) {
+    if( balance < args ) {
       return B.sayAt(player, `You don't have that much gold in the guild bank!`);
     }
 
     player.setMeta('currencies.gold', gold + args );
-    player.setMeta('guildBalanace', guildBalance - args );
+    player.setMeta('guildBalanace', balance - args );
     return B.sayAt(player, `You have withdrawn ${args} from the guild bank.`);
 
 

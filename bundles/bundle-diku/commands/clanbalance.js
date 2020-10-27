@@ -5,13 +5,13 @@ const { Broadcast: B } = require('ranvier');
 module.exports = {
   usage: 'clanbalance',
   command : (state) => (args, player) => {
-    let guildBalance = player.getMeta('guildBalance');
+    let balance = player.getMeta('balance');
 
-    if( !guildBalance ) {
-      player.setMeta( 'guildBalance', 0);
-      guildBalance = 0;
+    if( !balance ) {
+      player.setMeta( 'balance', 0);
+      balance = 0;
     }
 
-    return B.sayAt(player, `You have ${guildBalance} gold in the guild bank.`);
+    return B.sayAt(player, `You have ${balance} gold in the guild bank.`);
   }
 };
