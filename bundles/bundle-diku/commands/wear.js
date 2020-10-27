@@ -3,8 +3,8 @@
 const Ranvier = require('ranvier');
 const { Broadcast: B, Logger } = Ranvier;
 const { EquipSlotTakenError } = Ranvier.EquipErrors;
-const ItemUtil = require('../../bundle-diku/lib/ItemUtil');
-const ArgParser = require('../../bundle-diku/lib/ArgParser');
+const ItemUtil = require('../lib/ItemUtil');
+const ArgParser = require('../lib/ArgParser');
 
 module.exports = {
   aliases: [ 'wield' ],

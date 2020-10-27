@@ -1,7 +1,7 @@
 'use strict';
 
 const { Broadcast } = require('ranvier');
-const ArgParser = require('../../bundle-diku/lib/ArgParser');
+const ArgParser = require('../lib/ArgParser');
 
 module.exports = {
   command: state => (arg, player) => {

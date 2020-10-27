@@ -1,7 +1,7 @@
 'use strict';
 
 const { Broadcast } = require('ranvier');
-const ItemUtil = require('../../bundle-diku/lib/ItemUtil');
+const ItemUtil = require('../lib/ItemUtil');
 
 module.exports = {
   usage: 'inventory',

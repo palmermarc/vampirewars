@@ -2,17 +2,38 @@
 
 module.exports = [
   {
-    name: 'health',
-    base: 500,
+    name: 'strength',
+    base: 5,
     metadata: {
-      label: 'Health',
-    },
-    formula: {
-      requires: [],
-      fn: function (character, health) {
-        let levelBonus = ( Math.ceil( character.level/100 ) ) * 25;
-        return health + levelBonus;
-      },
+      label: 'Str'
+    }
+  },
+  {
+    name: 'dexterity',
+    base: 5,
+    metadata: {
+      label: 'Dex'
+    }
+  },
+  {
+    name: 'intelligence',
+    base: 5,
+    metadata: {
+      label: 'Int'
+    }
+  },
+  {
+    name: 'wisdom',
+    base: 5,
+    metadata: {
+      label: 'Wis'
+    }
+  },
+  {
+    name: 'constitution',
+    base: 5,
+    metadata: {
+      label: 'Con'
     },
   },
   {
@@ -20,132 +41,69 @@ module.exports = [
     base: 500,
     metadata: {
       label: 'Mana',
+      levelMultiplier: 10
     },
-    formula: {
-      requires: [],
-      fn: function (character, mana) {
-        let levelBonus = ( Math.ceil( character.level/100 ) ) * 25;
-        return mana + levelBonus;
-      },
+    fn: function (character, mana) {
+      // Using the example formula from before:
+      return Math.floor(
+        // Give them 10 per level
+        mana + (character.level - 1) * this.metadata.levelMultiplier
+      );
+    }
+  },
+  {
+    name: 'health',
+    base: 5,
+    metadata: {
+      label: 'Health',
+      levelMultiplier: 10,
     },
+    fn: function (character, health) {
+      // Using the example formula from before:
+      return Math.floor(
+        health + (character.level - 1) * this.metadata.levelMultiplier
+      );
+    }
   },
   {
     name: 'move',
-    base: 500,
+    base: 5,
     metadata: {
-      label: 'Move',
+      label: 'Movement',
+      levelMultiplier: 10
     },
-    formula: {
-      requires: [],
-      fn: function (character, move) {
-        let levelBonus = ( Math.ceil( character.level/100 ) ) * 25;
-        return move + levelBonus;
-      },
-    },
+    fn: function (character, move) {
+      // Using the example formula from before:
+      return Math.floor(
+        move + (character.level - 1) * this.metadata.levelMultiplier
+      );
+    }
   },
   {
-    name: 'strength',
-    base: 25,
-    metadata: {
-      label: 'Strength',
-    },
-    formula: {
-      requires: [],
-      fn: function (character, strength) {
-        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
-        return strength + levelBonus;
-      },
-    },
-  },
-  {
-    name: 'intellect',
-    base: 25,
-    metadata: {
-      label: 'Intellect',
-    },
-    formula: {
-      requires: [],
-      fn: function (character, intellect) {
-        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
-        return intellect + levelBonus;
-      },
-    },
-  },
-  {
-    name: 'wisdom',
-    base: 25,
-    metadata: {
-      label: 'Wisdom',
-    },
-    formula: {
-      requires: [],
-      fn: function (character, wisdom) {
-        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
-        return wisdom + levelBonus;
-      },
-    },
-  },
-  {
-    name: 'dexterity',
-    base: 25,
-    metadata: {
-      label: 'Dexterity',
-    },
-    formula: {
-      requires: [],
-      fn: function (character, dexterity) {
-        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
-        return dexterity + levelBonus;
-      },
-    },
-  },
-  {
-    name: 'constitution',
-    base: 25,
-    metadata: {
-      label: 'Constitution'
-    },
-    formula: {
-      requires: [],
-      fn: function (character, constitution) {
-        let levelBonus = ( Math.ceil( character.level/100 ) ) * 2;
-        return constitution + levelBonus;
-      },
-    },
-  },
-  {
-    // Need to figure out armor scaling...
     name: 'armor',
-    base: 25,
+    base: 5,
     metadata: {
       label: 'Armor',
-    },
+      levelMultiplier: 5
+    }
   },
   {
-    // Need to figure out armor scaling...
-    name: 'dodge',
-    base: 5,
+    name: 'hit_chance',
+    base: 90,
     metadata: {
-      label: 'Dodge',
-    },
-  },
-  {
-    // Need to figure out armor scaling...
-    name: 'parry',
-    base: 5,
-    metadata: {
-      label: 'Parry',
-    },
+      label: 'hit_chance'
+    }
   },
   {
     name: 'attack_power',
-    base: 10,
+    base: 5,
     metadata: {
+      label: 'Attack Power',
       classModifiers: {
-        vampire: 2,
-        werewolf: 2.5,
-        mage: 0.5,
         human: 1,
+        mage: 0.5,
+        vampire: 2,
+        werewolf: 3,
         _default: 1,
       },
     },
@@ -159,70 +117,52 @@ module.exports = [
     },
   },
   {
-    name: 'critical_strike',
+    name: 'save_vs_spell',
     base: 5,
     metadata: {
-      label: 'Critical Strike',
-      classModifiers: {
-        vampire: 1,
-        werewolf: 1,
-        mage: 0.25, // Mages get less crit because their spells have base crit conditions built in
-        human: 1,
-        _default: 1,
-      },
-    },
-    formula: {
-      requires: ['dexterity'],
-      fn: function (character, critical_strike, dexterity) {
-        const characterClass = character.getMeta('class') || '_default';
-        const modifier = this.metadata.classModifiers[characterClass];
-        return critical_strike + (dexterity * modifier);
-      },
-    }
-  },
-  /**
-   * Spell power for vampires will impact how hard their non-physical abilities hit for,
-   * including enchantments.
-   */
-  {
-    name: 'spell_power',
-    base: 10,
-    metadata: {
-      label: 'Spell Power',
-      classModifiers: {
-        vampire: 0.5,
-        werewolf: 0.5,
-        mage: 2,
-        human: 1,
-        _default: 1,
-      },
-    },
-    formula: {
-      requires: ['intellect'],
-      fn: function (character, spell_power, intellect) {
-        const characterClass = character.getMeta('class') || '_default';
-        const modifier = this.metadata.classModifiers[characterClass];
-        return spell_power + (intellect * modifier);
-      },
+      label: 'Save vs. Spell'
     }
   },
   {
-    name: 'hitroll', // 100 hitroll is 1% chance to hit
-    base: 5,
-  },
-  {
-    name: 'damroll',
-    base: 5,
-  },
-  {
-    name: 'alignment',
-    base: 0,
-  },
-  {
-    name: 'svs',
+    name: 'gold_boost',
     base: 5,
     metadata: {
-      'label': 'Save vs. Spell'
+      label: 'Gold Boost'
+    }
+  },
+  {
+    name: 'exp_boost',
+    base: 5,
+    metadata: {
+      label: 'EXP Boost'
+    }
+  },
+  {
+    name: 'qp_boost',
+    base: 5,
+    metadata: {
+      label: 'QP Boost'
+    }
+  },
+  {
+    name: 'parry',
+    base: 5,
+    metadata: {
+      label: 'Parry'
+    }
+  },
+  {
+    name: 'block',
+    base: 5,
+    metadata: {
+      label: 'Block Chance'
+    }
+  },
+  {
+    name: 'dodge',
+    base: 5,
+    metadata: {
+      label: 'Dodge Chance'
     }
   }
 ];

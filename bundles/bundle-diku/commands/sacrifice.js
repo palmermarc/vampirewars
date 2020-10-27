@@ -1,8 +1,8 @@
 'use strict';
 
-const { Broadcast: B, ItemType } = require('ranvier');
-const ArgParser = require('../../bundle-diku/lib/ArgParser');
-const ItemUtil = require('../../bundle-diku/lib/ItemUtil');
+const { Broadcast: B } = require('ranvier');
+const ArgParser = require('../lib/ArgParser');
+const ItemUtil = require('../lib/ItemUtil');
 
 module.exports = {
   usage: 'sacrifice <item>',

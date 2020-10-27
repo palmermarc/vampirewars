@@ -3,8 +3,8 @@
 const humanize = (sec) => { return require('humanize-duration')(sec, { round: true }); };
 const sprintf = require('sprintf-js').sprintf;
 const {Broadcast: B, Room, Item, ItemType, Logger, Player} = require('ranvier');
-const ArgParser = require('../../bundle-diku/lib/ArgParser');
-const ItemUtil = require('../../bundle-diku/lib/ItemUtil');
+const ArgParser = require('../lib/ArgParser');
+const ItemUtil = require('../lib/ItemUtil');
 
 module.exports = {
   usage: "spy [direction]",

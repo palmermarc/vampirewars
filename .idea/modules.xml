@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/vampirewars.iml" filepath="$PROJECT_DIR$/.idea/vampirewars.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Downloads/vw/.idea/vw.iml" filepath="$PROJECT_DIR$/../Downloads/vw/.idea/vw.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Downloads/vw-liliths-revenge-master/.idea/vw-liliths-revenge-master.iml" filepath="$PROJECT_DIR$/../Downloads/vw-liliths-revenge-master/.idea/vw-liliths-revenge-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vw-liliths-revenge-master/.idea/vw-liliths-revenge-master.iml" filepath="$PROJECT_DIR$/../vw-liliths-revenge-master/.idea/vw-liliths-revenge-master.iml" />
     </modules>
   </component>
 </project>

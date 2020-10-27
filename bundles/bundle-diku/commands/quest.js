@@ -2,7 +2,7 @@
 
 const { Broadcast: B, CommandManager } = require('ranvier');
 const say = B.sayAt;
-const ArgParser = require('../../bundle-diku/lib/ArgParser');
+const ArgParser = require('../lib/ArgParser');
 
 const subcommands = new CommandManager();
 subcommands.add({

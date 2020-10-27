@@ -1,9 +1,9 @@
 'use strict';
 
 const { Broadcast: B } = require('ranvier');
-const { CommandParser } = require('../../bundle-diku/lib/CommandParser');
-const ArgParser = require('../../bundle-diku/lib/ArgParser');
-const ItemUtil = require('../../bundle-diku/lib/ItemUtil');
+const { CommandParser } = require('../lib/CommandParser');
+const ArgParser = require('../lib/ArgParser');
+const ItemUtil = require('../lib/ItemUtil');
 
 module.exports = {
   aliases: ['close', 'lock', 'unlock'],

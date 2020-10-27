@@ -1,7 +1,7 @@
 'use strict';
 
 const { Broadcast } = require('ranvier');
-const LevelUtil = require('../../bundle-diku/lib/LevelUtil');
+const LevelUtil = require('../lib/LevelUtil');
 
 module.exports = {
   aliases: [ 'experience' ],

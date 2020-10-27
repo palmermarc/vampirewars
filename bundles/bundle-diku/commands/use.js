@@ -2,8 +2,8 @@
 
 const humanize = (sec) => { return require('humanize-duration')(sec, { round: true }); };
 const { Broadcast, Logger, SkillErrors } = require('ranvier');
-const ArgParser = require('../../bundle-diku/lib/ArgParser');
-const ItemUtil = require('../../bundle-diku/lib/ItemUtil');
+const ArgParser = require('../lib/ArgParser');
+const ItemUtil = require('../lib/ItemUtil');
 
 /**
  * Command for items with `usable` behavior. See bundles/ranvier-areas/areas/limbo/items.yml for

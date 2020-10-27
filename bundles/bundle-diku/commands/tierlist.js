@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B, Logger } = require('ranvier');
+const { Broadcast: B } = require('ranvier');
 
 const subcommands = new CommandManager();
 subcommands.add({
