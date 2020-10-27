@@ -165,7 +165,7 @@ class Combat {
 
     const dodgeChance = (target.hasAttribute('dodge') ? target.getAttribute('dodge') : 5);
     const parryChance = (target.hasAttribute('parry') ? target.getAttribute('parry') : 5);
-    const missChance = (attacker.hasAttribute('hitroll') ? 10 - Math.floor(attacker.getAttribute('hitroll')) : 10);
+    const missChance = (attacker.hasAttribute('hit_chance') ? 10 - Math.floor(attacker.getAttribute('hit_chance')) : 10);
 
     let dodge = Random.probability(dodgeChance);
     let parry = Random.probability(parryChance);

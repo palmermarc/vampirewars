@@ -7,8 +7,8 @@
   attributes:
     health: 62844
     armor: 33160
-    hitroll: 8300
-    damroll: 4150
+    hit_chance: 8300
+    attack_power: 4150
     alignment: 500
   behaviors:
     combat: true
@@ -33,8 +33,8 @@
   attributes:
     health: 62844
     armor: 33160
-    hitroll: 8300
-    damroll: 4150
+    hit_chance: 8300
+    attack_power: 4150
     alignment: 300
   behaviors:
     combat: true

@@ -59,7 +59,7 @@ void spell_bless(int sn, int level, CHAR_DATA *ch, void *vo)
 else
   af.duration = 10;
 
-  af.location = APPLY_HITROLL;
+  af.location = APPLY_hit_chance;
 
   if( !IS_NPC(ch))
     modifier = (level / 5) + (ch->max_mana / 500);
@@ -122,7 +122,7 @@ void spell_blindness(int sn, int level, CHAR_DATA *ch, void *vo)
     return;
 
   af.type = sn;
-  af.location = APPLY_HITROLL;
+  af.location = APPLY_hit_chance;
   af.modifier = -4;
   af.duration = 1 + level;
   af.bitvector = AFF_BLIND;
@@ -514,7 +514,7 @@ void spell_curse(int sn, int level, CHAR_DATA *ch, void *vo)
   if (IS_AFFECTED(victim, AFF_CURSE))
     return;
   af.type = sn;
-  af.location = APPLY_HITROLL;
+  af.location = APPLY_hit_chance;
   af.modifier = 0;
   af.duration = 1 + level;
   af.bitvector = AFF_CURSE;
@@ -714,7 +714,7 @@ void spell_enchant_weapon(int sn, int level, CHAR_DATA *ch, void *vo)
 
   paf->type = 0;
   paf->duration = -1;
-  paf->location = APPLY_HITROLL;
+  paf->location = APPLY_hit_chance;
   paf->modifier = level / 5;
   paf->bitvector = 0;
   paf->next = obj->affected;
@@ -732,7 +732,7 @@ void spell_enchant_weapon(int sn, int level, CHAR_DATA *ch, void *vo)
 
   paf->type = -1;
   paf->duration = -1;
-  paf->location = APPLY_DAMROLL;
+  paf->location = APPLY_attack_power;
   paf->modifier = level / 10;
   paf->bitvector = 0;
   paf->next = obj->affected;
@@ -1523,7 +1523,7 @@ void spell_scorpions_touch(int sn, int level, CHAR_DATA *ch, void *vo)
 
   af.type = sn;
   af.duration = level;
-  af.location = APPLY_HITROLL;
+  af.location = APPLY_hit_chance;
   if (ch->vampgen > victim->vampgen)
   af.modifier = -3; // Bonus for being bigger...
 else
@@ -1532,7 +1532,7 @@ else
 
   af.type = sn;
   af.duration = level;
-  af.location = APPLY_DAMROLL;
+  af.location = APPLY_attack_power;
   if (ch->vampgen > victim->vampgen)
   af.modifier = -3; // Bonus for being bigger...
 else
@@ -1900,8 +1900,8 @@ void spell_guardian(int sn, int level, CHAR_DATA *ch, void *vo)
   victim->level = 5;
   victim->hit = 20 * level;
   victim->max_hit = 20 * level;
-  victim->hitroll = level;
-  victim->damroll = level;
+  victim->hit_chance = level;
+  victim->attack_power = level;
   victim->armor = 100 - (level * 7);
 
   send_to_char("Ok.\n\r", ch);
@@ -2158,7 +2158,7 @@ void spell_frenzy(int sn, int level, CHAR_DATA *ch, void *vo)
     return;
   af.type = sn;
   af.duration = 10 + level / 10;
-  af.location = APPLY_HITROLL;
+  af.location = APPLY_hit_chance;
   if(IS_NPC(ch))
   {
     af.modifier = level / 5;
@@ -2171,7 +2171,7 @@ void spell_frenzy(int sn, int level, CHAR_DATA *ch, void *vo)
   af.bitvector = 0;
   affect_to_char(victim, &af);
 
-  af.location = APPLY_DAMROLL;
+  af.location = APPLY_attack_power;
   if(IS_NPC(ch))
   {
     af.modifier = level / 5;
@@ -2219,20 +2219,20 @@ void spell_darkblessing(int sn, int level, CHAR_DATA *ch, void *vo)
   else
     af.duration = level / 2;
 
-  af.location = APPLY_HITROLL;
+  af.location = APPLY_hit_chance;
 
   if (temp_mana > 5000)
-    af.modifier = (GET_HITROLL(ch) + (temp_mana / 2000))/10;
+    af.modifier = (GET_hit_chance(ch) + (temp_mana / 2000))/10;
   else
-    af.modifier = GET_HITROLL(ch) / 10;
+    af.modifier = GET_hit_chance(ch) / 10;
 
   af.bitvector = 0;
   affect_to_char(victim, &af);
-  af.location = APPLY_DAMROLL;
+  af.location = APPLY_attack_power;
   if (temp_mana > 5000)
-    af.modifier = (GET_DAMROLL(ch) + (temp_mana / 2000))/10;
+    af.modifier = (GET_attack_power(ch) + (temp_mana / 2000))/10;
   else
-    af.modifier = GET_DAMROLL(ch) / 10;
+    af.modifier = GET_attack_power(ch) / 10;
 
   affect_to_char(victim, &af);
 
@@ -3729,8 +3729,8 @@ void spell_mount(int sn, int level, CHAR_DATA *ch, void *vo)
   victim = create_mobile(get_mob_index(MOB_VNUM_MOUNT));
   victim->level = 5;
   victim->armor = 0 - (2 * (level + 1)) - (ch->max_hit/50);
-  victim->hitroll = level;
-  victim->damroll = level;
+  victim->hit_chance = level;
+  victim->attack_power = level;
   victim->hit = 100 * level;
   victim->max_hit = 100 * level;
   SET_BIT(victim->affected_by, AFF_FLYING);
@@ -3738,8 +3738,8 @@ void spell_mount(int sn, int level, CHAR_DATA *ch, void *vo)
   if( ch->remortlevel > 0 )
   {
     victim->armor *= 1.25 * ch->remortlevel;
-    victim->hitroll *= 1.25 * ch->remortlevel;
-    victim->damroll *= 1.25 * ch->remortlevel;
+    victim->hit_chance *= 1.25 * ch->remortlevel;
+    victim->attack_power *= 1.25 * ch->remortlevel;
     victim->hit *= 1.25 * ch->remortlevel;
     victim->max_hit *= 1.25 * ch->remortlevel;
   }
@@ -3939,8 +3939,8 @@ void spell_clone(int sn, int level, CHAR_DATA *ch, void *vo)
   victim->level = 5;
   victim->hit = 20 * level;
   victim->max_hit = 20 * level;
-  victim->hitroll = level;
-  victim->damroll = level;
+  victim->hit_chance = level;
+  victim->attack_power = level;
   victim->armor = 100 - (level * 7);
   free_string(victim->name);
   snprintf(buf, MAX_INPUT_LENGTH, "%s clone", ch->name);

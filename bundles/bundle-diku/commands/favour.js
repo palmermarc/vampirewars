@@ -2,7 +2,6 @@
 
 const { Broadcast:B } = require('ranvier');
 const ArgParser = require('../lib/ArgParser');
-const ItemUtil = require('../lib/ItemUtil');
 
 module.exports = {
 	usage: 'favour <player> <prince/sire>',

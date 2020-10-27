@@ -7,8 +7,8 @@
   attributes:
     health: 450
     armor: -9
-    hitroll: 15
-    damroll: 15
+    hit_chance: 15
+    attack_power: 15
     alignment: 1000
   behaviors:
     combat: true

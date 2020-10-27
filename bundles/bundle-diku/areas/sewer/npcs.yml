@@ -7,8 +7,8 @@
   attributes:
     health: 10000
     armor: 0
-    hitroll: 150
-    damroll: 150
+    hit_chance: 150
+    attack_power: 150
     alignment: -800
   behaviors:
     combat: true
@@ -42,8 +42,8 @@
   attributes:
     health: 8000
     armor: 2
-    hitroll: 100
-    damroll: 100
+    hit_chance: 100
+    attack_power: 100
     alignment: -600
   behaviors:
     combat: true
@@ -75,8 +75,8 @@
   attributes:
     health: 7000
     armor: 4
-    hitroll: 150
-    damroll: 50
+    hit_chance: 150
+    attack_power: 50
     alignment: -350
   behaviors:
     combat: true
@@ -108,8 +108,8 @@
   attributes:
     health: 300
     armor: 3
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -700
   behaviors:
     combat: true
@@ -143,8 +143,8 @@
   attributes:
     health: 300
     armor: -2
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -800
   behaviors:
     combat: true
@@ -171,8 +171,8 @@
   attributes:
     health: 300
     armor: -2
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -250
   behaviors:
     combat: true
@@ -197,8 +197,8 @@
   attributes:
     health: 300
     armor: -40
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -500
   behaviors:
     combat: true
@@ -228,8 +228,8 @@
   attributes:
     health: 300
     armor: 5
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -1000
   behaviors:
     combat: true
@@ -261,8 +261,8 @@
   attributes:
     health: 300
     armor: 3
-    hitroll: 3
-    damroll: 5
+    hit_chance: 3
+    attack_power: 5
     alignment: -700
   behaviors:
     combat: true
@@ -292,8 +292,8 @@
   attributes:
     health: 300
     armor: 3
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -300
   behaviors:
     combat: true
@@ -318,8 +318,8 @@
   attributes:
     health: 300
     armor: 9
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 300
   behaviors:
     combat: true
@@ -344,8 +344,8 @@
   attributes:
     health: 300
     armor: 7
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -500
   behaviors:
     combat: true
@@ -375,8 +375,8 @@
   attributes:
     health: 300
     armor: -20
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -1000
   behaviors:
     combat: true
@@ -401,8 +401,8 @@
   attributes:
     health: 300
     armor: -1
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -780
   behaviors:
     combat: true
@@ -427,8 +427,8 @@
   attributes:
     health: 900
     armor: 2
-    hitroll: 10
-    damroll: 5
+    hit_chance: 10
+    attack_power: 5
     alignment: -830
   behaviors:
     combat: true
@@ -453,8 +453,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -900
   behaviors:
     combat: true
@@ -484,8 +484,8 @@
   attributes:
     health: 300
     armor: -2
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -250
   behaviors:
     combat: true
@@ -515,8 +515,8 @@
   attributes:
     health: 12000
     armor: -100
-    hitroll: 400
-    damroll: 500
+    hit_chance: 400
+    attack_power: 500
     alignment: -1000
   behaviors:
     combat: true
@@ -553,8 +553,8 @@
   attributes:
     health: 300
     armor: 1
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -800
   behaviors:
     combat: true
@@ -584,8 +584,8 @@
   attributes:
     health: 300
     armor: 2
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 700
   behaviors:
     combat: true
@@ -607,8 +607,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -250
   behaviors:
     combat: true
@@ -638,8 +638,8 @@
   attributes:
     health: 300
     armor: 6
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -500
   behaviors:
     combat: true
@@ -669,8 +669,8 @@
   attributes:
     health: 300
     armor: 2
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: -480
   behaviors:
     combat: true
@@ -700,8 +700,8 @@
   attributes:
     health: 300
     armor: 4
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 200
   behaviors:
     combat: true

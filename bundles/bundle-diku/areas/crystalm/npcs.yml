@@ -7,8 +7,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 900
   behaviors:
     combat: true
@@ -33,8 +33,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: -900
   behaviors:
     combat: true
@@ -67,8 +67,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 900
   behaviors:
     combat: true
@@ -96,8 +96,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: -750
   behaviors:
     combat: true
@@ -123,8 +123,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 150
   behaviors:
     combat: true
@@ -152,8 +152,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 125
   behaviors:
     combat: true
@@ -180,8 +180,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 20
   behaviors:
     combat: true
@@ -208,8 +208,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: -700
   behaviors:
     combat: true
@@ -239,8 +239,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 100
   behaviors:
     combat: true
@@ -269,8 +269,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 200
   behaviors:
     combat: true
@@ -295,8 +295,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: -300
   behaviors:
     combat: true
@@ -321,8 +321,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 300
   behaviors:
     combat: true
@@ -347,8 +347,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 300
   behaviors:
     combat: true
@@ -373,8 +373,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: -200
   behaviors:
     combat: true
@@ -399,8 +399,8 @@
   attributes:
     health: 12834
     armor: 2760
-    hitroll: 700
-    damroll: 400
+    hit_chance: 700
+    attack_power: 400
     alignment: 100
   behaviors:
     combat: true

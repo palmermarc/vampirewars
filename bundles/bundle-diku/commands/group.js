@@ -1,6 +1,5 @@
 'use strict';
 
-const Ranvier = require('ranvier');
 const { Broadcast: B, CommandManager } = require('ranvier');
 const Parser = require('../lib/ArgParser');
 const say = B.sayAt;

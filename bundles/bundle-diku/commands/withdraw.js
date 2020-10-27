@@ -3,8 +3,15 @@
 const { Broadcast: B } = require('ranvier');
 
 module.exports = {
-  usage: 'clanwithdraw <amount>',
+  usage: 'withdraw <amount>',
+  aliases: [ 'clanwithdraw' ],
   command : (state) => (args, player) => {
+    let room = player.room;
+
+    if( room.getMeta('bank') ) {
+      return B.sayAt('Maybe you should be in a bank before trying to take money?');
+    }
+
     args = args.trim();
 
     if (!args.length) {

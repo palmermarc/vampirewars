@@ -7,8 +7,8 @@
   attributes:
     health: 4800
     armor: 800
-    hitroll: 150
-    damroll: 150
+    hit_chance: 150
+    attack_power: 150
     alignment: -500
   behaviors:
     combat: true
@@ -36,8 +36,8 @@
   attributes:
     health: 4800
     armor: 800
-    hitroll: 150
-    damroll: 150
+    hit_chance: 150
+    attack_power: 150
     alignment: -1000
   behaviors:
     combat: true
@@ -73,8 +73,8 @@
   attributes:
     health: 4800
     armor: 800
-    hitroll: 150
-    damroll: 150
+    hit_chance: 150
+    attack_power: 150
     alignment: -500
   behaviors:
     combat: true
@@ -102,8 +102,8 @@
   attributes:
     health: 4800
     armor: 800
-    hitroll: 150
-    damroll: 150
+    hit_chance: 150
+    attack_power: 150
     alignment: -250
   behaviors:
     combat: true
@@ -131,8 +131,8 @@
   attributes:
     health: 4800
     armor: 800
-    hitroll: 150
-    damroll: 150
+    hit_chance: 150
+    attack_power: 150
     alignment: -250
   behaviors:
     combat: true
@@ -165,8 +165,8 @@
   attributes:
     health: 4800
     armor: 800
-    hitroll: 150
-    damroll: 150
+    hit_chance: 150
+    attack_power: 150
     alignment: 0
   behaviors:
     combat: true
@@ -198,8 +198,8 @@
   attributes:
     health: 4800
     armor: 800
-    hitroll: 150
-    damroll: 150
+    hit_chance: 150
+    attack_power: 150
     alignment: 500
   behaviors:
     combat: true
@@ -226,8 +226,8 @@
   attributes:
     health: 4800
     armor: 800
-    hitroll: 150
-    damroll: 150
+    hit_chance: 150
+    attack_power: 150
     alignment: 0
   behaviors:
     combat: true

@@ -4,8 +4,16 @@ const { Broadcast: B } = require('ranvier');
 const ArgParser = require('../lib/ArgParser');
 
 module.exports = {
-  usage: 'clandeposit <amount>',
+  usage: 'deposit <amount>',
+  aliases: [ 'clandeposit' ],
   command : (state) => (args, player) => {
+
+    let room = player.room;
+
+    if( room.getMeta('bank') ) {
+      return B.sayAt('Maybe you should be in a bank before giving your money away?');
+    }
+
     args = args.trim();
 
     if (!args.length) {

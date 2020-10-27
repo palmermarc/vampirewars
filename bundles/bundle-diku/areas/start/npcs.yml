@@ -7,8 +7,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 0
   behaviors:
     combat: true
@@ -30,8 +30,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 0
   behaviors:
     combat: true
@@ -53,8 +53,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 0
   behaviors:
     combat: true
@@ -76,8 +76,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 0
   behaviors:
     combat: true
@@ -99,8 +99,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 0
   behaviors:
     combat: true
@@ -122,8 +122,8 @@
   attributes:
     health: 30000
     armor: 0
-    hitroll: 500
-    damroll: 500
+    hit_chance: 500
+    attack_power: 500
     alignment: 0
   behaviors:
     combat: true
@@ -145,8 +145,8 @@
   attributes:
     health: 30000
     armor: 0
-    hitroll: 150
-    damroll: 500
+    hit_chance: 150
+    attack_power: 500
     alignment: 0
   behaviors:
     combat: true
@@ -168,8 +168,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 0
   behaviors:
     combat: true
@@ -191,8 +191,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 0
   behaviors:
     combat: true
@@ -214,8 +214,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 0
   behaviors:
     combat: true
@@ -245,8 +245,8 @@
   attributes:
     health: 300
     armor: 0
-    hitroll: 5
-    damroll: 5
+    hit_chance: 5
+    attack_power: 5
     alignment: 0
   behaviors:
     combat: true

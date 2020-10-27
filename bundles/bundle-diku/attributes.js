@@ -164,5 +164,12 @@ module.exports = [
     metadata: {
       label: 'Dodge Chance'
     }
+  },
+  {
+    name: 'alignment',
+    base: 0,
+    metadata: {
+      label: 'Alignment'
+    }
   }
 ];

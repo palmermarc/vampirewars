@@ -2,7 +2,6 @@
 
 const { Broadcast: B, Logger } = require('ranvier');
 
-
 module.exports = {
   usage: 'help [search] [topic keyword]',
   command: (state) => (args, player) => {

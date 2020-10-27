@@ -7,8 +7,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -35,8 +35,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -61,8 +61,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -90,8 +90,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -118,8 +118,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -143,8 +143,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -171,8 +171,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -199,8 +199,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -227,8 +227,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -253,8 +253,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -281,8 +281,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -309,8 +309,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -337,8 +337,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 500
   behaviors:
     combat: true
@@ -365,8 +365,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 500
   behaviors:
     combat: true
@@ -393,8 +393,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -421,8 +421,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -447,8 +447,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -475,8 +475,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -503,8 +503,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -529,8 +529,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -557,8 +557,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -585,8 +585,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -613,8 +613,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -641,8 +641,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -670,8 +670,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -703,8 +703,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -731,8 +731,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -757,8 +757,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -788,8 +788,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -814,8 +814,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -840,8 +840,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -871,8 +871,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -902,8 +902,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -928,8 +928,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -958,8 +958,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -992,8 +992,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1035,8 +1035,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1073,8 +1073,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -1101,8 +1101,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -1129,8 +1129,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1155,8 +1155,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -1181,8 +1181,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1204,8 +1204,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1235,8 +1235,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1266,8 +1266,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1297,8 +1297,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -1330,8 +1330,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -1358,8 +1358,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1396,8 +1396,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1427,8 +1427,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1457,8 +1457,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -1483,8 +1483,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -1509,8 +1509,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -1537,8 +1537,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 500
   behaviors:
     combat: true
@@ -1565,8 +1565,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 500
   behaviors:
     combat: true
@@ -1593,8 +1593,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 500
   behaviors:
     combat: true
@@ -1621,8 +1621,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 500
   behaviors:
     combat: true
@@ -1649,8 +1649,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 500
   behaviors:
     combat: true
@@ -1677,8 +1677,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 500
   behaviors:
     combat: true
@@ -1705,8 +1705,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -1733,8 +1733,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -1759,8 +1759,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -1785,8 +1785,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -1813,8 +1813,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1839,8 +1839,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1865,8 +1865,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1891,8 +1891,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1917,8 +1917,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1943,8 +1943,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1969,8 +1969,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -1995,8 +1995,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2021,8 +2021,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2047,8 +2047,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2073,8 +2073,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2101,8 +2101,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2129,8 +2129,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2157,8 +2157,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2185,8 +2185,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2213,8 +2213,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2241,8 +2241,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2269,8 +2269,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2297,8 +2297,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -2323,8 +2323,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -2349,8 +2349,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -2375,8 +2375,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2401,8 +2401,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2427,8 +2427,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2453,8 +2453,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2484,8 +2484,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2515,8 +2515,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -2543,8 +2543,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 0
   behaviors:
     combat: true
@@ -2569,8 +2569,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -2595,8 +2595,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2626,8 +2626,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2657,8 +2657,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2688,8 +2688,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2714,8 +2714,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2740,8 +2740,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2766,8 +2766,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2792,8 +2792,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2818,8 +2818,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2844,8 +2844,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2875,8 +2875,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2906,8 +2906,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2937,8 +2937,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2968,8 +2968,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -2999,8 +2999,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -3030,8 +3030,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -3061,8 +3061,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -3087,8 +3087,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: 1000
   behaviors:
     combat: true
@@ -3113,8 +3113,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true
@@ -3141,8 +3141,8 @@
   attributes:
     health: 19502
     armor: 7680
-    hitroll: 1800
-    damroll: 900
+    hit_chance: 1800
+    attack_power: 900
     alignment: -1000
   behaviors:
     combat: true

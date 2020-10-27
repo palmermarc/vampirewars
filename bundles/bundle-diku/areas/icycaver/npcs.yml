@@ -7,8 +7,8 @@
   attributes:
     health: 22836
     armor: 9640
-    hitroll: 2300
-    damroll: 1150
+    hit_chance: 2300
+    attack_power: 1150
     alignment: 1000
   behaviors:
     combat: true
@@ -35,8 +35,8 @@
   attributes:
     health: 22836
     armor: 9640
-    hitroll: 2300
-    damroll: 1150
+    hit_chance: 2300
+    attack_power: 1150
     alignment: 1000
   behaviors:
     combat: true
@@ -67,8 +67,8 @@
   attributes:
     health: 22836
     armor: 9640
-    hitroll: 2300
-    damroll: 1150
+    hit_chance: 2300
+    attack_power: 1150
     alignment: 1000
   behaviors:
     combat: true
@@ -93,8 +93,8 @@
   attributes:
     health: 22836
     armor: 9640
-    hitroll: 2300
-    damroll: 1150
+    hit_chance: 2300
+    attack_power: 1150
     alignment: 1000
   behaviors:
     combat: true
@@ -119,8 +119,8 @@
   attributes:
     health: 22836
     armor: 9640
-    hitroll: 2300
-    damroll: 1150
+    hit_chance: 2300
+    attack_power: 1150
     alignment: 1000
   behaviors:
     combat: true
@@ -146,8 +146,8 @@
   attributes:
     health: 22836
     armor: 9640
-    hitroll: 2300
-    damroll: 1150
+    hit_chance: 2300
+    attack_power: 1150
     alignment: 1000
   behaviors:
     combat: true
