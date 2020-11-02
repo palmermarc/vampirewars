@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B } = require('ranvier');
+const { Broadcast: B, Npc } = require('ranvier');
 const { Random } = require('rando-js');
 
 module.exports = {
@@ -18,21 +18,24 @@ module.exports = {
     B.sayAt(player, `You beckon for help, and a lone wolf responds.`);
     B.sayAtExcept(room, `${player.name} beckons for help, and a lone wolf responds.`, player);
 
-    const lonewolf = new Npc(area, {
+    let armor = player.hasAttribute('armor' ) ? player.getAttribute('armor' ) : 0;
+
+    const lonewolf = new Npc('clandisc',{
       id: 'lonewolf',
       name: `${player.name}'s Guardian Wolf`,
       roomDesc: `${player.name}'s Guardian Wolf stands between you, in order to protect them.`,
       description: `${player.name}'s Guardian Wolf stands between you, in order to protect them`,
       keywords: ['guardian', 'wolf', 'lone'],
       attributes: {
-        health: player.attribute.health * (0.85 * (13-playerGen)/4),
-        armor: player.attribute.armor * (0.85 * (13-playerGen)/4),
+        health: player.getAttribute('health') * (0.85 * (13-playerGen)/4),
+        armor: armor * (0.85 * (13-playerGen)/4),
         hit_chance: (70 + (2*(13-playerGen))), // Max of 90% hit chance
-        attack_power: player.attribute.attack_power * (0.85 * (13-playerGen)/4),
+        attack_power: player.getAttribute('attack_power') * (0.85 * (13-playerGen)/4),
         alignment: 800
       },
       metadata: {
-        autostance: 'lion'
+        autostance: 'lion',
+        combat: true
       },
     });
 
@@ -41,7 +44,7 @@ module.exports = {
     room.addNpc(lonewolf);
 
     state.PartyManager.create(player);
-    lonewolf.party.add(player);
-    player.follow(lonewolf);
+    player.party.add(lonewolf);
+    lonewolf.follow(player);
   }
 };
