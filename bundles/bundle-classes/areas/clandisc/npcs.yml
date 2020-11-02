@@ -1,0 +1,16 @@
+- id: lonewolf
+  keywords: ["lone","wolf",""]
+  name: "Lone Guardian Wolf"
+  description: >-
+    A Guardian Wolf stands here, guarding it's master.
+  level: 1
+  attributes:
+    health: 1
+    armor: 1
+    hit_chance: 95
+    attack_power: 1
+    alignment: 1
+  behaviors:
+    combat: true
+  metadata:
+    exp_level: 26000

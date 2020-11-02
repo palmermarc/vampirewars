@@ -16,7 +16,7 @@ module.exports = [
     }
   },
   {
-    name: 'intelligence',
+    name: 'intellect',
     base: 5,
     metadata: {
       label: 'Int'
@@ -91,7 +91,14 @@ module.exports = [
     name: 'hit_chance',
     base: 90,
     metadata: {
-      label: 'hit_chance'
+      label: 'Hit Chance'
+    }
+  },
+  {
+    name: 'critical_strike',
+    base: 5,
+    metadata: {
+      label: 'Critical Strike'
     }
   },
   {

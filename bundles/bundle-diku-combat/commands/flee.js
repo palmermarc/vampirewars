@@ -26,7 +26,6 @@ module.exports = {
       return;
     }
 
-
     const door = player.room.getDoor(randomRoom) || randomRoom.getDoor(player.room);
     if (randomRoom && door && (door.locked || door.closed)) {
       say(player, "In your panic you run into a closed door!");

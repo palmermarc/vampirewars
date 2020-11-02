@@ -7,6 +7,15 @@ module.exports = {
   usage: 'beckon',
   aliases: [ 'beckon' ],
   command : (state) => (args, player) => {
+
+    if( player.getMeta('class' ) !== 'vampire' ) {
+      return B.sayAt(player, `You have to be a vampire to use this ability.`);
+    }
+
+    if( player.getMeta( 'clandiscs.animalism' ) < 2 ) {
+      return B.sayAt(player, `Only players with Rank 2 of Animalism can use this ability.`);
+    }
+
     let failure = Random.probability(15);
     if( failure ) {
       return B.sayAt(player, `You beckon for help, but no animals respond.`);

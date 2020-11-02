@@ -1,6 +1,7 @@
 {
   "port": 4000,
   "bundles": [
+    "bundle-classes",
     "bundle-diku",
     "bundle-diku-admin",
     "bundle-diku-combat",
