@@ -29,41 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="Added in the base of the claninfo - we still need to get the leaderboard working so we can pull from that.">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vampirewars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vampirewars.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-classes/commands/clandisc.animalism.beckoning.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-classes/commands/clandisc.animalism.beckoning.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-combat/commands/flee.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-combat/commands/flee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-combat/commands/spy.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-combat/commands/spy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-core/input-events/choose-class.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-core/input-events/choose-class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/attributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/attributes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/classes/vampire.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-classes/classes/vampire.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/clanbalance.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/clandeposit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/claninfo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/clanwithdraw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/discipline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/favour.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/introduce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/outcast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/regenerate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/tierlist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/tradition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/upkeep.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/vampire.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/commands/vclan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-classes/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-classes/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/player-events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/skills/bite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/skills/claws.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/skills/diablerize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/skills/evileye.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/skills/fangs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/skills/feed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/skills/nightsight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-vampires/skills/serpent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ranvier.json" beforeDir="false" afterPath="$PROJECT_DIR$/ranvier.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-classes/commands/clandisc.animalism.subsumethespirit.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-classes/commands/clandisc.animalism.subsumethespirit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,10 +289,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1003" y="529" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1604339212825" />
-    <state x="640" y="304" key="CommitChangelistDialog2" timestamp="1604346270601">
+    <state x="640" y="304" key="CommitChangelistDialog2" timestamp="1604347798629">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="640" y="304" key="CommitChangelistDialog2/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1604344363578" />
+    <state x="640" y="304" key="CommitChangelistDialog2/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1604347798629" />
     <state x="640" y="304" key="CommitChangelistDialog2/0.0.2560.1440/2560.23.1920.1057@0.0.2560.1440" timestamp="1604346270601" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603765819303">
       <screen x="0" y="0" width="1920" height="1040" />
