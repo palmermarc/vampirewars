@@ -109,10 +109,7 @@ module.exports = {
     experience: state => function (amount) {
 
       // Since we added in the ability to get EXP bonus as an attribute, we need to do something with it
-      let bonusPercent = this.getAttribute('exp_bonus');
-      if( !bonusPercent ) {
-        bonusPercent = 0;
-      }
+      let bonusPercent = (this.hasAttribute('exp_bonus')) ? this.getAttribute('exp_bonus') : 0;
 
       // Calculate the bonus EXP and then upgrade
       let bonus = amount * (bonusPercent/100);
