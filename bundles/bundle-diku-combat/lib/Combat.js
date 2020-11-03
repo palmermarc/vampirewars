@@ -288,6 +288,9 @@ class Combat {
       amount = Random.inRange(weaponDamage.min, weaponDamage.max);
     }
 
+    // Give the attacker 1 damage for every 5 attack power they have
+    amount += attacker.hasAttribute('attack_power') ? Math.floor(attacker.getAttribute('attack_power')/5) : 0;
+
     return this.normalizeWeaponDamage(attacker, amount);
   }
 
