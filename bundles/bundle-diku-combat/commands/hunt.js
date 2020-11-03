@@ -1,8 +1,8 @@
 'use strict';
 
-const { Broadcast: B, Logger } = require('ranvier');
+const { Broadcast: B } = require('ranvier');
 const Path = require('../lib/PathfindingUtil');
-const Parser = require('../lib/ArgParser');
+const Parser = require('../../bundle-diku/lib/ArgParser');
 
 module.exports = {
   usage: 'hunt [target]',
@@ -26,7 +26,7 @@ module.exports = {
     const { area } = player.room;
 
     //let target = Parser.parseDot(dest, player.visiblePlayersOnline) || Parser.parseDot(dest, state.MobManager.getMobs());
-    const target = Parser.parseDot(dest, player.visiblePlayersOnline) || Parser.parseDot(args, area.npcs);
+    const target = Parser.parseDot(args, player.visiblePlayersOnline) || Parser.parseDot(args, area.npcs);
 
     if (!target) {
       return B.sayAt(player, 'No such mob.');
@@ -39,10 +39,10 @@ module.exports = {
     }
 
     player.setMeta('isHunting', 1);
-    //player.setMeta('huntingTarget', )
+    //player.setMeta('huntingTarget', target );
 
     if (targetRoom === player.room) {
-      return B.sayAt(player, `You're already there.`);
+      return B.sayAt(player, `<yellow>${target.name} is here!</yellow>`);
     }
 
     const path = Path.findPathInContinent(state, player, targetRoom);
@@ -51,7 +51,7 @@ module.exports = {
       return B.sayAt(player, `Can't find a path to ${targetRoom.name}.`);
     }
 
-    return B.sayAt(player, `<yellow>${targetMob.name} is ${path[0].direction} from here.</yellow>`);
+    return B.sayAt(player, `<yellow>${target.name} is ${path[0].direction} from here.</yellow>`);
 
   }
 };

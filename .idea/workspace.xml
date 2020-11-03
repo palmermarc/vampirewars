@@ -30,15 +30,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="Added in the base of the claninfo - we still need to get the leaderboard working so we can pull from that.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-classes/classes/human.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-classes/classes/human.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-classes/classes/vampire.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-classes/classes/vampire.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-combat/commands/berserk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-core/input-events/done.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-core/input-events/done.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-core/input-events/finish-player.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-core/input-events/finish-player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/classes/human.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/classes/mage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/classes/vampire.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/lib/PlayerClass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/autostance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/hunt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/stance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/stancetable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/weapontable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/lib/PathfindingUtil.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,16 +348,5 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="945" y="324" width="670" height="724" key="search.everywhere.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1603739069249" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/bundles/bundle-diku/commands/stance.js</url>
-          <line>101</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
