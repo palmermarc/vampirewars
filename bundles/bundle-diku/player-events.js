@@ -107,7 +107,18 @@ module.exports = {
      * @param {number} amount Exp gained
      */
     experience: state => function (amount) {
-      B.sayAt(this, `<blue>You gained <bold>${amount}</bold> experience!</blue>`);
+
+      // Since we added in the ability to get EXP bonus as an attribute, we need to do something with it
+      let bonusPercent = this.getAttribute('exp_bonus');
+      if( !bonusPercent ) {
+        bonusPercent = 0;
+      }
+
+      // Calculate the bonus EXP and then upgrade
+      let bonus = amount * (bonusPercent/100);
+      amount = amount + bonus;
+
+      B.sayAt(this, `<blue>You gained <bold>${amount}</bold> experience!</blue><yellow>(${bonus} bonus experience)</yellow>`);
 
       const totalTnl = LevelUtil.expToLevel(this.level + 1);
 
