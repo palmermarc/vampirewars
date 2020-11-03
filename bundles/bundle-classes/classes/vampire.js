@@ -12,6 +12,7 @@ module.exports = {
   description: 'Vampires are an abomination on this land. A curse, dating back to Caine\'s murder of Abel. They have supernatural strength, speed, and more. While they are incredibly strong, they also have many weaknesses.',
 
   abilityTable: {
+    1: { skills: ['berserk'] },
   },
 
   setupPlayer: (state, player) => {

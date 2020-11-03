@@ -12,7 +12,7 @@ module.exports = {
   description: 'Humans are ordinary men and women in the world.',
 
   abilityTable: {
-    1: {},
+    1: { skills: ['berserk'] },
   },
 
 

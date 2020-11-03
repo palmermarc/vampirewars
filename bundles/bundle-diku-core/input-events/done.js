@@ -1,7 +1,7 @@
 'use strict';
 
 const { Broadcast, Logger } = require('ranvier');
-const PlayerClass = require('../../bundle-diku/lib/PlayerClass');
+const PlayerClass = require('../../bundle-classes/lib/PlayerClass');
 
 
 /**
