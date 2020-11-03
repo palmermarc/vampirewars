@@ -112,8 +112,10 @@ module.exports = {
       let bonusPercent = (this.hasAttribute('exp_bonus')) ? this.getAttribute('exp_bonus') : 0;
 
       // Calculate the bonus EXP and then upgrade
-      let bonus = amount * (bonusPercent/100);
-      amount = amount + bonus;
+      amount *= ( 1 + ( bonusPercent/100 ) );
+
+      // Round the EXP down
+      amount = Math.floor(amount);
 
       B.sayAt(this, `<blue>You gained <bold>${amount}</bold> experience!</blue><yellow>(${bonus} bonus experience)</yellow>`);
 
