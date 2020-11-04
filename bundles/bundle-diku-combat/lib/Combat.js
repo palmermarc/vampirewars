@@ -154,13 +154,9 @@ class Combat {
       Combat.improveStance(attacker);
       Combat.improveWeapon(attacker);
 
-      //Logger.log(`${attacker.name} is swinging for ${amount} damage before stances.`);
+      let stanceDamage = Combat.calculateStanceDamage(attacker, attacker, amount);
 
-      let stanceDamage = Combat.calculateStanceDamage(attacker, attacker, amount)
-      //Logger.log(`${attacker.name} gained ${amount} damage because of stances.`);
-
-      //amount = Math.ceil(amount + stanceDamage);
-      //Logger.log(`${attacker.name} is swinging for ${amount} damage.`);
+      amount = Math.ceil(amount + stanceDamage);
     }
 
     const dodgeChance = (target.hasAttribute('dodge') ? target.getAttribute('dodge') : 5);
@@ -170,6 +166,11 @@ class Combat {
     let dodge = Random.probability(dodgeChance);
     let parry = Random.probability(parryChance);
     let miss = Random.probability(missChance);
+
+    // Factor in the bonus for the level
+    let levelBonus = attacker.getMeta('class') == vampire ? attacker.level/attacker.getMeta('generation') : attacker.level/13;
+    amount = Math.floor(amount+levelBonus);
+
 
     // You can only dodge or parry an attack that was going to hit
     if(miss) {
@@ -186,6 +187,11 @@ class Combat {
       return B.sayAtExcept(attacker.room, `${target.name} skillfully parried ${attacker.name}'s attack.`, [attacker, target]);
     } else {
       const weapon = attacker.equipment.get('wield');
+
+      let newDamage = this.calculateClandiscDamage(attacker, target, amount);
+
+      amount += newDamage;
+
       const damage = new Damage('health', amount, attacker, weapon || attacker, { critical });
       damage.commit(target);
     }
@@ -547,6 +553,39 @@ class Combat {
 
   static getClanDiscExtraAttacks(player) {
     return 0;
+  }
+
+  /**
+   * Add in any additional damage or damage mitigation based on the clandiscs
+   * that both have.
+   *
+   * @param attacker
+   * @param victim
+   * @param baseDamage
+   */
+  static calculateClandiscDamage(attacker, victim, baseDamage) {
+    let attackerGeneration = attacker.getMeta('generation') || 13;
+    let victimGeneration = victim.getMeta('generation') || 13;
+
+    let bonusDamage = 0;
+
+    // If the attacker has potence, they get a damage boost
+    if( attacker.getMeta('class') === 'vampire' ) {
+      let potenceRank = attacker.getMeta('clandiscs.potence') || 0;
+      if (potenceRank > 0) {
+        // 10% more damage based on their generation
+        bonusDamage += baseDamage * ((14 - attackerGeneration) * 0.1);
+      }
+    }
+
+    if( victim.getMeta('class') === 'vampire' ) {
+      let fortitudeRank = victim.getaMeta('clandiscs.fortitude') || 0;
+      if( fortitudeRank > 0 ) {
+        bonusDamage -= bonusDamage * ((14 - attackerGeneration) * 0.1);
+      }
+    }
+
+    return bonusDamage;
   }
 }
 
