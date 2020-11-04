@@ -1,8 +1,8 @@
-- id: o1001
+- id: rose
   name: "rose"
   roomDesc: "A red rose is lying on the ground."
   keywords: ["rose"]
   description: "A red rose is lying on the ground."
-  type: TRASH
+  type: OBJECT
   metadata:
     value: 10

@@ -66,16 +66,18 @@ class Combat {
     /**
      * Trigger the autostance for the attacker first
      */
-    let attackerAutoStance = attacker.getMeta('autostance');
-    if( attacker.getMeta('currentStance') === 'none' && attacker.getMeta('autostance') !== 'none' ) {
+    let attackerAutoStance = attacker.getMeta('autostance') || 'none' ;
+    let attackerStance = attacker.getMeta('currentStance') || 'none' ;
+    if( attackerStance === 'none' && attackerAutoStance !== 'none' ) {
       state.CommandManager.get('stance').execute(attackerAutoStance, attacker);
     }
 
     /**
      * Trigger the autostance for the defender second
      */
-    let targetAutoStance = target.getMeta('autostance');
-    if( target.getMeta('currentStance') === 'none' && target.getMeta('autostance') !== 'none' ) {
+    let targetAutoStance = target.getMeta('autostance') || 'none' ;
+    let targetStance = target.getMeta('currentStance') || 'none' ;
+    if( targetStance === 'none' && targetAutoStance !== 'none' ) {
       state.CommandManager.get('stance').execute(targetAutoStance, target);
     }
 
@@ -168,9 +170,8 @@ class Combat {
     let miss = Random.probability(missChance);
 
     // Factor in the bonus for the level
-    let levelBonus = attacker.getMeta('class') == vampire ? attacker.level/attacker.getMeta('generation') : attacker.level/13;
+    let levelBonus = attacker.getMeta('class') == 'vampire' ? attacker.level/attacker.getMeta('generation') : attacker.level/13;
     amount = Math.floor(amount+levelBonus);
-
 
     // You can only dodge or parry an attack that was going to hit
     if(miss) {
@@ -206,7 +207,12 @@ class Combat {
    * @param {?Character} killer Optionally the character that killed the dead entity
    */
   static handleDeath(state, deadEntity, killer) {
+
     // TODO: Add in the concept of morting
+    if(!deadEntity.isNpc && deadEntity.getMeta('pvp_enabled') == true) {
+      B.sayAt(deadEntity, `You are mortally wounded and spraying blood everywhere!`);
+      return B.sayAtExcept(deadEntity.room, `${deadEntity.name} is mortally wounded.`, [deadEntity]);
+    }
 
     if (deadEntity.combatData.killed) {
       return;
