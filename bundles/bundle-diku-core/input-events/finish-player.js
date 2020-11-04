@@ -1,6 +1,6 @@
 'use strict';
 
-const { Config, Player } = require('ranvier');
+const { Config, Player, Logger } = require('ranvier');
 const PlayerClass = require('../../bundle-classes/lib/PlayerClass');
 
 /**
@@ -20,23 +20,22 @@ module.exports = {
         account: args.account,
       });
 
-
       // TIP:DefaultAttributes: This is where you can change the default attributes for players
       const defaultAttributes = {
-        health: 100,
-        mana: 100,
-        move: 100,
-        strength: 20,
-        intellect: 18,
-        constitution: 18,
-        dexterity: 18,
-        wisdom: 18,
-        hit_chance: 5,
+        health: 500,
+        mana: 500,
+        move: 500,
+        strength: 25,
+        intellect: 25,
+        constitution: 25,
+        dexterity: 25,
+        wisdom: 25,
+        hit_chance: 90,
         attack_power: 5,
         critical_strike: 5,
         dodge: 5,
         parry: 5,
-        svs: 5
+        save_vs_spell: 5
       };
 
       for (const attr in defaultAttributes) {
@@ -54,6 +53,32 @@ module.exports = {
       player.setMeta('tiers', { spells: 0, stances: 0, weapons: 0 });
 
       player.setMeta('currentStance', 'none');
+
+      let startingGear = [
+        'newbie:ring',
+        'newbie:ring',
+        'newbie:lightningneck',
+        'newbie:acidnecklace',
+        'newbie:chestplace',
+        'newbie:helmet',
+        'newbie:leggings',
+        'newbie:boots',
+        'newbie:gloves',
+        'newbie:armguards',
+        'newbie:cloak',
+        'newbie:girth',
+        'newbie:flamingbracer',
+        'newbie:bag',
+        'newbie:sword',
+        'newbie:sword',
+        'newbie:shoulders'
+      ];
+
+      startingGear.forEach(itemName => {
+        let item = state.ItemFactory.create(state.AreaManager.getAreaByReference(itemName), itemName);
+        player.addItem(item);
+        state.CommandManager.get('wear').execute(itemName, player);
+      });
 
       const room = state.RoomManager.getRoom(startingRoomRef);
       player.room = room;

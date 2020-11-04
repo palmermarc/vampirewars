@@ -123,6 +123,6 @@ module.exports = {
       return Logger.error(err);
     }
 
-    say(player, `<green>You equip:</green> ${ItemUtil.display(item)}<green>.</green>`);
+    B.sayAt(player, `<green>You equip:</green> ${ItemUtil.display(item)}<green>.</green>`);
   }
 };

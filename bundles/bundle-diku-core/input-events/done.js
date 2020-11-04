@@ -12,8 +12,6 @@ module.exports = {
     let player = args.player;
     player.hydrate(state);
 
-    Logger.log(`${args.player} selected${player.getMeta('class')}`);
-
     player.playerClass = PlayerClass.get(player.getMeta('class'));
 
     // Allow the player class to modify the player (adding attributes, changing default prompt, etc)

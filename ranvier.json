@@ -76,7 +76,7 @@
   "minAccountNameLength": 3,
   "maxPlayerNameLength": 20,
   "minPlayerNameLength": 3,
-  "maxCharacters": 3,
+  "maxCharacters": 27,
   "reportToAdmins": false,
   "startingRoom": "newbie:startingroom",
   "moveCommand": "move",
