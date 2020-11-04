@@ -142,8 +142,8 @@ class Combat {
     let amount = this.calculateWeaponDamage(attacker);
     let critical = false;
 
-    if (attacker.hasAttribute('critical')) {
-      const critChance = Math.max(attacker.getMaxAttribute('critical') || 0, 0);
+    if (attacker.hasAttribute('critical_strike')) {
+      const critChance = Math.max(attacker.getMaxAttribute('critical_strike') || 0, 0);
       critical = Random.probability(critChance);
       if (critical) {
         amount = Math.ceil(amount * 1.5);
@@ -208,8 +208,6 @@ class Combat {
 
     deadEntity.combatData.killed = true;
     deadEntity.removeFromCombat();
-
-    //Logger.log(`${killer ? killer.name : 'Something'} killed ${deadEntity.name}.`);
 
     if (killer) {
       deadEntity.combatData.killedBy = killer;

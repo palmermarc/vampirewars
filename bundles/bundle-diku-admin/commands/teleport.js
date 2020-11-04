@@ -3,7 +3,7 @@
 const { Broadcast, PlayerRoles } = require('ranvier');
 
 module.exports = {
-  aliases: ['tp'],
+  aliases: ['tp', 'goto'],
   usage: 'teleport <player/room>',
   requiredRole: PlayerRoles.ADMIN,
   command: (state) => (args, player) => {

@@ -11,7 +11,7 @@ module.exports = {
 
     state.PlayerManager.players.forEach((otherPlayer) => {
       let playerTitle = otherPlayer.getMeta('title');
-      B.sayAt(player, ` *  ${otherPlayer.name} ${playerTitle}`);
+      B.sayAt(player, `${otherPlayer.name}${playerTitle}`);
     });
 
     B.sayAt(player, state.PlayerManager.players.size + ' total');

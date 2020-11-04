@@ -23,9 +23,9 @@ module.exports = {
         keywords: keywords.concat(['corpse']),
         type: 'CONTAINER',
         metadata: {
-          noPickup: true,
-          owner: ''
+          noPickup: true
         },
+        value: 5,
         maxItems: items.length,
         behaviors: {
           decay: {

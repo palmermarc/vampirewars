@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B } = require('ranvier');
+const { Broadcast: B, Logger } = require('ranvier');
 const ArgParser = require('../lib/ArgParser');
 const ItemUtil = require('../lib/ItemUtil');
 
@@ -67,7 +67,11 @@ module.exports = {
 };
 
 function destroy(item, container, player) {
-  if (item.metadata.owner !== '' || item.metadata.owner !== player.name) {
+  let itemOwner = item.getMeta('owner') || '';
+
+  Logger.log(`${item.name} is owned by '${itemOwner}'`);
+
+  if ( itemOwner !== '' && itemOwner !== player.name) {
     return B.sayAt(player, `${ItemUtil.display(item)} is owned by another player.`);
   }
 
@@ -84,5 +88,5 @@ function destroy(item, container, player) {
 
   player.setMeta(currencyKey, (player.getMeta(currencyKey) || 0) + item.value);
 
-  B.sayAt(player, `<green>You sacrifice ${ItemUtil.display(item)} for <b><white>${sellable.value} ${friendlyCurrencyName(sellable.currency)}</white></b>.</green>`);
+  B.sayAt(player, `<green>You sacrifice ${ItemUtil.display(item)} for <b><white>${item.value} gold.</white></b>.</green>`);
 }

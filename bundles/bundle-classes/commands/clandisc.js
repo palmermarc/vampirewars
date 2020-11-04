@@ -12,9 +12,10 @@ module.exports = {
     }
 
     // TODO: Automatically bounce them to their class-appropriate ability
-    let playerdiscs = player.getMeta('clandiscs');
+    let playerdiscs = player.getMeta('clandiscs') || [];
     let selectedDiscs = [];
-    let possibleDiscs = ['animalism', 'auspex', 'celerity', 'dominate', 'fortitude', 'obfuscate', 'obtenebration', 'potence', 'presence', 'quietus', 'thaumaturgy', 'viccisitude'];
+    //let possibleDiscs = ['animalism', 'auspex', 'celerity', 'dominate', 'fortitude', 'obfuscate', 'obtenebration', 'potence', 'presence', 'quietus', 'thaumaturgy', 'viccisitude'];
+    let possibleDiscs = [ 'auspex', 'celerity', 'dominate', 'fortitude', 'mortis', 'obfuscate', 'obtenebration', 'potence', 'protean', 'serpentis' ];
 
     possibleDiscs.map((disc) => {
       if ( player.getMeta('clandiscs.' + disc) > 0) {
@@ -34,7 +35,9 @@ module.exports = {
     const [discName] = args.split(' ');
 
     // Check to see if they already have that disc
-    if(playerdiscs.includes(discName)) {
+    let disciplineLevel = player.getMeta(`clandiscs.${discName}`) || 0;
+
+    if(disciplineLevel >= 1) {
       // TODO: Return the discipline powers and actually be useful
       return B.sayAt(player, `You have already mastered the ${discName} discipline.`);
     }

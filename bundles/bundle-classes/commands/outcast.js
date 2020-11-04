@@ -1,7 +1,7 @@
 'use strict';
 
 const { Broadcast: B } = require('ranvier');
-const ArgParser = require('../lib/ArgParser');
+const ArgParser = require('../../bundle-diku/lib/ArgParser');
 
 module.exports = {
   usage: 'clandeposit <amount>',
