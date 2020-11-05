@@ -30,11 +30,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="Added in the base of the claninfo - we still need to get the leaderboard working so we can pull from that.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-combat/lib/Combat.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-combat/lib/Combat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/air/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/air/items.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/items.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/npcs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/rooms.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/rooms.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku-core/input-events/finish-player.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku-core/input-events/finish-player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/newbie/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/newbie/items.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/equipment.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/commands/equipment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/commands/wear.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/commands/wear.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,10 +342,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1603763790879" />
-    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup" timestamp="1603739069249">
+    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup" timestamp="1604604154225">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1603739069249" />
+    <state x="945" y="324" width="670" height="724" key="search.everywhere.popup/0.0.2560.1440/2560.0.1920.1080@0.0.2560.1440" timestamp="1604604154225" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

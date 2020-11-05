@@ -6,7 +6,7 @@
   type: RING
   metadata:
     quality: common
-    slot: ['ring1','ring2']
+    slot: 'finger'
     sellable:
       value: 30
       currency: gold
@@ -22,7 +22,7 @@
     sellable:
       value: 30
       currency: gold
-- id: chestplace
+- id: chestplate
   name: "Newbie chestplate"
   roomDesc: "A worn newbie chestplate lies here."
   keywords: ["chestplate","newbie"]
@@ -30,7 +30,7 @@
   type: CHEST
   metadata:
     quality: common
-    slot: 'chest'
+    slot: 'body'
     sellable:
       value: 30
       currency: gold
@@ -51,7 +51,7 @@
   type: PANTS
   metadata:
     quality: common
-    slot: 'pants'
+    slot: 'legs'
     sellable:
       value: 30
       currency: gold
@@ -63,7 +63,7 @@
   type: BOOTS
   metadata:
     quality: common
-    slot: 'boots'
+    slot: 'feet'
     sellable:
       value: 30
       currency: gold
@@ -75,7 +75,7 @@
   type: GLOVES
   metadata:
     quality: common
-    slot: 'gloves'
+    slot: 'hands'
     sellable:
       value: 30
       currency: gold
@@ -87,7 +87,7 @@
   type: BRACERS
   metadata:
     quality: common
-    slot: 'wrists'
+    slot: 'arms'
     sellable:
       value: 30
       currency: gold
@@ -99,7 +99,7 @@
   type: BACK
   metadata:
     quality: common
-    slot: 'back'
+    slot: 'about'
     sellable:
       value: 30
       currency: gold
@@ -111,7 +111,7 @@
   type: BELT
   metadata:
     quality: common
-    slot: 'belt'
+    slot: 'waist'
     sellable:
       value: 30
       currency: gold
@@ -123,7 +123,19 @@
   type: BRACER
   metadata:
     quality: common
-    slot: 'wrists'
+    slot: 'wrist'
+    sellable:
+      value: 30
+      currency: gold
+- id: icybracer
+  name: "Flaming bracer"
+  roomDesc: "A worm icy bracer lies here."
+  keywords: ["icy","bracer"]
+  description: "A worm icy bracer"
+  type: BRACER
+  metadata:
+    quality: common
+    slot: 'wrist'
     sellable:
       value: 30
       currency: gold
@@ -147,23 +159,9 @@
   type: WEAPON15HAND
   metadata:
     minDamage: 7
-    slot: ['lhand', 'rhand']
+    slot: 'wield'
     maxDamage: 15
     speed: 2.8
-    sellable:
-      value: 30
-      currency: gold
-- id: shoulders
-  name: "Newbie shoulders"
-  roomDesc: "A basic pair of newbie shoulders lie here."
-  keywords: ["shoulders","newbie"]
-  description: "A basic pair of newbie shoulders"
-  type: SHOULDERS
-  metadata:
-    quality: common
-    slot: 'necklace'
-    itemLevel: 10
-    level: 1
     sellable:
       value: 30
       currency: gold
@@ -175,7 +173,7 @@
   type: NECKLACE
   metadata:
     quality: common
-    slot: 'necklace'
+    slot: 'neck'
     itemLevel: 10
     level: 1
     sellable:
@@ -189,7 +187,7 @@
   type: WEAPON2HAND
   metadata:
     quality: common
-    slot: "Both Hands"
+    slot: "2hand"
     itemLevel: 10
     level: 5
     minDamage: 11
@@ -209,7 +207,7 @@
   description: "A worn newbie shield rests here."
   type: SHIELD
   metadata:
-    slot: 'rhand'
+    slot: 'wield'
 - id:  newbiesign
   name: "a sign"
   roomDesc: "There is a sign here - type: look sign"
@@ -233,3 +231,11 @@
     do decide to enter the PK world.
   metadata:
     noPickup: true
+- id: mask
+  name: "a tattered newbie mask"
+  roomDesc: "A tattered newbie mask lies here."
+  keywords: ['newbie', 'mask']
+  description: "A tattered newbie mask"
+  type: ARMOR
+  metadata:
+    slot: 'face'

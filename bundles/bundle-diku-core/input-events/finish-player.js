@@ -58,8 +58,7 @@ module.exports = {
         'newbie:ring',
         'newbie:ring',
         'newbie:lightningneck',
-        'newbie:acidnecklace',
-        'newbie:chestplace',
+        'newbie:chestplate',
         'newbie:helmet',
         'newbie:leggings',
         'newbie:boots',
@@ -68,16 +67,16 @@ module.exports = {
         'newbie:cloak',
         'newbie:girth',
         'newbie:flamingbracer',
+        'newbie:icybracer',
         'newbie:bag',
         'newbie:sword',
         'newbie:sword',
-        'newbie:shoulders'
+        'newbie:mask'
       ];
 
       startingGear.forEach(itemName => {
         let item = state.ItemFactory.create(state.AreaManager.getAreaByReference(itemName), itemName);
         player.addItem(item);
-        state.CommandManager.get('wear').execute(itemName, player);
       });
 
       const room = state.RoomManager.getRoom(startingRoomRef);
@@ -89,6 +88,8 @@ module.exports = {
       player.socket = socket;
 
       socket.emit('done', socket, { player });
+
+      state.CommandManager.get('wear').execute('all', player);
     };
   }
 };
