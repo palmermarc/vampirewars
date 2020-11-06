@@ -239,3 +239,20 @@
   type: ARMOR
   metadata:
     slot: 'face'
+- id: munchkinhelmet
+  name: "a munchkin helmet"
+  roomDesc: "A munchkin helmet rests here."
+  keywords: ['munchkin', 'helmet']
+  description: "A munchkin helmet"
+  type: ARMOR
+  metadata:
+    slot: 'head'
+
+- id: munchkinsword
+  name: "a munchkin sword"
+  roomDesc: "A munchkin sword rests here."
+  keywords: ['munchkin', 'sword']
+  description: "A munchkin sword"
+  type: ARMOR
+  metadata:
+    slot: 'wield'
