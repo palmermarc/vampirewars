@@ -96,7 +96,7 @@
     list what exits are around you.  This makes moving around 
     much easier.  To help you find what players and mobs are 
     near you, you can use the 'scan' command which shows things
-    immedietly around you one location in each direction.
+    immediately around you one location in each direction.
     Please move north to continue your discovery.
   exits:
     - roomId: "newbie2:r805"
@@ -133,7 +133,7 @@
     like it, you wouldn't be here.  Killing is very easy.  Just 
     type 'kill whatever', or you can type 'k' as a shortcut for kill. 
     Almost all commands have a shortcut, try a few out.
-    TIP : sacrafice corpses for a gold coin (very usefull) 'sac corpse'.
+    TIP : sacrifice corpses for a gold coin (very usefull) 'sac corpse'.
   exits:
     - roomId: "newbie2:r807"
       direction: north
@@ -259,7 +259,7 @@
   title: "Onward Adventurer ..."
   description: >-
     This is the gateway from the safety of the newbie instruction area out in 
-    to the cold harsh world, well actaully in to the newbie zone where you can 
+    to the cold harsh world, well actually in to the newbie zone where you can
     hunt and kill to gain those important 5 mob kills and get some experience. 
     Go North and Down to the temple square where you can be transported into 
     the prehistoric newbie area where you can start your journey in safety. 

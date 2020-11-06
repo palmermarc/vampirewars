@@ -1270,7 +1270,7 @@
   description: >-
     You are by two small towers that have been built into the city wall and
     connected with a footbridge across the heavy wooden gate.  Main Street leads
-    west from here.  South of here is the wall road, but it looks dirty and 
+    west from here.  South of here is the wall road, but it looks dirty and
     not too safe.
   exits:
     - roomId: "hood:r2171"
