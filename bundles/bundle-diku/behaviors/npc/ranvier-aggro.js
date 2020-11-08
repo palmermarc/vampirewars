@@ -44,6 +44,11 @@ module.exports = {
         return;
       }
 
+      let safe = this.room.getMeta('saferoom') || false;
+      if( safe ) {
+        return;
+      }
+
       if (typeof config !== 'object') {
         config = {};
       }

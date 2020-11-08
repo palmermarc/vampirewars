@@ -1466,6 +1466,8 @@
   items:
     - id: "midgaard:o3010"
       respawnChance: 75
+  metadata:
+    saferoom: true
 - id: r3057
   title: "In the air..."
   description: >-
