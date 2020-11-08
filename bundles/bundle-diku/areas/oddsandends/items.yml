@@ -3,7 +3,7 @@
   roomDesc: "A soul blade lies here."
   keywords: ["soul","blade"]
   description: "A soul blade lies here."
-  type: WEAPON15HAND
+  type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15

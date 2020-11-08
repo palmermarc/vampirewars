@@ -674,6 +674,7 @@
     picturing Gods, Giants and peasants.
     		The Temple lies to the north and the centre of Midgaard to the south.
     NEWBIES : say 'take me home' to travel back to the safety of the newbie zone.
+  script: 'prehistoriaportal'
   exits:
     - roomId: "midgaard:r3054"
       direction: north

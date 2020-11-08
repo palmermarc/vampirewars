@@ -18,3 +18,4 @@ site/
 
 # ignore api.ai key
 bundles/ranvier-npc-behaviors/APIAIKEY
+.idea/workspace.xml

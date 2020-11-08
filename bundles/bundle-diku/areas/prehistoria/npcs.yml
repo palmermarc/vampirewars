@@ -3,7 +3,7 @@
   name: "Generic-Dino"
   description: >-
     The mob stands here, completely clueless.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -26,7 +26,7 @@
   name: "Triceratops"
   description: >-
     A Triceratops is roaming here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -55,7 +55,7 @@
   name: "Diplodicus"
   description: >-
     A Diplodicus is grazing here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -88,7 +88,7 @@
   name: "Stegosaurus"
   description: >-
     A Stegosaurus is crouched here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -117,7 +117,7 @@
   name: "Brontosaurus"
   description: >-
     A Brontosaurus is hunting here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -149,7 +149,7 @@
   name: "Velociraptor"
   description: >-
     A Velociraptor is Running about here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -182,7 +182,7 @@
   name: "Tyrannosaurus-Rex"
   description: >-
     The NASTY looking Tyrannosaurus-Rex is eating another Dinosaur here!
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -215,7 +215,7 @@
   name: "Terradactyl"
   description: >-
     A Terredactyl is flying about here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -247,7 +247,7 @@
   name: "Brachiosaurus"
   description: >-
     A Brachiosaurus is sleeping here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -277,7 +277,7 @@
   name: "Lesothosaurus"
   description: >-
     A Lesothosaurus is here playing with his tail.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -308,7 +308,7 @@
   name: "Zigongosaurus"
   description: >-
     A Zigongosaurus is here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -334,7 +334,7 @@
   name: "Xiaosaurus"
   description: >-
     A Xiaosaurus is here rolling in the dirt.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -366,7 +366,7 @@
   name: "Riojosaurus"
   description: >-
     A Riojosaurus is here vomiting.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -404,7 +404,7 @@
   name: "Dryosaurus"
   description: >-
     A Dryosaurus is here licking a leaf.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -434,7 +434,7 @@
   name: "Protoceratops"
   description: >-
     A Protoceratops is here searching for food.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -467,7 +467,7 @@
   name: "Giganotosaurus"
   description: >-
     A Giganotosaurus is here towering above the crowd.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -497,7 +497,7 @@
   name: "Maiasaurus"
   description: >-
     A Maiasaurus is here chewing some fruit.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -527,7 +527,7 @@
   name: "Lambeosaurus"
   description: >-
     A Lambeosaurus roams here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -559,7 +559,7 @@
   name: "Kentrosaurus"
   description: >-
     A Kentrosaurus roams here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -592,7 +592,7 @@
   name: "Dilophosaurus"
   description: >-
     A Dilophosaurus runs around here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -624,7 +624,7 @@
   name: "Montanoceratops"
   description: >-
     A Montanoceratops is here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -691,12 +691,12 @@
   name: "maliusaurus"
   description: >-
     A maliusaurus stamps around here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
     hit_chance: 75
-    attack_power: 75
+    attack_power: 5
     alignment: -500
   behaviors:
     combat: true
@@ -723,7 +723,7 @@
   name: "the dinosar"
   description: >-
     A Dinosaur sits here chained to the wall.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -748,7 +748,7 @@
   name: "the dinosaur"
   description: >-
     A Dinosaur sits here chained to the wall.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -776,7 +776,7 @@
   name: "the dinosaur"
   description: >-
     A Dinosaur sits here chained to the wall.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -802,7 +802,7 @@
   name: "the dinosaur"
   description: >-
     A Dinosaur sits here chained to the wall.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -828,7 +828,7 @@
   name: "a damned soul"
   description: >-
     A Damned soul is here to torment you!
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -851,7 +851,7 @@
   name: "a damned soul"
   description: >-
     A Damned soul lunges at you!
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
@@ -879,7 +879,7 @@
   name: "Merlin mage"
   description: >-
     Merlin is working on a strange potion here.
-  level: 51
+  level: 25
   attributes:
     health: 1800
     armor: 200
