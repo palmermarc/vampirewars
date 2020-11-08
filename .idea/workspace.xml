@@ -30,10 +30,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="Added in the base of the claninfo - we still need to get the leaderboard working so we can pull from that.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/midgaard/rooms.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/midgaard/rooms.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/oddsandends/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/oddsandends/items.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/prehistoria/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/prehistoria/npcs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/prehistoria/rooms.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/prehistoria/rooms.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/midgaard/scripts/prehistoriaportal.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/midgaard/scripts/rooms/prehistoriaportal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\vampirewars\bundles\bundle-diku\areas\midgaard\scripts\rooms" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/lib" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku/help" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/effects" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bundles/bundle-classes" />
@@ -142,7 +139,7 @@
       <workItem from="1603734806981" duration="3841000" />
       <workItem from="1603763540012" duration="2121000" />
       <workItem from="1603765864026" duration="19264000" />
-      <workItem from="1604856990166" duration="3914000" />
+      <workItem from="1604856990166" duration="4309000" />
     </task>
     <task id="LOCAL-00001" summary="Removed spells from the level command as magic was removed from the game and this no logner made sense.">
       <created>1603757163671</created>
@@ -354,7 +351,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/bundles/bundle-diku-combat/lib/Combat.js</url>
           <line>120</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
