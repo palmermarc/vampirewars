@@ -20,7 +20,5 @@ module.exports = {
     if (!args.length) {
       return B.sayAt(player, 'Who are you wanting to outcast?');
     }
-
-
   }
 };

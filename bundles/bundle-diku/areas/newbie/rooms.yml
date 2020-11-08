@@ -49,7 +49,7 @@
     - roomId: "newbie:armourclass"
       direction: south
   npcs:
-    - id: "newbie:m700"
+    - id: "newbie:munchkin"
       respawnChance: 100
       maxLoad: "2"
 - id: weapons

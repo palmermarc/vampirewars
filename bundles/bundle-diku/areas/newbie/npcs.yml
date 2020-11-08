@@ -1,14 +1,14 @@
-- id: m700
+- id: munchkin
   keywords: ["munchkin"]
   name: "a munchkin"
   description: >-
     A little munchkin stands here, growling
-  level: 66
+  level: 2
   attributes:
-    health: 3500
-    armor: -550
-    hit_chance: 50
-    attack_power: 55
+    health: 1500
+    armor: 10
+    hit_chance: 0
+    attack_power: 0
     alignment: 0
   behaviors:
     combat: true
@@ -18,8 +18,8 @@
           min: 0
           max: 0
       pools:
-        "newbie:o701": 75
-        "newbie:o700": 75
+        "newbie:munchkinhelmet": 75
+        "newbie:munchkinsword": 75
   metadata:
     areaId: 52
     exp_level: 4999

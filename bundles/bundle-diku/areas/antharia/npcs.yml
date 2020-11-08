@@ -21,13 +21,13 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1804": 75
-        "antharia:o1830": 75
-        "antharia:o1810": 75
-        "antharia:o1813": 75
-        "antharia:o1816": 75
-        "antharia:o1833": 75
-        "antharia:o1807": 75
+        "antharia:signetring": 75
+        "antharia:bracer": 75
+        "antharia:syntheticfin": 75
+        "antharia:helmet": 75
+        "antharia:trident": 75
+        "antharia:net": 75
+        "antharia:platemail": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -103,11 +103,11 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1802": 75
+        "antharia:seashellarmor": 75
   metadata:
     vendor:
       items:
-        "antharia:o1802":
+        "antharia:seashellarmor":
           cost: 4000
           currency: gold
     areaId: 3
@@ -133,23 +133,23 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1819": 75
-        "antharia:o1820": 75
-        "antharia:o1821": 75
-        "antharia:o1822": 75
+        "antharia:seafoodplatter": 75
+        "antharia:caviar": 75
+        "antharia:special": 75
+        "antharia:sushi": 75
   metadata:
     vendor:
       items:
-        "antharia:o1819":
+        "antharia:seafoodplatter":
           cost: 15
           currency: gold
-        "antharia:o1820":
+        "antharia:caviar":
           cost: 500
           currency: gold
-        "antharia:o1821":
+        "antharia:special":
           cost: 15
           currency: gold
-        "antharia:o1822":
+        "antharia:sushi":
           cost: 15
           currency: gold
     areaId: 3
@@ -175,19 +175,19 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1827": 75
-        "antharia:o1829": 75
-        "antharia:o1800": 75
+        "antharia:crystalpotion": 75
+        "antharia:seashell": 75
+        "antharia:pearl": 75
   metadata:
     vendor:
       items:
-        "antharia:o1827":
+        "antharia:crystalpotion":
           cost: 1000
           currency: gold
-        "antharia:o1829":
+        "antharia:seashell":
           cost: 1000
           currency: gold
-        "antharia:o1800":
+        "antharia:pearl":
           cost: 4000
           currency: gold
     areaId: 3
@@ -213,15 +213,15 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1803": 75
-        "antharia:o1828": 75
+        "antharia:clamshell": 75
+        "antharia:crystalscroll": 75
   metadata:
     vendor:
       items:
-        "antharia:o1803":
+        "antharia:clamshell":
           cost: 4000
           currency: gold
-        "antharia:o1828":
+        "antharia:crystalscroll":
           cost: 1000
           currency: gold
     areaId: 3
@@ -250,12 +250,12 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1805": 75
-        "antharia:o1831": 75
-        "antharia:o1811": 75
-        "antharia:o1814": 75
-        "antharia:o1817": 75
-        "antharia:o1833": 75
+        "antharia:signetring": 75
+        "antharia:bracer": 75
+        "antharia:syntheticfin": 75
+        "antharia:helmet": 75
+        "antharia:trident": 75
+        "antharia:net": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -283,7 +283,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1801": 75
+        "antharia:greengem": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -311,7 +311,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1823": 75
+        "antharia:robe": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -339,7 +339,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1824": 75
+        "antharia:belt": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -367,7 +367,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1825": 75
+        "antharia:trousers": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -395,7 +395,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1825": 75
+        "antharia:trousers": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -423,13 +423,13 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:o1806": 75
-        "antharia:o1809": 75
-        "antharia:o1812": 75
-        "antharia:o1815": 75
-        "antharia:o1818": 75
-        "antharia:o1833": 75
-        "antharia:o1832": 75
+        "antharia:signetring": 75
+        "antharia:platemail": 75
+        "antharia:syntheticfin": 75
+        "antharia:helmet": 75
+        "antharia:trident": 75
+        "antharia:net": 75
+        "antharia:bracer": 75
   metadata:
     areaId: 3
     exp_level: 26000

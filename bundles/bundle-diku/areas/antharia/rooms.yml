@@ -344,7 +344,7 @@
     such a long time.   You have obviously stumbled upon a part of
     Antharian history, as the room still looks like it did 2000 yrs ago.
   items:
-    - id: "antharia:o1826"
+    - id: "antharia:metal"
       respawnChance: 75
 - id: r1817
   title: "Main Road of Antharia"

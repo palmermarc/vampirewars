@@ -12,13 +12,24 @@ module.exports = {
       return B.sayAt(player, 'Remove what?');
     }
 
+    if( arg === 'all' ){
+      for (const [slot, item] of player.equipment) {
+        player.unequip(slot);
+
+        B.sayAt(player, `You stop using ${ItemUtil.display(item)}.`);
+        B.sayAtExcept(player.room, `${player.name} stops using ${ItemUtil.display(item)}.`, [player]);
+      }
+      return;
+    }
+
     const result = ArgParser.parseDot(arg, player.equipment, true);
     if (!result) {
       return B.sayAt(player, "You aren't wearing anything like that.");
     }
 
     const [slot, item] = result;
-    B.sayAt(player, `<green>You un-equip: </green>${ItemUtil.display(item)}<green>.</green>`);
+    B.sayAt(player, `You stop using ${ItemUtil.display(item)}.`);
+    B.sayAtExcept(player.room, `${player.name} stops using ${ItemUtil.display(item)}.`, [player]);
     player.unequip(slot);
   }
 };
