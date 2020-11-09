@@ -7,6 +7,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o5001
   name: "banded mail"
@@ -23,6 +24,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o5003
   name: "amulet"
@@ -39,6 +41,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o5006
   name: "cactus"
@@ -125,6 +128,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o5017
   name: "scimitar"
@@ -135,6 +139,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o5018
   name: "cutlass"
@@ -145,6 +150,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o5019
   name: "potion pink"
@@ -167,6 +173,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o5022
   name: "scroll encrypted"

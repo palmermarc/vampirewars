@@ -13,6 +13,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o3403
   name: "plasma webbing"
@@ -57,6 +58,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o3415
   name: "sarcophagus coffin"
@@ -111,6 +113,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o3422
   name: "piece slime"
@@ -157,6 +160,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o3429
   name: "breast plate dented worn"

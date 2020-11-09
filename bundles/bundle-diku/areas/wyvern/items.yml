@@ -8,7 +8,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o1602
   name: "fine mace"
   roomDesc: "There is a large mace of fine quality here."
@@ -19,7 +19,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o1603
   name: "elven dagger"
   roomDesc: "A long elven dagger made of adamantite is here."
@@ -30,7 +30,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o1604
   name: "steel broad sword"
   roomDesc: "A fine steel broad sword is lying on the ground."
@@ -41,7 +41,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o1606
   name: "rod might"
   roomDesc: "A Rod of Might is lying here."
@@ -52,7 +52,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o1612
   name: "black kite shield"
   roomDesc: "There is a large black kite shield lying here."
@@ -121,7 +121,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o1702
   name: "long bow"
   roomDesc: "A long bow has been foolishly abandoned here."
@@ -132,7 +132,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o1703
   name: "gnarled staff"
   roomDesc: "A gnarled looking staff lies on the ground."
@@ -143,7 +143,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o1704
   name: "ancient sword"
   roomDesc: "An ancient long sword has been left here."
@@ -154,7 +154,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o1711
   name: "fur cap"
   roomDesc: "A fur cap lies here on the ground."

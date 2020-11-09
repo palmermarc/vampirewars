@@ -31,6 +31,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o3605
   name: "rake"
@@ -41,6 +42,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o3610
   name: "skeleton"
@@ -69,6 +71,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o3614
   name: "clan assamite book"

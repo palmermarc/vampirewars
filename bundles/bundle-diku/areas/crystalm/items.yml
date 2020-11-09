@@ -13,6 +13,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10003
   name: "blue crystal staff"
@@ -57,6 +58,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10009
   name: "farmer longjohns"
@@ -97,6 +99,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10015
   name: "Footman's Lance"
@@ -107,6 +110,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10016
   name: "Humanskin vest"

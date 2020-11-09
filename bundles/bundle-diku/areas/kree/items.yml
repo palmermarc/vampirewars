@@ -7,6 +7,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o6401
   name: "lighter"
@@ -131,6 +132,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o6421
   name: "robe robes"

@@ -19,7 +19,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o6505
   name: "dwarven plate"
@@ -48,7 +48,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o6509
   name: "two-handed dwarven axe"
@@ -59,7 +59,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o6510
   name: "helmet"
@@ -112,7 +112,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o6519
   name: "pills"

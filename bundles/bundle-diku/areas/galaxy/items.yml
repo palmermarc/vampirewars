@@ -7,6 +7,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9302
   name: "arm hercules"
@@ -83,6 +84,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9315
   name: "arrow sagittarius"
@@ -99,6 +101,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9317
   name: "horns capricorn"
@@ -133,6 +136,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9322
   name: "ring universe"
@@ -149,6 +153,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9324
   name: "spring shoot"

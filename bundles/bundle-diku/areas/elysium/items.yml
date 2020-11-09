@@ -95,6 +95,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o26315
   name: "icy bracer"
@@ -123,6 +124,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o26319
   name: "shield newbie"

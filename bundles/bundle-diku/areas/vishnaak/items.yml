@@ -134,7 +134,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o25522
   name: "gythka"
   roomDesc: "A strange polearm lies here"
@@ -144,7 +144,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o25523
   name: "gythka"
@@ -155,7 +155,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o25524
   name: "gythka"
@@ -166,7 +166,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o25525
   name: "chaktcha"
@@ -177,7 +177,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o25526
   name: "chaktcha"
@@ -188,7 +188,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o25527
   name: "shield leather"

@@ -31,6 +31,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2305
   name: "cloak pitch black"
@@ -65,6 +66,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2310
   name: "visor helm golden"
@@ -99,6 +101,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2315
   name: "spectacles wire rimmed"
@@ -127,6 +130,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2319
   name: "girdle pouches many"
@@ -161,6 +165,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2324
   name: "symbol holy golden"
@@ -201,6 +206,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2330
   name: "ring carved wooden"
@@ -235,6 +241,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2335
   name: "pack leather small"
@@ -273,6 +280,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2340
   name: "globe major"
@@ -313,6 +321,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2346
   name: "plate ethereal suit"
@@ -335,6 +344,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2349
   name: "branch willow"
@@ -423,6 +433,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2363
   name: "vambraces steel"
@@ -445,6 +456,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2366
   name: "plate steel breast"
@@ -467,6 +479,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2369
   name: "visor blue steel helm"
@@ -495,6 +508,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2373
   name: "visor helm steel red"
@@ -523,6 +537,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2377
   name: "visor helm crimson steel"
@@ -551,6 +566,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2381
   name: "spiked brass knuckles"
@@ -561,6 +577,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2382
   name: "ring key multi colored multi-colored"
@@ -577,6 +594,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2384
   name: "potion misty"
@@ -603,6 +621,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2387
   name: "club ogre war"
@@ -613,6 +632,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2388
   name: "cloak bear skin bearskin"
@@ -641,6 +661,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2392
   name: "cape thick fur"

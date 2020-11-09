@@ -19,7 +19,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o7803
   name: "cloak brown"
@@ -56,7 +56,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o7808
   name: "potion"

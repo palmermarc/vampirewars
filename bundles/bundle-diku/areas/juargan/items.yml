@@ -13,6 +13,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o4702
   name: "helm dwarven"
@@ -47,6 +48,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o4707
   name: "large stone sarcophagus"

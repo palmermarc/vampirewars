@@ -7,6 +7,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o501
   name: "quest card"
@@ -47,6 +48,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o507
   name: "quest card"
@@ -99,6 +101,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o515
   name: "protoplasm plasm ball"
@@ -139,6 +142,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o521
   name: "protoplasm plasm ball"
@@ -179,6 +183,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o527
   name: "protoplasm plasm ball"
@@ -219,6 +224,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o533
   name: "protoplasm plasm ball"

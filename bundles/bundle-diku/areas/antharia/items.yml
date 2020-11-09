@@ -60,7 +60,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: seafoodplatter
   name: "Seafood platter"
   roomDesc: "A big plate of Seafood is here."
@@ -143,4 +143,4 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'

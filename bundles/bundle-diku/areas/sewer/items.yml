@@ -13,6 +13,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o7201
   name: "mace large"
@@ -23,6 +24,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o7202
   name: "mace small"
@@ -33,6 +35,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o7203
   name: "cloak purple"
@@ -85,6 +88,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o7216
   name: "claw red redclaw"
@@ -95,6 +99,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o7217
   name: "plate breast silvery"
@@ -159,6 +164,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o7001
   name: "backpack pack back"

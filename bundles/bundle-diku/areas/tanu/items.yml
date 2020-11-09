@@ -19,6 +19,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o8703
   name: "dragonquest666"

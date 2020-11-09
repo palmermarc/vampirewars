@@ -7,6 +7,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12501
   name: "Serpentis Ring"
@@ -23,6 +24,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12503
   name: "Jynx Shield"
@@ -63,6 +65,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12509
   name: "Magical Light"
@@ -79,6 +82,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12511
   name: "Wrench"
@@ -89,6 +93,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12512
   name: "Pig Stick"
@@ -99,6 +104,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12513
   name: "Helm Of Wimps"
@@ -115,6 +121,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12515
   name: "Cape of Fear"
@@ -143,6 +150,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12519
   name: "Holy Cross"
@@ -165,6 +173,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12522
   name: "Gargoyle Claw"
@@ -175,6 +184,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12523
   name: "Sword of Blood"
@@ -185,6 +195,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12524
   name: "finger bone skeleton key"

@@ -67,6 +67,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10251
   name: "carrot"
@@ -185,6 +186,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10270
   name: "mulburry extract"
@@ -273,6 +275,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10284
   name: "travellers spellbook"
@@ -307,6 +310,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10289
   name: "travellers scalemail"
@@ -329,6 +333,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10292
   name: "Maginus's spellbook"
@@ -357,6 +362,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10296
   name: "crystal shield"
@@ -373,6 +379,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10298
   name: "obsidian plate armor"
@@ -401,6 +408,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10302
   name: "safe deposit box"
@@ -523,6 +531,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10212
   name: "signet ring"
@@ -555,6 +564,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10216
   name: "helmet steel"
@@ -619,6 +629,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10226
   name: "helmet red"
@@ -683,6 +694,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10236
   name: "plate black platemail"
@@ -699,6 +711,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10238
   name: "enchanted hammer"
@@ -709,6 +722,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o10239
   name: "enchanted pike"
@@ -719,4 +733,5 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8

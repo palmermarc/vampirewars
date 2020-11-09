@@ -8,7 +8,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o201
   name: "Tiger paw"
   roomDesc: "A withered limb lies here forgotten"
@@ -19,7 +19,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o202
   name: "small fish"
   roomDesc: "A small red fish is here.It looks suspiciously like a red herring"
@@ -152,7 +152,7 @@
     minDamage: 7
     maxDamage: 15
     speed: 2.8
-    slot: 'one_hand'
+    slot: 'wield'
 - id: o222
   name: "security cap"
   roomDesc: "A black peaked cap is here"

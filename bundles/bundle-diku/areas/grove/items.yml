@@ -45,6 +45,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o8911
   name: "robe brown cloth"

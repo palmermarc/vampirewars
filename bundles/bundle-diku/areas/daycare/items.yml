@@ -7,7 +7,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8
 - id: o6601
   name: "ring pink ice"
@@ -48,5 +48,5 @@
   metadata:
     minDamage: 7
     maxDamage: 15
-    slot: 'one_hand'
+    slot: 'wield'
     speed: 2.8

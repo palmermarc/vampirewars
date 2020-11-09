@@ -109,6 +109,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2418
   name: "doll"
@@ -125,6 +126,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2420
   name: "scroll"
@@ -141,6 +143,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2422
   name: "robe"
@@ -191,6 +194,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2429
   name: "chicken"
@@ -211,6 +215,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2431
   name: "spear"
@@ -221,6 +226,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2432
   name: "club"
@@ -231,6 +237,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2433
   name: "gavel"
@@ -241,6 +248,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2434
   name: "staff"
@@ -251,6 +259,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2435
   name: "sword"
@@ -261,6 +270,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2436
   name: "sword"
@@ -271,6 +281,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2437
   name: "sword bastard"
@@ -281,6 +292,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2438
   name: "hammer"
@@ -291,6 +303,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2439
   name: "sword"
@@ -301,6 +314,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2440
   name: "amulet"
@@ -317,6 +331,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2442
   name: "armour"
@@ -327,12 +342,13 @@
 - id: o2443
   name: "rapier"
   roomDesc: "Dupre's rapier is here."
-  keywords: ["rapier"]
+  keywords: ["dupre", "rapier"]
   description: "Dupre's rapier is here."
   type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2444
   name: "boomerang"
@@ -343,6 +359,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2445
   name: "rusty sword"
@@ -353,6 +370,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2446
   name: "rusty shield"
@@ -387,6 +405,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2451
   name: "black death armour"
@@ -433,6 +452,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2458
   name: "gloves"
@@ -473,6 +493,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2464
   name: "crown"
@@ -483,12 +504,13 @@
 - id: o2465
   name: "sceptre"
   roomDesc: "A pure gold sceptre is topped with a perfect crystal orb of\n\rpower."
-  keywords: ["sceptre"]
+  keywords: ["gold", "sceptre"]
   description: "A pure gold sceptre is topped with a perfect crystal orb of\n\rpower."
   type: WEAPON
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o2466
   name: "silver amulet"

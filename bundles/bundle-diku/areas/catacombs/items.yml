@@ -55,6 +55,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12609
   name: "bronze chestplate plate chest"
@@ -101,6 +102,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12616
   name: "jerkin leather"
@@ -123,6 +125,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12619
   name: "bread loaf"
@@ -169,6 +172,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12626
   name: "chain mail shirt"
@@ -185,6 +189,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o12628
   name: "urn clay"

@@ -31,6 +31,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9221
   name: "lode load lodestone loadstone stone"
@@ -71,6 +72,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9227
   name: "icicle dagger ice"
@@ -81,6 +83,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9228
   name: "avalanche"
@@ -91,6 +94,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9229
   name: "star morning"
@@ -101,6 +105,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9230
   name: "shock whip"
@@ -111,6 +116,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9231
   name: "elixir anti"
@@ -139,6 +145,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9204
   name: "cape flame flaming red"
@@ -167,6 +174,7 @@
   metadata:
     minDamage: 7
     maxDamage: 15
+    slot: 'wield'
     speed: 2.8
 - id: o9208
   name: "shield electric"
