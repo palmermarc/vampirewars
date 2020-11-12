@@ -28,7 +28,7 @@
   name: "ring opal"
   roomDesc: "A ring of black opal lies here gathering dust."
   keywords: ["ring","opal"]
-  description: "A ring of black opal lies here gathering dust."
+  description: "a ring of black opal"
   type: ACCESSORY
 - id: o2804
   name: "leather belt"

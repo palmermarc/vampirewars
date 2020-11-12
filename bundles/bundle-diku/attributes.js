@@ -178,5 +178,19 @@ module.exports = [
     metadata: {
       label: 'Alignment'
     }
+  },
+  {
+    name: 'hunger',
+    base: 100,
+    metadata: {
+      label: 'Hunger'
+    }
+  },
+  {
+    name: 'thirst',
+    base: 100,
+    metadata: {
+      label: 'Thirst'
+    }
   }
 ];
