@@ -47,8 +47,8 @@
           min: 93.1
           max: 102.9
       pools:
-        "canyon:o9217": 75
-        "canyon:o9220": 75
+        - "canyon:o9217": 75
+        - "canyon:o9220": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -76,8 +76,8 @@
           min: 142.5
           max: 157.5
       pools:
-        "canyon:o9219": 75
-        "canyon:o9218": 75
+        - "canyon:o9219": 75
+        - "canyon:o9218": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -131,7 +131,7 @@
           min: 297.35
           max: 328.65
       pools:
-        "canyon:o9222": 75
+        - "canyon:o9222": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -211,7 +211,7 @@
           min: 9.5
           max: 10.5
       pools:
-        "canyon:o9221": 75
+        - "canyon:o9221": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -239,7 +239,7 @@
           min: 95
           max: 105
       pools:
-        "canyon:o9225": 75
+        - "canyon:o9225": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -267,8 +267,8 @@
           min: 28.5
           max: 31.5
       pools:
-        "canyon:o9218": 75
-        "canyon:o9225": 75
+        - "canyon:o9218": 75
+        - "canyon:o9225": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -293,7 +293,7 @@
           min: 2375
           max: 2625
       pools:
-        "canyon:o9226": 75
+        - "canyon:o9226": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -318,7 +318,7 @@
           min: 950
           max: 1050
       pools:
-        "canyon:o9230": 75
+        - "canyon:o9230": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -343,7 +343,7 @@
           min: 2850
           max: 3150
       pools:
-        "canyon:o9227": 75
+        - "canyon:o9227": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -368,7 +368,7 @@
           min: 1805
           max: 1995
       pools:
-        "canyon:o9228": 75
+        - "canyon:o9228": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -393,7 +393,7 @@
           min: 3972.9
           max: 4391.1
       pools:
-        "canyon:o9229": 75
+        - "canyon:o9229": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -418,7 +418,7 @@
           min: 760
           max: 840
       pools:
-        "canyon:o9215": 75
+        - "canyon:o9215": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -446,7 +446,7 @@
           min: 760
           max: 840
       pools:
-        "canyon:o9220": 75
+        - "canyon:o9220": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -497,8 +497,8 @@
           min: 855
           max: 945
       pools:
-        "canyon:o9218": 75
-        "canyon:o9217": 75
+        - "canyon:o9218": 75
+        - "canyon:o9217": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -523,7 +523,7 @@
           min: 950
           max: 1050
       pools:
-        "canyon:o9216": 75
+        - "canyon:o9216": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -597,7 +597,7 @@
           min: 902.5
           max: 997.5
       pools:
-        "canyon:o9231": 75
+        - "canyon:o9231": 75
   metadata:
     vendor:
       items:
@@ -630,7 +630,7 @@
           min: 95
           max: 105
       pools:
-        "canyon:o9231": 75
+        - "canyon:o9231": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -660,8 +660,8 @@
           min: 950
           max: 1050
       pools:
-        "canyon:o9213": 75
-        "canyon:o9214": 75
+        - "canyon:o9213": 75
+        - "canyon:o9214": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -689,7 +689,7 @@
           min: 10.45
           max: 11.55
       pools:
-        "canyon:o9225": 75
+        - "canyon:o9225": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -714,8 +714,8 @@
           min: 9500
           max: 10500
       pools:
-        "canyon:o9211": 75
-        "canyon:o9212": 75
+        - "canyon:o9211": 75
+        - "canyon:o9212": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -740,7 +740,7 @@
           min: 237.5
           max: 262.5
       pools:
-        "canyon:o9224": 75
+        - "canyon:o9224": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -765,8 +765,8 @@
           min: 712.5
           max: 787.5
       pools:
-        "canyon:o9221": 75
-        "canyon:o9219": 75
+        - "canyon:o9221": 75
+        - "canyon:o9219": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -791,8 +791,8 @@
           min: 1900
           max: 2100
       pools:
-        "canyon:o9220": 75
-        "canyon:o9223": 75
+        - "canyon:o9220": 75
+        - "canyon:o9223": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -817,8 +817,8 @@
           min: 95000
           max: 105000
       pools:
-        "canyon:o9201": 75
-        "canyon:o9202": 75
+        - "canyon:o9201": 75
+        - "canyon:o9202": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -866,8 +866,8 @@
           min: 95000
           max: 105000
       pools:
-        "canyon:o9205": 75
-        "canyon:o9206": 75
+        - "canyon:o9205": 75
+        - "canyon:o9206": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -892,8 +892,8 @@
           min: 95000
           max: 105000
       pools:
-        "canyon:o9207": 75
-        "canyon:o9208": 75
+        - "canyon:o9207": 75
+        - "canyon:o9208": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -918,8 +918,8 @@
           min: 95000
           max: 105000
       pools:
-        "canyon:o9209": 75
-        "canyon:o9210": 75
+        - "canyon:o9209": 75
+        - "canyon:o9210": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -947,8 +947,8 @@
           min: 213.75
           max: 236.25
       pools:
-        "canyon:o9216": 75
-        "canyon:o9224": 75
+        - "canyon:o9216": 75
+        - "canyon:o9224": 75
   metadata:
     areaId: 8
     exp_level: 4000
@@ -976,7 +976,7 @@
           min: 142.5
           max: 157.5
       pools:
-        "canyon:o9215": 75
+        - "canyon:o9215": 75
   metadata:
     areaId: 8
     exp_level: 4000

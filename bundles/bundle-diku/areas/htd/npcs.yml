@@ -18,8 +18,8 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
-        "htd:o12426": 75
+        - "htd:o12425": 75
+        - "htd:o12426": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -49,7 +49,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
+        - "htd:o12425": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -74,7 +74,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
+        - "htd:o12425": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -107,7 +107,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12411": 75
+        - "htd:o12411": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -132,8 +132,8 @@
           min: 0
           max: 0
       pools:
-        "htd:o12411": 75
-        "htd:o12410": 75
+        - "htd:o12411": 75
+        - "htd:o12410": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -158,20 +158,20 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
-        "htd:o12412": 75
-        "htd:o12413": 75
-        "htd:o12414": 75
-        "htd:o12415": 75
-        "htd:o12416": 75
-        "htd:o12417": 75
-        "htd:o12418": 75
-        "htd:o12419": 75
-        "htd:o12420": 75
-        "htd:o12421": 75
-        "htd:o12422": 75
-        "htd:o12423": 75
-        "htd:o12427": 75
+        - "htd:o12425": 75
+        - "htd:o12412": 75
+        - "htd:o12413": 75
+        - "htd:o12414": 75
+        - "htd:o12415": 75
+        - "htd:o12416": 75
+        - "htd:o12417": 75
+        - "htd:o12418": 75
+        - "htd:o12419": 75
+        - "htd:o12420": 75
+        - "htd:o12421": 75
+        - "htd:o12422": 75
+        - "htd:o12423": 75
+        - "htd:o12427": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -201,7 +201,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
+        - "htd:o12425": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -231,7 +231,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
+        - "htd:o12425": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -261,7 +261,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
+        - "htd:o12425": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -294,7 +294,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12411": 75
+        - "htd:o12411": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -327,7 +327,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12411": 75
+        - "htd:o12411": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -360,7 +360,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12411": 75
+        - "htd:o12411": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -393,7 +393,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12411": 75
+        - "htd:o12411": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -426,7 +426,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12411": 75
+        - "htd:o12411": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -451,7 +451,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
+        - "htd:o12425": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -476,7 +476,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
+        - "htd:o12425": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -501,7 +501,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
+        - "htd:o12425": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -526,7 +526,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12425": 75
+        - "htd:o12425": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -559,7 +559,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12411": 75
+        - "htd:o12411": 75
   metadata:
     areaId: 36
     exp_level: 8000
@@ -592,7 +592,7 @@
           min: 0
           max: 0
       pools:
-        "htd:o12411": 75
+        - "htd:o12411": 75
   metadata:
     areaId: 36
     exp_level: 8000

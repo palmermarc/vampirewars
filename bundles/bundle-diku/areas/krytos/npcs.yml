@@ -23,11 +23,11 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13069": 75
-        "krytos:o13070": 75
-        "krytos:o13071": 75
-        "krytos:o13066": 75
-        "krytos:o13085": 75
+        - "krytos:o13069": 75
+        - "krytos:o13070": 75
+        - "krytos:o13071": 75
+        - "krytos:o13066": 75
+        - "krytos:o13085": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -55,14 +55,14 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13070": 75
-        "krytos:o13071": 75
-        "krytos:o13065": 75
-        "krytos:o13069": 75
-        "krytos:o13085": 75
-        "krytos:o13066": 75
-        "krytos:o13072": 75
-        "krytos:o13075": 75
+        - "krytos:o13070": 75
+        - "krytos:o13071": 75
+        - "krytos:o13065": 75
+        - "krytos:o13069": 75
+        - "krytos:o13085": 75
+        - "krytos:o13066": 75
+        - "krytos:o13072": 75
+        - "krytos:o13075": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -90,7 +90,7 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13067": 75
+        - "krytos:o13067": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -118,9 +118,9 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13068": 75
-        "krytos:o13072": 75
-        "krytos:o13075": 75
+        - "krytos:o13068": 75
+        - "krytos:o13072": 75
+        - "krytos:o13075": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -171,7 +171,7 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13073": 75
+        - "krytos:o13073": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -201,10 +201,10 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13076": 75
-        "krytos:o13069": 75
-        "krytos:o13070": 75
-        "krytos:o13071": 75
+        - "krytos:o13076": 75
+        - "krytos:o13069": 75
+        - "krytos:o13070": 75
+        - "krytos:o13071": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -229,8 +229,8 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13073": 75
-        "krytos:o13074": 75
+        - "krytos:o13073": 75
+        - "krytos:o13074": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -255,8 +255,8 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13077": 75
-        "krytos:o13078": 75
+        - "krytos:o13077": 75
+        - "krytos:o13078": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -281,8 +281,8 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13079": 75
-        "krytos:o13080": 75
+        - "krytos:o13079": 75
+        - "krytos:o13080": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -307,7 +307,7 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13081": 75
+        - "krytos:o13081": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -337,9 +337,9 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13082": 75
-        "krytos:o13084": 75
-        "krytos:o13083": 75
+        - "krytos:o13082": 75
+        - "krytos:o13084": 75
+        - "krytos:o13083": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -364,14 +364,14 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13086": 75
-        "krytos:o13065": 75
-        "krytos:o13066": 75
-        "krytos:o13069": 75
-        "krytos:o13070": 75
-        "krytos:o13071": 75
-        "krytos:o13077": 75
-        "krytos:o13078": 75
+        - "krytos:o13086": 75
+        - "krytos:o13065": 75
+        - "krytos:o13066": 75
+        - "krytos:o13069": 75
+        - "krytos:o13070": 75
+        - "krytos:o13071": 75
+        - "krytos:o13077": 75
+        - "krytos:o13078": 75
   metadata:
     vendor:
       items:
@@ -450,7 +450,7 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13067": 75
+        - "krytos:o13067": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -475,7 +475,7 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13087": 75
+        - "krytos:o13087": 75
   metadata:
     areaId: 42
     exp_level: 28000
@@ -556,8 +556,8 @@
           min: 0
           max: 0
       pools:
-        "krytos:o13088": 75
-        "krytos:o13089": 75
+        - "krytos:o13088": 75
+        - "krytos:o13089": 75
   metadata:
     areaId: 42
     exp_level: 28000

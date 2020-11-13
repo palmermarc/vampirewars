@@ -30,14 +30,78 @@
   <component name="ChangeListManager">
     <list default="true" id="9d2e1b01-a12a-4189-8ead-2f6994fe6e5e" name="Default Changelist" comment="Added in the base of the claninfo - we still need to get the leaderboard working so we can pull from that.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/trollden/items.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/trollden/items.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/attributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/attributes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/effects/skill.judge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/effects/skill.rend.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/effects/skill.secondwind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/effects/skill.shieldblock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/effects/spell.buff.blessing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/effects/spell.stoneskin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-classes/commands/clandisc.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-classes/commands/clandisc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/antharia/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/arachnos/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/arachnos/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/azurkeep/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/azurkeep/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/bloodshrine/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/bloodshrine/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/camelot/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/camelot/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/canyon/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/canyon/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/castle/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/castle/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/catacomb/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/catacomb/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/catacombs/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/catacombs/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/celene/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/celene/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/chapel/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/chapel/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/crystalm/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/crystalm/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/dabour/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/dabour/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/daycare/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/daycare/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/draconia/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/draconia/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/drow/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/drow/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/dwarven/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/dwarven/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/dylan/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/dylan/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/eastern/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/eastern/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/elysium/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/elysium/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/firenewt/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/firenewt/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/galaxy/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/galaxy/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/gnome/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/gnome/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/grave/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/grave/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/grove/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/grove/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/haon/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/haon/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/hc/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/hc/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/hitower/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/hitower/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/hood/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/hood/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/htd/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/htd/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/icycaver/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/icycaver/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/joker/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/joker/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/joker1/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/joker1/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/juargan/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/juargan/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/kree/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/kree/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/krytos/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/krytos/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/mahntor/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/mahntor/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/marsh/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/marsh/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/midgaard/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/midgaard/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/mirror/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/mirror/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/mordor/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/mordor/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/moria/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/moria/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/newbie/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/newbie/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/newbie/rooms.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/newbie/rooms.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/notale/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/notale/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/ofcol2/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/ofcol2/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/olympus/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/olympus/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/plains/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/plains/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/pomarj/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/pomarj/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/prehistoria/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/prehistoria/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/pyramid/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/pyramid/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/quest/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/quest/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/redferne/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/redferne/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/school/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/school/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/sentinel/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/sentinel/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/sewer/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/sewer/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/smurf/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/smurf/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/solace/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/solace/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/tanu/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/tanu/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/tarzaroth/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/tarzaroth/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/thalos/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/thalos/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/tree/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/tree/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/trollden/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/trollden/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/ultima/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/ultima/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/vallandar/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/vallandar/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/valley/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/valley/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/vishnaak/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/vishnaak/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/wolfden/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/wolfden/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/wyvern/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/wyvern/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/areas/zoo/npcs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/areas/zoo/npcs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc/lootable.js" beforeDir="false" afterPath="$PROJECT_DIR$/bundles/bundle-diku/behaviors/npc/lootable.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +134,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bundles/bundle-classes/effects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/vw-liliths-revenge-master/area" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,11 +147,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Downloads/vw-liliths-revenge-master/area" />
+      <recent name="$PROJECT_DIR$/../Downloads/vw/area" />
       <recent name="$PROJECT_DIR$/bundles/bundle-classes/effects" />
       <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
       <recent name="$PROJECT_DIR$/bundles/bundle-classes/skills" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-diku/commands" />
-      <recent name="$PROJECT_DIR$/bundles/bundle-classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bundles/bundle-diku" />
@@ -147,7 +211,7 @@
       <workItem from="1603763540012" duration="2121000" />
       <workItem from="1603765864026" duration="19264000" />
       <workItem from="1605127333299" duration="503000" />
-      <workItem from="1605170445703" duration="1021000" />
+      <workItem from="1605170445703" duration="15661000" />
     </task>
     <task id="LOCAL-00001" summary="Removed spells from the level command as magic was removed from the game and this no logner made sense.">
       <created>1603757163671</created>

@@ -21,17 +21,17 @@
           min: 950
           max: 1050
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o621": 75
-        "ofcol2:o630": 75
-        "ofcol2:o622": 75
-        "ofcol2:o623": 75
-        "ofcol2:o624": 75
-        "ofcol2:o625": 75
-        "ofcol2:o626": 75
-        "ofcol2:o627": 75
-        "ofcol2:o628": 75
-        "ofcol2:o629": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o621": 75
+        - "ofcol2:o630": 75
+        - "ofcol2:o622": 75
+        - "ofcol2:o623": 75
+        - "ofcol2:o624": 75
+        - "ofcol2:o625": 75
+        - "ofcol2:o626": 75
+        - "ofcol2:o627": 75
+        - "ofcol2:o628": 75
+        - "ofcol2:o629": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -56,16 +56,16 @@
           min: 4750
           max: 5250
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o639": 75
-        "ofcol2:o640": 75
-        "ofcol2:o641": 75
-        "ofcol2:o642": 75
-        "ofcol2:o643": 75
-        "ofcol2:o644": 75
-        "ofcol2:o645": 75
-        "ofcol2:o646": 75
-        "ofcol2:o647": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o639": 75
+        - "ofcol2:o640": 75
+        - "ofcol2:o641": 75
+        - "ofcol2:o642": 75
+        - "ofcol2:o643": 75
+        - "ofcol2:o644": 75
+        - "ofcol2:o645": 75
+        - "ofcol2:o646": 75
+        - "ofcol2:o647": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -93,16 +93,16 @@
           min: 4750
           max: 5250
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o631": 75
-        "ofcol2:o653": 75
-        "ofcol2:o632": 75
-        "ofcol2:o633": 75
-        "ofcol2:o634": 75
-        "ofcol2:o635": 75
-        "ofcol2:o626": 75
-        "ofcol2:o627": 75
-        "ofcol2:o628": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o631": 75
+        - "ofcol2:o653": 75
+        - "ofcol2:o632": 75
+        - "ofcol2:o633": 75
+        - "ofcol2:o634": 75
+        - "ofcol2:o635": 75
+        - "ofcol2:o626": 75
+        - "ofcol2:o627": 75
+        - "ofcol2:o628": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -127,16 +127,16 @@
           min: 4750
           max: 5250
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o631": 75
-        "ofcol2:o653": 75
-        "ofcol2:o632": 75
-        "ofcol2:o623": 75
-        "ofcol2:o624": 75
-        "ofcol2:o625": 75
-        "ofcol2:o636": 75
-        "ofcol2:o637": 75
-        "ofcol2:o638": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o631": 75
+        - "ofcol2:o653": 75
+        - "ofcol2:o632": 75
+        - "ofcol2:o623": 75
+        - "ofcol2:o624": 75
+        - "ofcol2:o625": 75
+        - "ofcol2:o636": 75
+        - "ofcol2:o637": 75
+        - "ofcol2:o638": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -161,10 +161,10 @@
           min: 71250
           max: 78750
       pools:
-        "ofcol2:o600": 75
-        "ofcol2:o601": 75
-        "ofcol2:o615": 75
-        "ofcol2:o667": 75
+        - "ofcol2:o600": 75
+        - "ofcol2:o601": 75
+        - "ofcol2:o615": 75
+        - "ofcol2:o667": 75
   metadata:
     vendor:
       items:
@@ -203,10 +203,10 @@
           min: 14250
           max: 15750
       pools:
-        "ofcol2:o616": 75
-        "ofcol2:o617": 75
-        "ofcol2:o618": 75
-        "ofcol2:o619": 75
+        - "ofcol2:o616": 75
+        - "ofcol2:o617": 75
+        - "ofcol2:o618": 75
+        - "ofcol2:o619": 75
   metadata:
     vendor:
       items:
@@ -245,9 +245,9 @@
           min: 23750
           max: 26250
       pools:
-        "ofcol2:o606": 75
-        "ofcol2:o607": 75
-        "ofcol2:o608": 75
+        - "ofcol2:o606": 75
+        - "ofcol2:o607": 75
+        - "ofcol2:o608": 75
   metadata:
     vendor:
       items:
@@ -283,10 +283,10 @@
           min: 4750
           max: 5250
       pools:
-        "ofcol2:o602": 75
-        "ofcol2:o603": 75
-        "ofcol2:o604": 75
-        "ofcol2:o605": 75
+        - "ofcol2:o602": 75
+        - "ofcol2:o603": 75
+        - "ofcol2:o604": 75
+        - "ofcol2:o605": 75
   metadata:
     vendor:
       items:
@@ -325,11 +325,11 @@
           min: 4750
           max: 5250
       pools:
-        "ofcol2:o609": 75
-        "ofcol2:o610": 75
-        "ofcol2:o611": 75
-        "ofcol2:o612": 75
-        "ofcol2:o613": 75
+        - "ofcol2:o609": 75
+        - "ofcol2:o610": 75
+        - "ofcol2:o611": 75
+        - "ofcol2:o612": 75
+        - "ofcol2:o613": 75
   metadata:
     vendor:
       items:
@@ -399,7 +399,7 @@
           min: 95
           max: 105
       pools:
-        "ofcol2:o601": 75
+        - "ofcol2:o601": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -424,7 +424,7 @@
           min: 95
           max: 105
       pools:
-        "ofcol2:o615": 75
+        - "ofcol2:o615": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -685,8 +685,8 @@
           min: 47.5
           max: 52.5
       pools:
-        "ofcol2:o666": 75
-        "ofcol2:o665": 75
+        - "ofcol2:o666": 75
+        - "ofcol2:o665": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -711,9 +711,9 @@
           min: 950
           max: 1050
       pools:
-        "ofcol2:o648": 75
-        "ofcol2:o649": 75
-        "ofcol2:o650": 75
+        - "ofcol2:o648": 75
+        - "ofcol2:o649": 75
+        - "ofcol2:o650": 75
   metadata:
     vendor:
       items:
@@ -749,11 +749,11 @@
           min: 950
           max: 1050
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o621": 75
-        "ofcol2:o630": 75
-        "ofcol2:o627": 75
-        "ofcol2:o651": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o621": 75
+        - "ofcol2:o630": 75
+        - "ofcol2:o627": 75
+        - "ofcol2:o651": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -879,9 +879,9 @@
           min: 950
           max: 1050
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o664": 75
-        "ofcol2:o652": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o664": 75
+        - "ofcol2:o652": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -909,7 +909,7 @@
           min: 950
           max: 1050
       pools:
-        "ofcol2:o664": 75
+        - "ofcol2:o664": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -934,15 +934,15 @@
           min: 950
           max: 1050
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o654": 75
-        "ofcol2:o660": 75
-        "ofcol2:o662": 75
-        "ofcol2:o656": 75
-        "ofcol2:o657": 75
-        "ofcol2:o658": 75
-        "ofcol2:o659": 75
-        "ofcol2:o661": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o654": 75
+        - "ofcol2:o660": 75
+        - "ofcol2:o662": 75
+        - "ofcol2:o656": 75
+        - "ofcol2:o657": 75
+        - "ofcol2:o658": 75
+        - "ofcol2:o659": 75
+        - "ofcol2:o661": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -967,9 +967,9 @@
           min: 95000
           max: 105000
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o662": 75
-        "ofcol2:o663": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o662": 75
+        - "ofcol2:o663": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -994,8 +994,8 @@
           min: 4750
           max: 5250
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o664": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o664": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -1023,10 +1023,10 @@
           min: 4750
           max: 5250
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o654": 75
-        "ofcol2:o660": 75
-        "ofcol2:o662": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o654": 75
+        - "ofcol2:o660": 75
+        - "ofcol2:o662": 75
   metadata:
     areaId: 56
     exp_level: 1000
@@ -1051,11 +1051,11 @@
           min: 950
           max: 1050
       pools:
-        "ofcol2:o620": 75
-        "ofcol2:o621": 75
-        "ofcol2:o630": 75
-        "ofcol2:o627": 75
-        "ofcol2:o651": 75
+        - "ofcol2:o620": 75
+        - "ofcol2:o621": 75
+        - "ofcol2:o630": 75
+        - "ofcol2:o627": 75
+        - "ofcol2:o651": 75
   metadata:
     areaId: 56
     exp_level: 1000

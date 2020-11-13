@@ -54,7 +54,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2408": 75
+        - "ultima:o2408": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -82,7 +82,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2417": 75
+        - "ultima:o2417": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -110,7 +110,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2418": 75
+        - "ultima:o2418": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -161,8 +161,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2419": 75
-        "ultima:o2401": 75
+        - "ultima:o2419": 75
+        - "ultima:o2401": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -223,8 +223,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2409": 75
-        "ultima:o2420": 75
+        - "ultima:o2409": 75
+        - "ultima:o2420": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -252,7 +252,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2422": 75
+        - "ultima:o2422": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -277,7 +277,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2421": 75
+        - "ultima:o2421": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -305,7 +305,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2404": 75
+        - "ultima:o2404": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -369,7 +369,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2410": 75
+        - "ultima:o2410": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -394,7 +394,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2423": 75
+        - "ultima:o2423": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -419,7 +419,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2424": 75
+        - "ultima:o2424": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -447,7 +447,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2425": 75
+        - "ultima:o2425": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -472,9 +472,9 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2428": 75
-        "ultima:o2400": 75
-        "ultima:o2427": 75
+        - "ultima:o2428": 75
+        - "ultima:o2400": 75
+        - "ultima:o2427": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -499,7 +499,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2429": 75
+        - "ultima:o2429": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -553,7 +553,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2430": 75
+        - "ultima:o2430": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -586,7 +586,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2431": 75
+        - "ultima:o2431": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -619,7 +619,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2432": 75
+        - "ultima:o2432": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -719,7 +719,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2433": 75
+        - "ultima:o2433": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -747,8 +747,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2402": 75
-        "ultima:o2434": 75
+        - "ultima:o2402": 75
+        - "ultima:o2434": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -773,7 +773,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2411": 75
+        - "ultima:o2411": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -966,7 +966,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2412": 75
+        - "ultima:o2412": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -994,7 +994,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2436": 75
+        - "ultima:o2436": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1022,8 +1022,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2406": 75
-        "ultima:o2435": 75
+        - "ultima:o2406": 75
+        - "ultima:o2435": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1051,7 +1051,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2437": 75
+        - "ultima:o2437": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1141,7 +1141,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2438": 75
+        - "ultima:o2438": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1166,8 +1166,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2405": 75
-        "ultima:o2439": 75
+        - "ultima:o2405": 75
+        - "ultima:o2439": 75
   metadata:
     vendor:
       items:
@@ -1262,7 +1262,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2414": 75
+        - "ultima:o2414": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1290,8 +1290,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2441": 75
-        "ultima:o2442": 75
+        - "ultima:o2441": 75
+        - "ultima:o2442": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1316,8 +1316,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2407": 75
-        "ultima:o2443": 75
+        - "ultima:o2407": 75
+        - "ultima:o2443": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1373,7 +1373,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2444": 75
+        - "ultima:o2444": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1463,8 +1463,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2445": 75
-        "ultima:o2446": 75
+        - "ultima:o2445": 75
+        - "ultima:o2446": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1497,7 +1497,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2415": 75
+        - "ultima:o2415": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1548,8 +1548,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2447": 75
-        "ultima:o2403": 75
+        - "ultima:o2447": 75
+        - "ultima:o2403": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1574,8 +1574,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2416": 75
-        "ultima:o2448": 75
+        - "ultima:o2416": 75
+        - "ultima:o2448": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1605,7 +1605,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2449": 75
+        - "ultima:o2449": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1635,8 +1635,8 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2450": 75
-        "ultima:o2469": 75
+        - "ultima:o2450": 75
+        - "ultima:o2469": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1666,7 +1666,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2451": 75
+        - "ultima:o2451": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1696,7 +1696,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2452": 75
+        - "ultima:o2452": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1726,7 +1726,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2453": 75
+        - "ultima:o2453": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1751,14 +1751,14 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2454": 75
-        "ultima:o2455": 75
-        "ultima:o2456": 75
-        "ultima:o2457": 75
-        "ultima:o2458": 75
-        "ultima:o2459": 75
-        "ultima:o2460": 75
-        "ultima:o2461": 75
+        - "ultima:o2454": 75
+        - "ultima:o2455": 75
+        - "ultima:o2456": 75
+        - "ultima:o2457": 75
+        - "ultima:o2458": 75
+        - "ultima:o2459": 75
+        - "ultima:o2460": 75
+        - "ultima:o2461": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1786,15 +1786,15 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2462": 75
-        "ultima:o2400": 75
-        "ultima:o2401": 75
-        "ultima:o2402": 75
-        "ultima:o2403": 75
-        "ultima:o2404": 75
-        "ultima:o2405": 75
-        "ultima:o2406": 75
-        "ultima:o2407": 75
+        - "ultima:o2462": 75
+        - "ultima:o2400": 75
+        - "ultima:o2401": 75
+        - "ultima:o2402": 75
+        - "ultima:o2403": 75
+        - "ultima:o2404": 75
+        - "ultima:o2405": 75
+        - "ultima:o2406": 75
+        - "ultima:o2407": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1819,7 +1819,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2463": 75
+        - "ultima:o2463": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1844,9 +1844,9 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2464": 75
-        "ultima:o2465": 75
-        "ultima:o2466": 75
+        - "ultima:o2464": 75
+        - "ultima:o2465": 75
+        - "ultima:o2466": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -1936,7 +1936,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2413": 75
+        - "ultima:o2413": 75
   metadata:
     areaId: 79
     exp_level: 20000
@@ -2011,7 +2011,7 @@
           min: 0
           max: 0
       pools:
-        "ultima:o2468": 75
+        - "ultima:o2468": 75
   metadata:
     areaId: 79
     exp_level: 20000

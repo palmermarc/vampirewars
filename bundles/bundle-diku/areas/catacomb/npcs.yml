@@ -135,7 +135,7 @@
           min: 190
           max: 210
       pools:
-        "catacomb:o2015": 75
+        - "catacomb:o2015": 75
   metadata:
     areaId: 10
     exp_level: 4000
@@ -199,7 +199,7 @@
           min: 1045
           max: 1155
       pools:
-        "catacomb:o2009": 75
+        - "catacomb:o2009": 75
   metadata:
     areaId: 10
     exp_level: 4000
@@ -232,8 +232,8 @@
           min: 475
           max: 525
       pools:
-        "catacomb:o2009": 75
-        "catacomb:o2016": 75
+        - "catacomb:o2009": 75
+        - "catacomb:o2016": 75
   metadata:
     areaId: 10
     exp_level: 4000
@@ -297,8 +297,8 @@
           min: 570
           max: 630
       pools:
-        "catacomb:o2016": 75
-        "catacomb:o2009": 75
+        - "catacomb:o2016": 75
+        - "catacomb:o2009": 75
   metadata:
     areaId: 10
     exp_level: 4000
@@ -357,7 +357,7 @@
           min: 760
           max: 840
       pools:
-        "catacomb:o2014": 75
+        - "catacomb:o2014": 75
   metadata:
     areaId: 10
     exp_level: 4000
@@ -390,7 +390,7 @@
           min: 950
           max: 1050
       pools:
-        "catacomb:o2004": 75
+        - "catacomb:o2004": 75
   metadata:
     areaId: 10
     exp_level: 4000
@@ -420,7 +420,7 @@
           min: 1045
           max: 1155
       pools:
-        "catacomb:o2011": 75
+        - "catacomb:o2011": 75
   metadata:
     areaId: 10
     exp_level: 4000
@@ -445,9 +445,9 @@
           min: 1425
           max: 1575
       pools:
-        "catacomb:o2010": 75
-        "catacomb:o2001": 75
-        "catacomb:o2008": 75
+        - "catacomb:o2010": 75
+        - "catacomb:o2001": 75
+        - "catacomb:o2008": 75
   metadata:
     areaId: 10
     exp_level: 4000
@@ -477,8 +477,8 @@
           min: 28500
           max: 31500
       pools:
-        "catacomb:o2012": 75
-        "catacomb:o2013": 75
+        - "catacomb:o2012": 75
+        - "catacomb:o2013": 75
   metadata:
     areaId: 10
     exp_level: 4000
@@ -508,9 +508,9 @@
           min: 19000
           max: 21000
       pools:
-        "catacomb:o2003": 75
-        "catacomb:o2002": 75
-        "catacomb:o2006": 75
+        - "catacomb:o2003": 75
+        - "catacomb:o2002": 75
+        - "catacomb:o2006": 75
   metadata:
     areaId: 10
     exp_level: 4000

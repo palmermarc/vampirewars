@@ -26,7 +26,7 @@
           min: 14.25
           max: 15.75
       pools:
-        "chapel:o3421": 75
+        - "chapel:o3421": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -115,7 +115,7 @@
           min: 950
           max: 1050
       pools:
-        "chapel:o3425": 75
+        - "chapel:o3425": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -145,10 +145,10 @@
           min: 14250
           max: 15750
       pools:
-        "chapel:o3428": 75
-        "chapel:o3427": 75
-        "chapel:o3419": 75
-        "chapel:o3424": 75
+        - "chapel:o3428": 75
+        - "chapel:o3427": 75
+        - "chapel:o3419": 75
+        - "chapel:o3424": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -173,7 +173,7 @@
           min: 380
           max: 420
       pools:
-        "chapel:o3430": 75
+        - "chapel:o3430": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -206,7 +206,7 @@
           min: 617.5
           max: 682.5
       pools:
-        "chapel:o3403": 75
+        - "chapel:o3403": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -239,7 +239,7 @@
           min: 142.5
           max: 157.5
       pools:
-        "chapel:o3402": 75
+        - "chapel:o3402": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -272,8 +272,8 @@
           min: 1900
           max: 2100
       pools:
-        "chapel:o3425": 75
-        "chapel:o3426": 75
+        - "chapel:o3425": 75
+        - "chapel:o3426": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -329,9 +329,9 @@
           min: 2110.9
           max: 2333.1
       pools:
-        "chapel:o3414": 75
-        "chapel:o3429": 75
-        "chapel:o3411": 75
+        - "chapel:o3414": 75
+        - "chapel:o3429": 75
+        - "chapel:o3411": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -361,8 +361,8 @@
           min: 1482
           max: 1638
       pools:
-        "chapel:o3414": 75
-        "chapel:o3412": 75
+        - "chapel:o3414": 75
+        - "chapel:o3412": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -387,7 +387,7 @@
           min: 47.5
           max: 52.5
       pools:
-        "chapel:o3416": 75
+        - "chapel:o3416": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -415,7 +415,7 @@
           min: 4.75
           max: 5.25
       pools:
-        "chapel:o3422": 75
+        - "chapel:o3422": 75
   metadata:
     areaId: 13
     exp_level: 8000
@@ -443,7 +443,7 @@
           min: 47.5
           max: 52.5
       pools:
-        "chapel:o3423": 75
+        - "chapel:o3423": 75
   metadata:
     areaId: 13
     exp_level: 8000

@@ -21,13 +21,13 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:signetring": 75
-        "antharia:bracer": 75
-        "antharia:syntheticfin": 75
-        "antharia:helmet": 75
-        "antharia:trident": 75
-        "antharia:net": 75
-        "antharia:platemail": 75
+        - "antharia:signetring": 75
+        - "antharia:bracer": 75
+        - "antharia:syntheticfin": 75
+        - "antharia:helmet": 75
+        - "antharia:trident": 75
+        - "antharia:net": 75
+        - "antharia:platemail": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -103,7 +103,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:seashellarmor": 75
+        - "antharia:seashellarmor": 75
   metadata:
     vendor:
       items:
@@ -133,10 +133,10 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:seafoodplatter": 75
-        "antharia:caviar": 75
-        "antharia:special": 75
-        "antharia:sushi": 75
+        - "antharia:seafoodplatter": 75
+        - "antharia:caviar": 75
+        - "antharia:special": 75
+        - "antharia:sushi": 75
   metadata:
     vendor:
       items:
@@ -175,9 +175,9 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:crystalpotion": 75
-        "antharia:seashell": 75
-        "antharia:pearl": 75
+        - "antharia:crystalpotion": 75
+        - "antharia:seashell": 75
+        - "antharia:pearl": 75
   metadata:
     vendor:
       items:
@@ -213,8 +213,8 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:clamshell": 75
-        "antharia:crystalscroll": 75
+        - "antharia:clamshell": 75
+        - "antharia:crystalscroll": 75
   metadata:
     vendor:
       items:
@@ -250,12 +250,12 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:signetring": 75
-        "antharia:bracer": 75
-        "antharia:syntheticfin": 75
-        "antharia:helmet": 75
-        "antharia:trident": 75
-        "antharia:net": 75
+        - "antharia:signetring": 75
+        - "antharia:bracer": 75
+        - "antharia:syntheticfin": 75
+        - "antharia:helmet": 75
+        - "antharia:trident": 75
+        - "antharia:net": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -283,7 +283,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:greengem": 75
+        - "antharia:greengem": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -311,7 +311,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:robe": 75
+        - "antharia:robe": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -339,7 +339,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:belt": 75
+        - "antharia:belt": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -367,7 +367,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:trousers": 75
+        - "antharia:trousers": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -395,7 +395,7 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:trousers": 75
+        - "antharia:trousers": 75
   metadata:
     areaId: 3
     exp_level: 26000
@@ -423,13 +423,13 @@
           min: 11400
           max: 12600
       pools:
-        "antharia:signetring": 75
-        "antharia:platemail": 75
-        "antharia:syntheticfin": 75
-        "antharia:helmet": 75
-        "antharia:trident": 75
-        "antharia:net": 75
-        "antharia:bracer": 75
+        - "antharia:signetring": 75
+        - "antharia:platemail": 75
+        - "antharia:syntheticfin": 75
+        - "antharia:helmet": 75
+        - "antharia:trident": 75
+        - "antharia:net": 75
+        - "antharia:bracer": 75
   metadata:
     areaId: 3
     exp_level: 26000

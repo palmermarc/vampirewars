@@ -5,7 +5,7 @@
     A dwarven guard is here.
   level: 51
   attributes:
-    health: 1800
+    health: 5
     armor: 200
     hit_chance: 75
     attack_power: 75
@@ -18,16 +18,16 @@
           min: 9500
           max: 10500
       pools:
-        "dwarven:o6504": 75
-        "dwarven:o6505": 75
-        "dwarven:o6502": 75
-        "dwarven:o6509": 75
-        "dwarven:o6510": 75
-        "dwarven:o6511": 75
-        "dwarven:o6512": 75
-        "dwarven:o6508": 75
+        - "dwarven:o6504": 100
+        - "dwarven:o6505": 100
+        - "dwarven:o6502": 100
+        - "dwarven:o6509": 100
+        - "dwarven:o6510": 100
+        - "dwarven:o6511": 100
+        - "dwarven:o6512": 100
+        - "dwarven:o6508": 100
   metadata:
-    areaId: 22
+    areaId: 22x1
     exp_level: 2000
     sex: 1
 - id: m6501
@@ -76,7 +76,7 @@
           min: 47500
           max: 52500
       pools:
-        "dwarven:o6502": 75
+        - "dwarven:o6502": 75
   metadata:
     areaId: 22
     exp_level: 2000
@@ -141,12 +141,12 @@
           min: 950
           max: 1050
       pools:
-        "dwarven:o6504": 75
-        "dwarven:o3000": 75
-        "dwarven:o3003": 75
-        "dwarven:o3009": 75
-        "dwarven:o3031": 75
-        "dwarven:o6501": 75
+        - "dwarven:o6504": 75
+        - "dwarven:o3000": 75
+        - "dwarven:o3003": 75
+        - "dwarven:o3009": 75
+        - "dwarven:o3031": 75
+        - "dwarven:o6501": 75
   metadata:
     vendor:
       items:
@@ -243,7 +243,7 @@
           min: 38
           max: 42
       pools:
-        "dwarven:o6508": 75
+        - "dwarven:o6508": 75
   metadata:
     areaId: 22
     exp_level: 2000
@@ -268,8 +268,8 @@
           min: 19000
           max: 21000
       pools:
-        "dwarven:o6512": 75
-        "dwarven:o6508": 75
+        - "dwarven:o6512": 75
+        - "dwarven:o6508": 75
   metadata:
     areaId: 22
     exp_level: 2000
@@ -294,8 +294,8 @@
           min: 1425
           max: 1575
       pools:
-        "dwarven:o6506": 75
-        "dwarven:o6519": 75
+        - "dwarven:o6506": 75
+        - "dwarven:o6519": 75
   metadata:
     areaId: 22
     exp_level: 2000
@@ -343,8 +343,8 @@
           min: 1187.5
           max: 1312.5
       pools:
-        "dwarven:o6504": 75
-        "dwarven:o6514": 75
+        - "dwarven:o6504": 75
+        - "dwarven:o6514": 75
   metadata:
     areaId: 22
     exp_level: 2000
@@ -421,7 +421,7 @@
           min: 2850
           max: 3150
       pools:
-        "dwarven:o6509": 75
+        - "dwarven:o6509": 75
   metadata:
     areaId: 22
     exp_level: 2000
@@ -474,7 +474,7 @@
           min: 76000
           max: 84000
       pools:
-        "dwarven:o6519": 75
+        - "dwarven:o6519": 75
   metadata:
     areaId: 22
     exp_level: 2000

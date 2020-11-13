@@ -18,7 +18,7 @@
           min: 95
           max: 105
       pools:
-        "joker1:o24000": 75
+        - "joker1:o24000": 75
   metadata:
     areaId: 39
     exp_level: 16001

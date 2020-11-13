@@ -21,7 +21,7 @@
           min: 2470
           max: 2730
       pools:
-        "tree:o10109": 75
+        - "tree:o10109": 75
   metadata:
     areaId: 77
     exp_level: 24000
@@ -46,7 +46,7 @@
           min: 9500
           max: 10500
       pools:
-        "tree:o10103": 75
+        - "tree:o10103": 75
   metadata:
     areaId: 77
     exp_level: 24000
@@ -74,7 +74,7 @@
           min: 190
           max: 210
       pools:
-        "tree:o10105": 75
+        - "tree:o10105": 75
   metadata:
     areaId: 77
     exp_level: 24000
@@ -180,7 +180,7 @@
           min: 9500
           max: 10500
       pools:
-        "tree:o10101": 75
+        - "tree:o10101": 75
   metadata:
     areaId: 77
     exp_level: 24000
@@ -210,7 +210,7 @@
           min: 71250
           max: 78750
       pools:
-        "tree:o10102": 75
+        - "tree:o10102": 75
   metadata:
     areaId: 77
     exp_level: 24000
@@ -238,7 +238,7 @@
           min: 11875
           max: 13125
       pools:
-        "tree:o10107": 75
+        - "tree:o10107": 75
   metadata:
     areaId: 77
     exp_level: 24000
@@ -286,7 +286,7 @@
           min: 28500
           max: 31500
       pools:
-        "tree:o10106": 75
+        - "tree:o10106": 75
   metadata:
     areaId: 77
     exp_level: 24000
@@ -314,7 +314,7 @@
           min: 950
           max: 1050
       pools:
-        "tree:o10104": 75
+        - "tree:o10104": 75
   metadata:
     areaId: 77
     exp_level: 24000
@@ -344,8 +344,8 @@
           min: 95000
           max: 105000
       pools:
-        "tree:o10110": 75
-        "tree:o10108": 75
+        - "tree:o10110": 75
+        - "tree:o10108": 75
   metadata:
     areaId: 77
     exp_level: 24000

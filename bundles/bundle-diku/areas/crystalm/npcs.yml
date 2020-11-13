@@ -18,8 +18,8 @@
           min: 0
           max: 0
       pools:
-        "crystalm:o10003": 75
-        "crystalm:o10013": 75
+        - "crystalm:o10003": 75
+        - "crystalm:o10013": 75
   metadata:
     areaId: 15
     exp_level: 10000
@@ -52,8 +52,8 @@
           min: 0
           max: 0
       pools:
-        "crystalm:o10014": 75
-        "crystalm:o10013": 75
+        - "crystalm:o10014": 75
+        - "crystalm:o10013": 75
   metadata:
     areaId: 15
     exp_level: 10000
@@ -81,8 +81,8 @@
           min: 0
           max: 0
       pools:
-        "crystalm:o10008": 75
-        "crystalm:o10013": 75
+        - "crystalm:o10008": 75
+        - "crystalm:o10013": 75
   metadata:
     areaId: 15
     exp_level: 10000
@@ -107,9 +107,9 @@
           min: 0
           max: 0
       pools:
-        "crystalm:o10015": 75
-        "crystalm:o10016": 75
-        "crystalm:o10017": 75
+        - "crystalm:o10015": 75
+        - "crystalm:o10016": 75
+        - "crystalm:o10017": 75
   metadata:
     areaId: 15
     exp_level: 10000
@@ -137,8 +137,8 @@
           min: 0
           max: 0
       pools:
-        "crystalm:o10002": 75
-        "crystalm:o10009": 75
+        - "crystalm:o10002": 75
+        - "crystalm:o10009": 75
   metadata:
     areaId: 15
     exp_level: 10000
@@ -166,7 +166,7 @@
           min: 0
           max: 0
       pools:
-        "crystalm:o10009": 75
+        - "crystalm:o10009": 75
   metadata:
     areaId: 15
     exp_level: 10000
@@ -224,8 +224,8 @@
           min: 0
           max: 0
       pools:
-        "crystalm:o10001": 75
-        "crystalm:o10010": 75
+        - "crystalm:o10001": 75
+        - "crystalm:o10010": 75
   metadata:
     areaId: 15
     exp_level: 10000
@@ -255,7 +255,7 @@
           min: 0
           max: 0
       pools:
-        "crystalm:o10006": 75
+        - "crystalm:o10006": 75
   metadata:
     areaId: 15
     exp_level: 10000

@@ -276,7 +276,7 @@
           min: 0
           max: 0
       pools:
-        "tanu:o8702": 75
+        - "tanu:o8702": 75
   metadata:
     areaId: 73
     exp_level: 20000
@@ -301,9 +301,9 @@
           min: 0
           max: 0
       pools:
-        "tanu:o8700": 75
-        "tanu:o8701": 75
-        "tanu:o8703": 75
+        - "tanu:o8700": 75
+        - "tanu:o8701": 75
+        - "tanu:o8703": 75
   metadata:
     areaId: 73
     exp_level: 20000

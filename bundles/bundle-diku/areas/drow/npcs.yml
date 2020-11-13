@@ -49,7 +49,7 @@
           min: 285
           max: 315
       pools:
-        "drow:o5100": 75
+        - "drow:o5100": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -79,7 +79,7 @@
           min: 950
           max: 1050
       pools:
-        "drow:o5101": 75
+        - "drow:o5101": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -109,7 +109,7 @@
           min: 1900
           max: 2100
       pools:
-        "drow:o5102": 75
+        - "drow:o5102": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -139,7 +139,7 @@
           min: 3800
           max: 4200
       pools:
-        "drow:o5103": 75
+        - "drow:o5103": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -169,9 +169,9 @@
           min: 9500
           max: 10500
       pools:
-        "drow:o5105": 75
-        "drow:o5110": 75
-        "drow:o5104": 75
+        - "drow:o5105": 75
+        - "drow:o5110": 75
+        - "drow:o5104": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -201,8 +201,8 @@
           min: 14250
           max: 15750
       pools:
-        "drow:o5105": 75
-        "drow:o5109": 75
+        - "drow:o5105": 75
+        - "drow:o5109": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -232,10 +232,10 @@
           min: 28500
           max: 31500
       pools:
-        "drow:o5104": 75
-        "drow:o5114": 75
-        "drow:o5111": 75
-        "drow:o5108": 75
+        - "drow:o5104": 75
+        - "drow:o5114": 75
+        - "drow:o5111": 75
+        - "drow:o5108": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -265,8 +265,8 @@
           min: 28500
           max: 31500
       pools:
-        "drow:o5104": 75
-        "drow:o5112": 75
+        - "drow:o5104": 75
+        - "drow:o5112": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -296,7 +296,7 @@
           min: 28500
           max: 31500
       pools:
-        "drow:o5113": 75
+        - "drow:o5113": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -326,7 +326,7 @@
           min: 4750
           max: 5250
       pools:
-        "drow:o5100": 75
+        - "drow:o5100": 75
   metadata:
     areaId: 21
     exp_level: 4000
@@ -359,7 +359,7 @@
           min: 950
           max: 1050
       pools:
-        "drow:o5100": 75
+        - "drow:o5100": 75
   metadata:
     areaId: 21
     exp_level: 4000

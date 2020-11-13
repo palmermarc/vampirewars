@@ -21,7 +21,7 @@
           min: 95
           max: 105
       pools:
-        "pomarj:o26230": 75
+        - "pomarj:o26230": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -51,8 +51,8 @@
           min: 950
           max: 1050
       pools:
-        "pomarj:o26212": 75
-        "pomarj:o26213": 75
+        - "pomarj:o26212": 75
+        - "pomarj:o26213": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -80,7 +80,7 @@
           min: 10.45
           max: 11.55
       pools:
-        "pomarj:o26224": 75
+        - "pomarj:o26224": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -105,8 +105,8 @@
           min: 9500
           max: 10500
       pools:
-        "pomarj:o26210": 75
-        "pomarj:o26211": 75
+        - "pomarj:o26210": 75
+        - "pomarj:o26211": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -131,7 +131,7 @@
           min: 237.5
           max: 262.5
       pools:
-        "pomarj:o26223": 75
+        - "pomarj:o26223": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -156,8 +156,8 @@
           min: 712.5
           max: 787.5
       pools:
-        "pomarj:o26220": 75
-        "pomarj:o26218": 75
+        - "pomarj:o26220": 75
+        - "pomarj:o26218": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -182,8 +182,8 @@
           min: 1900
           max: 2100
       pools:
-        "pomarj:o26219": 75
-        "pomarj:o26222": 75
+        - "pomarj:o26219": 75
+        - "pomarj:o26222": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -208,8 +208,8 @@
           min: 95000
           max: 105000
       pools:
-        "pomarj:o26200": 75
-        "pomarj:o26201": 75
+        - "pomarj:o26200": 75
+        - "pomarj:o26201": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -234,8 +234,8 @@
           min: 95000
           max: 105000
       pools:
-        "pomarj:o26202": 75
-        "pomarj:o26203": 75
+        - "pomarj:o26202": 75
+        - "pomarj:o26203": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -260,8 +260,8 @@
           min: 95000
           max: 105000
       pools:
-        "pomarj:o26204": 75
-        "pomarj:o26205": 75
+        - "pomarj:o26204": 75
+        - "pomarj:o26205": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -286,8 +286,8 @@
           min: 95000
           max: 105000
       pools:
-        "pomarj:o26206": 75
-        "pomarj:o26207": 75
+        - "pomarj:o26206": 75
+        - "pomarj:o26207": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -312,8 +312,8 @@
           min: 95000
           max: 105000
       pools:
-        "pomarj:o26208": 75
-        "pomarj:o26209": 75
+        - "pomarj:o26208": 75
+        - "pomarj:o26209": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -341,8 +341,8 @@
           min: 213.75
           max: 236.25
       pools:
-        "pomarj:o26215": 75
-        "pomarj:o26223": 75
+        - "pomarj:o26215": 75
+        - "pomarj:o26223": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -370,7 +370,7 @@
           min: 142.5
           max: 157.5
       pools:
-        "pomarj:o26214": 75
+        - "pomarj:o26214": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -424,8 +424,8 @@
           min: 93.1
           max: 102.9
       pools:
-        "pomarj:o26216": 75
-        "pomarj:o26219": 75
+        - "pomarj:o26216": 75
+        - "pomarj:o26219": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -453,8 +453,8 @@
           min: 142.5
           max: 157.5
       pools:
-        "pomarj:o26218": 75
-        "pomarj:o26217": 75
+        - "pomarj:o26218": 75
+        - "pomarj:o26217": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -508,7 +508,7 @@
           min: 297.35
           max: 328.65
       pools:
-        "pomarj:o26221": 75
+        - "pomarj:o26221": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -588,7 +588,7 @@
           min: 9.5
           max: 10.5
       pools:
-        "pomarj:o26220": 75
+        - "pomarj:o26220": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -616,7 +616,7 @@
           min: 95
           max: 105
       pools:
-        "pomarj:o26224": 75
+        - "pomarj:o26224": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -644,8 +644,8 @@
           min: 28.5
           max: 31.5
       pools:
-        "pomarj:o26217": 75
-        "pomarj:o26224": 75
+        - "pomarj:o26217": 75
+        - "pomarj:o26224": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -670,7 +670,7 @@
           min: 23750
           max: 26250
       pools:
-        "pomarj:o26225": 75
+        - "pomarj:o26225": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -695,7 +695,7 @@
           min: 9500
           max: 10500
       pools:
-        "pomarj:o26229": 75
+        - "pomarj:o26229": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -720,7 +720,7 @@
           min: 28500
           max: 31500
       pools:
-        "pomarj:o26226": 75
+        - "pomarj:o26226": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -745,7 +745,7 @@
           min: 18050
           max: 19950
       pools:
-        "pomarj:o26227": 75
+        - "pomarj:o26227": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -770,7 +770,7 @@
           min: 39027.9
           max: 43136.1
       pools:
-        "pomarj:o26228": 75
+        - "pomarj:o26228": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -795,7 +795,7 @@
           min: 7600
           max: 8400
       pools:
-        "pomarj:o26214": 75
+        - "pomarj:o26214": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -823,7 +823,7 @@
           min: 7600
           max: 8400
       pools:
-        "pomarj:o26219": 75
+        - "pomarj:o26219": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -874,8 +874,8 @@
           min: 1805
           max: 1995
       pools:
-        "pomarj:o26217": 75
-        "pomarj:o26216": 75
+        - "pomarj:o26217": 75
+        - "pomarj:o26216": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -900,7 +900,7 @@
           min: 9500
           max: 10500
       pools:
-        "pomarj:o26215": 75
+        - "pomarj:o26215": 75
   metadata:
     areaId: 59
     exp_level: 4000
@@ -974,7 +974,7 @@
           min: 0
           max: 0
       pools:
-        "pomarj:o26230": 75
+        - "pomarj:o26230": 75
   metadata:
     vendor:
       items:

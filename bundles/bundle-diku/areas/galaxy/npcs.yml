@@ -101,7 +101,7 @@
           min: 1425
           max: 1575
       pools:
-        "galaxy:o9301": 75
+        - "galaxy:o9301": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -198,7 +198,7 @@
           min: 7125
           max: 7875
       pools:
-        "galaxy:o9328": 75
+        - "galaxy:o9328": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -223,7 +223,7 @@
           min: 7125
           max: 7875
       pools:
-        "galaxy:o9302": 75
+        - "galaxy:o9302": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -271,7 +271,7 @@
           min: 7125
           max: 7875
       pools:
-        "galaxy:o9304": 75
+        - "galaxy:o9304": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -324,7 +324,7 @@
           min: 14250
           max: 15750
       pools:
-        "galaxy:o9305": 75
+        - "galaxy:o9305": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -375,8 +375,8 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9306": 75
-        "galaxy:o9324": 75
+        - "galaxy:o9306": 75
+        - "galaxy:o9324": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -406,7 +406,7 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9307": 75
+        - "galaxy:o9307": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -431,7 +431,7 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9308": 75
+        - "galaxy:o9308": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -484,8 +484,8 @@
           min: 11400
           max: 12600
       pools:
-        "galaxy:o9309": 75
-        "galaxy:o9325": 75
+        - "galaxy:o9309": 75
+        - "galaxy:o9325": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -515,7 +515,7 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9310": 75
+        - "galaxy:o9310": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -540,7 +540,7 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9311": 75
+        - "galaxy:o9311": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -565,9 +565,9 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9313": 75
-        "galaxy:o9326": 75
-        "galaxy:o9312": 75
+        - "galaxy:o9313": 75
+        - "galaxy:o9326": 75
+        - "galaxy:o9312": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -597,7 +597,7 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9314": 75
+        - "galaxy:o9314": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -622,8 +622,8 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9315": 75
-        "galaxy:o9316": 75
+        - "galaxy:o9315": 75
+        - "galaxy:o9316": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -648,8 +648,8 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9317": 75
-        "galaxy:o9327": 75
+        - "galaxy:o9317": 75
+        - "galaxy:o9327": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -674,7 +674,7 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9318": 75
+        - "galaxy:o9318": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -699,7 +699,7 @@
           min: 9500
           max: 10500
       pools:
-        "galaxy:o9319": 75
+        - "galaxy:o9319": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -780,7 +780,7 @@
           min: 11400
           max: 12600
       pools:
-        "galaxy:o9320": 75
+        - "galaxy:o9320": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -805,7 +805,7 @@
           min: 11400
           max: 12600
       pools:
-        "galaxy:o9321": 75
+        - "galaxy:o9321": 75
   metadata:
     areaId: 28
     exp_level: 8000
@@ -830,8 +830,8 @@
           min: 19000
           max: 21000
       pools:
-        "galaxy:o9322": 75
-        "galaxy:o9323": 75
+        - "galaxy:o9322": 75
+        - "galaxy:o9323": 75
   metadata:
     areaId: 28
     exp_level: 8000

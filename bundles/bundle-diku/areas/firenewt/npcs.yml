@@ -18,7 +18,7 @@
           min: 13.3
           max: 14.7
       pools:
-        "firenewt:o2901": 75
+        - "firenewt:o2901": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -43,7 +43,7 @@
           min: 9.5
           max: 10.5
       pools:
-        "firenewt:o2902": 75
+        - "firenewt:o2902": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -99,7 +99,7 @@
           min: 21.85
           max: 24.15
       pools:
-        "firenewt:o2903": 75
+        - "firenewt:o2903": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -129,8 +129,8 @@
           min: 28.5
           max: 31.5
       pools:
-        "firenewt:o2904": 75
-        "firenewt:o2905": 75
+        - "firenewt:o2904": 75
+        - "firenewt:o2905": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -155,7 +155,7 @@
           min: 21.85
           max: 24.15
       pools:
-        "firenewt:o2903": 75
+        - "firenewt:o2903": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -188,8 +188,8 @@
           min: 28.5
           max: 31.5
       pools:
-        "firenewt:o2905": 75
-        "firenewt:o2904": 75
+        - "firenewt:o2905": 75
+        - "firenewt:o2904": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -265,8 +265,8 @@
           min: 190
           max: 210
       pools:
-        "firenewt:o2906": 75
-        "firenewt:o2907": 75
+        - "firenewt:o2906": 75
+        - "firenewt:o2907": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -296,8 +296,8 @@
           min: 380
           max: 420
       pools:
-        "firenewt:o2906": 75
-        "firenewt:o2907": 75
+        - "firenewt:o2906": 75
+        - "firenewt:o2907": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -327,8 +327,8 @@
           min: 950
           max: 1050
       pools:
-        "firenewt:o2911": 75
-        "firenewt:o2912": 75
+        - "firenewt:o2911": 75
+        - "firenewt:o2912": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -358,7 +358,7 @@
           min: 665
           max: 735
       pools:
-        "firenewt:o2913": 75
+        - "firenewt:o2913": 75
   metadata:
     areaId: 26
     exp_level: 10000
@@ -388,7 +388,7 @@
           min: 950
           max: 1050
       pools:
-        "firenewt:o2914": 75
+        - "firenewt:o2914": 75
   metadata:
     areaId: 26
     exp_level: 10000

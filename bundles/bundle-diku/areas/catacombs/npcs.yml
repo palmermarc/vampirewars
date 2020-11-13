@@ -70,9 +70,9 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12604": 75
-        "catacombs:o12600": 75
-        "catacombs:o12603": 75
+        - "catacombs:o12604": 75
+        - "catacombs:o12600": 75
+        - "catacombs:o12603": 75
   metadata:
     areaId: 11
     exp_level: 4000
@@ -97,8 +97,8 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12605": 75
-        "catacombs:o12606": 75
+        - "catacombs:o12605": 75
+        - "catacombs:o12606": 75
   metadata:
     areaId: 11
     exp_level: 4000
@@ -126,13 +126,13 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12609": 75
-        "catacombs:o12610": 75
-        "catacombs:o12614": 75
-        "catacombs:o12612": 75
-        "catacombs:o12611": 75
-        "catacombs:o12613": 75
-        "catacombs:o12615": 75
+        - "catacombs:o12609": 75
+        - "catacombs:o12610": 75
+        - "catacombs:o12614": 75
+        - "catacombs:o12612": 75
+        - "catacombs:o12611": 75
+        - "catacombs:o12613": 75
+        - "catacombs:o12615": 75
   metadata:
     areaId: 11
     exp_level: 4000
@@ -240,9 +240,9 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12607": 75
-        "catacombs:o12608": 75
-        "catacombs:o12601": 75
+        - "catacombs:o12607": 75
+        - "catacombs:o12608": 75
+        - "catacombs:o12601": 75
   metadata:
     areaId: 11
     exp_level: 4000
@@ -270,12 +270,12 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12616": 75
-        "catacombs:o12617": 75
-        "catacombs:o12618": 75
-        "catacombs:o12621": 75
-        "catacombs:o12619": 75
-        "catacombs:o12620": 75
+        - "catacombs:o12616": 75
+        - "catacombs:o12617": 75
+        - "catacombs:o12618": 75
+        - "catacombs:o12621": 75
+        - "catacombs:o12619": 75
+        - "catacombs:o12620": 75
   metadata:
     areaId: 11
     exp_level: 4000
@@ -303,13 +303,13 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12609": 75
-        "catacombs:o12610": 75
-        "catacombs:o12614": 75
-        "catacombs:o12612": 75
-        "catacombs:o12611": 75
-        "catacombs:o12613": 75
-        "catacombs:o12615": 75
+        - "catacombs:o12609": 75
+        - "catacombs:o12610": 75
+        - "catacombs:o12614": 75
+        - "catacombs:o12612": 75
+        - "catacombs:o12611": 75
+        - "catacombs:o12613": 75
+        - "catacombs:o12615": 75
   metadata:
     areaId: 11
     exp_level: 4000
@@ -420,13 +420,13 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12626": 75
-        "catacombs:o12625": 75
-        "catacombs:o12621": 75
-        "catacombs:o12617": 75
-        "catacombs:o12602": 75
-        "catacombs:o12620": 75
-        "catacombs:o12619": 75
+        - "catacombs:o12626": 75
+        - "catacombs:o12625": 75
+        - "catacombs:o12621": 75
+        - "catacombs:o12617": 75
+        - "catacombs:o12602": 75
+        - "catacombs:o12620": 75
+        - "catacombs:o12619": 75
   metadata:
     areaId: 11
     exp_level: 4000
@@ -454,13 +454,13 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12609": 75
-        "catacombs:o12610": 75
-        "catacombs:o12614": 75
-        "catacombs:o12612": 75
-        "catacombs:o12611": 75
-        "catacombs:o12613": 75
-        "catacombs:o12615": 75
+        - "catacombs:o12609": 75
+        - "catacombs:o12610": 75
+        - "catacombs:o12614": 75
+        - "catacombs:o12612": 75
+        - "catacombs:o12611": 75
+        - "catacombs:o12613": 75
+        - "catacombs:o12615": 75
   metadata:
     areaId: 11
     exp_level: 4000
@@ -566,12 +566,12 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12616": 75
-        "catacombs:o12617": 75
-        "catacombs:o12627": 75
-        "catacombs:o12621": 75
-        "catacombs:o12619": 75
-        "catacombs:o12620": 75
+        - "catacombs:o12616": 75
+        - "catacombs:o12617": 75
+        - "catacombs:o12627": 75
+        - "catacombs:o12621": 75
+        - "catacombs:o12619": 75
+        - "catacombs:o12620": 75
   metadata:
     areaId: 11
     exp_level: 4000
@@ -599,11 +599,11 @@
           min: 0
           max: 0
       pools:
-        "catacombs:o12616": 75
-        "catacombs:o12630": 75
-        "catacombs:o12631": 75
-        "catacombs:o12627": 75
-        "catacombs:o12629": 75
+        - "catacombs:o12616": 75
+        - "catacombs:o12630": 75
+        - "catacombs:o12631": 75
+        - "catacombs:o12627": 75
+        - "catacombs:o12629": 75
   metadata:
     areaId: 11
     exp_level: 4000

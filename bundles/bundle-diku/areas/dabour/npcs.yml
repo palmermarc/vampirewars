@@ -21,7 +21,7 @@
           min: 0
           max: 0
       pools:
-        "dabour:o8015": 75
+        - "dabour:o8015": 75
   metadata:
     areaId: 16
     exp_level: 6000
@@ -46,7 +46,7 @@
           min: 0
           max: 0
       pools:
-        "dabour:o8005": 75
+        - "dabour:o8005": 75
   metadata:
     areaId: 16
     exp_level: 6000
@@ -71,8 +71,8 @@
           min: 0
           max: 0
       pools:
-        "dabour:o8009": 75
-        "dabour:o8008": 75
+        - "dabour:o8009": 75
+        - "dabour:o8008": 75
   metadata:
     areaId: 16
     exp_level: 6000
@@ -217,7 +217,7 @@
           min: 0
           max: 0
       pools:
-        "dabour:o8010": 75
+        - "dabour:o8010": 75
   metadata:
     areaId: 16
     exp_level: 6000
@@ -247,7 +247,7 @@
           min: 0
           max: 0
       pools:
-        "dabour:o8016": 75
+        - "dabour:o8016": 75
   metadata:
     areaId: 16
     exp_level: 6000
@@ -300,8 +300,8 @@
           min: 0
           max: 0
       pools:
-        "dabour:o8011": 75
-        "dabour:o8000": 75
+        - "dabour:o8011": 75
+        - "dabour:o8000": 75
   metadata:
     areaId: 16
     exp_level: 6000
@@ -331,7 +331,7 @@
           min: 0
           max: 0
       pools:
-        "dabour:o8006": 75
+        - "dabour:o8006": 75
   metadata:
     areaId: 16
     exp_level: 6000
@@ -382,7 +382,7 @@
           min: 0
           max: 0
       pools:
-        "dabour:o8003": 75
+        - "dabour:o8003": 75
   metadata:
     areaId: 16
     exp_level: 6000
@@ -407,8 +407,8 @@
           min: 0
           max: 0
       pools:
-        "dabour:o8012": 75
-        "dabour:o8013": 75
+        - "dabour:o8012": 75
+        - "dabour:o8013": 75
   metadata:
     areaId: 16
     exp_level: 6000

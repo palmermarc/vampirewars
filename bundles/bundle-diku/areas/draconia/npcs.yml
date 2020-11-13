@@ -18,7 +18,7 @@
           min: 1900
           max: 2100
       pools:
-        "draconia:o2231": 75
+        - "draconia:o2231": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -48,7 +48,7 @@
           min: 1900
           max: 2100
       pools:
-        "draconia:o2200": 75
+        - "draconia:o2200": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -78,9 +78,9 @@
           min: 33250
           max: 36750
       pools:
-        "draconia:o2202": 75
-        "draconia:o2281": 75
-        "draconia:o2271": 75
+        - "draconia:o2202": 75
+        - "draconia:o2281": 75
+        - "draconia:o2271": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -105,10 +105,10 @@
           min: 570
           max: 630
       pools:
-        "draconia:o2223": 75
-        "draconia:o2250": 75
-        "draconia:o2261": 75
-        "draconia:o2251": 75
+        - "draconia:o2223": 75
+        - "draconia:o2250": 75
+        - "draconia:o2261": 75
+        - "draconia:o2251": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -138,11 +138,11 @@
           min: 380
           max: 420
       pools:
-        "draconia:o2220": 75
-        "draconia:o2211": 75
-        "draconia:o2210": 75
-        "draconia:o2270": 75
-        "draconia:o2252": 75
+        - "draconia:o2220": 75
+        - "draconia:o2211": 75
+        - "draconia:o2210": 75
+        - "draconia:o2270": 75
+        - "draconia:o2252": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -167,11 +167,11 @@
           min: 760
           max: 840
       pools:
-        "draconia:o2222": 75
-        "draconia:o2276": 75
-        "draconia:o2242": 75
-        "draconia:o2254": 75
-        "draconia:o2232": 75
+        - "draconia:o2222": 75
+        - "draconia:o2276": 75
+        - "draconia:o2242": 75
+        - "draconia:o2254": 75
+        - "draconia:o2232": 75
   metadata:
     areaId: 18
     exp_level: 1200
@@ -196,9 +196,9 @@
           min: 95
           max: 105
       pools:
-        "draconia:o2201": 75
-        "draconia:o2233": 75
-        "draconia:o2240": 75
+        - "draconia:o2201": 75
+        - "draconia:o2233": 75
+        - "draconia:o2240": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -228,8 +228,8 @@
           min: 4750
           max: 5250
       pools:
-        "draconia:o2286": 75
-        "draconia:o2260": 75
+        - "draconia:o2286": 75
+        - "draconia:o2260": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -259,7 +259,7 @@
           min: 475
           max: 525
       pools:
-        "draconia:o2224": 75
+        - "draconia:o2224": 75
   metadata:
     areaId: 18
     exp_level: 2000
@@ -289,9 +289,9 @@
           min: 9500
           max: 10500
       pools:
-        "draconia:o2275": 75
-        "draconia:o2245": 75
-        "draconia:o2299": 75
+        - "draconia:o2275": 75
+        - "draconia:o2245": 75
+        - "draconia:o2299": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -321,7 +321,7 @@
           min: 19000
           max: 21000
       pools:
-        "draconia:o2280": 75
+        - "draconia:o2280": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -351,7 +351,7 @@
           min: 33250
           max: 36750
       pools:
-        "draconia:o2246": 75
+        - "draconia:o2246": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -381,9 +381,9 @@
           min: 19000
           max: 21000
       pools:
-        "draconia:o2261": 75
-        "draconia:o2241": 75
-        "draconia:o2285": 75
+        - "draconia:o2261": 75
+        - "draconia:o2241": 75
+        - "draconia:o2285": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -413,10 +413,10 @@
           min: 4750
           max: 5250
       pools:
-        "draconia:o2244": 75
-        "draconia:o2234": 75
-        "draconia:o2243": 75
-        "draconia:o2223": 75
+        - "draconia:o2244": 75
+        - "draconia:o2234": 75
+        - "draconia:o2243": 75
+        - "draconia:o2223": 75
   metadata:
     areaId: 18
     exp_level: 1000
@@ -549,9 +549,9 @@
           min: 9500
           max: 10500
       pools:
-        "draconia:o2203": 75
-        "draconia:o2204": 75
-        "draconia:o2201": 75
+        - "draconia:o2203": 75
+        - "draconia:o2204": 75
+        - "draconia:o2201": 75
   metadata:
     areaId: 18
     exp_level: 1000

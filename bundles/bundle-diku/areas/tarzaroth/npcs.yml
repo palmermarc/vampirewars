@@ -18,9 +18,9 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14204": 75
-        "tarzaroth:o14200": 75
-        "tarzaroth:o14201": 75
+        - "tarzaroth:o14204": 75
+        - "tarzaroth:o14200": 75
+        - "tarzaroth:o14201": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -48,7 +48,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14209": 75
+        - "tarzaroth:o14209": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -78,7 +78,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14202": 75
+        - "tarzaroth:o14202": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -129,7 +129,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14200": 75
+        - "tarzaroth:o14200": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -157,8 +157,8 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14201": 75
-        "tarzaroth:o14208": 75
+        - "tarzaroth:o14201": 75
+        - "tarzaroth:o14208": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -186,10 +186,10 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14200": 75
-        "tarzaroth:o14202": 75
-        "tarzaroth:o14201": 75
-        "tarzaroth:o14204": 75
+        - "tarzaroth:o14200": 75
+        - "tarzaroth:o14202": 75
+        - "tarzaroth:o14201": 75
+        - "tarzaroth:o14204": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -217,7 +217,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14210": 75
+        - "tarzaroth:o14210": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -245,7 +245,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14210": 75
+        - "tarzaroth:o14210": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -273,8 +273,8 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14206": 75
-        "tarzaroth:o14207": 75
+        - "tarzaroth:o14206": 75
+        - "tarzaroth:o14207": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -302,11 +302,11 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14209": 75
-        "tarzaroth:o14207": 75
-        "tarzaroth:o14201": 75
-        "tarzaroth:o14204": 75
-        "tarzaroth:o14203": 75
+        - "tarzaroth:o14209": 75
+        - "tarzaroth:o14207": 75
+        - "tarzaroth:o14201": 75
+        - "tarzaroth:o14204": 75
+        - "tarzaroth:o14203": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -334,7 +334,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14213": 75
+        - "tarzaroth:o14213": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -362,7 +362,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14213": 75
+        - "tarzaroth:o14213": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -390,7 +390,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14203": 75
+        - "tarzaroth:o14203": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -418,7 +418,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14203": 75
+        - "tarzaroth:o14203": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -472,7 +472,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14212": 75
+        - "tarzaroth:o14212": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -528,7 +528,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14205": 75
+        - "tarzaroth:o14205": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -556,7 +556,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14203": 75
+        - "tarzaroth:o14203": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -610,7 +610,7 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14213": 75
+        - "tarzaroth:o14213": 75
   metadata:
     areaId: 74
     exp_level: 2000
@@ -664,11 +664,11 @@
           min: 0
           max: 0
       pools:
-        "tarzaroth:o14201": 75
-        "tarzaroth:o14204": 75
-        "tarzaroth:o14208": 75
-        "tarzaroth:o14211": 75
-        "tarzaroth:o14202": 75
+        - "tarzaroth:o14201": 75
+        - "tarzaroth:o14204": 75
+        - "tarzaroth:o14208": 75
+        - "tarzaroth:o14211": 75
+        - "tarzaroth:o14202": 75
   metadata:
     areaId: 74
     exp_level: 2000

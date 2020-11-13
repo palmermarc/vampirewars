@@ -21,7 +21,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12001": 75
+        - "hc:o12001": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -75,8 +75,8 @@
           min: 0
           max: 0
       pools:
-        "hc:o12031": 75
-        "hc:o12000": 75
+        - "hc:o12031": 75
+        - "hc:o12000": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -104,7 +104,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12030": 75
+        - "hc:o12030": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -129,7 +129,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12004": 75
+        - "hc:o12004": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -157,7 +157,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -185,7 +185,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -213,7 +213,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -267,7 +267,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12019": 75
+        - "hc:o12019": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -295,7 +295,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12008": 75
+        - "hc:o12008": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -323,7 +323,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12007": 75
+        - "hc:o12007": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -351,7 +351,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -379,7 +379,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -407,7 +407,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12017": 75
+        - "hc:o12017": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -461,7 +461,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12035": 75
+        - "hc:o12035": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -489,7 +489,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12035": 75
+        - "hc:o12035": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -543,7 +543,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12006": 75
+        - "hc:o12006": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -571,7 +571,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12032": 75
+        - "hc:o12032": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -599,7 +599,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12006": 75
+        - "hc:o12006": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -627,7 +627,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12032": 75
+        - "hc:o12032": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -655,8 +655,8 @@
           min: 0
           max: 0
       pools:
-        "hc:o12020": 75
-        "hc:o12011": 75
+        - "hc:o12020": 75
+        - "hc:o12011": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -689,7 +689,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12002": 75
+        - "hc:o12002": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -717,7 +717,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12002": 75
+        - "hc:o12002": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -939,7 +939,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12020": 75
+        - "hc:o12020": 75
   metadata:
     vendor:
       items:
@@ -969,8 +969,8 @@
           min: 0
           max: 0
       pools:
-        "hc:o12032": 75
-        "hc:o12012": 75
+        - "hc:o12032": 75
+        - "hc:o12012": 75
   metadata:
     vendor:
       items:
@@ -1003,11 +1003,11 @@
           min: 0
           max: 0
       pools:
-        "hc:o12020": 75
-        "hc:o12015": 75
-        "hc:o12009": 75
-        "hc:o12029": 75
-        "hc:o12033": 75
+        - "hc:o12020": 75
+        - "hc:o12015": 75
+        - "hc:o12009": 75
+        - "hc:o12029": 75
+        - "hc:o12033": 75
   metadata:
     vendor:
       items:
@@ -1046,9 +1046,9 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
-        "hc:o12032": 75
-        "hc:o12017": 75
+        - "hc:o12005": 75
+        - "hc:o12032": 75
+        - "hc:o12017": 75
   metadata:
     vendor:
       items:
@@ -1087,7 +1087,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12002": 75
+        - "hc:o12002": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1115,7 +1115,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12002": 75
+        - "hc:o12002": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1316,7 +1316,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12023": 75
+        - "hc:o12023": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1344,7 +1344,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12031": 75
+        - "hc:o12031": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1369,9 +1369,9 @@
           min: 0
           max: 0
       pools:
-        "hc:o12032": 75
-        "hc:o12022": 75
-        "hc:o12024": 75
+        - "hc:o12032": 75
+        - "hc:o12022": 75
+        - "hc:o12024": 75
   metadata:
     vendor:
       items:
@@ -1443,7 +1443,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12034": 75
+        - "hc:o12034": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1523,7 +1523,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12001": 75
+        - "hc:o12001": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1551,7 +1551,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1579,7 +1579,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1607,7 +1607,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1635,7 +1635,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1663,7 +1663,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1691,7 +1691,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1719,7 +1719,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12005": 75
+        - "hc:o12005": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -1799,7 +1799,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12035": 75
+        - "hc:o12035": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -2087,7 +2087,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12006": 75
+        - "hc:o12006": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -2115,7 +2115,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12006": 75
+        - "hc:o12006": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -2143,7 +2143,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12006": 75
+        - "hc:o12006": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -2171,7 +2171,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12006": 75
+        - "hc:o12006": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -2199,7 +2199,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12023": 75
+        - "hc:o12023": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -2227,7 +2227,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12024": 75
+        - "hc:o12024": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -2255,7 +2255,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12032": 75
+        - "hc:o12032": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -2283,7 +2283,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12032": 75
+        - "hc:o12032": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -2529,7 +2529,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12033": 75
+        - "hc:o12033": 75
   metadata:
     areaId: 33
     exp_level: 14000
@@ -3127,7 +3127,7 @@
           min: 0
           max: 0
       pools:
-        "hc:o12001": 75
+        - "hc:o12001": 75
   metadata:
     areaId: 33
     exp_level: 14000

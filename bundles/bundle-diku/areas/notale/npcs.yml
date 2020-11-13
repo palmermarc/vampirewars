@@ -26,7 +26,7 @@
           min: 0
           max: 0
       pools:
-        "notale:o14135": 75
+        - "notale:o14135": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -51,8 +51,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14102": 75
-        "notale:o14110": 75
+        - "notale:o14102": 75
+        - "notale:o14110": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -82,10 +82,10 @@
           min: 0
           max: 0
       pools:
-        "notale:o14132": 75
-        "notale:o14102": 75
-        "notale:o14101": 75
-        "notale:o14104": 75
+        - "notale:o14132": 75
+        - "notale:o14102": 75
+        - "notale:o14101": 75
+        - "notale:o14104": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -115,7 +115,7 @@
           min: 0
           max: 0
       pools:
-        "notale:o14112": 75
+        - "notale:o14112": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -145,8 +145,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14106": 75
-        "notale:o14105": 75
+        - "notale:o14106": 75
+        - "notale:o14105": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -176,10 +176,10 @@
           min: 0
           max: 0
       pools:
-        "notale:o14134": 75
-        "notale:o14107": 75
-        "notale:o14106": 75
-        "notale:o14105": 75
+        - "notale:o14134": 75
+        - "notale:o14107": 75
+        - "notale:o14106": 75
+        - "notale:o14105": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -209,7 +209,7 @@
           min: 0
           max: 0
       pools:
-        "notale:o14131": 75
+        - "notale:o14131": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -242,7 +242,7 @@
           min: 0
           max: 0
       pools:
-        "notale:o14109": 75
+        - "notale:o14109": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -267,8 +267,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14115": 75
-        "notale:o14119": 75
+        - "notale:o14115": 75
+        - "notale:o14119": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -293,8 +293,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14115": 75
-        "notale:o14119": 75
+        - "notale:o14115": 75
+        - "notale:o14119": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -319,9 +319,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14102": 75
-        "notale:o14111": 75
+        - "notale:o14103": 75
+        - "notale:o14102": 75
+        - "notale:o14111": 75
   metadata:
     vendor:
       items:
@@ -357,8 +357,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14102": 75
+        - "notale:o14103": 75
+        - "notale:o14102": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -383,8 +383,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14112": 75
+        - "notale:o14103": 75
+        - "notale:o14112": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -409,9 +409,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14112": 75
-        "notale:o14113": 75
+        - "notale:o14103": 75
+        - "notale:o14112": 75
+        - "notale:o14113": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -436,10 +436,10 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14102": 75
-        "notale:o14145": 75
-        "notale:o14137": 75
+        - "notale:o14103": 75
+        - "notale:o14102": 75
+        - "notale:o14145": 75
+        - "notale:o14137": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -464,7 +464,7 @@
           min: 0
           max: 0
       pools:
-        "notale:o14153": 75
+        - "notale:o14153": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -489,9 +489,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14102": 75
-        "notale:o14119": 75
+        - "notale:o14103": 75
+        - "notale:o14102": 75
+        - "notale:o14119": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -516,9 +516,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14102": 75
-        "notale:o14116": 75
+        - "notale:o14103": 75
+        - "notale:o14102": 75
+        - "notale:o14116": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -546,10 +546,10 @@
           min: 0
           max: 0
       pools:
-        "notale:o14102": 75
-        "notale:o14117": 75
-        "notale:o14157": 75
-        "notale:o14150": 75
+        - "notale:o14102": 75
+        - "notale:o14117": 75
+        - "notale:o14157": 75
+        - "notale:o14150": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -577,12 +577,12 @@
           min: 0
           max: 0
       pools:
-        "notale:o14102": 75
-        "notale:o14117": 75
-        "notale:o14124": 75
-        "notale:o14138": 75
-        "notale:o14147": 75
-        "notale:o14136": 75
+        - "notale:o14102": 75
+        - "notale:o14117": 75
+        - "notale:o14124": 75
+        - "notale:o14138": 75
+        - "notale:o14147": 75
+        - "notale:o14136": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -607,9 +607,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14156": 75
-        "notale:o14102": 75
-        "notale:o14119": 75
+        - "notale:o14156": 75
+        - "notale:o14102": 75
+        - "notale:o14119": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -634,8 +634,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14102": 75
-        "notale:o14126": 75
+        - "notale:o14102": 75
+        - "notale:o14126": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -660,8 +660,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14156": 75
-        "notale:o14112": 75
+        - "notale:o14156": 75
+        - "notale:o14112": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -686,8 +686,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14156": 75
-        "notale:o14112": 75
+        - "notale:o14156": 75
+        - "notale:o14112": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -715,10 +715,10 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14115": 75
-        "notale:o14102": 75
-        "notale:o14119": 75
+        - "notale:o14103": 75
+        - "notale:o14115": 75
+        - "notale:o14102": 75
+        - "notale:o14119": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -746,9 +746,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14124": 75
-        "notale:o14102": 75
-        "notale:o14114": 75
+        - "notale:o14124": 75
+        - "notale:o14102": 75
+        - "notale:o14114": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -776,9 +776,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14124": 75
-        "notale:o14102": 75
-        "notale:o14114": 75
+        - "notale:o14124": 75
+        - "notale:o14102": 75
+        - "notale:o14114": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -806,9 +806,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14124": 75
-        "notale:o14102": 75
-        "notale:o14114": 75
+        - "notale:o14124": 75
+        - "notale:o14102": 75
+        - "notale:o14114": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -836,9 +836,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14124": 75
-        "notale:o14102": 75
-        "notale:o14114": 75
+        - "notale:o14124": 75
+        - "notale:o14102": 75
+        - "notale:o14114": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -866,9 +866,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14124": 75
-        "notale:o14102": 75
-        "notale:o14114": 75
+        - "notale:o14124": 75
+        - "notale:o14102": 75
+        - "notale:o14114": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -893,7 +893,7 @@
           min: 0
           max: 0
       pools:
-        "notale:o14125": 75
+        - "notale:o14125": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -918,9 +918,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14124": 75
-        "notale:o14112": 75
-        "notale:o14102": 75
+        - "notale:o14124": 75
+        - "notale:o14112": 75
+        - "notale:o14102": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -945,10 +945,10 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14115": 75
-        "notale:o14102": 75
-        "notale:o14114": 75
+        - "notale:o14103": 75
+        - "notale:o14115": 75
+        - "notale:o14102": 75
+        - "notale:o14114": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -978,12 +978,12 @@
           min: 0
           max: 0
       pools:
-        "notale:o14122": 75
-        "notale:o14121": 75
-        "notale:o14120": 75
-        "notale:o14123": 75
-        "notale:o14118": 75
-        "notale:o14114": 75
+        - "notale:o14122": 75
+        - "notale:o14121": 75
+        - "notale:o14120": 75
+        - "notale:o14123": 75
+        - "notale:o14118": 75
+        - "notale:o14114": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -1013,8 +1013,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14102": 75
-        "notale:o14114": 75
+        - "notale:o14102": 75
+        - "notale:o14114": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -1042,7 +1042,7 @@
           min: 0
           max: 0
       pools:
-        "notale:o14127": 75
+        - "notale:o14127": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -1067,7 +1067,7 @@
           min: 0
           max: 0
       pools:
-        "notale:o14158": 75
+        - "notale:o14158": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -1092,9 +1092,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14103": 75
-        "notale:o14102": 75
-        "notale:o14128": 75
+        - "notale:o14103": 75
+        - "notale:o14102": 75
+        - "notale:o14128": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -1145,7 +1145,7 @@
           min: 0
           max: 0
       pools:
-        "notale:o14129": 75
+        - "notale:o14129": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -1170,8 +1170,8 @@
           min: 0
           max: 0
       pools:
-        "notale:o14156": 75
-        "notale:o14112": 75
+        - "notale:o14156": 75
+        - "notale:o14112": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -1196,9 +1196,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14124": 75
-        "notale:o14102": 75
-        "notale:o14130": 75
+        - "notale:o14124": 75
+        - "notale:o14102": 75
+        - "notale:o14130": 75
   metadata:
     areaId: 1
     exp_level: 16000
@@ -1228,9 +1228,9 @@
           min: 0
           max: 0
       pools:
-        "notale:o14132": 75
-        "notale:o14122": 75
-        "notale:o14131": 75
+        - "notale:o14132": 75
+        - "notale:o14122": 75
+        - "notale:o14131": 75
   metadata:
     areaId: 1
     exp_level: 16000

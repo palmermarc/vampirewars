@@ -18,10 +18,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24300": 75
-        "castle:o24301": 75
-        "castle:o24302": 75
-        "castle:o24303": 75
+        - "castle:o24300": 75
+        - "castle:o24301": 75
+        - "castle:o24302": 75
+        - "castle:o24303": 75
   metadata:
     vendor:
       items:
@@ -138,10 +138,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24324": 75
-        "castle:o24325": 75
-        "castle:o24326": 75
-        "castle:o24327": 75
+        - "castle:o24324": 75
+        - "castle:o24325": 75
+        - "castle:o24326": 75
+        - "castle:o24327": 75
   metadata:
     vendor:
       items:
@@ -180,10 +180,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24352": 75
-        "castle:o24353": 75
-        "castle:o24354": 75
-        "castle:o24355": 75
+        - "castle:o24352": 75
+        - "castle:o24353": 75
+        - "castle:o24354": 75
+        - "castle:o24355": 75
   metadata:
     vendor:
       items:
@@ -222,11 +222,11 @@
           min: 0
           max: 0
       pools:
-        "castle:o24304": 75
-        "castle:o24305": 75
-        "castle:o24306": 75
-        "castle:o24307": 75
-        "castle:o24308": 75
+        - "castle:o24304": 75
+        - "castle:o24305": 75
+        - "castle:o24306": 75
+        - "castle:o24307": 75
+        - "castle:o24308": 75
   metadata:
     vendor:
       items:
@@ -268,10 +268,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24336": 75
-        "castle:o24337": 75
-        "castle:o24338": 75
-        "castle:o24339": 75
+        - "castle:o24336": 75
+        - "castle:o24337": 75
+        - "castle:o24338": 75
+        - "castle:o24339": 75
   metadata:
     vendor:
       items:
@@ -310,10 +310,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24332": 75
-        "castle:o24333": 75
-        "castle:o24334": 75
-        "castle:o24335": 75
+        - "castle:o24332": 75
+        - "castle:o24333": 75
+        - "castle:o24334": 75
+        - "castle:o24335": 75
   metadata:
     vendor:
       items:
@@ -375,10 +375,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24328": 75
-        "castle:o24329": 75
-        "castle:o24330": 75
-        "castle:o24331": 75
+        - "castle:o24328": 75
+        - "castle:o24329": 75
+        - "castle:o24330": 75
+        - "castle:o24331": 75
   metadata:
     vendor:
       items:
@@ -417,15 +417,15 @@
           min: 0
           max: 0
       pools:
-        "castle:o24356": 75
-        "castle:o24357": 75
-        "castle:o24358": 75
-        "castle:o24359": 75
-        "castle:o24360": 75
-        "castle:o24361": 75
-        "castle:o24362": 75
-        "castle:o24363": 75
-        "castle:o24364": 75
+        - "castle:o24356": 75
+        - "castle:o24357": 75
+        - "castle:o24358": 75
+        - "castle:o24359": 75
+        - "castle:o24360": 75
+        - "castle:o24361": 75
+        - "castle:o24362": 75
+        - "castle:o24363": 75
+        - "castle:o24364": 75
   metadata:
     vendor:
       items:
@@ -479,11 +479,11 @@
           min: 0
           max: 0
       pools:
-        "castle:o24319": 75
-        "castle:o24320": 75
-        "castle:o24321": 75
-        "castle:o24322": 75
-        "castle:o24323": 75
+        - "castle:o24319": 75
+        - "castle:o24320": 75
+        - "castle:o24321": 75
+        - "castle:o24322": 75
+        - "castle:o24323": 75
   metadata:
     vendor:
       items:
@@ -525,12 +525,12 @@
           min: 0
           max: 0
       pools:
-        "castle:o24313": 75
-        "castle:o24314": 75
-        "castle:o24315": 75
-        "castle:o24316": 75
-        "castle:o24317": 75
-        "castle:o24318": 75
+        - "castle:o24313": 75
+        - "castle:o24314": 75
+        - "castle:o24315": 75
+        - "castle:o24316": 75
+        - "castle:o24317": 75
+        - "castle:o24318": 75
   metadata:
     vendor:
       items:
@@ -575,10 +575,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24348": 75
-        "castle:o24349": 75
-        "castle:o24350": 75
-        "castle:o24351": 75
+        - "castle:o24348": 75
+        - "castle:o24349": 75
+        - "castle:o24350": 75
+        - "castle:o24351": 75
   metadata:
     vendor:
       items:
@@ -617,10 +617,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24344": 75
-        "castle:o24345": 75
-        "castle:o24346": 75
-        "castle:o24347": 75
+        - "castle:o24344": 75
+        - "castle:o24345": 75
+        - "castle:o24346": 75
+        - "castle:o24347": 75
   metadata:
     vendor:
       items:
@@ -659,10 +659,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24340": 75
-        "castle:o24341": 75
-        "castle:o24342": 75
-        "castle:o24343": 75
+        - "castle:o24340": 75
+        - "castle:o24341": 75
+        - "castle:o24342": 75
+        - "castle:o24343": 75
   metadata:
     vendor:
       items:
@@ -701,11 +701,11 @@
           min: 0
           max: 0
       pools:
-        "castle:o24309": 75
-        "castle:o24310": 75
-        "castle:o24000": 75
-        "castle:o24311": 75
-        "castle:o24312": 75
+        - "castle:o24309": 75
+        - "castle:o24310": 75
+        - "castle:o24000": 75
+        - "castle:o24311": 75
+        - "castle:o24312": 75
   metadata:
     vendor:
       items:
@@ -799,10 +799,10 @@
           min: 0
           max: 0
       pools:
-        "castle:o24365": 75
-        "castle:o24366": 75
-        "castle:o24367": 75
-        "castle:o24368": 75
+        - "castle:o24365": 75
+        - "castle:o24366": 75
+        - "castle:o24367": 75
+        - "castle:o24368": 75
   metadata:
     vendor:
       items:

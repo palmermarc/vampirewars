@@ -26,9 +26,9 @@
           min: 950
           max: 1050
       pools:
-        "sewer:o7200": 75
-        "sewer:o7203": 75
-        "sewer:o7205": 75
+        - "sewer:o7200": 75
+        - "sewer:o7203": 75
+        - "sewer:o7205": 75
   metadata:
     areaId: 67
     exp_level: 5000
@@ -61,7 +61,7 @@
           min: 380
           max: 420
       pools:
-        "sewer:o7201": 75
+        - "sewer:o7201": 75
   metadata:
     areaId: 67
     exp_level: 4500
@@ -94,7 +94,7 @@
           min: 190
           max: 210
       pools:
-        "sewer:o7202": 75
+        - "sewer:o7202": 75
   metadata:
     areaId: 67
     exp_level: 4050
@@ -127,9 +127,9 @@
           min: 47.5
           max: 52.5
       pools:
-        "sewer:o7211": 75
-        "sewer:o7208": 75
-        "sewer:o7209": 75
+        - "sewer:o7211": 75
+        - "sewer:o7208": 75
+        - "sewer:o7209": 75
   metadata:
     areaId: 67
     exp_level: 1000
@@ -247,7 +247,7 @@
           min: 38
           max: 42
       pools:
-        "sewer:o7190": 75
+        - "sewer:o7190": 75
   metadata:
     areaId: 67
     exp_level: 1000
@@ -531,15 +531,15 @@
           min: 95000
           max: 105000
       pools:
-        "sewer:o7003": 75
-        "sewer:o7004": 75
-        "sewer:o7005": 75
-        "sewer:o7006": 75
-        "sewer:o7007": 75
-        "sewer:o7008": 75
-        "sewer:o7009": 75
-        "sewer:o7216": 75
-        "sewer:o7002": 75
+        - "sewer:o7003": 75
+        - "sewer:o7004": 75
+        - "sewer:o7005": 75
+        - "sewer:o7006": 75
+        - "sewer:o7007": 75
+        - "sewer:o7008": 75
+        - "sewer:o7009": 75
+        - "sewer:o7216": 75
+        - "sewer:o7002": 75
   metadata:
     areaId: 67
     exp_level: 13499

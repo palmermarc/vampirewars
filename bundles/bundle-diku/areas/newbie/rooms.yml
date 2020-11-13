@@ -72,10 +72,6 @@
       direction: north
     - roomId: "newbie:killing"
       direction: south
-  npcs:
-    - id: "newbie:m700"
-      respawnChance: 100
-      maxLoad: "2"
 - id: spells
   title: "Spells"
   description: >-

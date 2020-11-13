@@ -90,8 +90,8 @@
           min: 1900
           max: 2100
       pools:
-        "hitower:o1351": 75
-        "hitower:o1352": 75
+        - "hitower:o1351": 75
+        - "hitower:o1352": 75
   metadata:
     vendor:
       items:
@@ -149,7 +149,7 @@
           min: 1037.4
           max: 1146.6
       pools:
-        "hitower:o1355": 75
+        - "hitower:o1355": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -202,7 +202,7 @@
           min: 0
           max: 0
       pools:
-        "hitower:o1356": 75
+        - "hitower:o1356": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -227,7 +227,7 @@
           min: 1259.7
           max: 1392.3
       pools:
-        "hitower:o1323": 75
+        - "hitower:o1323": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -628,7 +628,7 @@
           min: 660.25
           max: 729.75
       pools:
-        "hitower:o1357": 75
+        - "hitower:o1357": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -658,7 +658,7 @@
           min: 3050.45
           max: 3371.55
       pools:
-        "hitower:o1357": 75
+        - "hitower:o1357": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -785,9 +785,9 @@
           min: 5352.3
           max: 5915.7
       pools:
-        "hitower:o1359": 75
-        "hitower:o1360": 75
-        "hitower:o1361": 75
+        - "hitower:o1359": 75
+        - "hitower:o1360": 75
+        - "hitower:o1361": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -817,7 +817,7 @@
           min: 997.5
           max: 1102.5
       pools:
-        "hitower:o1362": 75
+        - "hitower:o1362": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -847,8 +847,8 @@
           min: 6471.4
           max: 7152.6
       pools:
-        "hitower:o1316": 75
-        "hitower:o1363": 75
+        - "hitower:o1316": 75
+        - "hitower:o1363": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -906,7 +906,7 @@
           min: 2228.7
           max: 2463.3
       pools:
-        "hitower:o1364": 75
+        - "hitower:o1364": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -936,7 +936,7 @@
           min: 968.05
           max: 1069.95
       pools:
-        "hitower:o1371": 75
+        - "hitower:o1371": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -966,8 +966,8 @@
           min: 4438.4
           max: 4905.6
       pools:
-        "hitower:o1372": 75
-        "hitower:o1373": 75
+        - "hitower:o1372": 75
+        - "hitower:o1373": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1025,8 +1025,8 @@
           min: 2199.25
           max: 2430.75
       pools:
-        "hitower:o1325": 75
-        "hitower:o1374": 75
+        - "hitower:o1325": 75
+        - "hitower:o1374": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1056,7 +1056,7 @@
           min: 2544.1
           max: 2811.9
       pools:
-        "hitower:o1376": 75
+        - "hitower:o1376": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1234,7 +1234,7 @@
           min: 2227.75
           max: 2462.25
       pools:
-        "hitower:o1377": 75
+        - "hitower:o1377": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1264,8 +1264,8 @@
           min: 11099.8
           max: 12268.2
       pools:
-        "hitower:o1379": 75
-        "hitower:o1380": 75
+        - "hitower:o1379": 75
+        - "hitower:o1380": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1323,7 +1323,7 @@
           min: 0
           max: 0
       pools:
-        "hitower:o1381": 75
+        - "hitower:o1381": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1409,8 +1409,8 @@
           min: 6386.85
           max: 7059.15
       pools:
-        "hitower:o1382": 75
-        "hitower:o1384": 75
+        - "hitower:o1382": 75
+        - "hitower:o1384": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1458,9 +1458,9 @@
           min: 14582.5
           max: 16117.5
       pools:
-        "hitower:o1383": 75
-        "hitower:o1385": 75
-        "hitower:o1386": 75
+        - "hitower:o1383": 75
+        - "hitower:o1385": 75
+        - "hitower:o1386": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1490,8 +1490,8 @@
           min: 13182.2
           max: 14569.8
       pools:
-        "hitower:o1387": 75
-        "hitower:o1388": 75
+        - "hitower:o1387": 75
+        - "hitower:o1388": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1539,9 +1539,9 @@
           min: 20995
           max: 23205
       pools:
-        "hitower:o1389": 75
-        "hitower:o1390": 75
-        "hitower:o1386": 75
+        - "hitower:o1389": 75
+        - "hitower:o1390": 75
+        - "hitower:o1386": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1571,8 +1571,8 @@
           min: 7030
           max: 7770
       pools:
-        "hitower:o1391": 75
-        "hitower:o1392": 75
+        - "hitower:o1391": 75
+        - "hitower:o1392": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1620,9 +1620,9 @@
           min: 20805
           max: 22995
       pools:
-        "hitower:o1393": 75
-        "hitower:o1394": 75
-        "hitower:o1386": 75
+        - "hitower:o1393": 75
+        - "hitower:o1394": 75
+        - "hitower:o1386": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1647,7 +1647,7 @@
           min: 0
           max: 0
       pools:
-        "hitower:o1395": 75
+        - "hitower:o1395": 75
   metadata:
     areaId: 34
     exp_level: 8000
@@ -1672,12 +1672,12 @@
           min: 47500
           max: 52500
       pools:
-        "hitower:o1401": 75
-        "hitower:o1397": 75
-        "hitower:o1398": 75
-        "hitower:o1399": 75
-        "hitower:o1400": 75
-        "hitower:o1339": 75
+        - "hitower:o1401": 75
+        - "hitower:o1397": 75
+        - "hitower:o1398": 75
+        - "hitower:o1399": 75
+        - "hitower:o1400": 75
+        - "hitower:o1339": 75
   metadata:
     areaId: 34
     exp_level: 8000

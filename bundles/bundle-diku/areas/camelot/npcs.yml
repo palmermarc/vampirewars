@@ -21,7 +21,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3301": 75
+        - "camelot:o3301": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -49,7 +49,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3300": 75
+        - "camelot:o3300": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -77,7 +77,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3302": 75
+        - "camelot:o3302": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -102,8 +102,8 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3310": 75
-        "camelot:o3309": 75
+        - "camelot:o3310": 75
+        - "camelot:o3309": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -136,8 +136,8 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3303": 75
-        "camelot:o3304": 75
+        - "camelot:o3303": 75
+        - "camelot:o3304": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -162,8 +162,8 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3305": 75
-        "camelot:o3306": 75
+        - "camelot:o3305": 75
+        - "camelot:o3306": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -193,7 +193,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3317": 75
+        - "camelot:o3317": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -218,8 +218,8 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3307": 75
-        "camelot:o3308": 75
+        - "camelot:o3307": 75
+        - "camelot:o3308": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -249,7 +249,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3311": 75
+        - "camelot:o3311": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -274,7 +274,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3312": 75
+        - "camelot:o3312": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -299,7 +299,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3313": 75
+        - "camelot:o3313": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -324,7 +324,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3314": 75
+        - "camelot:o3314": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -349,8 +349,8 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3315": 75
-        "camelot:o3316": 75
+        - "camelot:o3315": 75
+        - "camelot:o3316": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -383,7 +383,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3318": 75
+        - "camelot:o3318": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -411,8 +411,8 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3319": 75
-        "camelot:o3320": 75
+        - "camelot:o3319": 75
+        - "camelot:o3320": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -465,7 +465,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3326": 75
+        - "camelot:o3326": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -498,8 +498,8 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3327": 75
-        "camelot:o3328": 75
+        - "camelot:o3327": 75
+        - "camelot:o3328": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -589,7 +589,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3329": 75
+        - "camelot:o3329": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -614,7 +614,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3330": 75
+        - "camelot:o3330": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -668,7 +668,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3331": 75
+        - "camelot:o3331": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -693,7 +693,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3332": 75
+        - "camelot:o3332": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -718,7 +718,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3333": 75
+        - "camelot:o3333": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -743,7 +743,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3334": 75
+        - "camelot:o3334": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -768,7 +768,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3336": 75
+        - "camelot:o3336": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -796,8 +796,8 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3338": 75
-        "camelot:o3330": 75
+        - "camelot:o3338": 75
+        - "camelot:o3330": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1023,9 +1023,9 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3300": 75
-        "camelot:o3301": 75
-        "camelot:o3302": 75
+        - "camelot:o3300": 75
+        - "camelot:o3301": 75
+        - "camelot:o3302": 75
   metadata:
     vendor:
       items:
@@ -1221,7 +1221,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3339": 75
+        - "camelot:o3339": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1269,7 +1269,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3340": 75
+        - "camelot:o3340": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1317,7 +1317,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3341": 75
+        - "camelot:o3341": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1398,7 +1398,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3343": 75
+        - "camelot:o3343": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1492,7 +1492,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3344": 75
+        - "camelot:o3344": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1520,7 +1520,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3345": 75
+        - "camelot:o3345": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1548,7 +1548,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3346": 75
+        - "camelot:o3346": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1576,7 +1576,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3347": 75
+        - "camelot:o3347": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1601,7 +1601,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3348": 75
+        - "camelot:o3348": 75
   metadata:
     areaId: 7
     exp_level: 30000
@@ -1626,7 +1626,7 @@
           min: 0
           max: 0
       pools:
-        "camelot:o3340": 75
+        - "camelot:o3340": 75
   metadata:
     areaId: 7
     exp_level: 30000

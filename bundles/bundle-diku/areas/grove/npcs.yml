@@ -21,10 +21,10 @@
           min: 47.5
           max: 52.5
       pools:
-        "grove:o8910": 75
-        "grove:o8911": 75
-        "grove:o8919": 75
-        "grove:o8918": 75
+        - "grove:o8910": 75
+        - "grove:o8911": 75
+        - "grove:o8919": 75
+        - "grove:o8918": 75
   metadata:
     areaId: 31
     exp_level: 10000
@@ -52,10 +52,10 @@
           min: 47.5
           max: 52.5
       pools:
-        "grove:o8910": 75
-        "grove:o8911": 75
-        "grove:o8913": 75
-        "grove:o8915": 75
+        - "grove:o8910": 75
+        - "grove:o8911": 75
+        - "grove:o8913": 75
+        - "grove:o8915": 75
   metadata:
     areaId: 31
     exp_level: 10000
@@ -83,9 +83,9 @@
           min: 47.5
           max: 52.5
       pools:
-        "grove:o8910": 75
-        "grove:o8914": 75
-        "grove:o8916": 75
+        - "grove:o8910": 75
+        - "grove:o8914": 75
+        - "grove:o8916": 75
   metadata:
     areaId: 31
     exp_level: 10000
@@ -113,9 +113,9 @@
           min: 47.5
           max: 52.5
       pools:
-        "grove:o8910": 75
-        "grove:o8919": 75
-        "grove:o8917": 75
+        - "grove:o8910": 75
+        - "grove:o8919": 75
+        - "grove:o8917": 75
   metadata:
     areaId: 31
     exp_level: 10000
@@ -273,8 +273,8 @@
           min: 47.5
           max: 52.5
       pools:
-        "grove:o8913": 75
-        "grove:o8916": 75
+        - "grove:o8913": 75
+        - "grove:o8916": 75
   metadata:
     areaId: 31
     exp_level: 10000
@@ -302,8 +302,8 @@
           min: 47.5
           max: 52.5
       pools:
-        "grove:o8914": 75
-        "grove:o8918": 75
+        - "grove:o8914": 75
+        - "grove:o8918": 75
   metadata:
     areaId: 31
     exp_level: 10000

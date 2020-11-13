@@ -18,8 +18,8 @@
           min: 0
           max: 0
       pools:
-        "sentinel:o12454": 75
-        "sentinel:o12452": 75
+        - "sentinel:o12454": 75
+        - "sentinel:o12452": 75
   metadata:
     areaId: 66
     exp_level: 8000
@@ -52,8 +52,8 @@
           min: 0
           max: 0
       pools:
-        "sentinel:o12453": 75
-        "sentinel:o12454": 75
+        - "sentinel:o12453": 75
+        - "sentinel:o12454": 75
   metadata:
     areaId: 66
     exp_level: 8000
@@ -176,8 +176,8 @@
           min: 0
           max: 0
       pools:
-        "sentinel:o12453": 75
-        "sentinel:o12454": 75
+        - "sentinel:o12453": 75
+        - "sentinel:o12454": 75
   metadata:
     areaId: 66
     exp_level: 8000
@@ -207,8 +207,8 @@
           min: 0
           max: 0
       pools:
-        "sentinel:o12453": 75
-        "sentinel:o12454": 75
+        - "sentinel:o12453": 75
+        - "sentinel:o12454": 75
   metadata:
     areaId: 66
     exp_level: 8000

@@ -21,12 +21,12 @@
           min: 0
           max: 0
       pools:
-        "quest:o500": 75
-        "quest:o501": 75
-        "quest:o502": 75
-        "quest:o503": 75
-        "quest:o504": 75
-        "quest:o505": 75
+        - "quest:o500": 75
+        - "quest:o501": 75
+        - "quest:o502": 75
+        - "quest:o503": 75
+        - "quest:o504": 75
+        - "quest:o505": 75
   metadata:
     areaId: 62
     exp_level: 41
@@ -54,12 +54,12 @@
           min: 0
           max: 0
       pools:
-        "quest:o506": 75
-        "quest:o507": 75
-        "quest:o508": 75
-        "quest:o509": 75
-        "quest:o510": 75
-        "quest:o511": 75
+        - "quest:o506": 75
+        - "quest:o507": 75
+        - "quest:o508": 75
+        - "quest:o509": 75
+        - "quest:o510": 75
+        - "quest:o511": 75
   metadata:
     areaId: 62
     exp_level: 60
@@ -87,12 +87,12 @@
           min: 0
           max: 0
       pools:
-        "quest:o514": 75
-        "quest:o512": 75
-        "quest:o513": 75
-        "quest:o515": 75
-        "quest:o516": 75
-        "quest:o517": 75
+        - "quest:o514": 75
+        - "quest:o512": 75
+        - "quest:o513": 75
+        - "quest:o515": 75
+        - "quest:o516": 75
+        - "quest:o517": 75
   metadata:
     areaId: 62
     exp_level: 79
@@ -120,12 +120,12 @@
           min: 0
           max: 0
       pools:
-        "quest:o520": 75
-        "quest:o518": 75
-        "quest:o519": 75
-        "quest:o521": 75
-        "quest:o522": 75
-        "quest:o523": 75
+        - "quest:o520": 75
+        - "quest:o518": 75
+        - "quest:o519": 75
+        - "quest:o521": 75
+        - "quest:o522": 75
+        - "quest:o523": 75
   metadata:
     areaId: 62
     exp_level: 100
@@ -153,12 +153,12 @@
           min: 0
           max: 0
       pools:
-        "quest:o526": 75
-        "quest:o524": 75
-        "quest:o525": 75
-        "quest:o527": 75
-        "quest:o528": 75
-        "quest:o529": 75
+        - "quest:o526": 75
+        - "quest:o524": 75
+        - "quest:o525": 75
+        - "quest:o527": 75
+        - "quest:o528": 75
+        - "quest:o529": 75
   metadata:
     areaId: 62
     exp_level: 119
@@ -186,12 +186,12 @@
           min: 0
           max: 0
       pools:
-        "quest:o532": 75
-        "quest:o530": 75
-        "quest:o531": 75
-        "quest:o533": 75
-        "quest:o534": 75
-        "quest:o535": 75
+        - "quest:o532": 75
+        - "quest:o530": 75
+        - "quest:o531": 75
+        - "quest:o533": 75
+        - "quest:o534": 75
+        - "quest:o535": 75
   metadata:
     areaId: 62
     exp_level: 140

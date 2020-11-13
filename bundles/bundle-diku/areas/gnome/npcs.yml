@@ -21,7 +21,7 @@
           min: 47.5
           max: 52.5
       pools:
-        "gnome:o1502": 75
+        - "gnome:o1502": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -75,7 +75,7 @@
           min: 427.5
           max: 472.5
       pools:
-        "gnome:o1503": 75
+        - "gnome:o1503": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -100,8 +100,8 @@
           min: 950
           max: 1050
       pools:
-        "gnome:o1511": 75
-        "gnome:o1514": 75
+        - "gnome:o1511": 75
+        - "gnome:o1514": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -126,10 +126,10 @@
           min: 1425
           max: 1575
       pools:
-        "gnome:o1507": 75
-        "gnome:o1500": 75
-        "gnome:o1506": 75
-        "gnome:o1504": 75
+        - "gnome:o1507": 75
+        - "gnome:o1500": 75
+        - "gnome:o1506": 75
+        - "gnome:o1504": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -154,9 +154,9 @@
           min: 7600
           max: 8400
       pools:
-        "gnome:o1508": 75
-        "gnome:o1509": 75
-        "gnome:o1510": 75
+        - "gnome:o1508": 75
+        - "gnome:o1509": 75
+        - "gnome:o1510": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -235,7 +235,7 @@
           min: 4.75
           max: 5.25
       pools:
-        "gnome:o1505": 75
+        - "gnome:o1505": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -263,7 +263,7 @@
           min: 9.5
           max: 10.5
       pools:
-        "gnome:o1503": 75
+        - "gnome:o1503": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -319,7 +319,7 @@
           min: 8550
           max: 9450
       pools:
-        "gnome:o1501": 75
+        - "gnome:o1501": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -401,9 +401,9 @@
           min: 5700
           max: 6300
       pools:
-        "gnome:o1505": 75
-        "gnome:o1512": 75
-        "gnome:o1516": 75
+        - "gnome:o1505": 75
+        - "gnome:o1512": 75
+        - "gnome:o1516": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -461,7 +461,7 @@
           min: 190
           max: 210
       pools:
-        "gnome:o1521": 75
+        - "gnome:o1521": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -486,7 +486,7 @@
           min: 570
           max: 630
       pools:
-        "gnome:o1521": 75
+        - "gnome:o1521": 75
   metadata:
     areaId: 29
     exp_level: 8000
@@ -511,7 +511,7 @@
           min: 5700
           max: 6300
       pools:
-        "gnome:o1520": 75
+        - "gnome:o1520": 75
   metadata:
     areaId: 29
     exp_level: 8000

@@ -64,7 +64,7 @@
           min: 95
           max: 105
       pools:
-        "school:o3705": 75
+        - "school:o3705": 75
   metadata:
     areaId: 64
     exp_level: 1551
@@ -89,8 +89,8 @@
           min: 95
           max: 105
       pools:
-        "school:o3706": 75
-        "school:o3711": 75
+        - "school:o3706": 75
+        - "school:o3711": 75
   metadata:
     areaId: 64
     exp_level: 1399
@@ -120,8 +120,8 @@
           min: 95
           max: 105
       pools:
-        "school:o3707": 75
-        "school:o3712": 75
+        - "school:o3707": 75
+        - "school:o3712": 75
   metadata:
     areaId: 64
     exp_level: 1749
@@ -151,8 +151,8 @@
           min: 95
           max: 105
       pools:
-        "school:o3708": 75
-        "school:o3713": 75
+        - "school:o3708": 75
+        - "school:o3713": 75
   metadata:
     areaId: 64
     exp_level: 1651
@@ -177,10 +177,10 @@
           min: 190
           max: 210
       pools:
-        "school:o3709": 75
-        "school:o3710": 75
-        "school:o3714": 75
-        "school:o3713": 75
+        - "school:o3709": 75
+        - "school:o3710": 75
+        - "school:o3714": 75
+        - "school:o3713": 75
   metadata:
     areaId: 64
     exp_level: 4999
@@ -441,8 +441,8 @@
           min: 0
           max: 0
       pools:
-        "school:o3138": 75
-        "school:o3031": 75
+        - "school:o3138": 75
+        - "school:o3031": 75
   metadata:
     vendor:
       items:
@@ -521,7 +521,7 @@
           min: 285
           max: 315
       pools:
-        "school:o3715": 75
+        - "school:o3715": 75
   metadata:
     areaId: 64
     exp_level: 2499

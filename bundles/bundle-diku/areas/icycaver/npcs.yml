@@ -18,10 +18,10 @@
           min: 0
           max: 0
       pools:
-        "icycaver:o9601": 75
-        "icycaver:o9602": 75
-        "icycaver:o9603": 75
-        "icycaver:o9605": 75
+        - "icycaver:o9601": 75
+        - "icycaver:o9602": 75
+        - "icycaver:o9603": 75
+        - "icycaver:o9605": 75
   metadata:
     areaId: 37
     exp_level: 16000
@@ -46,14 +46,14 @@
           min: 0
           max: 0
       pools:
-        "icycaver:o9607": 75
-        "icycaver:o9604": 75
-        "icycaver:o9601": 75
-        "icycaver:o9608": 75
-        "icycaver:o9606": 75
-        "icycaver:o9602": 75
-        "icycaver:o9603": 75
-        "icycaver:o9605": 75
+        - "icycaver:o9607": 75
+        - "icycaver:o9604": 75
+        - "icycaver:o9601": 75
+        - "icycaver:o9608": 75
+        - "icycaver:o9606": 75
+        - "icycaver:o9602": 75
+        - "icycaver:o9603": 75
+        - "icycaver:o9605": 75
   metadata:
     areaId: 37
     exp_level: 16000
@@ -78,8 +78,8 @@
           min: 0
           max: 0
       pools:
-        "icycaver:o9604": 75
-        "icycaver:o9608": 75
+        - "icycaver:o9604": 75
+        - "icycaver:o9608": 75
   metadata:
     areaId: 37
     exp_level: 16000
@@ -104,8 +104,8 @@
           min: 0
           max: 0
       pools:
-        "icycaver:o9604": 75
-        "icycaver:o9602": 75
+        - "icycaver:o9604": 75
+        - "icycaver:o9602": 75
   metadata:
     areaId: 37
     exp_level: 16000
@@ -130,9 +130,9 @@
           min: 0
           max: 0
       pools:
-        "icycaver:o9608": 75
-        "icycaver:o9603": 75
-        "icycaver:o9602": 75
+        - "icycaver:o9608": 75
+        - "icycaver:o9603": 75
+        - "icycaver:o9602": 75
   metadata:
     areaId: 37
     exp_level: 16000
@@ -157,9 +157,9 @@
           min: 0
           max: 0
       pools:
-        "icycaver:o9607": 75
-        "icycaver:o9602": 75
-        "icycaver:o9601": 75
+        - "icycaver:o9607": 75
+        - "icycaver:o9602": 75
+        - "icycaver:o9601": 75
   metadata:
     areaId: 37
     exp_level: 16000

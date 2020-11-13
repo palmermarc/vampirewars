@@ -95,8 +95,8 @@
           min: 32.3
           max: 35.7
       pools:
-        "solace:o10292": 75
-        "solace:o10293": 75
+        - "solace:o10292": 75
+        - "solace:o10293": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -121,9 +121,9 @@
           min: 32.3
           max: 35.7
       pools:
-        "solace:o10294": 75
-        "solace:o10297": 75
-        "solace:o10296": 75
+        - "solace:o10294": 75
+        - "solace:o10297": 75
+        - "solace:o10296": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -148,7 +148,7 @@
           min: 32.3
           max: 35.7
       pools:
-        "solace:o10303": 75
+        - "solace:o10303": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -357,21 +357,21 @@
           min: 95000
           max: 105000
       pools:
-        "solace:o10201": 75
-        "solace:o10298": 75
-        "solace:o10202": 75
-        "solace:o10203": 75
-        "solace:o10204": 75
-        "solace:o10205": 75
-        "solace:o10206": 75
-        "solace:o10207": 75
-        "solace:o10209": 75
-        "solace:o10208": 75
-        "solace:o10306": 75
-        "solace:o10211": 75
-        "solace:o10212": 75
-        "solace:o10213": 75
-        "solace:o10210": 75
+        - "solace:o10201": 75
+        - "solace:o10298": 75
+        - "solace:o10202": 75
+        - "solace:o10203": 75
+        - "solace:o10204": 75
+        - "solace:o10205": 75
+        - "solace:o10206": 75
+        - "solace:o10207": 75
+        - "solace:o10209": 75
+        - "solace:o10208": 75
+        - "solace:o10306": 75
+        - "solace:o10211": 75
+        - "solace:o10212": 75
+        - "solace:o10213": 75
+        - "solace:o10210": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -396,19 +396,19 @@
           min: 95000
           max: 105000
       pools:
-        "solace:o10216": 75
-        "solace:o10299": 75
-        "solace:o10217": 75
-        "solace:o10218": 75
-        "solace:o10219": 75
-        "solace:o10220": 75
-        "solace:o10221": 75
-        "solace:o10222": 75
-        "solace:o10209": 75
-        "solace:o10223": 75
-        "solace:o10225": 75
-        "solace:o10212": 75
-        "solace:o10224": 75
+        - "solace:o10216": 75
+        - "solace:o10299": 75
+        - "solace:o10217": 75
+        - "solace:o10218": 75
+        - "solace:o10219": 75
+        - "solace:o10220": 75
+        - "solace:o10221": 75
+        - "solace:o10222": 75
+        - "solace:o10209": 75
+        - "solace:o10223": 75
+        - "solace:o10225": 75
+        - "solace:o10212": 75
+        - "solace:o10224": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -433,19 +433,19 @@
           min: 95000
           max: 105000
       pools:
-        "solace:o10226": 75
-        "solace:o10300": 75
-        "solace:o10227": 75
-        "solace:o10228": 75
-        "solace:o10229": 75
-        "solace:o10230": 75
-        "solace:o10231": 75
-        "solace:o10232": 75
-        "solace:o10209": 75
-        "solace:o10233": 75
-        "solace:o10235": 75
-        "solace:o10212": 75
-        "solace:o10234": 75
+        - "solace:o10226": 75
+        - "solace:o10300": 75
+        - "solace:o10227": 75
+        - "solace:o10228": 75
+        - "solace:o10229": 75
+        - "solace:o10230": 75
+        - "solace:o10231": 75
+        - "solace:o10232": 75
+        - "solace:o10209": 75
+        - "solace:o10233": 75
+        - "solace:o10235": 75
+        - "solace:o10212": 75
+        - "solace:o10234": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -470,11 +470,11 @@
           min: 475
           max: 525
       pools:
-        "solace:o10236": 75
-        "solace:o10237": 75
-        "solace:o10238": 75
-        "solace:o10239": 75
-        "solace:o10301": 75
+        - "solace:o10236": 75
+        - "solace:o10237": 75
+        - "solace:o10238": 75
+        - "solace:o10239": 75
+        - "solace:o10301": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -504,9 +504,9 @@
           min: 475
           max: 525
       pools:
-        "solace:o10236": 75
-        "solace:o10239": 75
-        "solace:o10301": 75
+        - "solace:o10236": 75
+        - "solace:o10239": 75
+        - "solace:o10301": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -586,11 +586,11 @@
           min: 32.3
           max: 35.7
       pools:
-        "solace:o10240": 75
-        "solace:o10255": 75
-        "solace:o10256": 75
-        "solace:o10257": 75
-        "solace:o10258": 75
+        - "solace:o10240": 75
+        - "solace:o10255": 75
+        - "solace:o10256": 75
+        - "solace:o10257": 75
+        - "solace:o10258": 75
   metadata:
     vendor:
       items:
@@ -632,10 +632,10 @@
           min: 11400
           max: 12600
       pools:
-        "solace:o10241": 75
-        "solace:o10242": 75
-        "solace:o10243": 75
-        "solace:o10244": 75
+        - "solace:o10241": 75
+        - "solace:o10242": 75
+        - "solace:o10243": 75
+        - "solace:o10244": 75
   metadata:
     vendor:
       items:
@@ -674,10 +674,10 @@
           min: 11400
           max: 12600
       pools:
-        "solace:o10245": 75
-        "solace:o10246": 75
-        "solace:o10247": 75
-        "solace:o10248": 75
+        - "solace:o10245": 75
+        - "solace:o10246": 75
+        - "solace:o10247": 75
+        - "solace:o10248": 75
   metadata:
     vendor:
       items:
@@ -785,9 +785,9 @@
           min: 11400
           max: 12600
       pools:
-        "solace:o10307": 75
-        "solace:o10308": 75
-        "solace:o10309": 75
+        - "solace:o10307": 75
+        - "solace:o10308": 75
+        - "solace:o10309": 75
   metadata:
     vendor:
       items:
@@ -826,11 +826,11 @@
           min: 475
           max: 525
       pools:
-        "solace:o10236": 75
-        "solace:o10237": 75
-        "solace:o10238": 75
-        "solace:o10239": 75
-        "solace:o10301": 75
+        - "solace:o10236": 75
+        - "solace:o10237": 75
+        - "solace:o10238": 75
+        - "solace:o10239": 75
+        - "solace:o10301": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -881,8 +881,8 @@
           min: 475
           max: 525
       pools:
-        "solace:o10249": 75
-        "solace:o10305": 75
+        - "solace:o10249": 75
+        - "solace:o10305": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -907,8 +907,8 @@
           min: 475
           max: 525
       pools:
-        "solace:o10236": 75
-        "solace:o10250": 75
+        - "solace:o10236": 75
+        - "solace:o10250": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -933,10 +933,10 @@
           min: 475
           max: 525
       pools:
-        "solace:o10251": 75
-        "solace:o10252": 75
-        "solace:o10253": 75
-        "solace:o10254": 75
+        - "solace:o10251": 75
+        - "solace:o10252": 75
+        - "solace:o10253": 75
+        - "solace:o10254": 75
   metadata:
     vendor:
       items:
@@ -975,10 +975,10 @@
           min: 475
           max: 525
       pools:
-        "solace:o10259": 75
-        "solace:o10260": 75
-        "solace:o10261": 75
-        "solace:o10262": 75
+        - "solace:o10259": 75
+        - "solace:o10260": 75
+        - "solace:o10261": 75
+        - "solace:o10262": 75
   metadata:
     vendor:
       items:
@@ -1017,9 +1017,9 @@
           min: 475
           max: 525
       pools:
-        "solace:o10263": 75
-        "solace:o10264": 75
-        "solace:o10265": 75
+        - "solace:o10263": 75
+        - "solace:o10264": 75
+        - "solace:o10265": 75
   metadata:
     vendor:
       items:
@@ -1055,10 +1055,10 @@
           min: 475
           max: 525
       pools:
-        "solace:o10266": 75
-        "solace:o10267": 75
-        "solace:o10268": 75
-        "solace:o10269": 75
+        - "solace:o10266": 75
+        - "solace:o10267": 75
+        - "solace:o10268": 75
+        - "solace:o10269": 75
   metadata:
     vendor:
       items:
@@ -1097,7 +1097,7 @@
           min: 475
           max: 525
       pools:
-        "solace:o10270": 75
+        - "solace:o10270": 75
   metadata:
     vendor:
       items:
@@ -1127,10 +1127,10 @@
           min: 475
           max: 525
       pools:
-        "solace:o10271": 75
-        "solace:o10272": 75
-        "solace:o10273": 75
-        "solace:o10274": 75
+        - "solace:o10271": 75
+        - "solace:o10272": 75
+        - "solace:o10273": 75
+        - "solace:o10274": 75
   metadata:
     vendor:
       items:
@@ -1169,10 +1169,10 @@
           min: 475
           max: 525
       pools:
-        "solace:o10275": 75
-        "solace:o10276": 75
-        "solace:o10277": 75
-        "solace:o10278": 75
+        - "solace:o10275": 75
+        - "solace:o10276": 75
+        - "solace:o10277": 75
+        - "solace:o10278": 75
   metadata:
     vendor:
       items:
@@ -1211,9 +1211,9 @@
           min: 475
           max: 525
       pools:
-        "solace:o10279": 75
-        "solace:o10280": 75
-        "solace:o10281": 75
+        - "solace:o10279": 75
+        - "solace:o10280": 75
+        - "solace:o10281": 75
   metadata:
     vendor:
       items:
@@ -1249,9 +1249,9 @@
           min: 475
           max: 525
       pools:
-        "solace:o10307": 75
-        "solace:o10308": 75
-        "solace:o10309": 75
+        - "solace:o10307": 75
+        - "solace:o10308": 75
+        - "solace:o10309": 75
   metadata:
     vendor:
       items:
@@ -1287,9 +1287,9 @@
           min: 475
           max: 525
       pools:
-        "solace:o10307": 75
-        "solace:o10308": 75
-        "solace:o10309": 75
+        - "solace:o10307": 75
+        - "solace:o10308": 75
+        - "solace:o10309": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -1406,9 +1406,9 @@
           min: 475
           max: 525
       pools:
-        "solace:o10282": 75
-        "solace:o10283": 75
-        "solace:o10284": 75
+        - "solace:o10282": 75
+        - "solace:o10283": 75
+        - "solace:o10284": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -1433,9 +1433,9 @@
           min: 475
           max: 525
       pools:
-        "solace:o10283": 75
-        "solace:o10286": 75
-        "solace:o10287": 75
+        - "solace:o10283": 75
+        - "solace:o10286": 75
+        - "solace:o10287": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -1460,9 +1460,9 @@
           min: 475
           max: 525
       pools:
-        "solace:o10288": 75
-        "solace:o10289": 75
-        "solace:o10290": 75
+        - "solace:o10288": 75
+        - "solace:o10289": 75
+        - "solace:o10290": 75
   metadata:
     areaId: 71
     exp_level: 26000
@@ -1487,9 +1487,9 @@
           min: 475
           max: 525
       pools:
-        "solace:o10285": 75
-        "solace:o10291": 75
-        "solace:o10282": 75
+        - "solace:o10285": 75
+        - "solace:o10291": 75
+        - "solace:o10282": 75
   metadata:
     areaId: 71
     exp_level: 26000

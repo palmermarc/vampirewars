@@ -18,7 +18,7 @@
           min: 0
           max: 0
       pools:
-        "wolfden:o25904": 75
+        - "wolfden:o25904": 75
   metadata:
     areaId: 84
     exp_level: 2000
@@ -89,7 +89,7 @@
           min: 0
           max: 0
       pools:
-        "wolfden:o25903": 75
+        - "wolfden:o25903": 75
   metadata:
     areaId: 84
     exp_level: 2000
@@ -122,7 +122,7 @@
           min: 0
           max: 0
       pools:
-        "wolfden:o25901": 75
+        - "wolfden:o25901": 75
   metadata:
     areaId: 84
     exp_level: 2000
@@ -150,9 +150,9 @@
           min: 0
           max: 0
       pools:
-        "wolfden:o25901": 75
-        "wolfden:o25900": 75
-        "wolfden:o25902": 75
+        - "wolfden:o25901": 75
+        - "wolfden:o25900": 75
+        - "wolfden:o25902": 75
   metadata:
     areaId: 84
     exp_level: 2000
@@ -180,7 +180,7 @@
           min: 0
           max: 0
       pools:
-        "wolfden:o25902": 75
+        - "wolfden:o25902": 75
   metadata:
     areaId: 84
     exp_level: 2000
@@ -213,7 +213,7 @@
           min: 0
           max: 0
       pools:
-        "wolfden:o25905": 75
+        - "wolfden:o25905": 75
   metadata:
     areaId: 84
     exp_level: 2000
@@ -264,7 +264,7 @@
           min: 0
           max: 0
       pools:
-        "wolfden:o25906": 75
+        - "wolfden:o25906": 75
   metadata:
     areaId: 84
     exp_level: 2000

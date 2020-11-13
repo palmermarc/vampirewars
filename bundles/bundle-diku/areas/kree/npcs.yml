@@ -21,8 +21,8 @@
           min: 0
           max: 0
       pools:
-        "kree:o6401": 75
-        "kree:o6407": 75
+        - "kree:o6401": 75
+        - "kree:o6407": 75
   metadata:
     areaId: 41
     exp_level: 6000
@@ -55,11 +55,11 @@
           min: 0
           max: 0
       pools:
-        "kree:o6404": 75
-        "kree:o6403": 75
-        "kree:o6405": 75
-        "kree:o6406": 75
-        "kree:o6400": 75
+        - "kree:o6404": 75
+        - "kree:o6403": 75
+        - "kree:o6405": 75
+        - "kree:o6406": 75
+        - "kree:o6400": 75
   metadata:
     areaId: 41
     exp_level: 6000
@@ -87,8 +87,8 @@
           min: 0
           max: 0
       pools:
-        "kree:o6409": 75
-        "kree:o6408": 75
+        - "kree:o6409": 75
+        - "kree:o6408": 75
   metadata:
     areaId: 41
     exp_level: 6000
@@ -116,8 +116,8 @@
           min: 0
           max: 0
       pools:
-        "kree:o6407": 75
-        "kree:o6401": 75
+        - "kree:o6407": 75
+        - "kree:o6401": 75
   metadata:
     areaId: 41
     exp_level: 6000
@@ -150,8 +150,8 @@
           min: 0
           max: 0
       pools:
-        "kree:o6411": 75
-        "kree:o6410": 75
+        - "kree:o6411": 75
+        - "kree:o6410": 75
   metadata:
     areaId: 41
     exp_level: 6000
@@ -176,15 +176,15 @@
           min: 0
           max: 0
       pools:
-        "kree:o6413": 75
-        "kree:o6414": 75
-        "kree:o6412": 75
-        "kree:o6417": 75
-        "kree:o6418": 75
-        "kree:o6416": 75
-        "kree:o6415": 75
-        "kree:o6419": 75
-        "kree:o6420": 75
+        - "kree:o6413": 75
+        - "kree:o6414": 75
+        - "kree:o6412": 75
+        - "kree:o6417": 75
+        - "kree:o6418": 75
+        - "kree:o6416": 75
+        - "kree:o6415": 75
+        - "kree:o6419": 75
+        - "kree:o6420": 75
   metadata:
     areaId: 41
     exp_level: 6000
@@ -212,7 +212,7 @@
           min: 0
           max: 0
       pools:
-        "kree:o6421": 75
+        - "kree:o6421": 75
   metadata:
     areaId: 41
     exp_level: 6000
@@ -240,7 +240,7 @@
           min: 0
           max: 0
       pools:
-        "kree:o6422": 75
+        - "kree:o6422": 75
   metadata:
     areaId: 41
     exp_level: 6000

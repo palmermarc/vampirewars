@@ -23,8 +23,8 @@
           min: 21432
           max: 23688
       pools:
-        "thalos:o5208": 75
-        "thalos:o5223": 75
+        - "thalos:o5208": 75
+        - "thalos:o5223": 75
   metadata:
     areaId: 75
     exp_level: 1000
@@ -57,7 +57,7 @@
           min: 950
           max: 1050
       pools:
-        "thalos:o5252": 75
+        - "thalos:o5252": 75
   metadata:
     areaId: 75
     exp_level: 1000
@@ -90,7 +90,7 @@
           min: 0
           max: 0
       pools:
-        "thalos:o5214": 75
+        - "thalos:o5214": 75
   metadata:
     areaId: 75
     exp_level: 1000
@@ -123,7 +123,7 @@
           min: 0
           max: 0
       pools:
-        "thalos:o5215": 75
+        - "thalos:o5215": 75
   metadata:
     areaId: 75
     exp_level: 1000
@@ -156,7 +156,7 @@
           min: 0
           max: 0
       pools:
-        "thalos:o5218": 75
+        - "thalos:o5218": 75
   metadata:
     areaId: 75
     exp_level: 1000
@@ -189,7 +189,7 @@
           min: 0
           max: 0
       pools:
-        "thalos:o5214": 75
+        - "thalos:o5214": 75
   metadata:
     areaId: 75
     exp_level: 1000
@@ -222,7 +222,7 @@
           min: 0
           max: 0
       pools:
-        "thalos:o5222": 75
+        - "thalos:o5222": 75
   metadata:
     areaId: 75
     exp_level: 1000
@@ -273,16 +273,16 @@
           min: 4037.5
           max: 4462.5
       pools:
-        "thalos:o5221": 75
-        "thalos:o5224": 75
-        "thalos:o5200": 75
-        "thalos:o5204": 75
-        "thalos:o5226": 75
-        "thalos:o5203": 75
-        "thalos:o5205": 75
-        "thalos:o5206": 75
-        "thalos:o5201": 75
-        "thalos:o5202": 75
+        - "thalos:o5221": 75
+        - "thalos:o5224": 75
+        - "thalos:o5200": 75
+        - "thalos:o5204": 75
+        - "thalos:o5226": 75
+        - "thalos:o5203": 75
+        - "thalos:o5205": 75
+        - "thalos:o5206": 75
+        - "thalos:o5201": 75
+        - "thalos:o5202": 75
   metadata:
     areaId: 75
     exp_level: 1000

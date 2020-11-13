@@ -44,8 +44,8 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11202": 75
-        "prehistoria:o11215": 75
+        - "prehistoria:o11202": 75
+        - "prehistoria:o11215": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -73,12 +73,12 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11215": 75
-        "prehistoria:o11220": 75
-        "prehistoria:o11217": 75
-        "prehistoria:o11222": 75
-        "prehistoria:o11234": 75
-        "prehistoria:o11201": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11220": 75
+        - "prehistoria:o11217": 75
+        - "prehistoria:o11222": 75
+        - "prehistoria:o11234": 75
+        - "prehistoria:o11201": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -106,8 +106,8 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11201": 75
-        "prehistoria:o11215": 75
+        - "prehistoria:o11201": 75
+        - "prehistoria:o11215": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -135,11 +135,11 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11201": 75
-        "prehistoria:o11215": 75
-        "prehistoria:o11234": 75
-        "prehistoria:o11217": 75
-        "prehistoria:o11222": 75
+        - "prehistoria:o11201": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11234": 75
+        - "prehistoria:o11217": 75
+        - "prehistoria:o11222": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -167,12 +167,12 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11211": 75
-        "prehistoria:o11214": 75
-        "prehistoria:o11217": 75
-        "prehistoria:o11222": 75
-        "prehistoria:o11218": 75
-        "prehistoria:o11215": 75
+        - "prehistoria:o11211": 75
+        - "prehistoria:o11214": 75
+        - "prehistoria:o11217": 75
+        - "prehistoria:o11222": 75
+        - "prehistoria:o11218": 75
+        - "prehistoria:o11215": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -200,12 +200,12 @@
           min: 237.5
           max: 262.5
       pools:
-        "prehistoria:o11221": 75
-        "prehistoria:o11207": 75
-        "prehistoria:o11200": 75
-        "prehistoria:o11209": 75
-        "prehistoria:o11223": 75
-        "prehistoria:o11217": 75
+        - "prehistoria:o11221": 75
+        - "prehistoria:o11207": 75
+        - "prehistoria:o11200": 75
+        - "prehistoria:o11209": 75
+        - "prehistoria:o11223": 75
+        - "prehistoria:o11217": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -233,11 +233,11 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11215": 75
-        "prehistoria:o11224": 75
-        "prehistoria:o11225": 75
-        "prehistoria:o11211": 75
-        "prehistoria:o11207": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11224": 75
+        - "prehistoria:o11225": 75
+        - "prehistoria:o11211": 75
+        - "prehistoria:o11207": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -265,9 +265,9 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11216": 75
-        "prehistoria:o11234": 75
-        "prehistoria:o11208": 75
+        - "prehistoria:o11216": 75
+        - "prehistoria:o11234": 75
+        - "prehistoria:o11208": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -295,10 +295,10 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11216": 75
-        "prehistoria:o11215": 75
-        "prehistoria:o11219": 75
-        "prehistoria:o11217": 75
+        - "prehistoria:o11216": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11219": 75
+        - "prehistoria:o11217": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -352,11 +352,11 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11208": 75
-        "prehistoria:o11222": 75
-        "prehistoria:o11219": 75
-        "prehistoria:o11215": 75
-        "prehistoria:o11234": 75
+        - "prehistoria:o11208": 75
+        - "prehistoria:o11222": 75
+        - "prehistoria:o11219": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11234": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -384,17 +384,17 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11203": 75
-        "prehistoria:o11234": 75
-        "prehistoria:o11202": 75
-        "prehistoria:o11216": 75
-        "prehistoria:o11221": 75
-        "prehistoria:o11222": 75
-        "prehistoria:o11214": 75
-        "prehistoria:o11215": 75
-        "prehistoria:o11218": 75
-        "prehistoria:o11201": 75
-        "prehistoria:o11220": 75
+        - "prehistoria:o11203": 75
+        - "prehistoria:o11234": 75
+        - "prehistoria:o11202": 75
+        - "prehistoria:o11216": 75
+        - "prehistoria:o11221": 75
+        - "prehistoria:o11222": 75
+        - "prehistoria:o11214": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11218": 75
+        - "prehistoria:o11201": 75
+        - "prehistoria:o11220": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -422,9 +422,9 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11200": 75
-        "prehistoria:o11206": 75
-        "prehistoria:o11204": 75
+        - "prehistoria:o11200": 75
+        - "prehistoria:o11206": 75
+        - "prehistoria:o11204": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -452,12 +452,12 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11201": 75
-        "prehistoria:o11212": 75
-        "prehistoria:o11215": 75
-        "prehistoria:o11222": 75
-        "prehistoria:o11234": 75
-        "prehistoria:o11217": 75
+        - "prehistoria:o11201": 75
+        - "prehistoria:o11212": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11222": 75
+        - "prehistoria:o11234": 75
+        - "prehistoria:o11217": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -485,9 +485,9 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11215": 75
-        "prehistoria:o11222": 75
-        "prehistoria:o11200": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11222": 75
+        - "prehistoria:o11200": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -515,9 +515,9 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11205": 75
-        "prehistoria:o11234": 75
-        "prehistoria:o11201": 75
+        - "prehistoria:o11205": 75
+        - "prehistoria:o11234": 75
+        - "prehistoria:o11201": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -545,11 +545,11 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11207": 75
-        "prehistoria:o11215": 75
-        "prehistoria:o11222": 75
-        "prehistoria:o11204": 75
-        "prehistoria:o11214": 75
+        - "prehistoria:o11207": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11222": 75
+        - "prehistoria:o11204": 75
+        - "prehistoria:o11214": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -577,12 +577,12 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11210": 75
-        "prehistoria:o11234": 75
-        "prehistoria:o11211": 75
-        "prehistoria:o11222": 75
-        "prehistoria:o11201": 75
-        "prehistoria:o11215": 75
+        - "prehistoria:o11210": 75
+        - "prehistoria:o11234": 75
+        - "prehistoria:o11211": 75
+        - "prehistoria:o11222": 75
+        - "prehistoria:o11201": 75
+        - "prehistoria:o11215": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -610,11 +610,11 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11201": 75
-        "prehistoria:o11221": 75
-        "prehistoria:o11206": 75
-        "prehistoria:o11215": 75
-        "prehistoria:o11234": 75
+        - "prehistoria:o11201": 75
+        - "prehistoria:o11221": 75
+        - "prehistoria:o11206": 75
+        - "prehistoria:o11215": 75
+        - "prehistoria:o11234": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -642,8 +642,8 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11202": 75
-        "prehistoria:o11203": 75
+        - "prehistoria:o11202": 75
+        - "prehistoria:o11203": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -668,9 +668,9 @@
           min: 118.75
           max: 131.25
       pools:
-        "prehistoria:o11201": 75
-        "prehistoria:o11214": 75
-        "prehistoria:o11215": 75
+        - "prehistoria:o11201": 75
+        - "prehistoria:o11214": 75
+        - "prehistoria:o11215": 75
   metadata:
     vendor:
       items:
@@ -709,11 +709,11 @@
           min: 285
           max: 315
       pools:
-        "prehistoria:o11204": 75
-        "prehistoria:o11234": 75
-        "prehistoria:o11202": 75
-        "prehistoria:o11206": 75
-        "prehistoria:o11208": 75
+        - "prehistoria:o11204": 75
+        - "prehistoria:o11234": 75
+        - "prehistoria:o11202": 75
+        - "prehistoria:o11206": 75
+        - "prehistoria:o11208": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -738,7 +738,7 @@
           min: 95
           max: 105
       pools:
-        "prehistoria:o11203": 75
+        - "prehistoria:o11203": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -763,10 +763,10 @@
           min: 95
           max: 105
       pools:
-        "prehistoria:o11204": 75
-        "prehistoria:o11207": 75
-        "prehistoria:o11201": 75
-        "prehistoria:o11234": 75
+        - "prehistoria:o11204": 75
+        - "prehistoria:o11207": 75
+        - "prehistoria:o11201": 75
+        - "prehistoria:o11234": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -791,8 +791,8 @@
           min: 95
           max: 105
       pools:
-        "prehistoria:o11205": 75
-        "prehistoria:o11208": 75
+        - "prehistoria:o11205": 75
+        - "prehistoria:o11208": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -817,8 +817,8 @@
           min: 95
           max: 105
       pools:
-        "prehistoria:o11206": 75
-        "prehistoria:o11216": 75
+        - "prehistoria:o11206": 75
+        - "prehistoria:o11216": 75
   metadata:
     areaId: 60
     exp_level: 2000
@@ -894,13 +894,13 @@
           min: 9.5
           max: 10.5
       pools:
-        "prehistoria:o11233": 75
-        "prehistoria:o11217": 75
-        "prehistoria:o11218": 75
-        "prehistoria:o11219": 75
-        "prehistoria:o11220": 75
-        "prehistoria:o11221": 75
-        "prehistoria:o11234": 75
+        - "prehistoria:o11233": 75
+        - "prehistoria:o11217": 75
+        - "prehistoria:o11218": 75
+        - "prehistoria:o11219": 75
+        - "prehistoria:o11220": 75
+        - "prehistoria:o11221": 75
+        - "prehistoria:o11234": 75
   metadata:
     areaId: 60
     exp_level: 2000

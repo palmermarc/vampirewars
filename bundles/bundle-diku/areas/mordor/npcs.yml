@@ -108,7 +108,7 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9508": 75
+        - "mordor:o9508": 75
   metadata:
     areaId: 50
     exp_level: 12000
@@ -241,7 +241,7 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9509": 75
+        - "mordor:o9509": 75
   metadata:
     areaId: 50
     exp_level: 12000
@@ -297,7 +297,7 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9507": 75
+        - "mordor:o9507": 75
   metadata:
     areaId: 50
     exp_level: 12000
@@ -322,7 +322,7 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9506": 75
+        - "mordor:o9506": 75
   metadata:
     areaId: 50
     exp_level: 12000
@@ -347,7 +347,7 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9511": 75
+        - "mordor:o9511": 75
   metadata:
     areaId: 50
     exp_level: 12000
@@ -380,7 +380,7 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9505": 75
+        - "mordor:o9505": 75
   metadata:
     areaId: 50
     exp_level: 12000
@@ -410,9 +410,9 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9503": 75
-        "mordor:o9504": 75
-        "mordor:o9513": 75
+        - "mordor:o9503": 75
+        - "mordor:o9504": 75
+        - "mordor:o9513": 75
   metadata:
     areaId: 50
     exp_level: 12000
@@ -442,9 +442,9 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9502": 75
-        "mordor:o9512": 75
-        "mordor:o9514": 75
+        - "mordor:o9502": 75
+        - "mordor:o9512": 75
+        - "mordor:o9514": 75
   metadata:
     areaId: 50
     exp_level: 12000
@@ -474,8 +474,8 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9501": 75
-        "mordor:o9515": 75
+        - "mordor:o9501": 75
+        - "mordor:o9515": 75
   metadata:
     areaId: 50
     exp_level: 12000
@@ -508,7 +508,7 @@
           min: 0
           max: 0
       pools:
-        "mordor:o9516": 75
+        - "mordor:o9516": 75
   metadata:
     areaId: 50
     exp_level: 12000

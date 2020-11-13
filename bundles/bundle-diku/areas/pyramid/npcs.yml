@@ -106,8 +106,8 @@
           min: 190
           max: 210
       pools:
-        "pyramid:o4200": 75
-        "pyramid:o4201": 75
+        - "pyramid:o4200": 75
+        - "pyramid:o4201": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -135,7 +135,7 @@
           min: 475
           max: 525
       pools:
-        "pyramid:o4202": 75
+        - "pyramid:o4202": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -163,8 +163,8 @@
           min: 950
           max: 1050
       pools:
-        "pyramid:o4203": 75
-        "pyramid:o4202": 75
+        - "pyramid:o4203": 75
+        - "pyramid:o4202": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -215,9 +215,9 @@
           min: 712.5
           max: 787.5
       pools:
-        "pyramid:o4204": 75
-        "pyramid:o4206": 75
-        "pyramid:o4205": 75
+        - "pyramid:o4204": 75
+        - "pyramid:o4206": 75
+        - "pyramid:o4205": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -273,7 +273,7 @@
           min: 10450
           max: 11550
       pools:
-        "pyramid:o4207": 75
+        - "pyramid:o4207": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -298,8 +298,8 @@
           min: 33250
           max: 36750
       pools:
-        "pyramid:o4208": 75
-        "pyramid:o4209": 75
+        - "pyramid:o4208": 75
+        - "pyramid:o4209": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -324,7 +324,7 @@
           min: 57000
           max: 63000
       pools:
-        "pyramid:o4213": 75
+        - "pyramid:o4213": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -380,7 +380,7 @@
           min: 9500
           max: 10500
       pools:
-        "pyramid:o4214": 75
+        - "pyramid:o4214": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -405,7 +405,7 @@
           min: 23750
           max: 26250
       pools:
-        "pyramid:o4215": 75
+        - "pyramid:o4215": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -430,7 +430,7 @@
           min: 47500
           max: 52500
       pools:
-        "pyramid:o4216": 75
+        - "pyramid:o4216": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -455,7 +455,7 @@
           min: 118750
           max: 131250
       pools:
-        "pyramid:o4217": 75
+        - "pyramid:o4217": 75
   metadata:
     areaId: 61
     exp_level: 24000
@@ -464,7 +464,7 @@
   keywords: ["ramses","mummy"]
   name: "Ramses the Damned"
   description: >-
-    You have awakened the mighty servant to the pharoahs, Ramses.
+    You have awakened the mighty servant to the pharaohs, Ramses.
   level: 281
   attributes:
     health: 36172
@@ -480,11 +480,11 @@
           min: 83600
           max: 92400
       pools:
-        "pyramid:o4222": 75
-        "pyramid:o4219": 75
-        "pyramid:o4220": 75
-        "pyramid:o4221": 75
-        "pyramid:o30052": 75
+        - "pyramid:o4222": 75
+        - "pyramid:o4219": 75
+        - "pyramid:o4220": 75
+        - "pyramid:o4221": 75
+        - "pyramid:o30052": 75
   metadata:
     areaId: 61
     exp_level: 24000

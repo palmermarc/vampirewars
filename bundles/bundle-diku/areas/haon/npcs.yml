@@ -21,9 +21,9 @@
           min: 47.5
           max: 52.5
       pools:
-        "haon:o6000": 75
-        "haon:o6001": 75
-        "haon:o6002": 75
+        - "haon:o6000": 75
+        - "haon:o6001": 75
+        - "haon:o6002": 75
   metadata:
     areaId: 32
     exp_level: 2000
@@ -288,9 +288,9 @@
           min: 47500
           max: 52500
       pools:
-        "haon:o6110": 75
-        "haon:o6112": 75
-        "haon:o6111": 75
+        - "haon:o6110": 75
+        - "haon:o6112": 75
+        - "haon:o6111": 75
   metadata:
     areaId: 32
     exp_level: 2000
@@ -318,7 +318,7 @@
           min: 950
           max: 1050
       pools:
-        "haon:o6114": 75
+        - "haon:o6114": 75
   metadata:
     areaId: 32
     exp_level: 2000
@@ -348,7 +348,7 @@
           min: 4750
           max: 5250
       pools:
-        "haon:o6155": 75
+        - "haon:o6155": 75
   metadata:
     areaId: 32
     exp_level: 2000

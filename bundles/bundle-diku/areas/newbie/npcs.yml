@@ -18,8 +18,8 @@
           min: 0
           max: 0
       pools:
-        "newbie:munchkinhelmet": 75
-        "newbie:munchkinsword": 75
+        - "newbie:munchkinhelmet": 75
+        - "newbie:munchkinsword": 75
   metadata:
     areaId: 52
     exp_level: 4999

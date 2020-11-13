@@ -23,7 +23,7 @@
           min: 0
           max: 0
       pools:
-        "joker:o30053": 75
+        - "joker:o30053": 75
   metadata:
     areaId: 38
     exp_level: 20000
@@ -246,7 +246,7 @@
           min: 0
           max: 0
       pools:
-        "joker:o20013": 75
+        - "joker:o20013": 75
   metadata:
     areaId: 38
     exp_level: 24999
@@ -570,7 +570,7 @@
           min: 0
           max: 0
       pools:
-        "joker:o20011": 75
+        - "joker:o20011": 75
   metadata:
     areaId: 38
     exp_level: 27000
@@ -618,7 +618,7 @@
           min: 0
           max: 0
       pools:
-        "joker:o20014": 75
+        - "joker:o20014": 75
   metadata:
     areaId: 38
     exp_level: 27500
@@ -643,7 +643,7 @@
           min: 0
           max: 0
       pools:
-        "joker:o20015": 75
+        - "joker:o20015": 75
   metadata:
     areaId: 38
     exp_level: 29000
@@ -829,7 +829,7 @@
           min: 0
           max: 0
       pools:
-        "joker:o20016": 75
+        - "joker:o20016": 75
   metadata:
     areaId: 38
     exp_level: 26999
@@ -905,7 +905,7 @@
           min: 0
           max: 0
       pools:
-        "joker:o20017": 75
+        - "joker:o20017": 75
   metadata:
     areaId: 38
     exp_level: 20000
@@ -935,7 +935,7 @@
           min: 0
           max: 0
       pools:
-        "joker:o20012": 75
+        - "joker:o20012": 75
   metadata:
     areaId: 38
     exp_level: 20000

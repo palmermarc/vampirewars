@@ -18,8 +18,8 @@
           min: 0
           max: 0
       pools:
-        "azurkeep:o9703": 75
-        "azurkeep:o9707": 75
+        - "azurkeep:o9703": 75
+        - "azurkeep:o9707": 75
   metadata:
     areaId: 5
     exp_level: 32000
@@ -44,8 +44,8 @@
           min: 0
           max: 0
       pools:
-        "azurkeep:o9703": 75
-        "azurkeep:o9707": 75
+        - "azurkeep:o9703": 75
+        - "azurkeep:o9707": 75
   metadata:
     areaId: 5
     exp_level: 32000
@@ -70,7 +70,7 @@
           min: 0
           max: 0
       pools:
-        "azurkeep:o9707": 75
+        - "azurkeep:o9707": 75
   metadata:
     areaId: 5
     exp_level: 32000
@@ -118,8 +118,8 @@
           min: 0
           max: 0
       pools:
-        "azurkeep:o9705": 75
-        "azurkeep:o9707": 75
+        - "azurkeep:o9705": 75
+        - "azurkeep:o9707": 75
   metadata:
     areaId: 5
     exp_level: 32000
@@ -144,8 +144,8 @@
           min: 0
           max: 0
       pools:
-        "azurkeep:o9704": 75
-        "azurkeep:o9706": 75
+        - "azurkeep:o9704": 75
+        - "azurkeep:o9706": 75
   metadata:
     areaId: 5
     exp_level: 32000

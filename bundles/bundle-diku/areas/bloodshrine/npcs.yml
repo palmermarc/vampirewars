@@ -23,8 +23,8 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12500": 75
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12500": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -85,7 +85,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12501": 75
+        - "bloodshrine:o12501": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -115,7 +115,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12502": 75
+        - "bloodshrine:o12502": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -145,7 +145,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12503": 75
+        - "bloodshrine:o12503": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -203,7 +203,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12505": 75
+        - "bloodshrine:o12505": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -233,7 +233,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12506": 75
+        - "bloodshrine:o12506": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -263,7 +263,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12507": 75
+        - "bloodshrine:o12507": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -293,7 +293,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12508": 75
+        - "bloodshrine:o12508": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -323,7 +323,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12509": 75
+        - "bloodshrine:o12509": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -353,7 +353,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12510": 75
+        - "bloodshrine:o12510": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -383,7 +383,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12511": 75
+        - "bloodshrine:o12511": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -413,7 +413,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12512": 75
+        - "bloodshrine:o12512": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -443,7 +443,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12513": 75
+        - "bloodshrine:o12513": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -473,7 +473,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12514": 75
+        - "bloodshrine:o12514": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -503,7 +503,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12515": 75
+        - "bloodshrine:o12515": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -533,7 +533,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12516": 75
+        - "bloodshrine:o12516": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -563,8 +563,8 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12517": 75
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12517": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -594,7 +594,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12518": 75
+        - "bloodshrine:o12518": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -624,7 +624,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12519": 75
+        - "bloodshrine:o12519": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -654,8 +654,8 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12520": 75
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12520": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -685,8 +685,8 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12521": 75
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12521": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -716,7 +716,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12522": 75
+        - "bloodshrine:o12522": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -746,7 +746,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12523": 75
+        - "bloodshrine:o12523": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -804,7 +804,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -862,7 +862,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -892,7 +892,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -950,7 +950,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -1008,7 +1008,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000
@@ -1061,7 +1061,7 @@
           min: 0
           max: 0
       pools:
-        "bloodshrine:o12524": 75
+        - "bloodshrine:o12524": 75
   metadata:
     areaId: 6
     exp_level: 24000

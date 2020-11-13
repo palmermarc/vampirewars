@@ -21,7 +21,7 @@
           min: 19
           max: 21
       pools:
-        "smurf:o102": 75
+        - "smurf:o102": 75
   metadata:
     areaId: 70
     exp_level: 1000
@@ -46,7 +46,7 @@
           min: 19
           max: 21
       pools:
-        "smurf:o100": 75
+        - "smurf:o100": 75
   metadata:
     areaId: 70
     exp_level: 1000
@@ -74,7 +74,7 @@
           min: 28.5
           max: 31.5
       pools:
-        "smurf:o101": 75
+        - "smurf:o101": 75
   metadata:
     areaId: 70
     exp_level: 1000
@@ -102,7 +102,7 @@
           min: 28.5
           max: 31.5
       pools:
-        "smurf:o103": 75
+        - "smurf:o103": 75
   metadata:
     areaId: 70
     exp_level: 1000
@@ -156,7 +156,7 @@
           min: 28.5
           max: 31.5
       pools:
-        "smurf:o103": 75
+        - "smurf:o103": 75
   metadata:
     areaId: 70
     exp_level: 1000
@@ -236,8 +236,8 @@
           min: 28.5
           max: 31.5
       pools:
-        "smurf:o104": 75
-        "smurf:o107": 75
+        - "smurf:o104": 75
+        - "smurf:o107": 75
   metadata:
     areaId: 70
     exp_level: 1000
@@ -265,8 +265,8 @@
           min: 47.5
           max: 52.5
       pools:
-        "smurf:o105": 75
-        "smurf:o109": 75
+        - "smurf:o105": 75
+        - "smurf:o109": 75
   metadata:
     areaId: 70
     exp_level: 1000
@@ -291,7 +291,7 @@
           min: 47.5
           max: 52.5
       pools:
-        "smurf:o106": 75
+        - "smurf:o106": 75
   metadata:
     areaId: 70
     exp_level: 1000

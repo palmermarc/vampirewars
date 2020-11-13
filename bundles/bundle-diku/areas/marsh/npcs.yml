@@ -54,7 +54,7 @@
           min: 7600
           max: 8400
       pools:
-        "marsh:o8307": 75
+        - "marsh:o8307": 75
   metadata:
     areaId: 45
     exp_level: 4000
@@ -144,8 +144,8 @@
           min: 23750
           max: 26250
       pools:
-        "marsh:o8303": 75
-        "marsh:o2200": 75
+        - "marsh:o8303": 75
+        - "marsh:o2200": 75
   metadata:
     areaId: 45
     exp_level: 4000
@@ -344,8 +344,8 @@
           min: 13300
           max: 14700
       pools:
-        "marsh:o8306": 75
-        "marsh:o8302": 75
+        - "marsh:o8306": 75
+        - "marsh:o8302": 75
   metadata:
     areaId: 45
     exp_level: 4000
@@ -404,7 +404,7 @@
           min: 0
           max: 0
       pools:
-        "marsh:o8307": 75
+        - "marsh:o8307": 75
   metadata:
     areaId: 45
     exp_level: 4000
@@ -462,8 +462,8 @@
           min: 11400
           max: 12600
       pools:
-        "marsh:o8301": 75
-        "marsh:o8302": 75
+        - "marsh:o8301": 75
+        - "marsh:o8302": 75
   metadata:
     areaId: 45
     exp_level: 4000

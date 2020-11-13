@@ -18,7 +18,7 @@
           min: 213.75
           max: 236.25
       pools:
-        "mirror:o5243": 75
+        - "mirror:o5243": 75
   metadata:
     areaId: 48
     exp_level: 290
@@ -46,7 +46,7 @@
           min: 47.5
           max: 52.5
       pools:
-        "mirror:o5300": 75
+        - "mirror:o5300": 75
   metadata:
     areaId: 48
     exp_level: 700
@@ -100,15 +100,15 @@
           min: 1425
           max: 1575
       pools:
-        "mirror:o5321": 75
-        "mirror:o5319": 75
-        "mirror:o5327": 75
-        "mirror:o5329": 75
-        "mirror:o5318": 75
-        "mirror:o5320": 75
-        "mirror:o5317": 75
-        "mirror:o5328": 75
-        "mirror:o5330": 75
+        - "mirror:o5321": 75
+        - "mirror:o5319": 75
+        - "mirror:o5327": 75
+        - "mirror:o5329": 75
+        - "mirror:o5318": 75
+        - "mirror:o5320": 75
+        - "mirror:o5317": 75
+        - "mirror:o5328": 75
+        - "mirror:o5330": 75
   metadata:
     areaId: 48
     exp_level: 2300
@@ -162,15 +162,15 @@
           min: 9500
           max: 10500
       pools:
-        "mirror:o5204": 75
-        "mirror:o5203": 75
-        "mirror:o5205": 75
-        "mirror:o5206": 75
-        "mirror:o5201": 75
-        "mirror:o5202": 75
-        "mirror:o5301": 75
-        "mirror:o5221": 75
-        "mirror:o5226": 75
+        - "mirror:o5204": 75
+        - "mirror:o5203": 75
+        - "mirror:o5205": 75
+        - "mirror:o5206": 75
+        - "mirror:o5201": 75
+        - "mirror:o5202": 75
+        - "mirror:o5301": 75
+        - "mirror:o5221": 75
+        - "mirror:o5226": 75
   metadata:
     areaId: 48
     exp_level: 3501
@@ -195,10 +195,10 @@
           min: 95
           max: 105
       pools:
-        "mirror:o5218": 75
-        "mirror:o5222": 75
-        "mirror:o5252": 75
-        "mirror:o5239": 75
+        - "mirror:o5218": 75
+        - "mirror:o5222": 75
+        - "mirror:o5252": 75
+        - "mirror:o5239": 75
   metadata:
     areaId: 48
     exp_level: 2000
@@ -223,8 +223,8 @@
           min: 95
           max: 105
       pools:
-        "mirror:o5302": 75
-        "mirror:o5223": 75
+        - "mirror:o5302": 75
+        - "mirror:o5223": 75
   metadata:
     areaId: 48
     exp_level: 2300
@@ -249,11 +249,11 @@
           min: 4037.5
           max: 4462.5
       pools:
-        "mirror:o5221": 75
-        "mirror:o5232": 75
-        "mirror:o5233": 75
-        "mirror:o5235": 75
-        "mirror:o5237": 75
+        - "mirror:o5221": 75
+        - "mirror:o5232": 75
+        - "mirror:o5233": 75
+        - "mirror:o5235": 75
+        - "mirror:o5237": 75
   metadata:
     areaId: 48
     exp_level: 3291
@@ -278,7 +278,7 @@
           min: 950
           max: 1050
       pools:
-        "mirror:o5224": 75
+        - "mirror:o5224": 75
   metadata:
     areaId: 48
     exp_level: 2345
@@ -303,9 +303,9 @@
           min: 950
           max: 1050
       pools:
-        "mirror:o648": 75
-        "mirror:o649": 75
-        "mirror:o650": 75
+        - "mirror:o648": 75
+        - "mirror:o649": 75
+        - "mirror:o650": 75
   metadata:
     vendor:
       items:
@@ -341,12 +341,12 @@
           min: 950
           max: 1050
       pools:
-        "mirror:o601": 75
-        "mirror:o5219": 75
-        "mirror:o602": 75
-        "mirror:o603": 75
-        "mirror:o604": 75
-        "mirror:o605": 75
+        - "mirror:o601": 75
+        - "mirror:o5219": 75
+        - "mirror:o602": 75
+        - "mirror:o603": 75
+        - "mirror:o604": 75
+        - "mirror:o605": 75
   metadata:
     vendor:
       items:
@@ -391,11 +391,11 @@
           min: 950
           max: 1050
       pools:
-        "mirror:o609": 75
-        "mirror:o610": 75
-        "mirror:o611": 75
-        "mirror:o612": 75
-        "mirror:o613": 75
+        - "mirror:o609": 75
+        - "mirror:o610": 75
+        - "mirror:o611": 75
+        - "mirror:o612": 75
+        - "mirror:o613": 75
   metadata:
     vendor:
       items:
@@ -462,8 +462,8 @@
           min: 950
           max: 1050
       pools:
-        "mirror:o601": 75
-        "mirror:o615": 75
+        - "mirror:o601": 75
+        - "mirror:o615": 75
   metadata:
     vendor:
       items:
@@ -542,8 +542,8 @@
           min: 950
           max: 1050
       pools:
-        "mirror:o5210": 75
-        "mirror:o5211": 75
+        - "mirror:o5210": 75
+        - "mirror:o5211": 75
   metadata:
     vendor:
       items:
@@ -622,14 +622,14 @@
           min: 1425
           max: 1575
       pools:
-        "mirror:o5330": 75
-        "mirror:o5321": 75
-        "mirror:o5319": 75
-        "mirror:o5327": 75
-        "mirror:o5328": 75
-        "mirror:o5317": 75
-        "mirror:o5329": 75
-        "mirror:o5318": 75
+        - "mirror:o5330": 75
+        - "mirror:o5321": 75
+        - "mirror:o5319": 75
+        - "mirror:o5327": 75
+        - "mirror:o5328": 75
+        - "mirror:o5317": 75
+        - "mirror:o5329": 75
+        - "mirror:o5318": 75
   metadata:
     areaId: 48
     exp_level: 2600
@@ -654,16 +654,16 @@
           min: 1425
           max: 1575
       pools:
-        "mirror:o5331": 75
-        "mirror:o5319": 75
-        "mirror:o5322": 75
-        "mirror:o5323": 75
-        "mirror:o5324": 75
-        "mirror:o5325": 75
-        "mirror:o5320": 75
-        "mirror:o5318": 75
-        "mirror:o5326": 75
-        "mirror:o5317": 75
+        - "mirror:o5331": 75
+        - "mirror:o5319": 75
+        - "mirror:o5322": 75
+        - "mirror:o5323": 75
+        - "mirror:o5324": 75
+        - "mirror:o5325": 75
+        - "mirror:o5320": 75
+        - "mirror:o5318": 75
+        - "mirror:o5326": 75
+        - "mirror:o5317": 75
   metadata:
     areaId: 48
     exp_level: 2500
@@ -831,8 +831,8 @@
           min: 47.5
           max: 52.5
       pools:
-        "mirror:o5313": 75
-        "mirror:o5315": 75
+        - "mirror:o5313": 75
+        - "mirror:o5315": 75
   metadata:
     areaId: 48
     exp_level: 1001
@@ -860,8 +860,8 @@
           min: 47.5
           max: 52.5
       pools:
-        "mirror:o5314": 75
-        "mirror:o5316": 75
+        - "mirror:o5314": 75
+        - "mirror:o5316": 75
   metadata:
     areaId: 48
     exp_level: 1000
@@ -886,8 +886,8 @@
           min: 95
           max: 105
       pools:
-        "mirror:o5309": 75
-        "mirror:o5310": 75
+        - "mirror:o5309": 75
+        - "mirror:o5310": 75
   metadata:
     areaId: 48
     exp_level: 2019
@@ -915,7 +915,7 @@
           min: 142.5
           max: 157.5
       pools:
-        "mirror:o5311": 75
+        - "mirror:o5311": 75
   metadata:
     areaId: 48
     exp_level: 13346
@@ -943,11 +943,11 @@
           min: 475
           max: 525
       pools:
-        "mirror:o3235": 75
-        "mirror:o3234": 75
-        "mirror:o3220": 75
-        "mirror:o3223": 75
-        "mirror:o3225": 75
+        - "mirror:o3235": 75
+        - "mirror:o3234": 75
+        - "mirror:o3220": 75
+        - "mirror:o3223": 75
+        - "mirror:o3225": 75
   metadata:
     areaId: 48
     exp_level: 1449
@@ -1029,11 +1029,11 @@
           min: 475
           max: 525
       pools:
-        "mirror:o3235": 75
-        "mirror:o3234": 75
-        "mirror:o3220": 75
-        "mirror:o3223": 75
-        "mirror:o3224": 75
+        - "mirror:o3235": 75
+        - "mirror:o3234": 75
+        - "mirror:o3220": 75
+        - "mirror:o3223": 75
+        - "mirror:o3224": 75
   metadata:
     areaId: 48
     exp_level: 1500

@@ -21,8 +21,8 @@
           min: 0
           max: 0
       pools:
-        "zoo:o214": 75
-        "zoo:o201": 75
+        - "zoo:o214": 75
+        - "zoo:o201": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -50,7 +50,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o212": 75
+        - "zoo:o212": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -104,7 +104,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o215": 75
+        - "zoo:o215": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -132,7 +132,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o216": 75
+        - "zoo:o216": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -160,7 +160,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o217": 75
+        - "zoo:o217": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -188,9 +188,9 @@
           min: 0
           max: 0
       pools:
-        "zoo:o220": 75
-        "zoo:o228": 75
-        "zoo:o229": 75
+        - "zoo:o220": 75
+        - "zoo:o228": 75
+        - "zoo:o229": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -215,10 +215,10 @@
           min: 0
           max: 0
       pools:
-        "zoo:o210": 75
-        "zoo:o211": 75
-        "zoo:o209": 75
-        "zoo:o232": 75
+        - "zoo:o210": 75
+        - "zoo:o211": 75
+        - "zoo:o209": 75
+        - "zoo:o232": 75
   metadata:
     vendor:
       items:
@@ -257,7 +257,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o218": 75
+        - "zoo:o218": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -285,7 +285,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o203": 75
+        - "zoo:o203": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -310,7 +310,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o219": 75
+        - "zoo:o219": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -413,8 +413,8 @@
           min: 0
           max: 0
       pools:
-        "zoo:o200": 75
-        "zoo:o226": 75
+        - "zoo:o200": 75
+        - "zoo:o226": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -468,8 +468,8 @@
           min: 0
           max: 0
       pools:
-        "zoo:o210": 75
-        "zoo:o211": 75
+        - "zoo:o210": 75
+        - "zoo:o211": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -497,8 +497,8 @@
           min: 0
           max: 0
       pools:
-        "zoo:o210": 75
-        "zoo:o211": 75
+        - "zoo:o210": 75
+        - "zoo:o211": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -526,7 +526,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o208": 75
+        - "zoo:o208": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -554,11 +554,11 @@
           min: 0
           max: 0
       pools:
-        "zoo:o227": 75
-        "zoo:o223": 75
-        "zoo:o222": 75
-        "zoo:o225": 75
-        "zoo:o200": 75
+        - "zoo:o227": 75
+        - "zoo:o223": 75
+        - "zoo:o222": 75
+        - "zoo:o225": 75
+        - "zoo:o200": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -586,12 +586,12 @@
           min: 0
           max: 0
       pools:
-        "zoo:o223": 75
-        "zoo:o222": 75
-        "zoo:o225": 75
-        "zoo:o221": 75
-        "zoo:o224": 75
-        "zoo:o227": 75
+        - "zoo:o223": 75
+        - "zoo:o222": 75
+        - "zoo:o225": 75
+        - "zoo:o221": 75
+        - "zoo:o224": 75
+        - "zoo:o227": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -645,7 +645,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o213": 75
+        - "zoo:o213": 75
   metadata:
     areaId: 86
     exp_level: 10000
@@ -670,7 +670,7 @@
           min: 0
           max: 0
       pools:
-        "zoo:o230": 75
+        - "zoo:o230": 75
   metadata:
     areaId: 86
     exp_level: 10000

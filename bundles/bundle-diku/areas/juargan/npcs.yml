@@ -21,7 +21,7 @@
           min: 47.5
           max: 52.5
       pools:
-        "juargan:o4701": 75
+        - "juargan:o4701": 75
   metadata:
     areaId: 40
     exp_level: 10000
@@ -72,8 +72,8 @@
           min: 142.5
           max: 157.5
       pools:
-        "juargan:o4702": 75
-        "juargan:o4703": 75
+        - "juargan:o4702": 75
+        - "juargan:o4703": 75
   metadata:
     areaId: 40
     exp_level: 10000
@@ -124,7 +124,7 @@
           min: 950
           max: 1050
       pools:
-        "juargan:o4700": 75
+        - "juargan:o4700": 75
   metadata:
     areaId: 40
     exp_level: 10000
@@ -185,7 +185,7 @@
           min: 0
           max: 0
       pools:
-        "juargan:o4706": 75
+        - "juargan:o4706": 75
   metadata:
     areaId: 40
     exp_level: 10000

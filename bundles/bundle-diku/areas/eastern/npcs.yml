@@ -21,7 +21,7 @@
           min: 66.5
           max: 73.5
       pools:
-        "eastern:o3021": 75
+        - "eastern:o3021": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -54,7 +54,7 @@
           min: 142.5
           max: 157.5
       pools:
-        "eastern:o3022": 75
+        - "eastern:o3022": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -136,9 +136,9 @@
           min: 2413
           max: 2667
       pools:
-        "eastern:o5019": 75
-        "eastern:o5020": 75
-        "eastern:o5021": 75
+        - "eastern:o5019": 75
+        - "eastern:o5020": 75
+        - "eastern:o5021": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -168,8 +168,8 @@
           min: 5225
           max: 5775
       pools:
-        "eastern:o5024": 75
-        "eastern:o5022": 75
+        - "eastern:o5024": 75
+        - "eastern:o5022": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -197,7 +197,7 @@
           min: 950
           max: 1050
       pools:
-        "eastern:o5016": 75
+        - "eastern:o5016": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -222,7 +222,7 @@
           min: 570
           max: 630
       pools:
-        "eastern:o5017": 75
+        - "eastern:o5017": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -247,7 +247,7 @@
           min: 285
           max: 315
       pools:
-        "eastern:o5018": 75
+        - "eastern:o5018": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -300,8 +300,8 @@
           min: 71250
           max: 78750
       pools:
-        "eastern:o5001": 75
-        "eastern:o5002": 75
+        - "eastern:o5001": 75
+        - "eastern:o5002": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -334,7 +334,7 @@
           min: 190
           max: 210
       pools:
-        "eastern:o3022": 75
+        - "eastern:o3022": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -367,7 +367,7 @@
           min: 161.5
           max: 178.5
       pools:
-        "eastern:o5000": 75
+        - "eastern:o5000": 75
   metadata:
     areaId: 24
     exp_level: 10000
@@ -418,7 +418,7 @@
           min: 1425
           max: 1575
       pools:
-        "eastern:o5003": 75
+        - "eastern:o5003": 75
   metadata:
     areaId: 24
     exp_level: 10000

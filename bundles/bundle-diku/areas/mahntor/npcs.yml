@@ -18,9 +18,9 @@
           min: 23750
           max: 26250
       pools:
-        "mahntor:o2346": 75
-        "mahntor:o2347": 75
-        "mahntor:o2348": 75
+        - "mahntor:o2346": 75
+        - "mahntor:o2347": 75
+        - "mahntor:o2348": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -119,7 +119,7 @@
           min: 19000
           max: 21000
       pools:
-        "mahntor:o2349": 75
+        - "mahntor:o2349": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -177,7 +177,7 @@
           min: 23750
           max: 26250
       pools:
-        "mahntor:o2384": 75
+        - "mahntor:o2384": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -205,7 +205,7 @@
           min: 190
           max: 210
       pools:
-        "mahntor:o2385": 75
+        - "mahntor:o2385": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -238,7 +238,7 @@
           min: 4750
           max: 5250
       pools:
-        "mahntor:o2386": 75
+        - "mahntor:o2386": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -268,7 +268,7 @@
           min: 9500
           max: 10500
       pools:
-        "mahntor:o2387": 75
+        - "mahntor:o2387": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -298,8 +298,8 @@
           min: 47500
           max: 52500
       pools:
-        "mahntor:o2388": 75
-        "mahntor:o2389": 75
+        - "mahntor:o2388": 75
+        - "mahntor:o2389": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -329,8 +329,8 @@
           min: 47500
           max: 52500
       pools:
-        "mahntor:o2390": 75
-        "mahntor:o2391": 75
+        - "mahntor:o2390": 75
+        - "mahntor:o2391": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -360,9 +360,9 @@
           min: 4750
           max: 5250
       pools:
-        "mahntor:o2392": 75
-        "mahntor:o2393": 75
-        "mahntor:o2360": 75
+        - "mahntor:o2392": 75
+        - "mahntor:o2393": 75
+        - "mahntor:o2360": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -392,7 +392,7 @@
           min: 950
           max: 1050
       pools:
-        "mahntor:o2361": 75
+        - "mahntor:o2361": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -445,7 +445,7 @@
           min: 9500
           max: 10500
       pools:
-        "mahntor:o2362": 75
+        - "mahntor:o2362": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -475,9 +475,9 @@
           min: 23750
           max: 26250
       pools:
-        "mahntor:o2363": 75
-        "mahntor:o2364": 75
-        "mahntor:o2365": 75
+        - "mahntor:o2363": 75
+        - "mahntor:o2364": 75
+        - "mahntor:o2365": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -510,9 +510,9 @@
           min: 23750
           max: 26250
       pools:
-        "mahntor:o2366": 75
-        "mahntor:o2367": 75
-        "mahntor:o2368": 75
+        - "mahntor:o2366": 75
+        - "mahntor:o2367": 75
+        - "mahntor:o2368": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -537,7 +537,7 @@
           min: 23750
           max: 26250
       pools:
-        "mahntor:o2350": 75
+        - "mahntor:o2350": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -567,11 +567,11 @@
           min: 42750
           max: 47250
       pools:
-        "mahntor:o2369": 75
-        "mahntor:o2370": 75
-        "mahntor:o2371": 75
-        "mahntor:o2366": 75
-        "mahntor:o2372": 75
+        - "mahntor:o2369": 75
+        - "mahntor:o2370": 75
+        - "mahntor:o2371": 75
+        - "mahntor:o2366": 75
+        - "mahntor:o2372": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -601,11 +601,11 @@
           min: 47500
           max: 52500
       pools:
-        "mahntor:o2373": 75
-        "mahntor:o2374": 75
-        "mahntor:o2375": 75
-        "mahntor:o2366": 75
-        "mahntor:o2376": 75
+        - "mahntor:o2373": 75
+        - "mahntor:o2374": 75
+        - "mahntor:o2375": 75
+        - "mahntor:o2366": 75
+        - "mahntor:o2376": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -635,12 +635,12 @@
           min: 71250
           max: 78750
       pools:
-        "mahntor:o2377": 75
-        "mahntor:o2378": 75
-        "mahntor:o2379": 75
-        "mahntor:o2366": 75
-        "mahntor:o2380": 75
-        "mahntor:o2359": 75
+        - "mahntor:o2377": 75
+        - "mahntor:o2378": 75
+        - "mahntor:o2379": 75
+        - "mahntor:o2366": 75
+        - "mahntor:o2380": 75
+        - "mahntor:o2359": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -711,9 +711,9 @@
           min: 47500
           max: 52500
       pools:
-        "mahntor:o2381": 75
-        "mahntor:o2382": 75
-        "mahntor:o2383": 75
+        - "mahntor:o2381": 75
+        - "mahntor:o2382": 75
+        - "mahntor:o2383": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -743,11 +743,11 @@
           min: 95000
           max: 105000
       pools:
-        "mahntor:o2300": 75
-        "mahntor:o2301": 75
-        "mahntor:o2302": 75
-        "mahntor:o2303": 75
-        "mahntor:o2304": 75
+        - "mahntor:o2300": 75
+        - "mahntor:o2301": 75
+        - "mahntor:o2302": 75
+        - "mahntor:o2303": 75
+        - "mahntor:o2304": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -777,11 +777,11 @@
           min: 95000
           max: 105000
       pools:
-        "mahntor:o2305": 75
-        "mahntor:o2306": 75
-        "mahntor:o2307": 75
-        "mahntor:o2308": 75
-        "mahntor:o2309": 75
+        - "mahntor:o2305": 75
+        - "mahntor:o2306": 75
+        - "mahntor:o2307": 75
+        - "mahntor:o2308": 75
+        - "mahntor:o2309": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -806,11 +806,11 @@
           min: 95000
           max: 105000
       pools:
-        "mahntor:o2310": 75
-        "mahntor:o2311": 75
-        "mahntor:o2312": 75
-        "mahntor:o2313": 75
-        "mahntor:o2314": 75
+        - "mahntor:o2310": 75
+        - "mahntor:o2311": 75
+        - "mahntor:o2312": 75
+        - "mahntor:o2313": 75
+        - "mahntor:o2314": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -840,11 +840,11 @@
           min: 95000
           max: 105000
       pools:
-        "mahntor:o2315": 75
-        "mahntor:o2316": 75
-        "mahntor:o2317": 75
-        "mahntor:o2318": 75
-        "mahntor:o2319": 75
+        - "mahntor:o2315": 75
+        - "mahntor:o2316": 75
+        - "mahntor:o2317": 75
+        - "mahntor:o2318": 75
+        - "mahntor:o2319": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -874,11 +874,11 @@
           min: 95000
           max: 105000
       pools:
-        "mahntor:o2320": 75
-        "mahntor:o2321": 75
-        "mahntor:o2322": 75
-        "mahntor:o2323": 75
-        "mahntor:o2324": 75
+        - "mahntor:o2320": 75
+        - "mahntor:o2321": 75
+        - "mahntor:o2322": 75
+        - "mahntor:o2323": 75
+        - "mahntor:o2324": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -903,11 +903,11 @@
           min: 95000
           max: 105000
       pools:
-        "mahntor:o2325": 75
-        "mahntor:o2326": 75
-        "mahntor:o2327": 75
-        "mahntor:o2328": 75
-        "mahntor:o2329": 75
+        - "mahntor:o2325": 75
+        - "mahntor:o2326": 75
+        - "mahntor:o2327": 75
+        - "mahntor:o2328": 75
+        - "mahntor:o2329": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -937,11 +937,11 @@
           min: 95000
           max: 105000
       pools:
-        "mahntor:o2330": 75
-        "mahntor:o2331": 75
-        "mahntor:o2332": 75
-        "mahntor:o2334": 75
-        "mahntor:o2333": 75
+        - "mahntor:o2330": 75
+        - "mahntor:o2331": 75
+        - "mahntor:o2332": 75
+        - "mahntor:o2334": 75
+        - "mahntor:o2333": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -971,11 +971,11 @@
           min: 95000
           max: 105000
       pools:
-        "mahntor:o2335": 75
-        "mahntor:o2336": 75
-        "mahntor:o2337": 75
-        "mahntor:o2338": 75
-        "mahntor:o2339": 75
+        - "mahntor:o2335": 75
+        - "mahntor:o2336": 75
+        - "mahntor:o2337": 75
+        - "mahntor:o2338": 75
+        - "mahntor:o2339": 75
   metadata:
     areaId: 44
     exp_level: 6000
@@ -1000,12 +1000,12 @@
           min: 95000
           max: 105000
       pools:
-        "mahntor:o2340": 75
-        "mahntor:o2341": 75
-        "mahntor:o2342": 75
-        "mahntor:o2343": 75
-        "mahntor:o2344": 75
-        "mahntor:o2345": 75
+        - "mahntor:o2340": 75
+        - "mahntor:o2341": 75
+        - "mahntor:o2342": 75
+        - "mahntor:o2343": 75
+        - "mahntor:o2344": 75
+        - "mahntor:o2345": 75
   metadata:
     areaId: 44
     exp_level: 6000

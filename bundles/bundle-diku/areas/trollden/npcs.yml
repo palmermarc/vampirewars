@@ -138,7 +138,7 @@
           min: 2850
           max: 3150
       pools:
-        "trollden:o2802": 75
+        - "trollden:o2802": 75
   metadata:
     areaId: 78
     exp_level: 4000

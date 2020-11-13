@@ -23,7 +23,7 @@
           min: 1425
           max: 1575
       pools:
-        "moria:o4102": 75
+        - "moria:o4102": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -53,7 +53,7 @@
           min: 475
           max: 525
       pools:
-        "moria:o4100": 75
+        - "moria:o4100": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -83,8 +83,8 @@
           min: 750
           max: 1250
       pools:
-        "moria:o4103": 75
-        "moria:o4104": 75
+        - "moria:o4103": 75
+        - "moria:o4104": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -117,7 +117,7 @@
           min: 190
           max: 210
       pools:
-        "moria:o4104": 75
+        - "moria:o4104": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -173,7 +173,7 @@
           min: 475
           max: 525
       pools:
-        "moria:o4101": 75
+        - "moria:o4101": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -206,7 +206,7 @@
           min: 19
           max: 21
       pools:
-        "moria:o4104": 75
+        - "moria:o4104": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -374,7 +374,7 @@
           min: 1900
           max: 2100
       pools:
-        "moria:o4152": 75
+        - "moria:o4152": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -435,7 +435,7 @@
           min: 760
           max: 840
       pools:
-        "moria:o4151": 75
+        - "moria:o4151": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -527,7 +527,7 @@
           min: 475
           max: 525
       pools:
-        "moria:o4150": 75
+        - "moria:o4150": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -557,7 +557,7 @@
           min: 750
           max: 1250
       pools:
-        "moria:o4001": 75
+        - "moria:o4001": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -688,7 +688,7 @@
           min: 190
           max: 210
       pools:
-        "moria:o4000": 75
+        - "moria:o4000": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -718,7 +718,7 @@
           min: 950
           max: 1050
       pools:
-        "moria:o4051": 75
+        - "moria:o4051": 75
   metadata:
     areaId: 51
     exp_level: 1000
@@ -854,7 +854,7 @@
           min: 285
           max: 315
       pools:
-        "moria:o4050": 75
+        - "moria:o4050": 75
   metadata:
     areaId: 51
     exp_level: 1000

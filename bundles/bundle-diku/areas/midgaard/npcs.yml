@@ -148,9 +148,9 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3100": 75
-        "midgaard:o3101": 75
-        "midgaard:o3102": 75
+        - "midgaard:o3100": 75
+        - "midgaard:o3101": 75
+        - "midgaard:o3102": 75
   metadata:
     vendor:
       items:
@@ -186,7 +186,7 @@
           min: 12.35
           max: 13.65
       pools:
-        "midgaard:o3121": 75
+        - "midgaard:o3121": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -315,8 +315,8 @@
           min: 0
           max: 0
       pools:
-        "midgaard:o3122": 75
-        "midgaard:o3137": 75
+        - "midgaard:o3122": 75
+        - "midgaard:o3137": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -387,8 +387,8 @@
           min: 950
           max: 1050
       pools:
-        "midgaard:o3133": 75
-        "midgaard:o3124": 75
+        - "midgaard:o3133": 75
+        - "midgaard:o3124": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -439,8 +439,8 @@
           min: 95000
           max: 105000
       pools:
-        "midgaard:o3040": 75
-        "midgaard:o3041": 75
+        - "midgaard:o3040": 75
+        - "midgaard:o3041": 75
   metadata:
     vendor:
       items:
@@ -473,8 +473,8 @@
           min: 11400
           max: 12600
       pools:
-        "midgaard:o3009": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3009": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -507,10 +507,10 @@
           min: 11400
           max: 12600
       pools:
-        "midgaard:o3030": 75
-        "midgaard:o3031": 75
-        "midgaard:o3138": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3030": 75
+        - "midgaard:o3031": 75
+        - "midgaard:o3138": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -549,9 +549,9 @@
           min: 95000
           max: 105000
       pools:
-        "midgaard:o3020": 75
-        "midgaard:o3021": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3020": 75
+        - "midgaard:o3021": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -587,14 +587,14 @@
           min: 142500
           max: 157500
       pools:
-        "midgaard:o3072": 75
-        "midgaard:o3073": 75
-        "midgaard:o3074": 75
-        "midgaard:o3075": 75
-        "midgaard:o3076": 75
-        "midgaard:o3077": 75
-        "midgaard:o3097": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3072": 75
+        - "midgaard:o3073": 75
+        - "midgaard:o3074": 75
+        - "midgaard:o3075": 75
+        - "midgaard:o3076": 75
+        - "midgaard:o3077": 75
+        - "midgaard:o3097": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -648,7 +648,7 @@
           min: 95
           max: 105
       pools:
-        "midgaard:o3020": 75
+        - "midgaard:o3020": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -673,8 +673,8 @@
           min: 11400
           max: 12600
       pools:
-        "midgaard:o3050": 75
-        "midgaard:o3051": 75
+        - "midgaard:o3050": 75
+        - "midgaard:o3051": 75
   metadata:
     vendor:
       items:
@@ -778,12 +778,12 @@
           min: 95000
           max: 105000
       pools:
-        "midgaard:o3066": 75
-        "midgaard:o3067": 75
-        "midgaard:o3068": 75
-        "midgaard:o3069": 75
-        "midgaard:o3070": 75
-        "midgaard:o3071": 75
+        - "midgaard:o3066": 75
+        - "midgaard:o3067": 75
+        - "midgaard:o3068": 75
+        - "midgaard:o3069": 75
+        - "midgaard:o3070": 75
+        - "midgaard:o3071": 75
   metadata:
     vendor:
       items:
@@ -828,7 +828,7 @@
           min: 4750
           max: 5250
       pools:
-        "midgaard:o3005": 75
+        - "midgaard:o3005": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -968,7 +968,7 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3022": 75
+        - "midgaard:o3022": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -993,7 +993,7 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3022": 75
+        - "midgaard:o3022": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -1018,7 +1018,7 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3022": 75
+        - "midgaard:o3022": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -1043,7 +1043,7 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3022": 75
+        - "midgaard:o3022": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -1068,9 +1068,9 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3000": 75
-        "midgaard:o3001": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3000": 75
+        - "midgaard:o3001": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -1129,9 +1129,9 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3002": 75
-        "midgaard:o3003": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3002": 75
+        - "midgaard:o3003": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -1167,9 +1167,9 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3002": 75
-        "midgaard:o3004": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3002": 75
+        - "midgaard:o3004": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -1205,9 +1205,9 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3003": 75
-        "midgaard:o3004": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3003": 75
+        - "midgaard:o3004": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -1243,10 +1243,10 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3002": 75
-        "midgaard:o3003": 75
-        "midgaard:o3004": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3002": 75
+        - "midgaard:o3003": 75
+        - "midgaard:o3004": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -1285,9 +1285,9 @@
           min: 1900
           max: 2100
       pools:
-        "midgaard:o3003": 75
-        "midgaard:o3004": 75
-        "midgaard:o3022": 75
+        - "midgaard:o3003": 75
+        - "midgaard:o3004": 75
+        - "midgaard:o3022": 75
   metadata:
     vendor:
       items:
@@ -1354,17 +1354,17 @@
           min: 475
           max: 525
       pools:
-        "midgaard:o3235": 75
-        "midgaard:o3234": 75
-        "midgaard:o3220": 75
-        "midgaard:o3223": 75
-        "midgaard:o3225": 75
-        "midgaard:o3226": 75
-        "midgaard:o3227": 75
-        "midgaard:o3228": 75
-        "midgaard:o3229": 75
-        "midgaard:o3120": 75
-        "midgaard:o3233": 75
+        - "midgaard:o3235": 75
+        - "midgaard:o3234": 75
+        - "midgaard:o3220": 75
+        - "midgaard:o3223": 75
+        - "midgaard:o3225": 75
+        - "midgaard:o3226": 75
+        - "midgaard:o3227": 75
+        - "midgaard:o3228": 75
+        - "midgaard:o3229": 75
+        - "midgaard:o3120": 75
+        - "midgaard:o3233": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -1444,7 +1444,7 @@
           min: 44.65
           max: 49.35
       pools:
-        "midgaard:o3021": 75
+        - "midgaard:o3021": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -1544,12 +1544,12 @@
           min: 475
           max: 525
       pools:
-        "midgaard:o3235": 75
-        "midgaard:o3234": 75
-        "midgaard:o3220": 75
-        "midgaard:o3223": 75
-        "midgaard:o3230": 75
-        "midgaard:o3224": 75
+        - "midgaard:o3235": 75
+        - "midgaard:o3234": 75
+        - "midgaard:o3220": 75
+        - "midgaard:o3223": 75
+        - "midgaard:o3230": 75
+        - "midgaard:o3224": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -1574,12 +1574,12 @@
           min: 475
           max: 525
       pools:
-        "midgaard:o3235": 75
-        "midgaard:o3234": 75
-        "midgaard:o3220": 75
-        "midgaard:o3223": 75
-        "midgaard:o3231": 75
-        "midgaard:o3232": 75
+        - "midgaard:o3235": 75
+        - "midgaard:o3234": 75
+        - "midgaard:o3220": 75
+        - "midgaard:o3223": 75
+        - "midgaard:o3231": 75
+        - "midgaard:o3232": 75
   metadata:
     areaId: 47
     exp_level: 50000
@@ -1604,9 +1604,9 @@
           min: 475
           max: 525
       pools:
-        "midgaard:o3235": 75
-        "midgaard:o3234": 75
-        "midgaard:o3220": 75
+        - "midgaard:o3235": 75
+        - "midgaard:o3234": 75
+        - "midgaard:o3220": 75
   metadata:
     areaId: 47
     exp_level: 50000

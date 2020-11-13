@@ -21,10 +21,10 @@
           min: 475
           max: 525
       pools:
-        "plains:o308": 75
-        "plains:o307": 75
-        "plains:o312": 75
-        "plains:o302": 75
+        - "plains:o308": 75
+        - "plains:o307": 75
+        - "plains:o312": 75
+        - "plains:o302": 75
   metadata:
     areaId: 58
     exp_level: 10000
@@ -49,7 +49,7 @@
           min: 0.95
           max: 1.05
       pools:
-        "plains:o303": 75
+        - "plains:o303": 75
   metadata:
     areaId: 58
     exp_level: 10000
@@ -77,7 +77,7 @@
           min: 190
           max: 210
       pools:
-        "plains:o309": 75
+        - "plains:o309": 75
   metadata:
     areaId: 58
     exp_level: 10000
@@ -105,8 +105,8 @@
           min: 95
           max: 105
       pools:
-        "plains:o3020": 75
-        "plains:o304": 75
+        - "plains:o3020": 75
+        - "plains:o304": 75
   metadata:
     areaId: 58
     exp_level: 10000
@@ -136,8 +136,8 @@
           min: 12982.7
           max: 14349.3
       pools:
-        "plains:o310": 75
-        "plains:o311": 75
+        - "plains:o310": 75
+        - "plains:o311": 75
   metadata:
     areaId: 58
     exp_level: 10000
@@ -162,9 +162,9 @@
           min: 7600
           max: 8400
       pools:
-        "plains:o304": 75
-        "plains:o3030": 75
-        "plains:o313": 75
+        - "plains:o304": 75
+        - "plains:o3030": 75
+        - "plains:o313": 75
   metadata:
     vendor:
       items:
@@ -200,8 +200,8 @@
           min: 95
           max: 105
       pools:
-        "plains:o3000": 75
-        "plains:o3001": 75
+        - "plains:o3000": 75
+        - "plains:o3001": 75
   metadata:
     vendor:
       items:

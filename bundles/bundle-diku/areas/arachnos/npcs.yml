@@ -44,7 +44,7 @@
           min: 9500
           max: 10500
       pools:
-        "arachnos:o6304": 75
+        - "arachnos:o6304": 75
   metadata:
     areaId: 4
     exp_level: 8000
@@ -303,7 +303,7 @@
           min: 5700
           max: 6300
       pools:
-        "arachnos:o6309": 75
+        - "arachnos:o6309": 75
   metadata:
     areaId: 4
     exp_level: 8000
@@ -364,8 +364,8 @@
           min: 9500
           max: 10500
       pools:
-        "arachnos:o6303": 75
-        "arachnos:o6304": 75
+        - "arachnos:o6303": 75
+        - "arachnos:o6304": 75
   metadata:
     areaId: 4
     exp_level: 8000
@@ -390,7 +390,7 @@
           min: 14250
           max: 15750
       pools:
-        "arachnos:o6309": 75
+        - "arachnos:o6309": 75
   metadata:
     areaId: 4
     exp_level: 8000
@@ -461,7 +461,7 @@
           min: 0
           max: 0
       pools:
-        "arachnos:o6309": 75
+        - "arachnos:o6309": 75
   metadata:
     areaId: 4
     exp_level: 8000
@@ -486,7 +486,7 @@
           min: 0
           max: 0
       pools:
-        "arachnos:o6308": 75
+        - "arachnos:o6308": 75
   metadata:
     areaId: 4
     exp_level: 8000

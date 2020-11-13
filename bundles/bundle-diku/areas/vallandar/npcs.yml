@@ -23,7 +23,7 @@
           min: 0
           max: 0
       pools:
-        "vallandar:o30300": 75
+        - "vallandar:o30300": 75
   metadata:
     areaId: 80
     exp_level: 10000
@@ -48,7 +48,7 @@
           min: 0
           max: 0
       pools:
-        "vallandar:o30332": 75
+        - "vallandar:o30332": 75
   metadata:
     areaId: 80
     exp_level: 10000
@@ -134,7 +134,7 @@
           min: 0
           max: 0
       pools:
-        "vallandar:o30314": 75
+        - "vallandar:o30314": 75
   metadata:
     areaId: 80
     exp_level: 10000
@@ -192,7 +192,7 @@
           min: 0
           max: 0
       pools:
-        "vallandar:o30323": 75
+        - "vallandar:o30323": 75
   metadata:
     areaId: 80
     exp_level: 10000
@@ -222,8 +222,8 @@
           min: 0
           max: 0
       pools:
-        "vallandar:o30312": 75
-        "vallandar:o30325": 75
+        - "vallandar:o30312": 75
+        - "vallandar:o30325": 75
   metadata:
     areaId: 80
     exp_level: 10000
@@ -248,18 +248,18 @@
           min: 0
           max: 0
       pools:
-        "vallandar:o30333": 75
-        "vallandar:o30334": 75
-        "vallandar:o30335": 75
-        "vallandar:o30336": 75
-        "vallandar:o30337": 75
-        "vallandar:o30338": 75
-        "vallandar:o30339": 75
-        "vallandar:o30340": 75
-        "vallandar:o30341": 75
-        "vallandar:o30342": 75
-        "vallandar:o30343": 75
-        "vallandar:o30344": 75
+        - "vallandar:o30333": 75
+        - "vallandar:o30334": 75
+        - "vallandar:o30335": 75
+        - "vallandar:o30336": 75
+        - "vallandar:o30337": 75
+        - "vallandar:o30338": 75
+        - "vallandar:o30339": 75
+        - "vallandar:o30340": 75
+        - "vallandar:o30341": 75
+        - "vallandar:o30342": 75
+        - "vallandar:o30343": 75
+        - "vallandar:o30344": 75
   metadata:
     areaId: 80
     exp_level: 10000

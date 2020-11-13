@@ -52,7 +52,7 @@
           min: 9.5
           max: 10.5
       pools:
-        "valley:o7802": 75
+        - "valley:o7802": 75
   metadata:
     areaId: 81
     exp_level: 6000
@@ -85,7 +85,7 @@
           min: 9.5
           max: 10.5
       pools:
-        "valley:o7802": 75
+        - "valley:o7802": 75
   metadata:
     areaId: 81
     exp_level: 6000
@@ -115,10 +115,10 @@
           min: 9.5
           max: 10.5
       pools:
-        "valley:o7800": 75
-        "valley:o7801": 75
-        "valley:o7802": 75
-        "valley:o7803": 75
+        - "valley:o7800": 75
+        - "valley:o7801": 75
+        - "valley:o7802": 75
+        - "valley:o7803": 75
   metadata:
     areaId: 81
     exp_level: 6000
@@ -148,10 +148,10 @@
           min: 9.5
           max: 10.5
       pools:
-        "valley:o7800": 75
-        "valley:o7801": 75
-        "valley:o7802": 75
-        "valley:o7803": 75
+        - "valley:o7800": 75
+        - "valley:o7801": 75
+        - "valley:o7802": 75
+        - "valley:o7803": 75
   metadata:
     areaId: 81
     exp_level: 6000
@@ -184,9 +184,9 @@
           min: 9.5
           max: 10.5
       pools:
-        "valley:o7801": 75
-        "valley:o7802": 75
-        "valley:o7803": 75
+        - "valley:o7801": 75
+        - "valley:o7802": 75
+        - "valley:o7803": 75
   metadata:
     areaId: 81
     exp_level: 6000
@@ -242,9 +242,9 @@
           min: 9.5
           max: 10.5
       pools:
-        "valley:o7806": 75
-        "valley:o7807": 75
-        "valley:o7804": 75
+        - "valley:o7806": 75
+        - "valley:o7807": 75
+        - "valley:o7804": 75
   metadata:
     areaId: 81
     exp_level: 6000
@@ -274,8 +274,8 @@
           min: 9.5
           max: 10.5
       pools:
-        "valley:o7806": 75
-        "valley:o7807": 75
+        - "valley:o7806": 75
+        - "valley:o7807": 75
   metadata:
     areaId: 81
     exp_level: 6000
@@ -305,7 +305,7 @@
           min: 0
           max: 0
       pools:
-        "valley:o7805": 75
+        - "valley:o7805": 75
   metadata:
     areaId: 81
     exp_level: 6000
@@ -358,9 +358,9 @@
           min: 950
           max: 1050
       pools:
-        "valley:o7806": 75
-        "valley:o7807": 75
-        "valley:o7824": 75
+        - "valley:o7806": 75
+        - "valley:o7807": 75
+        - "valley:o7824": 75
   metadata:
     areaId: 81
     exp_level: 6000

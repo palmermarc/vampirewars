@@ -18,9 +18,9 @@
           min: 0
           max: 0
       pools:
-        "celene:o26400": 75
-        "celene:o26401": 75
-        "celene:o26402": 75
+        - "celene:o26400": 75
+        - "celene:o26401": 75
+        - "celene:o26402": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -45,9 +45,9 @@
           min: 0
           max: 0
       pools:
-        "celene:o26403": 75
-        "celene:o26404": 75
-        "celene:o26405": 75
+        - "celene:o26403": 75
+        - "celene:o26404": 75
+        - "celene:o26405": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -75,11 +75,11 @@
           min: 0
           max: 0
       pools:
-        "celene:o26406": 75
-        "celene:o26407": 75
-        "celene:o26408": 75
-        "celene:o26409": 75
-        "celene:o26410": 75
+        - "celene:o26406": 75
+        - "celene:o26407": 75
+        - "celene:o26408": 75
+        - "celene:o26409": 75
+        - "celene:o26410": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -104,9 +104,9 @@
           min: 0
           max: 0
       pools:
-        "celene:o26412": 75
-        "celene:o26413": 75
-        "celene:o26411": 75
+        - "celene:o26412": 75
+        - "celene:o26413": 75
+        - "celene:o26411": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -131,8 +131,8 @@
           min: 0
           max: 0
       pools:
-        "celene:o26414": 75
-        "celene:o26417": 75
+        - "celene:o26414": 75
+        - "celene:o26417": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -157,12 +157,12 @@
           min: 0
           max: 0
       pools:
-        "celene:o26419": 75
-        "celene:o26420": 75
-        "celene:o26421": 75
-        "celene:o26422": 75
-        "celene:o26423": 75
-        "celene:o26424": 75
+        - "celene:o26419": 75
+        - "celene:o26420": 75
+        - "celene:o26421": 75
+        - "celene:o26422": 75
+        - "celene:o26423": 75
+        - "celene:o26424": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -190,10 +190,10 @@
           min: 0
           max: 0
       pools:
-        "celene:o26425": 75
-        "celene:o26427": 75
-        "celene:o26428": 75
-        "celene:o26426": 75
+        - "celene:o26425": 75
+        - "celene:o26427": 75
+        - "celene:o26428": 75
+        - "celene:o26426": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -221,12 +221,12 @@
           min: 0
           max: 0
       pools:
-        "celene:o26429": 75
-        "celene:o26430": 75
-        "celene:o26431": 75
-        "celene:o26432": 75
-        "celene:o26433": 75
-        "celene:o26434": 75
+        - "celene:o26429": 75
+        - "celene:o26430": 75
+        - "celene:o26431": 75
+        - "celene:o26432": 75
+        - "celene:o26433": 75
+        - "celene:o26434": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -306,7 +306,7 @@
           min: 0
           max: 0
       pools:
-        "celene:o26435": 75
+        - "celene:o26435": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -334,8 +334,8 @@
           min: 0
           max: 0
       pools:
-        "celene:o26425": 75
-        "celene:o26435": 75
+        - "celene:o26425": 75
+        - "celene:o26435": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -360,8 +360,8 @@
           min: 0
           max: 0
       pools:
-        "celene:o26436": 75
-        "celene:o26437": 75
+        - "celene:o26436": 75
+        - "celene:o26437": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -464,10 +464,10 @@
           min: 0
           max: 0
       pools:
-        "celene:o26425": 75
-        "celene:o26426": 75
-        "celene:o26427": 75
-        "celene:o26428": 75
+        - "celene:o26425": 75
+        - "celene:o26426": 75
+        - "celene:o26427": 75
+        - "celene:o26428": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -544,11 +544,11 @@
           min: 0
           max: 0
       pools:
-        "celene:o26440": 75
-        "celene:o26441": 75
-        "celene:o26442": 75
-        "celene:o26443": 75
-        "celene:o26444": 75
+        - "celene:o26440": 75
+        - "celene:o26441": 75
+        - "celene:o26442": 75
+        - "celene:o26443": 75
+        - "celene:o26444": 75
   metadata:
     vendor:
       items:
@@ -590,8 +590,8 @@
           min: 0
           max: 0
       pools:
-        "celene:o26460": 75
-        "celene:o26462": 75
+        - "celene:o26460": 75
+        - "celene:o26462": 75
   metadata:
     vendor:
       items:
@@ -624,10 +624,10 @@
           min: 0
           max: 0
       pools:
-        "celene:o26463": 75
-        "celene:o26464": 75
-        "celene:o26465": 75
-        "celene:o26466": 75
+        - "celene:o26463": 75
+        - "celene:o26464": 75
+        - "celene:o26465": 75
+        - "celene:o26466": 75
   metadata:
     vendor:
       items:
@@ -666,8 +666,8 @@
           min: 0
           max: 0
       pools:
-        "celene:o26467": 75
-        "celene:o26468": 75
+        - "celene:o26467": 75
+        - "celene:o26468": 75
   metadata:
     vendor:
       items:
@@ -700,8 +700,8 @@
           min: 0
           max: 0
       pools:
-        "celene:o26469": 75
-        "celene:o26470": 75
+        - "celene:o26469": 75
+        - "celene:o26470": 75
   metadata:
     vendor:
       items:
@@ -734,8 +734,8 @@
           min: 0
           max: 0
       pools:
-        "celene:o26459": 75
-        "celene:o26461": 75
+        - "celene:o26459": 75
+        - "celene:o26461": 75
   metadata:
     vendor:
       items:
@@ -816,7 +816,7 @@
           min: 0
           max: 0
       pools:
-        "celene:o26471": 75
+        - "celene:o26471": 75
   metadata:
     vendor:
       items:
@@ -898,8 +898,8 @@
           min: 0
           max: 0
       pools:
-        "celene:o26458": 75
-        "celene:o26451": 75
+        - "celene:o26458": 75
+        - "celene:o26451": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -1139,12 +1139,12 @@
           min: 0
           max: 0
       pools:
-        "celene:o26419": 75
-        "celene:o26420": 75
-        "celene:o26421": 75
-        "celene:o26422": 75
-        "celene:o26423": 75
-        "celene:o26424": 75
+        - "celene:o26419": 75
+        - "celene:o26420": 75
+        - "celene:o26421": 75
+        - "celene:o26422": 75
+        - "celene:o26423": 75
+        - "celene:o26424": 75
   metadata:
     areaId: 12
     exp_level: 6000
@@ -1322,8 +1322,8 @@
           min: 0
           max: 0
       pools:
-        "celene:o26448": 75
-        "celene:o26452": 75
+        - "celene:o26448": 75
+        - "celene:o26452": 75
   metadata:
     areaId: 12
     exp_level: 6000

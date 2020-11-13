@@ -57,8 +57,8 @@
           min: 40375
           max: 44625
       pools:
-        "dylan:o9104": 75
-        "dylan:o9105": 75
+        - "dylan:o9104": 75
+        - "dylan:o9105": 75
   metadata:
     areaId: 23
     exp_level: 4000
@@ -117,8 +117,8 @@
           min: 47500
           max: 52500
       pools:
-        "dylan:o9102": 75
-        "dylan:o9103": 75
+        - "dylan:o9102": 75
+        - "dylan:o9103": 75
   metadata:
     areaId: 23
     exp_level: 4000

@@ -21,7 +21,7 @@
           min: 47.5
           max: 52.5
       pools:
-        "daycare:o6600": 75
+        - "daycare:o6600": 75
   metadata:
     areaId: 17
     exp_level: 8000
@@ -75,7 +75,7 @@
           min: 237.5
           max: 262.5
       pools:
-        "daycare:o6645": 75
+        - "daycare:o6645": 75
   metadata:
     areaId: 17
     exp_level: 8000
@@ -103,7 +103,7 @@
           min: 380
           max: 420
       pools:
-        "daycare:o6647": 75
+        - "daycare:o6647": 75
   metadata:
     areaId: 17
     exp_level: 8000
@@ -157,7 +157,7 @@
           min: 47.5
           max: 52.5
       pools:
-        "daycare:o6601": 75
+        - "daycare:o6601": 75
   metadata:
     areaId: 17
     exp_level: 8000
@@ -185,9 +185,9 @@
           min: 712.5
           max: 787.5
       pools:
-        "daycare:o6621": 75
-        "daycare:o6646": 75
-        "daycare:o6644": 75
+        - "daycare:o6621": 75
+        - "daycare:o6646": 75
+        - "daycare:o6644": 75
   metadata:
     areaId: 17
     exp_level: 8000
