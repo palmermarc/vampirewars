@@ -12,6 +12,10 @@
  */
 const reduction = level => {
   let val;
+
+  // Override this for now...
+  return 1;
+
   switch (true) {
     case (level <= 10):
       val = 1;
@@ -36,17 +40,16 @@ const reduction = level => {
 */
 const diff = level => {
   switch (true) {
-    case (level <= 28):
+    case (level <= 100):
       return 0;
-    case (level === 29):
-      return 1;
-    case (level === 30):
+    case (level >= 250):
       return 3;
-    case (level === 31):
+    case (level >= 500):
       return 6;
-    case (level >= 32):
-    case (level <= 59):
-      return 5 * (level - 30);
+    case (level >= 750):
+      return 12;
+    case (level >= 1000):
+      return 25 * level;
   }
 };
 

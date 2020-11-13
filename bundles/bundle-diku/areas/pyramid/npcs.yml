@@ -440,12 +440,12 @@
   name: "The great sphinx"
   description: >-
     A mighty sphinx rests here in the sand, dormant now for centuries.The great sphinx appears to be indestructible!
-  level: 281
+  level: 3000
   attributes:
     health: 36172
     armor: 17480
-    hit_chance: 4300
-    attack_power: 2150
+    hit_chance: 100
+    attack_power: 21500
     alignment: 500
   behaviors:
     combat: true

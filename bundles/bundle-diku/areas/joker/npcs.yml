@@ -924,6 +924,7 @@
     alignment: 0
   behaviors:
     combat: true
+    hunt-player: true
     ranvier-aggro:
       delay: 5
       towards:
@@ -939,4 +940,10 @@
   metadata:
     areaId: 38
     exp_level: 20000
-    sex: 1
+    class: vampire
+    autostance: lion
+    stances:
+      lion: 300
+    clandisc:
+      celerity: 3
+      potence: 5
